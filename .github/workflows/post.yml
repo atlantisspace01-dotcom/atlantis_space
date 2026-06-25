@@ -30,7 +30,7 @@ jobs:
         run: sudo apt-get install -y fonts-noto fonts-noto-extra ffmpeg
 
       - name: Dependencies install
-        run: pip install ddgs groq requests Pillow python-dotenv PyNaCl gtts
+        run: pip install ddgs groq requests Pillow python-dotenv PyNaCl gtts edge-tts
 
       - name: Configure git auth
         run: |

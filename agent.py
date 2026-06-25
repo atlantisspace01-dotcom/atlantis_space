@@ -1029,12 +1029,31 @@ def fetch_space_video(keyword: str) -> str | None:
 
 
 def generate_tts(text: str, out_path: str) -> bool:
+    """Edge TTS — Microsoft Neural Hindi voice (human-like). Fallback: gTTS."""
+    # Try Edge TTS first — hi-IN-SwaraNeural sounds very natural
+    try:
+        import asyncio
+        import edge_tts
+
+        async def _speak():
+            communicate = edge_tts.Communicate(text, voice="hi-IN-SwaraNeural",
+                                               rate="+5%", volume="+10%")
+            await communicate.save(out_path)
+
+        asyncio.run(_speak())
+        if os.path.exists(out_path) and os.path.getsize(out_path) > 1000:
+            print(f"      Edge TTS (Neural) ready")
+            return True
+    except Exception as e:
+        print(f"      Edge TTS error: {e} — falling back to gTTS")
+
+    # Fallback: gTTS
     try:
         from gtts import gTTS
         gTTS(text=text, lang="hi", slow=False).save(out_path)
         return os.path.exists(out_path) and os.path.getsize(out_path) > 0
-    except Exception as e:
-        print(f"      TTS error: {e}")
+    except Exception as e2:
+        print(f"      gTTS fallback error: {e2}")
         return False
 
 
@@ -1062,17 +1081,61 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
             print(f"      Crop fail: {crop.stderr[-100:].decode(errors='ignore')}")
             return None
 
-        # Step 2: Pillow overlay PNG — dark bar at bottom with text
-        overlay = Image.new("RGBA", (720, 320), (0, 0, 0, 0))
+        # Step 2: Pillow overlay PNG
+        # Instagram Reels safe zone: right 80px = buttons (like/share), bottom 60px = caption bar
+        # Overlay height 380px, text max width 600px (leaving 100px right margin for buttons)
+        OVH        = 380   # overlay height
+        MAX_W      = 600   # max text width (pixels) — avoids right-side buttons
+        PAD_LEFT   = 24
+        font_head  = get_font(42)
+        font_body  = get_font(26)
+        font_foot  = get_font(22)
+
+        def wrap_px(text, font, max_px, draw_obj):
+            """Word-wrap text to fit within max_px width."""
+            words = text.split()
+            lines, line = [], ""
+            for word in words:
+                test = f"{line} {word}".strip()
+                w = draw_obj.textlength(test, font=font)
+                if w > max_px and line:
+                    lines.append(line)
+                    line = word
+                else:
+                    line = test
+            if line:
+                lines.append(line)
+            return lines
+
+        overlay = Image.new("RGBA", (720, OVH), (0, 0, 0, 0))
         ov_draw = ImageDraw.Draw(overlay)
-        ov_draw.rectangle([0, 0, 720, 320], fill=(0, 0, 0, 195))
-        # Accent line
-        ov_draw.rectangle([0, 0, 720, 6], fill=(80, 180, 255, 255))
-        ov_draw.text((20, 18), headline[:50],  font=get_font(46), fill=(255, 255, 255, 255))
-        ov_draw.text((20, 78), summary[:90],   font=get_font(28), fill=(210, 230, 255, 245))
+
+        # Gradient dark bar (darker at bottom)
+        for i in range(OVH):
+            alpha = int(180 + 60 * (i / OVH))
+            ov_draw.line([(0, i), (720, i)], fill=(0, 0, 20, alpha))
+
+        # Top accent line
+        ov_draw.rectangle([0, 0, 720, 5], fill=(80, 180, 255, 255))
+
+        # Headline — wrapped, max 2 lines
+        y = 18
+        for line in wrap_px(headline, font_head, MAX_W, ov_draw)[:2]:
+            ov_draw.text((PAD_LEFT, y), line, font=font_head, fill=(255, 255, 255, 255))
+            y += 52
+
+        # Summary — wrapped, max 3 lines
+        y += 6
+        for line in wrap_px(summary, font_body, MAX_W, ov_draw)[:3]:
+            ov_draw.text((PAD_LEFT, y), line, font=font_body, fill=(200, 225, 255, 240))
+            y += 34
+
+        # Footer — channel + date (bottom, stays above Instagram's caption bar)
         date_str = datetime.now().strftime("%d %b %Y")
-        ov_draw.text((20, 282), f"{CHANNEL_HANDLE}  •  {date_str}",
-                     font=get_font(24), fill=(140, 180, 230, 220))
+        ov_draw.text((PAD_LEFT, OVH - 36),
+                     f"{CHANNEL_HANDLE}  •  {date_str}",
+                     font=font_foot, fill=(130, 170, 220, 210))
+
         overlay.save(overlay_png, "PNG")
 
         # Step 3: TTS
@@ -1085,7 +1148,7 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
                 "ffmpeg", "-y",
                 "-i", base_path, "-i", overlay_png, "-i", audio_path,
                 "-filter_complex",
-                "[0:v][1:v]overlay=0:H-320[vout];[2:a]volume=1.5,atrim=0:30[aout]",
+                "[0:v][1:v]overlay=0:H-380[vout];[2:a]volume=1.5,atrim=0:30[aout]",
                 "-map", "[vout]", "-map", "[aout]",
                 "-c:v", "libx264", "-c:a", "aac",
                 "-shortest", "-preset", "fast", "-crf", "28", out_path
@@ -1094,7 +1157,7 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
             result = subprocess.run([
                 "ffmpeg", "-y",
                 "-i", base_path, "-i", overlay_png,
-                "-filter_complex", "[0:v][1:v]overlay=0:H-320[out]",
+                "-filter_complex", "[0:v][1:v]overlay=0:H-380[out]",
                 "-map", "[out]", "-c:v", "libx264",
                 "-preset", "fast", "-crf", "28", out_path
             ], capture_output=True, timeout=120)
