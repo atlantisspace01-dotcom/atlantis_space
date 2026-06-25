@@ -1312,11 +1312,11 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
                 logo_h = int(logo_img.height * (logo_w / logo_img.width))
                 logo_img = logo_img.resize((logo_w, logo_h), Image.LANCZOS)
                 lx, ly = 40, 60                 # top-left, 40px from left, 60px from top
-                # Semi-transparent pill background
+                # White background (same as photo posts)
                 pad = 10
                 ov_draw.rounded_rectangle(
                     [lx - pad, ly - pad, lx + logo_w + pad, ly + logo_h + pad],
-                    radius=12, fill=(0, 0, 0, 160)
+                    radius=12, fill=(255, 255, 255, 235)
                 )
                 overlay.paste(logo_img, (lx, ly), logo_img)
             except Exception as le:
