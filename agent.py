@@ -689,7 +689,11 @@ def upload_youtube_short(video_path: str, title: str, description: str) -> str |
                     f"🚀 Atlantis Space — Space exploration in Hindi\n"
                     f"Subscribe for daily space Shorts!\n\n"
                     f"📅 {date_str}\n"
-                    f"© Sources: NASA, JWST, ESA, ISRO (Public Domain / Free Use)\n"
+                    f"© Sources: NASA, JWST, ESA, ISRO (Public Domain / Free Use)\n\n"
+                    f"🤖 AI Content Disclosure (YouTube Policy):\n"
+                    f"• Narration/Voice: AI-generated (Microsoft Neural TTS)\n"
+                    f"• Script & Captions: AI-generated (Groq AI)\n"
+                    f"• Video Footage: Real footage — NASA, JWST, ESA, ISRO (Public Domain)\n"
                     f"━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
                     f"#Space #NASA #Astronomy #Shorts #AtlantisSpace #ISRO "
                     f"#SpaceShorts #Universe #ScienceShorts #SpaceExploration"
@@ -704,9 +708,10 @@ def upload_youtube_short(video_path: str, title: str, description: str) -> str |
                 "defaultAudioLanguage": "hi"
             },
             "status": {
-                "privacyStatus":             "public",
-                "selfDeclaredMadeForKids":   False,
-                "madeForKids":               False
+                "privacyStatus":            "public",
+                "selfDeclaredMadeForKids":  False,
+                "madeForKids":              False,
+                "containsSyntheticMedia":   True   # YouTube 2024 AI disclosure policy
             }
         }
         # Step 1: Init resumable upload session
