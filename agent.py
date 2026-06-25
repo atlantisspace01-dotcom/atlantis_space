@@ -1594,11 +1594,10 @@ def generate_tts(text: str, out_path: str) -> bool:
     clean = _re.sub(r'\.{2,}', '... ', text)
     clean = _re.sub(r'\s+', ' ', clean).strip()
 
-    # Voice: SwaraNeural female — natural, energetic, space explorer tone
+    # Voice: hi-IN-SwaraNeural female — same as before, slightly improved
     voices = [
         # (voice_name, rate, pitch, volume)
-        ("hi-IN-SwaraNeural",  "-3%",  "+8Hz", "+18%"),   # primary: slightly slower, higher pitch = clearer & energetic
-        ("hi-IN-AnanyaNeural", "-3%",  "+5Hz", "+18%"),   # fallback: newer neural voice
+        ("hi-IN-SwaraNeural", "+5%", "+0Hz", "+15%"),   # original speed, clean pitch, louder
     ]
 
     try:
