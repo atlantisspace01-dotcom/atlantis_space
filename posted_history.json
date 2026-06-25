@@ -1,11 +1,13 @@
 {
   "titles": [
     "eva: us eva-95",
-    "upcoming launch: pegasus xl | swift boost mission"
+    "upcoming launch: pegasus xl | swift boost mission",
+    "millions of stars in cigar galaxy"
   ],
   "images": [
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "https://www.nasa.gov/wp-content/uploads/2026/06/55352876103-02b858152c-o.jpg"
   ],
-  "updated": "2026-06-25T12:17:37.660417"
+  "updated": "2026-06-25T19:33:30.408653"
 }
