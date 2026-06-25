@@ -282,6 +282,164 @@ def fetch_spacedevs_launches() -> list[dict]:
     return []
 
 
+# --- Launch Library 2 Extended Endpoints -------------------------------------
+
+def fetch_spacedevs_events() -> list[dict]:
+    """SpaceDevs Events — spacewalks, landings, engine tests, crewed milestones"""
+    try:
+        resp = requests.get(
+            "https://ll.thespacedevs.com/2.2.0/event/upcoming/",
+            params={"limit": 5, "format": "json"},
+            timeout=10,
+            headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+        )
+        results = resp.json().get("results", [])
+        news = []
+        for event in results[:3]:
+            name   = event.get("name", "")
+            etype  = event.get("type", {}).get("name", "Space Event")
+            date   = event.get("date", "")
+            desc   = event.get("description", "")[:400]
+            img    = event.get("feature_image", "") or event.get("thumbnail", "")
+            if name and img:
+                try:
+                    from datetime import datetime as dt
+                    ev_dt    = dt.fromisoformat(date.replace("Z", "+00:00"))
+                    date_str = ev_dt.strftime("%d %b %Y")
+                except Exception:
+                    date_str = date[:10] if date else "Soon"
+                news.append({
+                    "title": f"{etype}: {name}",
+                    "body": desc or f"{name} — {date_str} ko hoga.",
+                    "image": img,
+                    "source": "SpaceDevs Events",
+                    "date": date[:10] if date else ""
+                })
+        print(f"      SpaceDevs events: {len(news)}")
+        return news
+    except Exception as e:
+        print(f"      SpaceDevs events error: {e}")
+    return []
+
+
+def fetch_spacedevs_astronauts() -> dict | None:
+    """SpaceDevs Astronauts — featured active astronaut (Indian/Asian priority)"""
+    try:
+        # First try Indian astronaut
+        for nationality in ["Indian", "Chinese", "Japanese", "South Korean"]:
+            resp = requests.get(
+                "https://ll.thespacedevs.com/2.2.0/astronaut/",
+                params={"status": "Active", "nationality": nationality,
+                        "limit": 3, "format": "json"},
+                timeout=10,
+                headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+            )
+            results = resp.json().get("results", [])
+            for astro in results:
+                img = astro.get("profile_image", "") or astro.get("profile_image_thumbnail", "")
+                if img:
+                    name       = astro.get("name", "")
+                    bio        = astro.get("bio", "")[:400]
+                    flights    = astro.get("flights_count", 0)
+                    spacewalks = astro.get("spacewalks_count", 0)
+                    agency     = astro.get("agency", {}).get("name", "") if astro.get("agency") else ""
+                    print(f"      Astronaut: {name} ({nationality})")
+                    return {
+                        "title": f"Astronaut Spotlight: {name} — {nationality} Space Hero",
+                        "body": (f"{name} ek {nationality} astronaut hain. {bio[:200]}. "
+                                 f"Abh tak {flights} space flights aur {spacewalks} spacewalks kar chuke hain."),
+                        "image": img,
+                        "source": agency or "SpaceDevs",
+                        "date": datetime.now().strftime("%Y-%m-%d")
+                    }
+        # Fallback: any active astronaut with image
+        resp = requests.get(
+            "https://ll.thespacedevs.com/2.2.0/astronaut/",
+            params={"status": "Active", "limit": 10, "format": "json"},
+            timeout=10,
+            headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+        )
+        for astro in resp.json().get("results", []):
+            img = astro.get("profile_image", "")
+            if img:
+                name    = astro.get("name", "")
+                bio     = astro.get("bio", "")[:400]
+                flights = astro.get("flights_count", 0)
+                agency  = astro.get("agency", {}).get("name", "") if astro.get("agency") else ""
+                return {
+                    "title": f"Astronaut Spotlight: {name}",
+                    "body": f"{name}. {bio[:250]}. {flights} space flights complete.",
+                    "image": img,
+                    "source": agency or "SpaceDevs",
+                    "date": datetime.now().strftime("%Y-%m-%d")
+                }
+    except Exception as e:
+        print(f"      Astronaut error: {e}")
+    return None
+
+
+def fetch_spacedevs_expeditions() -> dict | None:
+    """SpaceDevs Expeditions — current ISS/space station expedition"""
+    try:
+        resp = requests.get(
+            "https://ll.thespacedevs.com/2.2.0/expedition/",
+            params={"limit": 3, "format": "json", "ordering": "-start"},
+            timeout=10,
+            headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+        )
+        for exp in resp.json().get("results", []):
+            name   = exp.get("name", "")
+            start  = exp.get("start", "")[:10]
+            end    = exp.get("end", "")
+            crew   = exp.get("crew", [])
+            img    = exp.get("feature_image", "")
+            station = exp.get("spacestation", {}).get("name", "ISS") if exp.get("spacestation") else "ISS"
+            if name and img:
+                crew_names = [c.get("astronaut", {}).get("name", "") for c in crew[:4] if c.get("astronaut")]
+                crew_str   = ", ".join(crew_names) if crew_names else "International crew"
+                end_str    = end[:10] if end else "Ongoing"
+                return {
+                    "title": f"{name} — {station} Pe Abhi Chal Raha Hai",
+                    "body": f"{name} {start} ko shuru hua. Crew: {crew_str}. {station} pe {len(crew)} members hain. End: {end_str}.",
+                    "image": img,
+                    "source": "SpaceDevs / NASA",
+                    "date": start
+                }
+    except Exception as e:
+        print(f"      Expedition error: {e}")
+    return None
+
+
+def fetch_spacedevs_dockings() -> dict | None:
+    """SpaceDevs Dockings — recent spacecraft docking with space station"""
+    try:
+        resp = requests.get(
+            "https://ll.thespacedevs.com/2.2.0/docking_event/",
+            params={"limit": 5, "format": "json", "ordering": "-docking"},
+            timeout=10,
+            headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+        )
+        for dock in resp.json().get("results", []):
+            flight_vehicle = dock.get("flight_vehicle", {}) or {}
+            spacecraft     = flight_vehicle.get("spacecraft", {}) or {}
+            sc_name        = spacecraft.get("name", "")
+            sc_img         = spacecraft.get("spacecraft_config", {}).get("image_url", "") if spacecraft.get("spacecraft_config") else ""
+            station        = dock.get("space_station", {}).get("name", "ISS") if dock.get("space_station") else "ISS"
+            docking_time   = dock.get("docking", "")[:10]
+            port           = dock.get("docking_location", {}).get("name", "") if dock.get("docking_location") else ""
+            if sc_name and sc_img:
+                return {
+                    "title": f"{sc_name} Ne {station} Ke Saath Docking Ki!",
+                    "body": f"{sc_name} spacecraft ne {docking_time} ko {station} ke {port} port se dock kiya. Ye ek critical maneuver hai jisme do spacecraft space mein mile.",
+                    "image": sc_img,
+                    "source": "SpaceDevs",
+                    "date": docking_time
+                }
+    except Exception as e:
+        print(f"      Docking error: {e}")
+    return None
+
+
 # --- More Free Space APIs -----------------------------------------------------
 
 def fetch_spacex_launches() -> list[dict]:
@@ -1102,19 +1260,38 @@ def run_agent():
     if asteroids:
         all_news.append(asteroids)
 
-    # Source 6: SpaceX upcoming launches
+    # Source 6: SpaceDevs Events — spacewalks, landings, crewed milestones
+    events = fetch_spacedevs_events()
+    all_news.extend(events)
+
+    # Source 7: Current ISS expedition
+    expedition = fetch_spacedevs_expeditions()
+    if expedition:
+        all_news.append(expedition)
+
+    # Source 8: Recent spacecraft docking
+    docking = fetch_spacedevs_dockings()
+    if docking:
+        all_news.append(docking)
+
+    # Source 9: Featured astronaut (Indian/Asian priority)
+    astronaut = fetch_spacedevs_astronauts()
+    if astronaut:
+        all_news.append(astronaut)
+
+    # Source 10: SpaceX upcoming launches
     spacex = fetch_spacex_launches()
     all_news.extend(spacex)
 
-    # Source 7: SpaceDevs — other agency launches
+    # Source 11: SpaceDevs — other agency launches
     launches = fetch_spacedevs_launches()
     all_news.extend(launches)
 
-    # Source 8: Spaceflight News API — space articles with images
+    # Source 12: Spaceflight News API — space articles with images
     sf_news = fetch_spaceflight_news(max_results=5)
     all_news.extend(sf_news)
 
-    # Source 9: NASA EONET — Earth/space weather events
+    # Source 13: NASA EONET — Earth/space weather events
     eonet = fetch_nasa_eonet()
     all_news.extend(eonet)
 
