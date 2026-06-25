@@ -631,6 +631,181 @@ def fetch_wikimedia_space_image(keyword: str) -> str | None:
     return None
 
 
+# --- Additional Free Space Sources (JWST, Hubble, ESA, ISRO, RSS feeds) ------
+
+def _parse_rss(url: str, source_name: str, max_results: int = 3) -> list[dict]:
+    """Generic RSS/Atom feed parser — returns news items with image"""
+    import xml.etree.ElementTree as ET
+    import re as _re
+    try:
+        resp = requests.get(url, timeout=12, headers={"User-Agent": "AtlantisSpaceBot/1.0"})
+        if resp.status_code != 200:
+            return []
+        root = ET.fromstring(resp.content)
+        ns = {"media": "http://search.yahoo.com/mrss/"}
+        items = root.findall(".//item") or root.findall(".//{http://www.w3.org/2005/Atom}entry")
+        news = []
+        for item in items:
+            t_el = item.find("title") or item.find("{http://www.w3.org/2005/Atom}title")
+            title = (t_el.text or "").strip() if t_el is not None else ""
+            if not title:
+                continue
+            title = clean_title(title)
+            d_el = (item.find("description") or
+                    item.find("{http://www.w3.org/2005/Atom}summary") or
+                    item.find("{http://www.w3.org/2005/Atom}content"))
+            raw = (d_el.text or "") if d_el is not None else ""
+            desc = _re.sub(r'<[^>]+>', '', raw).strip()[:500]
+            img = ""
+            mc = item.find("media:content", ns)
+            if mc is not None:
+                img = mc.get("url", "")
+            if not img:
+                enc = item.find("enclosure")
+                if enc is not None and "image" in enc.get("type", ""):
+                    img = enc.get("url", "")
+            if not img:
+                m = _re.search(r'<img[^>]+src=["\']([^"\']+)["\']', raw)
+                if m:
+                    img = m.group(1)
+            date_el = item.find("pubDate") or item.find("{http://www.w3.org/2005/Atom}published")
+            date = (date_el.text or "")[:10] if date_el is not None else ""
+            news.append({"title": title, "body": desc, "image": img,
+                         "source": source_name, "date": date})
+            if len([n for n in news if n["image"]]) >= max_results:
+                break
+        result = [n for n in news if n["image"]][:max_results] or news[:max_results]
+        print(f"      {source_name} RSS: {len(result)} items")
+        return result
+    except Exception as e:
+        print(f"      {source_name} RSS error: {e}")
+    return []
+
+
+def fetch_jwst_news() -> list[dict]:
+    """James Webb Space Telescope — WebbTelescope.org JSON API (no key needed)"""
+    import re as _re
+    try:
+        resp = requests.get(
+            "https://webbtelescope.org/api/v1/news",
+            params={"itemsPerPage": 5, "page": 1},
+            timeout=12, headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+        )
+        items = resp.json().get("news", [])
+        news = []
+        for a in items[:4]:
+            title = a.get("name", "") or a.get("title", "")
+            if not title:
+                continue
+            desc = _re.sub(r'<[^>]+>', '', a.get("abstract", "") or a.get("description", "") or "")[:500]
+            img = ""
+            ks = a.get("keystone") or {}
+            for asset in ks.get("assets", []):
+                if "image" in asset.get("fileType", "").lower():
+                    img = asset.get("publicUrl", "")
+                    break
+            if not img:
+                thumb = a.get("thumbnail") or {}
+                img = thumb.get("publicUrl", "") if isinstance(thumb, dict) else ""
+            news.append({
+                "title": f"JWST: {clean_title(title)}",
+                "body": desc,
+                "image": img,
+                "source": "James Webb Telescope",
+                "date": str(a.get("publicationDate", ""))[:10]
+            })
+        result = [n for n in news if n["image"]][:3] or news[:2]
+        print(f"      JWST news: {len(result)}")
+        return result
+    except Exception as e:
+        print(f"      JWST error: {e}")
+    return []
+
+
+def fetch_hubble_news() -> list[dict]:
+    """Hubble Space Telescope news — HubbleSite API (no key needed)"""
+    import re as _re
+    try:
+        resp = requests.get(
+            "https://hubblesite.org/api/v3/news",
+            params={"page": 1, "per_page": 6},
+            timeout=12, headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+        )
+        data = resp.json()
+        items = data.get("news", data) if isinstance(data, dict) else data
+        news = []
+        for a in (items[:4] if isinstance(items, list) else []):
+            title = a.get("name", "") or a.get("title", "")
+            if not title:
+                continue
+            desc = _re.sub(r'<[^>]+>', '', str(a.get("abstract", "") or ""))[:500]
+            thumb = a.get("thumbnail_url", "") or a.get("thumbnail", "")
+            img = str(thumb) if str(thumb).startswith("http") else (
+                f"https://hubblesite.org{thumb}" if thumb else "")
+            news.append({
+                "title": f"Hubble: {clean_title(title)}",
+                "body": desc,
+                "image": img,
+                "source": "Hubble Space Telescope",
+                "date": str(a.get("publication_date", ""))[:10]
+            })
+        result = [n for n in news if n["image"]][:2] or news[:2]
+        print(f"      Hubble news: {len(result)}")
+        return result
+    except Exception as e:
+        print(f"      Hubble error: {e}")
+    return []
+
+
+def fetch_esa_news() -> list[dict]:
+    """European Space Agency — Space Science RSS (free, no key)"""
+    return _parse_rss(
+        "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+        "ESA", max_results=2
+    )
+
+
+def fetch_isro_news() -> list[dict]:
+    """ISRO — Indian Space Research Organisation RSS (best for Indian audience)"""
+    news = _parse_rss("https://www.isro.gov.in/rss.xml", "ISRO", max_results=3)
+    for n in news:
+        if not n.get("image"):
+            n["image"] = fetch_nasa_image("isro india space rocket launch") or ""
+    return [n for n in news if n.get("image")]
+
+
+def fetch_nasa_jpl_news() -> list[dict]:
+    """NASA JPL — Jet Propulsion Laboratory planetary science news"""
+    return _parse_rss("https://www.jpl.nasa.gov/feeds/news", "NASA JPL", max_results=2)
+
+
+def fetch_sky_telescope() -> list[dict]:
+    """Sky & Telescope magazine — astronomy news RSS"""
+    return _parse_rss("https://skyandtelescope.org/feed/", "Sky & Telescope", max_results=2)
+
+
+def fetch_earthsky() -> list[dict]:
+    """EarthSky — skywatching events, astronomy news RSS"""
+    return _parse_rss("https://earthsky.org/feed/", "EarthSky", max_results=2)
+
+
+def fetch_nasa_blogs() -> list[dict]:
+    """NASA official blogs — missions, science, discoveries RSS"""
+    import random
+    blogs = [
+        ("https://blogs.nasa.gov/webb/feed/",          "NASA Webb Blog"),
+        ("https://blogs.nasa.gov/artemis/feed/",        "NASA Artemis Blog"),
+        ("https://blogs.nasa.gov/spacestation/feed/",   "NASA Space Station Blog"),
+        ("https://science.nasa.gov/feed/",              "NASA Science"),
+    ]
+    random.shuffle(blogs)
+    for url, name in blogs[:2]:
+        items = _parse_rss(url, name, max_results=2)
+        if items:
+            return items
+    return []
+
+
 # --- History ------------------------------------------------------------------
 def load_posted_history() -> set:
     try:
@@ -1046,16 +1221,30 @@ def post_to_instagram(image_url: str, caption: str) -> str | None:
 
 # NASA content topic → best search keyword mapping
 NASA_VIDEO_KEYWORDS = {
-    "nasa apod":         "nebula galaxy stars timelapse",
-    "nasa perseverance": "mars rover perseverance",
-    "nasa curiosity":    "mars rover curiosity",
-    "nasa epic":         "earth from space blue marble",
-    "open-notify":       "international space station orbit",
-    "nasa neows":        "asteroid solar system",
-    "spacedevs events":  "spacewalk astronaut",
-    "spacedevs":         "rocket launch",
-    "spacex":            "falcon 9 rocket launch",
-    "nasa eonet":        "earth satellite view",
+    "nasa apod":              "nebula galaxy stars timelapse",
+    "nasa perseverance":      "mars rover perseverance",
+    "nasa curiosity":         "mars rover curiosity",
+    "nasa epic":              "earth from space blue marble",
+    "open-notify":            "international space station orbit",
+    "nasa neows":             "asteroid solar system",
+    "spacedevs events":       "spacewalk astronaut",
+    "spacedevs":              "rocket launch",
+    "spacex":                 "falcon 9 rocket launch",
+    "nasa eonet":             "earth satellite view",
+    "james webb telescope":   "james webb space telescope infrared deep field",
+    "hubble space telescope": "hubble telescope galaxy nebula colorful",
+    "esa":                    "european space agency spacecraft mission",
+    "isro":                   "isro india rocket satellite launch chandrayaan",
+    "nasa jpl":               "jet propulsion laboratory spacecraft deep space",
+    "sky & telescope":        "galaxy nebula deep space timelapse",
+    "planetary society":      "solar system planets exploration",
+    "spaceweather":           "sun solar flare corona eruption",
+    "earthsky":               "stars milky way night sky timelapse",
+    "nasa webb blog":         "james webb telescope infrared universe",
+    "nasa science":           "nasa science discovery universe",
+    "nasa artemis blog":      "artemis moon rocket launch",
+    "nasa space station blog":"international space station orbit earth",
+    "arXiv astrophysics":     "astrophysics deep space universe discovery",
 }
 
 
@@ -1146,8 +1335,45 @@ def fetch_pexels_video(keyword: str) -> str | None:
     return None
 
 
+def fetch_jwst_video() -> str | None:
+    """James Webb Space Telescope videos — WebbTelescope.org media library (free)"""
+    try:
+        resp = requests.get(
+            "https://webbtelescope.org/api/v1/media",
+            params={"itemsPerPage": 8, "filterTypes": "Video"},
+            timeout=12, headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+        )
+        items = resp.json().get("media", [])
+        for item in items:
+            for asset in item.get("assets", []):
+                ft = asset.get("fileType", "").lower()
+                if "mp4" in ft or ft == "video/mp4":
+                    url = asset.get("publicUrl", "")
+                    if not url:
+                        continue
+                    print(f"      JWST video: {url[-50:]}")
+                    r = requests.get(url, timeout=120, stream=True)
+                    if r.status_code != 200:
+                        continue
+                    path = os.path.join(tempfile.gettempdir(), f"jwst_{int(time.time())}.mp4")
+                    size = 0
+                    with open(path, "wb") as f:
+                        for chunk in r.iter_content(65536):
+                            f.write(chunk)
+                            size += len(chunk)
+                            if size > 150 * 1024 * 1024:
+                                break
+                    if os.path.getsize(path) > 0:
+                        size_mb = os.path.getsize(path) // 1024 // 1024
+                        print(f"      JWST video downloaded: {size_mb}MB")
+                        return path
+    except Exception as e:
+        print(f"      JWST video error: {e}")
+    return None
+
+
 def fetch_space_video(keyword: str, source: str = "") -> str | None:
-    """NASA footage first (public domain), Pexels as fallback"""
+    """NASA/JWST footage first (public domain), Pexels as fallback"""
     # Map source to best NASA search keyword
     source_lower = source.lower()
     nasa_keyword = keyword
@@ -1155,6 +1381,12 @@ def fetch_space_video(keyword: str, source: str = "") -> str | None:
         if key in source_lower:
             nasa_keyword = val
             break
+
+    # JWST content: try WebbTelescope video library first (stunning footage)
+    if any(x in source_lower for x in ["webb", "jwst", "james webb"]):
+        path = fetch_jwst_video()
+        if path:
+            return path
 
     print(f"      Searching NASA footage: '{nasa_keyword}'")
     path = fetch_nasa_video(nasa_keyword)
@@ -1174,7 +1406,8 @@ def fetch_space_video(keyword: str, source: str = "") -> str | None:
 
 REALTIME_SOURCES = {
     "NASA NeoWs", "Open-Notify / NASA", "SpaceDevs Events",
-    "SpaceDevs", "SpaceX", "NASA EONET", "SpaceDevs / NASA"
+    "SpaceDevs", "SpaceX", "NASA EONET", "SpaceDevs / NASA",
+    "ISRO", "SpaceWeather", "NASA Space Station Blog"
 }
 
 
@@ -1628,7 +1861,39 @@ def run_agent():
     eonet = fetch_nasa_eonet()
     all_news.extend(eonet)
 
-    # Source 14: DuckDuckGo fallback (ISRO + regional space news) — last resort
+    # Source 15: James Webb Space Telescope — cutting-edge deep universe imagery
+    jwst = fetch_jwst_news()
+    all_news.extend(jwst)
+
+    # Source 16: Hubble Space Telescope — classic iconic space photos
+    hubble = fetch_hubble_news()
+    all_news.extend(hubble)
+
+    # Source 17: ESA — European Space Agency (Rosetta, Gaia, Solar Orbiter etc.)
+    esa = fetch_esa_news()
+    all_news.extend(esa)
+
+    # Source 18: ISRO — Indian missions (Chandrayaan, Gaganyaan, Aditya-L1)
+    isro = fetch_isro_news()
+    all_news.extend(isro)
+
+    # Source 19: NASA JPL — planetary science, rover missions, deep space probes
+    jpl = fetch_nasa_jpl_news()
+    all_news.extend(jpl)
+
+    # Source 20: Sky & Telescope — telescope-worthy astronomy events
+    sky_tel = fetch_sky_telescope()
+    all_news.extend(sky_tel)
+
+    # Source 21: EarthSky — skywatching events, eclipses, meteor showers
+    earthsky = fetch_earthsky()
+    all_news.extend(earthsky)
+
+    # Source 22: NASA Blogs (rotating: Webb, Artemis, Space Station, Science)
+    blogs = fetch_nasa_blogs()
+    all_news.extend(blogs)
+
+    # Source 23: DuckDuckGo fallback (ISRO + regional space news) — last resort
     if len(all_news) < 4:
         for topic in SPACE_DISCOVERY_TOPICS[:2]:
             results = fetch_news(topic, max_results=2)
@@ -1680,7 +1945,9 @@ def run_agent():
         # Reel sources: APOD, Mars, EPIC, ISS, Asteroid, events get Reel attempt
         visual_sources = {"NASA APOD", "NASA Perseverance", "NASA Curiosity",
                           "NASA EPIC", "Open-Notify / NASA", "NASA NeoWs",
-                          "SpaceDevs Events"}
+                          "SpaceDevs Events", "James Webb Telescope",
+                          "Hubble Space Telescope", "ESA", "ISRO",
+                          "NASA JPL", "NASA Webb Blog", "NASA Artemis Blog"}
         is_visual = (news.get("source", "") in visual_sources or
                      news.get("_nasa") or i == 0)
 
@@ -1723,7 +1990,7 @@ def run_agent():
             time.sleep(POST_DELAY)
 
     print(f"\n{'='*55}")
-    print(f"  Agent complete! {posted}/{CAROUSEL_SLIDES} posts kiye. (5 runs/day = ~10 posts/day)")
+    print(f"  Agent complete! {posted}/{CAROUSEL_SLIDES} posts kiye. (23 sources, 5 runs/day = ~10 posts/day)")
     print("=" * 55)
 
 
