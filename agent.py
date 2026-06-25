@@ -208,6 +208,80 @@ def fetch_nasa_image(keyword: str) -> str | None:
     return None
 
 
+def fetch_nasa_eonet() -> list[dict]:
+    """NASA EONET — Earth Observatory Natural Events (space weather, solar flares)"""
+    try:
+        resp = requests.get(
+            "https://eonet.gsfc.nasa.gov/api/v3/events",
+            params={
+                "api_key": NASA_API_KEY or "DEMO_KEY",
+                "limit": 5,
+                "status": "open",
+                "category": "severeStorms,wildfires,volcanoes,seaLakeIce"
+            },
+            timeout=10
+        )
+        events = resp.json().get("events", [])
+        news = []
+        for e in events[:3]:
+            title = e.get("title", "")
+            category = e.get("categories", [{}])[0].get("title", "Earth Event")
+            geometry = e.get("geometry", [{}])
+            date = geometry[-1].get("date", "") if geometry else ""
+            if title:
+                news.append({
+                    "title": f"{title} — NASA EONET",
+                    "body": f"NASA Earth Observatory ne detect kiya: {title}. Category: {category}. Real-time satellite data se track ho raha hai.",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/800px-The_Earth_seen_from_Apollo_17.jpg",
+                    "source": "NASA EONET",
+                    "date": date
+                })
+        print(f"      NASA EONET: {len(news)} events")
+        return news
+    except Exception as e:
+        print(f"      EONET error: {e}")
+    return []
+
+
+def fetch_spacedevs_launches() -> list[dict]:
+    """SpaceDevs Launch Library — upcoming rocket launches worldwide"""
+    try:
+        resp = requests.get(
+            "https://ll.thespacedevs.com/2.2.0/launch/upcoming/",
+            params={"limit": 5, "format": "json"},
+            timeout=10,
+            headers={"User-Agent": "AtlantisSpaceBot/1.0"}
+        )
+        results = resp.json().get("results", [])
+        news = []
+        for launch in results[:3]:
+            name = launch.get("name", "")
+            net  = launch.get("net", "")       # Net Expected Time
+            pad  = launch.get("pad", {}).get("location", {}).get("name", "")
+            rocket = launch.get("rocket", {}).get("configuration", {}).get("full_name", "")
+            img  = launch.get("image", "") or launch.get("rocket", {}).get("configuration", {}).get("image_url", "")
+            agency = launch.get("launch_service_provider", {}).get("name", "")
+            if name and img:
+                try:
+                    from datetime import datetime as dt
+                    launch_dt = dt.fromisoformat(net.replace("Z", "+00:00"))
+                    date_str = launch_dt.strftime("%d %b %Y %H:%M UTC")
+                except Exception:
+                    date_str = net[:10] if net else "Soon"
+                news.append({
+                    "title": f"Upcoming Launch: {name}",
+                    "body": f"{agency} ka {rocket} rocket {date_str} ko {pad} se launch hoga. {name} mission.",
+                    "image": img,
+                    "source": "SpaceDevs",
+                    "date": net[:10] if net else ""
+                })
+        print(f"      SpaceDevs launches: {len(news)} upcoming")
+        return news
+    except Exception as e:
+        print(f"      SpaceDevs error: {e}")
+    return []
+
+
 # --- History ------------------------------------------------------------------
 def load_posted_history() -> set:
     try:
@@ -814,10 +888,18 @@ def run_agent():
         all_news.append(apod)
 
     # Source 2: Spaceflight News API — real-time space news
-    sf_news = fetch_spaceflight_news(max_results=6)
+    sf_news = fetch_spaceflight_news(max_results=5)
     all_news.extend(sf_news)
 
-    # Source 3: DuckDuckGo fallback (ISRO + regional space news)
+    # Source 3: SpaceDevs — upcoming rocket launches
+    launches = fetch_spacedevs_launches()
+    all_news.extend(launches)
+
+    # Source 4: NASA EONET — Earth/space weather events
+    eonet = fetch_nasa_eonet()
+    all_news.extend(eonet)
+
+    # Source 5: DuckDuckGo fallback (ISRO + regional space news)
     if len(all_news) < 4:
         for topic in NEWS_TOPICS[:3]:
             results = fetch_news(topic, max_results=2)
