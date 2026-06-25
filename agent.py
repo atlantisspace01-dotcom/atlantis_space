@@ -653,8 +653,9 @@ def save_posted_title(title: str) -> None:
                       f, ensure_ascii=False, indent=2)
         import subprocess
         repo_dir = os.path.dirname(os.path.abspath(__file__))  # atlantis_space/ IS the git root
-        gh_pat = os.getenv("GH_PAT")
+        gh_pat = (os.getenv("GH_PAT") or "").strip()
         repo   = os.getenv("GITHUB_REPOSITORY", "atlantisspace01-dotcom/atlantis_space")
+        subprocess.run(["git", "config", "--global", "--add", "safe.directory", repo_dir])
         subprocess.run(["git", "config", "user.email", "bot@atlantisspace.ai"], cwd=repo_dir)
         subprocess.run(["git", "config", "user.name", "Atlantis Space Bot"], cwd=repo_dir)
         if gh_pat:
@@ -1116,7 +1117,7 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
 
 def upload_video_github(video_path: str) -> str | None:
     """Reel video GitHub Release pe upload karo — public URL milegi"""
-    gh_token = os.getenv("GH_PAT") or os.getenv("GITHUB_TOKEN")
+    gh_token = (os.getenv("GH_PAT") or os.getenv("GITHUB_TOKEN") or "").strip()
     repo = os.getenv("GITHUB_REPOSITORY")
     if not gh_token or not repo:
         return None
