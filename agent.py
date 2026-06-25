@@ -1621,34 +1621,34 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
         audio_path  = os.path.join(tmp, f"rtts_{ts}.mp3")
         out_path    = os.path.join(tmp, f"reel_{ts}.mp4")
 
-        # Step 1: Convert to 1080x1920 (9:16) Instagram Reels format
-        # Background blur technique: blurred landscape fills frame, original centered
-        # This way NASA landscape videos look great without cutting content
-        vf = (
-            "[0:v]split=2[bg][fg];"
-            "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
-            "crop=1080:1920,boxblur=30:3[bg_blur];"
-            "[fg]scale=1080:608:force_original_aspect_ratio=decrease,"
-            "pad=1080:608:(ow-iw)/2:(oh-ih)/2:black@0[fg_pad];"
-            "[bg_blur][fg_pad]overlay=(W-w)/2:(H-h)/2"
-        )
+        # Step 1: Convert to 1080x1920 (9:16) — full-screen fill
+        # Scale to COVER entire frame then center-crop — fills screen completely
+        # Best for YouTube Shorts & Instagram Reels (no blurred bars)
         crop = subprocess.run([
             "ffmpeg", "-y", "-i", video_path,
             "-t", "30",
-            "-vf", vf,
+            "-vf", "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920",
+            "-r", "30",
             "-c:v", "libx264", "-profile:v", "high", "-level:v", "4.0",
-            "-pix_fmt", "yuv420p", "-an", "-preset", "fast", "-crf", "23",
+            "-pix_fmt", "yuv420p", "-an", "-preset", "fast", "-crf", "22",
             base_path
         ], capture_output=True, timeout=180)
 
         if crop.returncode != 0 or not os.path.exists(base_path):
-            # Fallback: simple center crop if blur filter fails
+            # Fallback: blur background for unusual aspect ratios
+            vf_blur = (
+                "[0:v]split=2[bg][fg];"
+                "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
+                "crop=1080:1920,boxblur=30:3[bg_blur];"
+                "[fg]scale=1080:608:force_original_aspect_ratio=decrease,"
+                "pad=1080:608:(ow-iw)/2:(oh-ih)/2:black[fg_pad];"
+                "[bg_blur][fg_pad]overlay=(W-w)/2:(H-h)/2"
+            )
             crop = subprocess.run([
                 "ffmpeg", "-y", "-i", video_path,
-                "-t", "30",
-                "-vf", "crop=ih*9/16:ih:(iw-ih*9/16)/2:0,scale=1080:1920",
+                "-t", "30", "-vf", vf_blur, "-r", "30",
                 "-c:v", "libx264", "-pix_fmt", "yuv420p",
-                "-an", "-preset", "fast", "-crf", "23",
+                "-an", "-preset", "fast", "-crf", "22",
                 base_path
             ], capture_output=True, timeout=180)
 
