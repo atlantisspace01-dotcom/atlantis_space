@@ -232,7 +232,7 @@ def fetch_nasa_eonet() -> list[dict]:
                 news.append({
                     "title": f"{title} — NASA EONET",
                     "body": f"NASA Earth Observatory ne detect kiya: {title}. Category: {category}. Real-time satellite data se track ho raha hai.",
-                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/800px-The_Earth_seen_from_Apollo_17.jpg",
+                    "image": "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg",
                     "source": "NASA EONET",
                     "date": date
                 })
@@ -476,13 +476,13 @@ def fetch_spacex_launches() -> list[dict]:
 def fetch_iss_update() -> dict | None:
     """Open-Notify — ISS realtime location + astronauts in space"""
     try:
-        astros = requests.get("http://api.open-notify.org/astros.json", timeout=8).json()
+        astros = requests.get("http://api.open-notify.org/astros.json", timeout=12).json()
         people = astros.get("people", [])
         iss_crew = [p["name"] for p in people if p.get("craft") == "ISS"]
         total = astros.get("number", len(people))
 
         # ISS current location
-        loc = requests.get("http://api.open-notify.org/iss-now.json", timeout=8).json()
+        loc = requests.get("http://api.open-notify.org/iss-now.json", timeout=12).json()
         lat = loc.get("iss_position", {}).get("latitude", "?")
         lon = loc.get("iss_position", {}).get("longitude", "?")
 
@@ -493,7 +493,7 @@ def fetch_iss_update() -> dict | None:
         return {
             "title": f"{total} Astronauts Abhi Space Mein Hain — ISS Live Update",
             "body": body,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/International_Space_Station_after_undocking_of_STS-132.jpg/1280px-International_Space_Station_after_undocking_of_STS-132.jpg",
+            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/iss068e027100.jpg",
             "source": "Open-Notify / NASA",
             "date": datetime.now().isoformat()
         }
@@ -559,7 +559,7 @@ def fetch_nasa_asteroids() -> dict | None:
         return {
             "title": f"Asteroid {name} Aaj Earth Ke Paas Se Guzrega — {size}",
             "body": f"NASA ne track kiya: Asteroid {name} ({size}) aaj Earth se {distance_km:,.0f} km door se guzrega. Speed: {velocity:,.0f} km/h. {hazard_text}",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PIA17041_modest.jpg/1280px-PIA17041_modest.jpg",
+            "image": "https://www.nasa.gov/wp-content/uploads/2023/03/bennu-osiris-rex-1041.jpg",
             "source": "NASA NeoWs",
             "date": today
         }
@@ -865,9 +865,11 @@ def upload_image(file_path: str) -> str | None:
 def add_watermark(image_url: str, title: str = "", source: str = "", summary: str = "") -> str | None:
     try:
         import io
-        resp = requests.get(image_url, timeout=15)
+        resp = requests.get(image_url, timeout=15,
+                            headers={"User-Agent": "AtlantisSpaceBot/1.0"})
         if resp.status_code != 200:
-            return image_url
+            print(f"      Image download failed: {resp.status_code}")
+            return None
 
         news_img = Image.open(io.BytesIO(resp.content)).convert("RGBA")
 
@@ -960,11 +962,15 @@ def add_watermark(image_url: str, title: str = "", source: str = "", summary: st
         path = os.path.join(tempfile.gettempdir(), f"space_{int(time.time())}.jpg")
         final.save(path, "JPEG", quality=92)
         url = upload_image(path)
-        return url if url else image_url
+        try: os.remove(path)
+        except: pass
+        if not url:
+            print(f"      ImgBB upload failed — skipping post")
+        return url  # None if ImgBB failed — never use original blocked URLs
 
     except Exception as e:
         print(f"      Overlay error: {e}")
-        return image_url
+        return None
 
 
 # --- Instagram Post -----------------------------------------------------------
