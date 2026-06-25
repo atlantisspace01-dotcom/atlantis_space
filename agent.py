@@ -1271,14 +1271,15 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
             return None
 
         # Step 2: Pillow overlay PNG — sized for 1080x1920
-        # Instagram safe zones:
-        #   Left/Right: 40px padding inside overlay
-        #   Right: extra 130px for action buttons (like/share/comment)
-        #   Logo: top-right of overlay, 110px wide
+        # Layout:
+        #   Logo: LEFT side (lx=30), top of overlay
+        #   Text: starts to RIGHT of logo (PAD_LEFT = logo_w + 20)
+        #   Right margin: 150px (Instagram action buttons safe zone)
         OVH        = 500
-        PAD_LEFT   = 40
-        PAD_RIGHT  = 170  # 130px buttons + 40px padding
-        MAX_W      = 1080 - PAD_LEFT - PAD_RIGHT   # = 870px safe text width
+        LOGO_W_RL  = 80                          # logo width in reel
+        PAD_LEFT   = LOGO_W_RL + 50              # text starts after logo + 50px gap = 130px
+        PAD_RIGHT  = 150                         # right safe zone for Instagram buttons
+        MAX_W      = 1080 - PAD_LEFT - PAD_RIGHT # safe text width = 800px
         font_head  = get_font(50)
         font_body  = get_font(32)
         font_foot  = get_font(26)
@@ -1338,15 +1339,15 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
                     (r, g, b, 0) if r > 220 and g > 220 and b > 220 else (r, g, b, a)
                     for r, g, b, a in pixels
                 ])
-                logo_w = 90
+                logo_w = LOGO_W_RL
                 logo_h = int(logo.height * (logo_w / logo.width))
-                logo = logo.resize((logo_w, logo_h), Image.LANCZOS)
-                lx = 1080 - logo_w - 40   # 40px from right edge (inside safe zone)
-                ly = 14
-                pad = 5
+                logo   = logo.resize((logo_w, logo_h), Image.LANCZOS)
+                lx     = 30              # LEFT side, 30px from edge
+                ly     = 20              # aligned with headline top
+                pad    = 6
                 ov_draw.rectangle(
                     [lx - pad, ly - pad, lx + logo_w + pad, ly + logo_h + pad],
-                    fill=(255, 255, 255, 200)
+                    fill=(255, 255, 255, 210)
                 )
                 overlay.paste(logo, (lx, ly), logo)
             except Exception as le:
