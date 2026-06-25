@@ -1255,9 +1255,33 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
 
         # Footer — channel + date (bottom, stays above Instagram's caption bar)
         date_str = datetime.now().strftime("%d %b %Y")
-        ov_draw.text((PAD_LEFT, OVH - 36),
+        ov_draw.text((PAD_LEFT, OVH - 40),
                      f"{CHANNEL_HANDLE}  •  {date_str}",
                      font=font_foot, fill=(130, 170, 220, 210))
+
+        # Logo — top-right of overlay bar (avoids Instagram action buttons)
+        if os.path.exists(LOGO_PATH):
+            try:
+                logo = Image.open(LOGO_PATH).convert("RGBA")
+                # Remove white background
+                pixels = list(logo.getdata())
+                logo.putdata([
+                    (r, g, b, 0) if r > 220 and g > 220 and b > 220 else (r, g, b, a)
+                    for r, g, b, a in pixels
+                ])
+                logo_w = 100
+                logo_h = int(logo.height * (logo_w / logo.width))
+                logo = logo.resize((logo_w, logo_h), Image.LANCZOS)
+                lx = 1080 - logo_w - 20   # right side, 20px from edge
+                ly = 14                    # near top of overlay
+                pad = 5
+                ov_draw.rectangle(
+                    [lx - pad, ly - pad, lx + logo_w + pad, ly + logo_h + pad],
+                    fill=(255, 255, 255, 200)
+                )
+                overlay.paste(logo, (lx, ly), logo)
+            except Exception as le:
+                print(f"      Logo error: {le}")
 
         overlay.save(overlay_png, "PNG")
 
