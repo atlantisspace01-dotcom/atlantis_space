@@ -999,8 +999,82 @@ def post_to_instagram(image_url: str, caption: str) -> str | None:
 
 
 # --- Reel Pipeline -----------------------------------------------------------
-def fetch_space_video(keyword: str) -> str | None:
-    """Pexels se space stock video download karo — portrait MP4"""
+
+# NASA content topic → best search keyword mapping
+NASA_VIDEO_KEYWORDS = {
+    "nasa apod":         "nebula galaxy stars timelapse",
+    "nasa perseverance": "mars rover perseverance",
+    "nasa curiosity":    "mars rover curiosity",
+    "nasa epic":         "earth from space blue marble",
+    "open-notify":       "international space station orbit",
+    "nasa neows":        "asteroid solar system",
+    "spacedevs events":  "spacewalk astronaut",
+    "spacedevs":         "rocket launch",
+    "spacex":            "falcon 9 rocket launch",
+    "nasa eonet":        "earth satellite view",
+}
+
+
+def fetch_nasa_video(keyword: str) -> str | None:
+    """NASA Image & Video Library — actual space footage (public domain, free)"""
+    try:
+        resp = requests.get(
+            "https://images-api.nasa.gov/search",
+            params={"q": keyword, "media_type": "video", "page_size": 8},
+            timeout=12
+        )
+        items = resp.json().get("collection", {}).get("items", [])
+        for item in items:
+            nasa_id = item.get("data", [{}])[0].get("nasa_id", "")
+            if not nasa_id:
+                continue
+            try:
+                asset_resp = requests.get(
+                    f"https://images-api.nasa.gov/asset/{nasa_id}",
+                    timeout=10
+                )
+                assets = asset_resp.json().get("collection", {}).get("items", [])
+                # Prefer mobile/small MP4 — fast download, enough quality
+                priority = ["~mobile.mp4", "~small.mp4", "~medium.mp4", ".mp4"]
+                mp4_urls = [a["href"] for a in assets if a.get("href", "").endswith(".mp4")]
+                chosen = None
+                for suffix in priority:
+                    for url in mp4_urls:
+                        if suffix in url:
+                            chosen = url
+                            break
+                    if chosen:
+                        break
+                if not chosen and mp4_urls:
+                    chosen = mp4_urls[0]
+                if not chosen:
+                    continue
+
+                print(f"      NASA video found: {chosen[-50:]}")
+                r = requests.get(chosen, timeout=120, stream=True)
+                if r.status_code != 200:
+                    continue
+                path = os.path.join(tempfile.gettempdir(), f"nasa_vid_{int(time.time())}.mp4")
+                size = 0
+                with open(path, "wb") as f:
+                    for chunk in r.iter_content(65536):
+                        f.write(chunk)
+                        size += len(chunk)
+                        if size > 150 * 1024 * 1024:  # 150MB cap
+                            break
+                size_mb = os.path.getsize(path) // 1024 // 1024
+                if size_mb > 0:
+                    print(f"      NASA video downloaded: {size_mb}MB")
+                    return path
+            except Exception:
+                continue
+    except Exception as e:
+        print(f"      NASA video error: {e}")
+    return None
+
+
+def fetch_pexels_video(keyword: str) -> str | None:
+    """Pexels se space stock video — fallback when NASA video unavailable"""
     if not PEXELS_API_KEY:
         return None
     try:
@@ -1014,7 +1088,7 @@ def fetch_space_video(keyword: str) -> str | None:
             for vf in video.get("video_files", []):
                 if vf.get("file_type") == "video/mp4" and vf.get("height", 0) >= 720:
                     url = vf["link"]
-                    print(f"      Pexels space video mili: {url[:60]}")
+                    print(f"      Pexels video (fallback): {url[:60]}")
                     r = requests.get(url, timeout=90, stream=True)
                     path = os.path.join(tempfile.gettempdir(), f"space_vid_{int(time.time())}.mp4")
                     with open(path, "wb") as f:
@@ -1024,8 +1098,34 @@ def fetch_space_video(keyword: str) -> str | None:
                     print(f"      Downloaded: {size_mb}MB")
                     return path
     except Exception as e:
-        print(f"      Space video error: {e}")
+        print(f"      Pexels video error: {e}")
     return None
+
+
+def fetch_space_video(keyword: str, source: str = "") -> str | None:
+    """NASA footage first (public domain), Pexels as fallback"""
+    # Map source to best NASA search keyword
+    source_lower = source.lower()
+    nasa_keyword = keyword
+    for key, val in NASA_VIDEO_KEYWORDS.items():
+        if key in source_lower:
+            nasa_keyword = val
+            break
+
+    print(f"      Searching NASA footage: '{nasa_keyword}'")
+    path = fetch_nasa_video(nasa_keyword)
+    if path:
+        return path
+
+    # Fallback: try original keyword on NASA
+    if nasa_keyword != keyword:
+        path = fetch_nasa_video(keyword)
+        if path:
+            return path
+
+    # Final fallback: Pexels
+    print(f"      NASA footage not found — trying Pexels")
+    return fetch_pexels_video(keyword)
 
 
 def generate_tts(text: str, out_path: str) -> bool:
@@ -1408,7 +1508,7 @@ def run_agent():
         if is_visual:
             print(f"      [Reel mode] Space video dhund raha hoon...")
             keyword = content.get("image_keyword", "space astronomy")
-            video_path = fetch_space_video(keyword)
+            video_path = fetch_space_video(keyword, source=news.get("source", ""))
             if video_path:
                 reel_path = process_reel(video_path, headline, summary)
                 try: os.remove(video_path)
