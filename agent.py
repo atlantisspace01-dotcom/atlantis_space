@@ -1155,19 +1155,14 @@ def add_watermark(image_url: str, title: str = "", source: str = "", summary: st
 
         # Logo
         if os.path.exists(LOGO_PATH):
-            logo = Image.open(LOGO_PATH).convert("RGBA")
-            raw = bytearray(logo.tobytes())
-            for i in range(0, len(raw), 4):
-                if raw[i] > 220 and raw[i+1] > 220 and raw[i+2] > 220:
-                    raw[i+3] = 0
-            logo = Image.frombytes('RGBA', logo.size, bytes(raw))
+            logo = Image.open(LOGO_PATH).convert("RGB")   # RGB — white background preserved
             logo_w = int(1080 * 0.10)
             logo_h = int(logo.height * (logo_w / logo.width))
             logo = logo.resize((logo_w, logo_h), Image.LANCZOS)
             pad = 4
             lx, ly = 1080 - logo_w - 20, 1080 - logo_h - 20
-            draw.rectangle([lx-pad, ly-pad, lx+logo_w+pad, ly+logo_h+pad], fill=(255, 255, 255, 230))
-            news_img.paste(logo, (lx, ly), logo)
+            draw.rectangle([lx-pad, ly-pad, lx+logo_w+pad, ly+logo_h+pad], fill=(255, 255, 255, 255))
+            news_img.paste(logo, (lx, ly))
 
         final = news_img.convert("RGB")
         path = os.path.join(tempfile.gettempdir(), f"space_{int(time.time())}.jpg")
@@ -1577,23 +1572,19 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
         # ── LOGO — top-left, big, prominent ──────────────────────────────
         if os.path.exists(LOGO_PATH):
             try:
-                logo_img = Image.open(LOGO_PATH).convert("RGBA")
-                raw = bytearray(logo_img.tobytes())
-                for i in range(0, len(raw), 4):
-                    if raw[i] > 215 and raw[i+1] > 215 and raw[i+2] > 215:
-                        raw[i+3] = 0
-                logo_img = Image.frombytes('RGBA', logo_img.size, bytes(raw))
-                logo_w = 160                    # big, visible
+                logo_img = Image.open(LOGO_PATH).convert("RGB")   # RGB — white background preserved
+                logo_w = 160
                 logo_h = int(logo_img.height * (logo_w / logo_img.width))
                 logo_img = logo_img.resize((logo_w, logo_h), Image.LANCZOS)
-                lx, ly = 40, 60                 # top-left, 40px from left, 60px from top
-                # White background (same as photo posts)
+                lx, ly = 40, 60
                 pad = 10
+                # Fully opaque white rectangle — no semi-transparency mixing with dark video
                 ov_draw.rounded_rectangle(
                     [lx - pad, ly - pad, lx + logo_w + pad, ly + logo_h + pad],
-                    radius=12, fill=(255, 255, 255, 235)
+                    radius=12, fill=(255, 255, 255, 255)
                 )
-                overlay.paste(logo_img, (lx, ly), logo_img)
+                # Paste logo directly — its own white background shows as solid white
+                overlay.paste(logo_img, (lx, ly))
             except Exception as le:
                 print(f"      Logo error: {le}")
 
