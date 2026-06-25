@@ -1598,11 +1598,11 @@ def generate_tts(text: str, out_path: str) -> bool:
     clean = _re.sub(r'\.{2,}', '... ', text)
     clean = _re.sub(r'\s+', ' ', clean).strip()
 
-    # Voice priority list: Madhur (male, documentary) → Swara (female) → gTTS
+    # Voice: SwaraNeural female — natural, energetic, space explorer tone
     voices = [
         # (voice_name, rate, pitch, volume)
-        ("hi-IN-MadhurNeural", "-8%",  "+0Hz", "+20%"),   # male, clear & authoritative
-        ("hi-IN-SwaraNeural",  "-5%",  "+3Hz", "+20%"),   # female fallback
+        ("hi-IN-SwaraNeural",  "-3%",  "+8Hz", "+18%"),   # primary: slightly slower, higher pitch = clearer & energetic
+        ("hi-IN-AnanyaNeural", "-3%",  "+5Hz", "+18%"),   # fallback: newer neural voice
     ]
 
     try:
