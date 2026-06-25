@@ -1224,7 +1224,7 @@ def generate_tts(text: str, out_path: str) -> bool:
         return False
 
 
-def process_reel(video_path: str, headline: str, summary: str, narration: str = "") -> str | None:
+def process_reel(video_path: str, headline: str, summary: str, narration: str = "", source: str = "") -> str | None:
     """Space video ko Reel format mein convert karo — text overlay + TTS audio"""
     import subprocess
     try:
@@ -1344,11 +1344,17 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
             ov_draw.text((PAD_LEFT, y), line, font=font_body, fill=(200, 225, 255, 240))
             y += 44
 
-        # Footer
+        # Footer — left: channel + date | right: source credit (small)
         date_str = datetime.now().strftime("%d %b %Y")
         ov_draw.text((PAD_LEFT, FRAME_H - 44),
                      f"{CHANNEL_HANDLE}  •  {date_str}",
                      font=font_foot, fill=(130, 170, 220, 210))
+        if source:
+            font_src  = get_font(22)
+            src_text  = f"© {source}"
+            src_w     = ov_draw.textlength(src_text, font=font_src)
+            ov_draw.text((FRAME_W - src_w - PAD_RIGHT - 10, FRAME_H - 40),
+                         src_text, font=font_src, fill=(160, 190, 220, 180))
 
         overlay.save(overlay_png, "PNG")
 
@@ -1629,7 +1635,8 @@ def run_agent():
             narration  = generate_narration(news, headline, summary)
             video_path = fetch_space_video(keyword, source=news.get("source", ""))
             if video_path:
-                reel_path = process_reel(video_path, headline, summary, narration)
+                reel_path = process_reel(video_path, headline, summary, narration,
+                                         source=news.get("source", ""))
                 try: os.remove(video_path)
                 except: pass
                 if reel_path:
