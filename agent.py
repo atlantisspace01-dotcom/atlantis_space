@@ -1130,6 +1130,71 @@ def fetch_space_video(keyword: str, source: str = "") -> str | None:
     return fetch_pexels_video(keyword)
 
 
+REALTIME_SOURCES = {
+    "NASA NeoWs", "Open-Notify / NASA", "SpaceDevs Events",
+    "SpaceDevs", "SpaceX", "NASA EONET", "SpaceDevs / NASA"
+}
+
+
+def generate_narration(news_item: dict, headline: str, summary: str) -> str:
+    """Groq se 30-second Reel narration — real-time vs educational, headline nahi padega"""
+    source  = news_item.get("source", "")
+    title   = news_item.get("title", "")
+    body    = news_item.get("body", "")[:500]
+    is_rt   = any(s in source for s in REALTIME_SOURCES)
+
+    if is_rt:
+        style = (
+            "YE REAL-TIME EVENT HAI — abhi ho raha hai ya aaj hoga.\n"
+            "Tone: 'Abhi is waqt...', 'Aaj...', 'Is exact moment mein...'\n"
+            "Urgency + excitement — viewers ko feel ho ki ye ABHI ho raha hai.\n"
+            "Exact numbers, distances, speeds, dates zaroor batao."
+        )
+    else:
+        style = (
+            "YE EDUCATIONAL/DISCOVERY content hai — photo ya historical finding.\n"
+            "Tone: 'Dekho zaraa...', 'Socho agar tum wahan hote...', 'Ye jo tum dekh rahe ho...'\n"
+            "Wonder aur curiosity — viewer ko space se deeply connect karo.\n"
+            "Hidden facts, scale, comparisons batao jo mind blow kar de."
+        )
+
+    try:
+        client = Groq(api_key=GROQ_API_KEY)
+        resp = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            max_tokens=400,
+            messages=[{"role": "user", "content": f"""
+Tu @atlantis_space Instagram Reel ka narrator hai.
+Ek 30-second Hindi narration script likho jo poori Reel mein chale.
+
+Topic: {title}
+Details: {body}
+Summary: {summary}
+
+{style}
+
+STRICT RULES:
+- HEADLINE BILKUL MAT PADHO — woh screen pe already dikh raha hai
+- ~90-100 words likhoo — 30 second ke liye enough hoga
+- Actual facts, numbers, context do jo screen pe nahi dikh raha
+- Hinglish (Hindi + English mix), conversational
+- Real human narrator jaisa — "toh socho...", "yaar sun..."
+- Sirf bolne wala text — koi heading, bullet, asterisk nahi
+
+Script:"""}]
+        )
+        narration = resp.choices[0].message.content.strip()
+        # Clean up any formatting
+        import re
+        narration = re.sub(r'\*+', '', narration).strip()
+        wc = len(narration.split())
+        print(f"      Narration ({wc} words, {'realtime' if is_rt else 'educational'})")
+        return narration
+    except Exception as e:
+        print(f"      Narration error: {e} — using summary")
+        return f"{summary}"
+
+
 def generate_tts(text: str, out_path: str) -> bool:
     """Edge TTS — Microsoft Neural Hindi voice (human-like). Fallback: gTTS."""
     # Try Edge TTS first — hi-IN-SwaraNeural sounds very natural
@@ -1159,7 +1224,7 @@ def generate_tts(text: str, out_path: str) -> bool:
         return False
 
 
-def process_reel(video_path: str, headline: str, summary: str) -> str | None:
+def process_reel(video_path: str, headline: str, summary: str, narration: str = "") -> str | None:
     """Space video ko Reel format mein convert karo — text overlay + TTS audio"""
     import subprocess
     try:
@@ -1206,13 +1271,17 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
             return None
 
         # Step 2: Pillow overlay PNG — sized for 1080x1920
-        # Instagram safe zones: right 120px = action buttons, bottom 200px = caption/UI
-        OVH        = 500   # overlay height (taller for 1920px frame)
-        MAX_W      = 860   # max text width (1080 - 120px right margin for buttons)
-        PAD_LEFT   = 30
-        font_head  = get_font(54)   # larger for 1080p
-        font_body  = get_font(34)
-        font_foot  = get_font(28)
+        # Instagram safe zones:
+        #   Left/Right: 40px padding inside overlay
+        #   Right: extra 130px for action buttons (like/share/comment)
+        #   Logo: top-right of overlay, 110px wide
+        OVH        = 500
+        PAD_LEFT   = 40
+        PAD_RIGHT  = 170  # 130px buttons + 40px padding
+        MAX_W      = 1080 - PAD_LEFT - PAD_RIGHT   # = 870px safe text width
+        font_head  = get_font(50)
+        font_body  = get_font(32)
+        font_foot  = get_font(26)
 
         def wrap_px(text, font, max_px, draw_obj):
             """Word-wrap text to fit within max_px width."""
@@ -1253,11 +1322,11 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
             ov_draw.text((PAD_LEFT, y), line, font=font_body, fill=(200, 225, 255, 240))
             y += 44
 
-        # Footer — channel + date (bottom, stays above Instagram's caption bar)
-        date_str = datetime.now().strftime("%d %b %Y")
+        # Footer — channel + date, constrained within safe zone
+        date_str    = datetime.now().strftime("%d %b %Y")
+        footer_text = f"{CHANNEL_HANDLE}  •  {date_str}"
         ov_draw.text((PAD_LEFT, OVH - 40),
-                     f"{CHANNEL_HANDLE}  •  {date_str}",
-                     font=font_foot, fill=(130, 170, 220, 210))
+                     footer_text, font=font_foot, fill=(130, 170, 220, 210))
 
         # Logo — top-right of overlay bar (avoids Instagram action buttons)
         if os.path.exists(LOGO_PATH):
@@ -1269,11 +1338,11 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
                     (r, g, b, 0) if r > 220 and g > 220 and b > 220 else (r, g, b, a)
                     for r, g, b, a in pixels
                 ])
-                logo_w = 100
+                logo_w = 90
                 logo_h = int(logo.height * (logo_w / logo.width))
                 logo = logo.resize((logo_w, logo_h), Image.LANCZOS)
-                lx = 1080 - logo_w - 20   # right side, 20px from edge
-                ly = 14                    # near top of overlay
+                lx = 1080 - logo_w - 40   # 40px from right edge (inside safe zone)
+                ly = 14
                 pad = 5
                 ov_draw.rectangle(
                     [lx - pad, ly - pad, lx + logo_w + pad, ly + logo_h + pad],
@@ -1285,8 +1354,8 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
 
         overlay.save(overlay_png, "PNG")
 
-        # Step 3: TTS
-        tts_text = f"{headline}. {summary}"
+        # Step 3: TTS — use full narration (covers entire 30s), not just headline
+        tts_text = narration if narration else summary
         has_audio = generate_tts(tts_text, audio_path)
 
         # Step 4: FFmpeg combine — 1080x1920, Instagram-compatible encoding
@@ -1558,10 +1627,11 @@ def run_agent():
 
         if is_visual:
             print(f"      [Reel mode] Space video dhund raha hoon...")
-            keyword = content.get("image_keyword", "space astronomy")
+            keyword    = content.get("image_keyword", "space astronomy")
+            narration  = generate_narration(news, headline, summary)
             video_path = fetch_space_video(keyword, source=news.get("source", ""))
             if video_path:
-                reel_path = process_reel(video_path, headline, summary)
+                reel_path = process_reel(video_path, headline, summary, narration)
                 try: os.remove(video_path)
                 except: pass
                 if reel_path:
