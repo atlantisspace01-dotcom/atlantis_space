@@ -1170,28 +1170,49 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
         audio_path  = os.path.join(tmp, f"rtts_{ts}.mp3")
         out_path    = os.path.join(tmp, f"reel_{ts}.mp4")
 
-        # Step 1: 9:16 crop + resize to 720x1280, trim to 30s
+        # Step 1: Convert to 1080x1920 (9:16) Instagram Reels format
+        # Background blur technique: blurred landscape fills frame, original centered
+        # This way NASA landscape videos look great without cutting content
+        vf = (
+            "[0:v]split=2[bg][fg];"
+            "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
+            "crop=1080:1920,boxblur=30:3[bg_blur];"
+            "[fg]scale=1080:608:force_original_aspect_ratio=decrease,"
+            "pad=1080:608:(ow-iw)/2:(oh-ih)/2:black@0[fg_pad];"
+            "[bg_blur][fg_pad]overlay=(W-w)/2:(H-h)/2"
+        )
         crop = subprocess.run([
             "ffmpeg", "-y", "-i", video_path,
             "-t", "30",
-            "-vf", "crop=ih*9/16:ih:(iw-ih*9/16)/2:0,scale=720:1280",
-            "-c:v", "libx264", "-an", "-preset", "fast", "-crf", "28",
+            "-vf", vf,
+            "-c:v", "libx264", "-profile:v", "high", "-level:v", "4.0",
+            "-pix_fmt", "yuv420p", "-an", "-preset", "fast", "-crf", "23",
             base_path
-        ], capture_output=True, timeout=120)
+        ], capture_output=True, timeout=180)
 
         if crop.returncode != 0 or not os.path.exists(base_path):
-            print(f"      Crop fail: {crop.stderr[-100:].decode(errors='ignore')}")
+            # Fallback: simple center crop if blur filter fails
+            crop = subprocess.run([
+                "ffmpeg", "-y", "-i", video_path,
+                "-t", "30",
+                "-vf", "crop=ih*9/16:ih:(iw-ih*9/16)/2:0,scale=1080:1920",
+                "-c:v", "libx264", "-pix_fmt", "yuv420p",
+                "-an", "-preset", "fast", "-crf", "23",
+                base_path
+            ], capture_output=True, timeout=180)
+
+        if crop.returncode != 0 or not os.path.exists(base_path):
+            print(f"      Crop fail: {crop.stderr[-200:].decode(errors='ignore')}")
             return None
 
-        # Step 2: Pillow overlay PNG
-        # Instagram Reels safe zone: right 80px = buttons (like/share), bottom 60px = caption bar
-        # Overlay height 380px, text max width 600px (leaving 100px right margin for buttons)
-        OVH        = 380   # overlay height
-        MAX_W      = 600   # max text width (pixels) — avoids right-side buttons
-        PAD_LEFT   = 24
-        font_head  = get_font(42)
-        font_body  = get_font(26)
-        font_foot  = get_font(22)
+        # Step 2: Pillow overlay PNG — sized for 1080x1920
+        # Instagram safe zones: right 120px = action buttons, bottom 200px = caption/UI
+        OVH        = 500   # overlay height (taller for 1920px frame)
+        MAX_W      = 860   # max text width (1080 - 120px right margin for buttons)
+        PAD_LEFT   = 30
+        font_head  = get_font(54)   # larger for 1080p
+        font_body  = get_font(34)
+        font_foot  = get_font(28)
 
         def wrap_px(text, font, max_px, draw_obj):
             """Word-wrap text to fit within max_px width."""
@@ -1209,28 +1230,28 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
                 lines.append(line)
             return lines
 
-        overlay = Image.new("RGBA", (720, OVH), (0, 0, 0, 0))
+        overlay = Image.new("RGBA", (1080, OVH), (0, 0, 0, 0))
         ov_draw = ImageDraw.Draw(overlay)
 
         # Gradient dark bar (darker at bottom)
         for i in range(OVH):
             alpha = int(180 + 60 * (i / OVH))
-            ov_draw.line([(0, i), (720, i)], fill=(0, 0, 20, alpha))
+            ov_draw.line([(0, i), (1080, i)], fill=(0, 0, 20, alpha))
 
         # Top accent line
-        ov_draw.rectangle([0, 0, 720, 5], fill=(80, 180, 255, 255))
+        ov_draw.rectangle([0, 0, 1080, 6], fill=(80, 180, 255, 255))
 
         # Headline — wrapped, max 2 lines
-        y = 18
+        y = 20
         for line in wrap_px(headline, font_head, MAX_W, ov_draw)[:2]:
             ov_draw.text((PAD_LEFT, y), line, font=font_head, fill=(255, 255, 255, 255))
-            y += 52
+            y += 66
 
         # Summary — wrapped, max 3 lines
-        y += 6
+        y += 10
         for line in wrap_px(summary, font_body, MAX_W, ov_draw)[:3]:
             ov_draw.text((PAD_LEFT, y), line, font=font_body, fill=(200, 225, 255, 240))
-            y += 34
+            y += 44
 
         # Footer — channel + date (bottom, stays above Instagram's caption bar)
         date_str = datetime.now().strftime("%d %b %Y")
@@ -1244,25 +1265,29 @@ def process_reel(video_path: str, headline: str, summary: str) -> str | None:
         tts_text = f"{headline}. {summary}"
         has_audio = generate_tts(tts_text, audio_path)
 
-        # Step 4: FFmpeg combine
+        # Step 4: FFmpeg combine — 1080x1920, Instagram-compatible encoding
+        common = [
+            "-c:v", "libx264", "-profile:v", "high", "-level:v", "4.0",
+            "-pix_fmt", "yuv420p", "-preset", "fast", "-crf", "23",
+            "-movflags", "+faststart"   # streaming-friendly
+        ]
         if has_audio:
             result = subprocess.run([
                 "ffmpeg", "-y",
                 "-i", base_path, "-i", overlay_png, "-i", audio_path,
                 "-filter_complex",
-                "[0:v][1:v]overlay=0:H-380[vout];[2:a]volume=1.5,atrim=0:30[aout]",
+                f"[0:v][1:v]overlay=0:H-{OVH}[vout];[2:a]volume=1.5,atrim=0:30[aout]",
                 "-map", "[vout]", "-map", "[aout]",
-                "-c:v", "libx264", "-c:a", "aac",
-                "-shortest", "-preset", "fast", "-crf", "28", out_path
-            ], capture_output=True, timeout=120)
+                "-c:a", "aac", "-b:a", "128k",
+                "-shortest", *common, out_path
+            ], capture_output=True, timeout=180)
         else:
             result = subprocess.run([
                 "ffmpeg", "-y",
                 "-i", base_path, "-i", overlay_png,
-                "-filter_complex", "[0:v][1:v]overlay=0:H-380[out]",
-                "-map", "[out]", "-c:v", "libx264",
-                "-preset", "fast", "-crf", "28", out_path
-            ], capture_output=True, timeout=120)
+                "-filter_complex", f"[0:v][1:v]overlay=0:H-{OVH}[out]",
+                "-map", "[out]", *common, out_path
+            ], capture_output=True, timeout=180)
 
         for p in [base_path, overlay_png, audio_path]:
             try: os.remove(p)
