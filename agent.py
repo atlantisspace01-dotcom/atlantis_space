@@ -229,8 +229,9 @@ def fetch_nasa_eonet() -> list[dict]:
             geometry = e.get("geometry", [{}])
             date = geometry[-1].get("date", "") if geometry else ""
             if title:
+                today = datetime.now().strftime("%d %b")
                 news.append({
-                    "title": f"{title} — NASA EONET",
+                    "title": f"{title} — NASA EONET {today}",
                     "body": f"NASA Earth Observatory ne detect kiya: {title}. Category: {category}. Real-time satellite data se track ho raha hai.",
                     "image": "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg",
                     "source": "NASA EONET",
@@ -490,8 +491,9 @@ def fetch_iss_update() -> dict | None:
         body = (f"Abhi {total} astronauts space mein hain. ISS pe {len(iss_crew)} log hain: {crew_str}. "
                 f"ISS ka current location: {float(lat):.1f}°N, {float(lon):.1f}°E.")
 
+        today = datetime.now().strftime("%d %b %Y")
         return {
-            "title": f"{total} Astronauts Abhi Space Mein Hain — ISS Live Update",
+            "title": f"{total} Astronauts Space Mein Hain — ISS Update {today}",
             "body": body,
             "image": "https://www.nasa.gov/wp-content/uploads/2023/03/iss068e027100.jpg",
             "source": "Open-Notify / NASA",
@@ -1639,6 +1641,8 @@ def run_agent():
         print("Koi image wali space news nahi mili.")
         return
 
+    all_news_raw = all_news.copy()  # backup before duplicate filter
+
     recent_titles = get_recently_posted_titles()
     recent_images = load_posted_images()
     all_news = [
@@ -1649,8 +1653,14 @@ def run_agent():
     print(f"      Duplicate hataane ke baad: {len(all_news)}")
 
     if not all_news:
-        print("Sab news already post ho chuki hai.")
-        return
+        # Fallback: force post from priority NASA sources
+        print("      Sab duplicate — NASA priority sources se force post...")
+        priority = {"NASA APOD", "NASA Perseverance", "NASA Curiosity",
+                    "NASA EPIC", "SpaceDevs Events", "NASA NeoWs"}
+        all_news = [n for n in all_news_raw if n.get("source", "") in priority]
+        if not all_news:
+            all_news = all_news_raw[:CAROUSEL_SLIDES]
+        print(f"      Force mode: {len(all_news)} items")
 
     news_list = smart_plan(all_news, count=CAROUSEL_SLIDES)
     posted = 0
