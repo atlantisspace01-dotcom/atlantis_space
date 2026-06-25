@@ -40,9 +40,9 @@ APP_SECRET           = os.getenv("SPACE_APP_SECRET")
 
 NASA_API_KEY         = os.getenv("NASA_API_KEY")
 
-CHANNEL_HANDLE = "@atlantis_space"
-POST_DELAY     = 60
-CAROUSEL_SLIDES = 3
+CHANNEL_HANDLE  = "@atlantis_space"
+POST_DELAY      = 45   # seconds between posts in same run
+CAROUSEL_SLIDES = 2    # 2 posts per run × 5 runs = 10 posts/day
 
 LOGO_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "atlantis_space_logo.png")
 HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "posted_history.json")
@@ -1295,7 +1295,7 @@ def run_agent():
     eonet = fetch_nasa_eonet()
     all_news.extend(eonet)
 
-    # Source 10: DuckDuckGo fallback (ISRO + regional space news) — last resort
+    # Source 14: DuckDuckGo fallback (ISRO + regional space news) — last resort
     if len(all_news) < 4:
         for topic in SPACE_DISCOVERY_TOPICS[:2]:
             results = fetch_news(topic, max_results=2)
@@ -1331,9 +1331,15 @@ def run_agent():
 
         media_id = None
 
-        # First news → Reel, baaki → Photo post
-        if i == 0:
-            print("      [Reel mode] Space video dhund raha hoon...")
+        # Reel sources: APOD, Mars, EPIC, ISS, Asteroid, events get Reel attempt
+        visual_sources = {"NASA APOD", "NASA Perseverance", "NASA Curiosity",
+                          "NASA EPIC", "Open-Notify / NASA", "NASA NeoWs",
+                          "SpaceDevs Events"}
+        is_visual = (news.get("source", "") in visual_sources or
+                     news.get("_nasa") or i == 0)
+
+        if is_visual:
+            print(f"      [Reel mode] Space video dhund raha hoon...")
             keyword = content.get("image_keyword", "space astronomy")
             video_path = fetch_space_video(keyword)
             if video_path:
@@ -1369,7 +1375,7 @@ def run_agent():
             time.sleep(POST_DELAY)
 
     print(f"\n{'='*55}")
-    print(f"  Agent complete! {posted} post kiya gaya.")
+    print(f"  Agent complete! {posted}/{CAROUSEL_SLIDES} posts kiye. (5 runs/day = ~10 posts/day)")
     print("=" * 55)
 
 

@@ -1,9 +1,10 @@
-name: Atlantis Space — Daily 4 Posts
+name: Atlantis Space — Daily 10 Posts
 
 on:
   schedule:
     - cron: '0 3 * * *'    # IST 08:30
-    - cron: '0 8 * * *'    # IST 13:30
+    - cron: '0 6 * * *'    # IST 11:30
+    - cron: '30 9 * * *'   # IST 15:00
     - cron: '0 13 * * *'   # IST 18:30
     - cron: '0 16 * * *'   # IST 21:30
   workflow_dispatch:
