@@ -38,6 +38,8 @@ IMGBB_API_KEY        = os.getenv("IMGBB_API_KEY")
 APP_ID               = os.getenv("SPACE_APP_ID")
 APP_SECRET           = os.getenv("SPACE_APP_SECRET")
 
+NASA_API_KEY         = os.getenv("NASA_API_KEY")
+
 CHANNEL_HANDLE = "@atlantis_space"
 POST_DELAY     = 60
 CAROUSEL_SLIDES = 3
@@ -127,6 +129,83 @@ def fetch_news(topic: str, max_results: int = 5) -> list[dict]:
         except Exception as e:
             print(f"      Attempt {attempt+1} failed: {e}")
     return []
+
+
+# --- NASA Sources -------------------------------------------------------------
+def fetch_nasa_apod() -> dict | None:
+    """NASA Astronomy Picture of the Day — stunning daily image with description"""
+    try:
+        resp = requests.get(
+            "https://api.nasa.gov/planetary/apod",
+            params={"api_key": NASA_API_KEY or "DEMO_KEY", "thumbs": "true"},
+            timeout=10
+        )
+        data = resp.json()
+        if data.get("url") and data.get("title"):
+            img_url = data.get("hdurl") or data.get("url")
+            # Only use if it's an image (not YouTube video)
+            if not img_url.endswith((".jpg", ".jpeg", ".png", ".gif")):
+                img_url = data.get("thumbnail_url") or data.get("url")
+            print(f"      NASA APOD: {data['title'][:60]}")
+            return {
+                "title": data["title"],
+                "body": data.get("explanation", "")[:500],
+                "image": img_url,
+                "source": "NASA APOD",
+                "date": data.get("date", ""),
+                "_nasa": True
+            }
+    except Exception as e:
+        print(f"      APOD error: {e}")
+    return None
+
+
+def fetch_spaceflight_news(max_results: int = 5) -> list[dict]:
+    """Spaceflight News API — real-time space news, no key needed"""
+    try:
+        resp = requests.get(
+            "https://api.spaceflightnewsapi.net/v4/articles/",
+            params={"limit": max_results, "ordering": "-published_at"},
+            timeout=10
+        )
+        articles = resp.json().get("results", [])
+        news = []
+        for a in articles:
+            if a.get("image_url") and a.get("title"):
+                news.append({
+                    "title": clean_title(a["title"]),
+                    "body": a.get("summary", "")[:500],
+                    "image": a["image_url"],
+                    "source": a.get("news_site", "Space News"),
+                    "date": a.get("published_at", ""),
+                    "url": a.get("url", "")
+                })
+        print(f"      Spaceflight News: {len(news)} articles")
+        return news
+    except Exception as e:
+        print(f"      Spaceflight News error: {e}")
+    return []
+
+
+def fetch_nasa_image(keyword: str) -> str | None:
+    """NASA Image & Video Library se high-quality space image URL lo"""
+    try:
+        resp = requests.get(
+            "https://images-api.nasa.gov/search",
+            params={"q": keyword, "media_type": "image", "page_size": 5},
+            timeout=10
+        )
+        items = resp.json().get("collection", {}).get("items", [])
+        for item in items:
+            links = item.get("links", [])
+            for link in links:
+                if link.get("render") == "image":
+                    url = link["href"]
+                    print(f"      NASA image: {url[:60]}")
+                    return url
+    except Exception as e:
+        print(f"      NASA image error: {e}")
+    return None
 
 
 # --- History ------------------------------------------------------------------
@@ -728,9 +807,21 @@ def run_agent():
     print("=" * 55)
 
     all_news = []
-    for topic in NEWS_TOPICS:
-        results = fetch_news(topic, max_results=3)
-        all_news.extend(results)
+
+    # Source 1: NASA APOD — stunning daily astronomy photo
+    apod = fetch_nasa_apod()
+    if apod:
+        all_news.append(apod)
+
+    # Source 2: Spaceflight News API — real-time space news
+    sf_news = fetch_spaceflight_news(max_results=6)
+    all_news.extend(sf_news)
+
+    # Source 3: DuckDuckGo fallback (ISRO + regional space news)
+    if len(all_news) < 4:
+        for topic in NEWS_TOPICS[:3]:
+            results = fetch_news(topic, max_results=2)
+            all_news.extend(results)
 
     all_news = [n for n in all_news if n.get("image")]
     print(f"      Image wali news: {len(all_news)}")

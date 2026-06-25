@@ -36,6 +36,7 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           SPACE_APP_ID: ${{ secrets.SPACE_APP_ID }}
           SPACE_APP_SECRET: ${{ secrets.SPACE_APP_SECRET }}
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python agent.py
