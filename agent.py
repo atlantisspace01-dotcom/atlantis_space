@@ -659,6 +659,8 @@ def save_posted_title(title: str) -> None:
             cwd=repo_dir, capture_output=True
         )
         if result.returncode == 0:
+            subprocess.run(["git", "pull", "--rebase", "origin", "main"],
+                           cwd=repo_dir, capture_output=True)
             subprocess.run(["git", "push"], cwd=repo_dir)
     except Exception as e:
         print(f"      History save error: {e}")
