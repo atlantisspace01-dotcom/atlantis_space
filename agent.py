@@ -44,8 +44,20 @@ CHANNEL_HANDLE  = "@atlantis_space"
 POST_DELAY      = 45   # seconds between posts in same run
 CAROUSEL_SLIDES = 2    # 2 posts per run × 5 runs = 10 posts/day
 
-LOGO_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "atlantis_space.png")
-HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "posted_history.json")
+LOGO_PATH        = os.path.join(os.path.dirname(os.path.abspath(__file__)), "atlantis_space.png")
+HISTORY_FILE     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "posted_history.json")
+YT_HISTORY_FILE  = os.path.join(os.path.dirname(os.path.abspath(__file__)), "youtube_history.json")
+
+# YouTube config (only active when YOUTUBE_ONLY=true or YT creds present)
+YOUTUBE_CLIENT_ID     = os.getenv("YOUTUBE_CLIENT_ID", "")
+YOUTUBE_CLIENT_SECRET = os.getenv("YOUTUBE_CLIENT_SECRET", "")
+YOUTUBE_REFRESH_TOKEN = os.getenv("YOUTUBE_REFRESH_TOKEN", "")
+YOUTUBE_ONLY          = os.getenv("YOUTUBE_ONLY", "false").lower() == "true"
+
+# YouTube-only mode overrides
+if YOUTUBE_ONLY:
+    HISTORY_FILE    = YT_HISTORY_FILE   # separate duplicate tracking
+    CAROUSEL_SLIDES = 3                 # 3 Shorts/run × 6 runs = 18 Shorts/day
 
 SPACE_DISCOVERY_TOPICS = [
     "ISRO India space mission launch 2025",
@@ -628,6 +640,110 @@ def fetch_wikimedia_space_image(keyword: str) -> str | None:
                 return url
     except Exception as e:
         print(f"      Wikimedia error: {e}")
+    return None
+
+
+# --- YouTube Shorts Upload ---------------------------------------------------
+
+def get_youtube_token() -> str | None:
+    """OAuth refresh token se YouTube access token lo"""
+    if not all([YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN]):
+        return None
+    try:
+        resp = requests.post(
+            "https://oauth2.googleapis.com/token",
+            data={
+                "client_id":     YOUTUBE_CLIENT_ID,
+                "client_secret": YOUTUBE_CLIENT_SECRET,
+                "refresh_token": YOUTUBE_REFRESH_TOKEN,
+                "grant_type":    "refresh_token"
+            },
+            timeout=15
+        )
+        token = resp.json().get("access_token")
+        if token:
+            print(f"      YouTube token OK")
+        else:
+            print(f"      YouTube token error: {resp.json().get('error_description', resp.text[:100])}")
+        return token
+    except Exception as e:
+        print(f"      YouTube token error: {e}")
+    return None
+
+
+def upload_youtube_short(video_path: str, title: str, description: str) -> str | None:
+    """YouTube Shorts pe upload karo via YouTube Data API v3 (resumable upload)"""
+    token = get_youtube_token()
+    if not token:
+        return None
+    try:
+        video_size  = os.path.getsize(video_path)
+        short_title = (title[:90] + " #Shorts") if len(title) <= 90 else (title[:87] + "... #Shorts")
+        date_str    = datetime.now().strftime("%d %b %Y")
+        body = {
+            "snippet": {
+                "title":       short_title,
+                "description": (
+                    f"{description}\n\n"
+                    f"━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                    f"🚀 Atlantis Space — Space exploration in Hindi\n"
+                    f"Subscribe for daily space Shorts!\n\n"
+                    f"📅 {date_str}\n"
+                    f"© Sources: NASA, JWST, ESA, ISRO (Public Domain / Free Use)\n"
+                    f"━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+                    f"#Space #NASA #Astronomy #Shorts #AtlantisSpace #ISRO "
+                    f"#SpaceShorts #Universe #ScienceShorts #SpaceExploration"
+                ),
+                "tags": [
+                    "Space", "NASA", "Astronomy", "Shorts", "AtlantisSpace",
+                    "ISRO", "ScienceShorts", "SpaceShorts", "SpaceExploration",
+                    "Universe", "JWST", "Mars", "Rocket", "ISS", "HindiScience"
+                ],
+                "categoryId":         "28",   # Science & Technology
+                "defaultLanguage":    "hi",
+                "defaultAudioLanguage": "hi"
+            },
+            "status": {
+                "privacyStatus":             "public",
+                "selfDeclaredMadeForKids":   False,
+                "madeForKids":               False
+            }
+        }
+        # Step 1: Init resumable upload session
+        init_resp = requests.post(
+            "https://www.googleapis.com/upload/youtube/v3/videos"
+            "?uploadType=resumable&part=snippet,status",
+            headers={
+                "Authorization":          f"Bearer {token}",
+                "Content-Type":           "application/json",
+                "X-Upload-Content-Type":  "video/mp4",
+                "X-Upload-Content-Length": str(video_size)
+            },
+            json=body,
+            timeout=30
+        )
+        upload_url = init_resp.headers.get("Location")
+        if not upload_url:
+            print(f"      YouTube init error: {init_resp.text[:200]}")
+            return None
+
+        # Step 2: Upload video bytes
+        size_mb = video_size // 1024 // 1024
+        print(f"      YouTube upload ({size_mb}MB)...")
+        with open(video_path, "rb") as f:
+            up_resp = requests.put(
+                upload_url,
+                headers={"Content-Type": "video/mp4", "Content-Length": str(video_size)},
+                data=f,
+                timeout=300
+            )
+        video_id = up_resp.json().get("id")
+        if video_id:
+            print(f"      YouTube Short live: https://youtube.com/shorts/{video_id}")
+            return video_id
+        print(f"      YouTube error: {up_resp.text[:200]}")
+    except Exception as e:
+        print(f"      YouTube upload error: {e}")
     return None
 
 
@@ -1761,7 +1877,8 @@ def post_reel(video_url: str, caption: str) -> str | None:
 
 
 def auto_first_comment(media_id: str, hashtags: str) -> None:
-    if not INSTAGRAM_TOKEN or media_id == "dry_run" or not hashtags:
+    if not INSTAGRAM_TOKEN or media_id in ("dry_run",) or not hashtags \
+            or (media_id or "").startswith("yt_"):
         return
     for attempt in range(3):
         try:
@@ -1953,16 +2070,30 @@ def run_agent():
                 try: os.remove(video_path)
                 except: pass
                 if reel_path:
-                    video_url = upload_video_github(reel_path)
+                    # YouTube Shorts — upload from local file BEFORE deleting
+                    yt_id = None
+                    if YOUTUBE_CLIENT_ID and YOUTUBE_CLIENT_SECRET and YOUTUBE_REFRESH_TOKEN:
+                        yt_id = upload_youtube_short(reel_path, headline, caption)
+
+                    # Instagram Reel — upload to GitHub Release for public URL
+                    if not YOUTUBE_ONLY:
+                        video_url = upload_video_github(reel_path)
                     try: os.remove(reel_path)
                     except: pass
-                    if video_url:
-                        media_id = post_reel(video_url, caption)
-            if not media_id:
-                print("      Reel fail — photo post pe fallback")
 
-        # Photo post (Reel fail ya remaining news)
-        if not media_id:
+                    if not YOUTUBE_ONLY and video_url:
+                        media_id = post_reel(video_url, caption)
+                    elif yt_id:
+                        media_id = f"yt_{yt_id}"   # mark success for history tracking
+
+            if not media_id:
+                if YOUTUBE_ONLY:
+                    print("      Reel fail — skipping (YouTube-only mode, no photo fallback)")
+                else:
+                    print("      Reel fail — photo post pe fallback")
+
+        # Photo post (Reel fail ya remaining news) — skip in YouTube-only mode
+        if not media_id and not YOUTUBE_ONLY:
             img_url = add_watermark(
                 news.get("image"),
                 title=headline,
