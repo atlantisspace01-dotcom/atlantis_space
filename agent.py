@@ -652,15 +652,9 @@ def save_posted_title(title: str) -> None:
             json.dump({"titles": titles, "updated": datetime.now().isoformat()},
                       f, ensure_ascii=False, indent=2)
         import subprocess
-        repo_dir = os.path.dirname(os.path.abspath(__file__))  # atlantis_space/ IS the git root
-        gh_pat = (os.getenv("GH_PAT") or "").strip()
-        repo   = os.getenv("GITHUB_REPOSITORY", "atlantisspace01-dotcom/atlantis_space")
-        subprocess.run(["git", "config", "--global", "--add", "safe.directory", repo_dir])
+        repo_dir = os.path.dirname(os.path.abspath(__file__))
         subprocess.run(["git", "config", "user.email", "bot@atlantisspace.ai"], cwd=repo_dir)
         subprocess.run(["git", "config", "user.name", "Atlantis Space Bot"], cwd=repo_dir)
-        if gh_pat:
-            remote_url = f"https://x-access-token:{gh_pat}@github.com/{repo}.git"
-            subprocess.run(["git", "remote", "set-url", "origin", remote_url], cwd=repo_dir)
         subprocess.run(["git", "add", "posted_history.json"], cwd=repo_dir)
         result = subprocess.run(
             ["git", "commit", "-m", "chore: update space posted history [skip ci]"],
