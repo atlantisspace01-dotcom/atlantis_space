@@ -1563,8 +1563,11 @@ STRICT RULES:
 - HEADLINE BILKUL MAT PADHO — woh screen pe already dikh raha hai
 - ~90-100 words likhoo — 30 second ke liye enough hoga
 - Actual facts, numbers, context do jo screen pe nahi dikh raha
-- Hinglish (Hindi + English mix), conversational
-- Real human narrator jaisa — "toh socho...", "yaar sun..."
+- Hinglish (Hindi + English mix), conversational documentary style
+- FORBIDDEN words/phrases: "yaar", "sun", "yaar sun", "bhai", "dosto"
+- Vary the opening — NEVER repeat same opener. Options: "Socho zaraa...", "Ye dekhna zaroori hai...", "Is pal ko samjho...", "Ek baat batao...", "Space ki ye sachai..."
+- "..." use karo dramatic pause ke liye — TTS naturally pause karta hai
+- Chhoti punchy sentences = strong impact. Example: "Distance? 40 lakh kilometer. Speed? 28,000 km per ghante."
 - Sirf bolne wala text — koi heading, bullet, asterisk nahi
 
 Script:"""}]
@@ -1582,31 +1585,63 @@ Script:"""}]
 
 
 def generate_tts(text: str, out_path: str) -> bool:
-    """Edge TTS — Microsoft Neural Hindi voice (human-like). Fallback: gTTS."""
-    # Try Edge TTS first — hi-IN-SwaraNeural sounds very natural
+    """Edge TTS — improved Hindi neural voice with audio normalization."""
+    import re as _re
+    import subprocess as _sp
+
+    # Clean text — normalize ellipsis for natural TTS pauses
+    clean = _re.sub(r'\.{2,}', '... ', text)
+    clean = _re.sub(r'\s+', ' ', clean).strip()
+
+    # Voice priority list: Madhur (male, documentary) → Swara (female) → gTTS
+    voices = [
+        # (voice_name, rate, pitch, volume)
+        ("hi-IN-MadhurNeural", "-8%",  "+0Hz", "+20%"),   # male, clear & authoritative
+        ("hi-IN-SwaraNeural",  "-5%",  "+3Hz", "+20%"),   # female fallback
+    ]
+
     try:
         import asyncio
         import edge_tts
 
-        async def _speak():
-            communicate = edge_tts.Communicate(text, voice="hi-IN-SwaraNeural",
-                                               rate="+5%", volume="+10%")
-            await communicate.save(out_path)
+        for voice, rate, pitch, volume in voices:
+            try:
+                async def _speak(v=voice, r=rate, p=pitch, vol=volume):
+                    comm = edge_tts.Communicate(clean, voice=v,
+                                                rate=r, pitch=p, volume=vol)
+                    await comm.save(out_path)
 
-        asyncio.run(_speak())
-        if os.path.exists(out_path) and os.path.getsize(out_path) > 1000:
-            print(f"      Edge TTS (Neural) ready")
-            return True
+                asyncio.run(_speak())
+                if not (os.path.exists(out_path) and os.path.getsize(out_path) > 1000):
+                    continue
+
+                # Audio normalization — consistent loudness, cleaner sound
+                norm_path = out_path.replace(".mp3", "_norm.mp3")
+                norm = _sp.run([
+                    "ffmpeg", "-y", "-i", out_path,
+                    "-af", "loudnorm=I=-14:TP=-1.5:LRA=7,highpass=f=80",
+                    norm_path
+                ], capture_output=True, timeout=30)
+                if norm.returncode == 0 and os.path.exists(norm_path):
+                    os.replace(norm_path, out_path)
+
+                print(f"      Edge TTS ({voice}) ready")
+                return True
+            except Exception as ve:
+                print(f"      {voice} error: {ve}")
+                continue
+
     except Exception as e:
-        print(f"      Edge TTS error: {e} — falling back to gTTS")
+        print(f"      Edge TTS error: {e}")
 
-    # Fallback: gTTS
+    # Final fallback: gTTS
     try:
         from gtts import gTTS
-        gTTS(text=text, lang="hi", slow=False).save(out_path)
+        gTTS(text=clean, lang="hi", slow=False).save(out_path)
+        print(f"      gTTS fallback ready")
         return os.path.exists(out_path) and os.path.getsize(out_path) > 0
     except Exception as e2:
-        print(f"      gTTS fallback error: {e2}")
+        print(f"      gTTS error: {e2}")
         return False
 
 
