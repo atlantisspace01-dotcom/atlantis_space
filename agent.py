@@ -488,6 +488,215 @@ def post_to_instagram(image_url: str, caption: str) -> str | None:
         return None
 
 
+# --- Reel Pipeline -----------------------------------------------------------
+def fetch_space_video(keyword: str) -> str | None:
+    """Pexels se space stock video download karo — portrait MP4"""
+    if not PEXELS_API_KEY:
+        return None
+    try:
+        headers = {"Authorization": PEXELS_API_KEY}
+        resp = requests.get(
+            f"https://api.pexels.com/videos/search?query={keyword} space&per_page=8&orientation=portrait",
+            headers=headers, timeout=10
+        )
+        videos = resp.json().get("videos", [])
+        for video in videos:
+            for vf in video.get("video_files", []):
+                if vf.get("file_type") == "video/mp4" and vf.get("height", 0) >= 720:
+                    url = vf["link"]
+                    print(f"      Pexels space video mili: {url[:60]}")
+                    r = requests.get(url, timeout=90, stream=True)
+                    path = os.path.join(tempfile.gettempdir(), f"space_vid_{int(time.time())}.mp4")
+                    with open(path, "wb") as f:
+                        for chunk in r.iter_content(8192):
+                            f.write(chunk)
+                    size_mb = os.path.getsize(path) // 1024 // 1024
+                    print(f"      Downloaded: {size_mb}MB")
+                    return path
+    except Exception as e:
+        print(f"      Space video error: {e}")
+    return None
+
+
+def generate_tts(text: str, out_path: str) -> bool:
+    try:
+        from gtts import gTTS
+        gTTS(text=text, lang="hi", slow=False).save(out_path)
+        return os.path.exists(out_path) and os.path.getsize(out_path) > 0
+    except Exception as e:
+        print(f"      TTS error: {e}")
+        return False
+
+
+def process_reel(video_path: str, headline: str, summary: str) -> str | None:
+    """Space video ko Reel format mein convert karo — text overlay + TTS audio"""
+    import subprocess
+    try:
+        ts          = int(time.time())
+        tmp         = tempfile.gettempdir()
+        base_path   = os.path.join(tmp, f"rbase_{ts}.mp4")
+        overlay_png = os.path.join(tmp, f"rovl_{ts}.png")
+        audio_path  = os.path.join(tmp, f"rtts_{ts}.mp3")
+        out_path    = os.path.join(tmp, f"reel_{ts}.mp4")
+
+        # Step 1: 9:16 crop + resize to 720x1280, trim to 30s
+        crop = subprocess.run([
+            "ffmpeg", "-y", "-i", video_path,
+            "-t", "30",
+            "-vf", "crop=ih*9/16:ih:(iw-ih*9/16)/2:0,scale=720:1280",
+            "-c:v", "libx264", "-an", "-preset", "fast", "-crf", "28",
+            base_path
+        ], capture_output=True, timeout=120)
+
+        if crop.returncode != 0 or not os.path.exists(base_path):
+            print(f"      Crop fail: {crop.stderr[-100:].decode(errors='ignore')}")
+            return None
+
+        # Step 2: Pillow overlay PNG — dark bar at bottom with text
+        overlay = Image.new("RGBA", (720, 320), (0, 0, 0, 0))
+        ov_draw = ImageDraw.Draw(overlay)
+        ov_draw.rectangle([0, 0, 720, 320], fill=(0, 0, 0, 195))
+        # Accent line
+        ov_draw.rectangle([0, 0, 720, 6], fill=(80, 180, 255, 255))
+        ov_draw.text((20, 18), headline[:50],  font=get_font(46), fill=(255, 255, 255, 255))
+        ov_draw.text((20, 78), summary[:90],   font=get_font(28), fill=(210, 230, 255, 245))
+        date_str = datetime.now().strftime("%d %b %Y")
+        ov_draw.text((20, 282), f"{CHANNEL_HANDLE}  •  {date_str}",
+                     font=get_font(24), fill=(140, 180, 230, 220))
+        overlay.save(overlay_png, "PNG")
+
+        # Step 3: TTS
+        tts_text = f"{headline}. {summary}"
+        has_audio = generate_tts(tts_text, audio_path)
+
+        # Step 4: FFmpeg combine
+        if has_audio:
+            result = subprocess.run([
+                "ffmpeg", "-y",
+                "-i", base_path, "-i", overlay_png, "-i", audio_path,
+                "-filter_complex",
+                "[0:v][1:v]overlay=0:H-320[vout];[2:a]volume=1.5,atrim=0:30[aout]",
+                "-map", "[vout]", "-map", "[aout]",
+                "-c:v", "libx264", "-c:a", "aac",
+                "-shortest", "-preset", "fast", "-crf", "28", out_path
+            ], capture_output=True, timeout=120)
+        else:
+            result = subprocess.run([
+                "ffmpeg", "-y",
+                "-i", base_path, "-i", overlay_png,
+                "-filter_complex", "[0:v][1:v]overlay=0:H-320[out]",
+                "-map", "[out]", "-c:v", "libx264",
+                "-preset", "fast", "-crf", "28", out_path
+            ], capture_output=True, timeout=120)
+
+        for p in [base_path, overlay_png, audio_path]:
+            try: os.remove(p)
+            except: pass
+
+        if result.returncode == 0 and os.path.exists(out_path):
+            size_mb = os.path.getsize(out_path) // 1024 // 1024
+            print(f"      Reel ready: {size_mb}MB {'(with audio)' if has_audio else ''}")
+            return out_path
+        print(f"      FFmpeg error: {result.stderr[-150:].decode(errors='ignore')}")
+    except Exception as e:
+        print(f"      Reel process error: {e}")
+    return None
+
+
+def upload_video_github(video_path: str) -> str | None:
+    """Reel video GitHub Release pe upload karo — public URL milegi"""
+    gh_token = os.getenv("GH_PAT") or os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPOSITORY")
+    if not gh_token or not repo:
+        return None
+    headers = {
+        "Authorization": f"token {gh_token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+    filename = f"space_reel_{int(time.time())}.mp4"
+    try:
+        releases = requests.get(
+            f"https://api.github.com/repos/{repo}/releases",
+            headers=headers, timeout=10
+        ).json()
+        upload_url = None
+        for rel in (releases if isinstance(releases, list) else []):
+            if rel.get("tag_name") == "media-assets":
+                upload_url = rel["upload_url"].split("{")[0]
+                break
+        if not upload_url:
+            create = requests.post(
+                f"https://api.github.com/repos/{repo}/releases",
+                headers=headers,
+                json={"tag_name": "media-assets", "name": "Media Assets",
+                      "draft": False, "body": "Auto-generated space reels"},
+                timeout=10
+            ).json()
+            upload_url = create.get("upload_url", "").split("{")[0]
+        if not upload_url:
+            return None
+        size_mb = os.path.getsize(video_path) // 1024 // 1024
+        print(f"      GitHub upload ({size_mb}MB)...")
+        with open(video_path, "rb") as f:
+            up = requests.post(
+                f"{upload_url}?name={filename}",
+                headers={**headers, "Content-Type": "video/mp4"},
+                data=f, timeout=300
+            ).json()
+        url = up.get("browser_download_url", "")
+        if url:
+            print(f"      Video URL: {url[:80]}")
+            return url
+    except Exception as e:
+        print(f"      GitHub upload error: {e}")
+    return None
+
+
+def post_reel(video_url: str, caption: str) -> str | None:
+    """Instagram Reels API se post karo"""
+    print(f"\n[Reel] Instagram pe post kar raha hoon...")
+    if not INSTAGRAM_TOKEN or not INSTAGRAM_ACCOUNT_ID:
+        return "dry_run"
+    try:
+        resp = requests.post(
+            f"https://graph.facebook.com/v25.0/{INSTAGRAM_ACCOUNT_ID}/media",
+            data={"video_url": video_url, "caption": caption,
+                  "media_type": "REELS", "access_token": INSTAGRAM_TOKEN},
+            timeout=20
+        )
+        container_id = resp.json().get("id")
+        if not container_id:
+            print(f"      Reel container error: {resp.json()}")
+            return None
+        # Wait for processing (max 90s)
+        for _ in range(12):
+            time.sleep(8)
+            status = requests.get(
+                f"https://graph.facebook.com/v25.0/{container_id}",
+                params={"fields": "status_code", "access_token": INSTAGRAM_TOKEN},
+                timeout=10
+            ).json()
+            code = status.get("status_code", "")
+            print(f"      Reel status: {code}")
+            if code == "FINISHED":
+                break
+            if code == "ERROR":
+                return None
+        pub = requests.post(
+            f"https://graph.facebook.com/v25.0/{INSTAGRAM_ACCOUNT_ID}/media_publish",
+            data={"creation_id": container_id, "access_token": INSTAGRAM_TOKEN},
+            timeout=15
+        )
+        media_id = pub.json().get("id")
+        if media_id:
+            print(f"      Reel posted! ID: {media_id}")
+            return media_id
+        print(f"      Reel publish error: {pub.json()}")
+    except Exception as e:
+        print(f"      Reel error: {e}")
+    return None
+
+
 def auto_first_comment(media_id: str, hashtags: str) -> None:
     if not INSTAGRAM_TOKEN or media_id == "dry_run" or not hashtags:
         return
@@ -541,26 +750,51 @@ def run_agent():
     news_list = smart_plan(all_news, count=CAROUSEL_SLIDES)
     posted = 0
 
-    for news in news_list:
+    for i, news in enumerate(news_list):
         print(f"\n{'-'*50}")
         print(f"News: {news.get('title', '')[:70]}...")
 
         content = generate_caption(news)
+        headline = content.get("headline") or news.get("title", "")
+        summary  = content.get("image_summary", "")
+        hashtags = content.get("hashtags", "#Space #ISRO #NASA #Astronomy")
+        caption  = content.get("caption", "")
 
-        img_url = add_watermark(
-            news.get("image"),
-            title=content.get("headline") or news.get("title", ""),
-            source=news.get("source", ""),
-            summary=content.get("image_summary", "")
-        )
-        if not img_url:
-            continue
+        media_id = None
 
-        media_id = post_to_instagram(img_url, content.get("caption", ""))
+        # First news → Reel, baaki → Photo post
+        if i == 0:
+            print("      [Reel mode] Space video dhund raha hoon...")
+            keyword = content.get("image_keyword", "space astronomy")
+            video_path = fetch_space_video(keyword)
+            if video_path:
+                reel_path = process_reel(video_path, headline, summary)
+                try: os.remove(video_path)
+                except: pass
+                if reel_path:
+                    video_url = upload_video_github(reel_path)
+                    try: os.remove(reel_path)
+                    except: pass
+                    if video_url:
+                        media_id = post_reel(video_url, caption)
+            if not media_id:
+                print("      Reel fail — photo post pe fallback")
+
+        # Photo post (Reel fail ya remaining news)
+        if not media_id:
+            img_url = add_watermark(
+                news.get("image"),
+                title=headline,
+                source=news.get("source", ""),
+                summary=summary
+            )
+            if img_url:
+                media_id = post_to_instagram(img_url, caption)
+
         if media_id:
             save_posted_title(news.get("title", ""))
             time.sleep(8)
-            auto_first_comment(media_id, content.get("hashtags", "#Space #ISRO #NASA"))
+            auto_first_comment(media_id, hashtags)
             print(f"      Post ho gaya!")
             posted += 1
             time.sleep(POST_DELAY)
