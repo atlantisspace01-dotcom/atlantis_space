@@ -47,12 +47,12 @@ CAROUSEL_SLIDES = 3
 LOGO_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "atlantis_space_logo.png")
 HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "posted_history.json")
 
-NEWS_TOPICS = [
-    "NASA space discovery news today",
-    "ISRO India space mission launch today",
-    "astronomy exoplanet black hole telescope news today",
-    "SpaceX rocket launch space news today",
-    "space science Mars Moon solar system news today",
+SPACE_DISCOVERY_TOPICS = [
+    "ISRO India space mission launch 2025",
+    "Mars Moon Jupiter solar system discovery",
+    "black hole nebula galaxy telescope image",
+    "astronaut ISS space station update",
+    "asteroid comet solar flare space event",
 ]
 
 
@@ -282,6 +282,195 @@ def fetch_spacedevs_launches() -> list[dict]:
     return []
 
 
+# --- More Free Space APIs -----------------------------------------------------
+
+def fetch_spacex_launches() -> list[dict]:
+    """SpaceX Community API — upcoming + recent launches (no key needed)"""
+    news = []
+    try:
+        # Upcoming launches
+        resp = requests.get("https://api.spacexdata.com/v4/launches/upcoming",
+                            timeout=10)
+        launches = resp.json()[:3]
+        for l in launches:
+            name    = l.get("name", "")
+            date_unix = l.get("date_unix", 0)
+            details = l.get("details") or f"SpaceX ka {name} mission launch hone wala hai."
+            patch   = l.get("links", {}).get("patch", {}).get("large") or \
+                      l.get("links", {}).get("patch", {}).get("small")
+            if not patch:
+                continue
+            from datetime import datetime as dt
+            date_str = dt.utcfromtimestamp(date_unix).strftime("%d %b %Y") if date_unix else "Soon"
+            news.append({
+                "title": f"SpaceX Launch: {name} — {date_str}",
+                "body": details[:400],
+                "image": patch,
+                "source": "SpaceX",
+                "date": dt.utcfromtimestamp(date_unix).isoformat() if date_unix else ""
+            })
+        print(f"      SpaceX upcoming: {len(news)}")
+    except Exception as e:
+        print(f"      SpaceX error: {e}")
+    return news
+
+
+def fetch_iss_update() -> dict | None:
+    """Open-Notify — ISS realtime location + astronauts in space"""
+    try:
+        astros = requests.get("http://api.open-notify.org/astros.json", timeout=8).json()
+        people = astros.get("people", [])
+        iss_crew = [p["name"] for p in people if p.get("craft") == "ISS"]
+        total = astros.get("number", len(people))
+
+        # ISS current location
+        loc = requests.get("http://api.open-notify.org/iss-now.json", timeout=8).json()
+        lat = loc.get("iss_position", {}).get("latitude", "?")
+        lon = loc.get("iss_position", {}).get("longitude", "?")
+
+        crew_str = ", ".join(iss_crew[:4]) if iss_crew else "International crew"
+        body = (f"Abhi {total} astronauts space mein hain. ISS pe {len(iss_crew)} log hain: {crew_str}. "
+                f"ISS ka current location: {float(lat):.1f}°N, {float(lon):.1f}°E.")
+
+        return {
+            "title": f"{total} Astronauts Abhi Space Mein Hain — ISS Live Update",
+            "body": body,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/International_Space_Station_after_undocking_of_STS-132.jpg/1280px-International_Space_Station_after_undocking_of_STS-132.jpg",
+            "source": "Open-Notify / NASA",
+            "date": datetime.now().isoformat()
+        }
+    except Exception as e:
+        print(f"      ISS update error: {e}")
+    return None
+
+
+def fetch_mars_photos() -> dict | None:
+    """NASA Mars Rover (Curiosity/Perseverance) — latest photos from Mars"""
+    try:
+        for rover in ["perseverance", "curiosity"]:
+            resp = requests.get(
+                f"https://api.nasa.gov/mars-photos/api/v1/rovers/{rover}/latest_photos",
+                params={"api_key": NASA_API_KEY or "DEMO_KEY", "page": 1},
+                timeout=10
+            )
+            photos = resp.json().get("latest_photos", [])
+            if photos:
+                photo = photos[0]
+                sol   = photo.get("sol", "?")
+                cam   = photo.get("camera", {}).get("full_name", "Camera")
+                img   = photo.get("img_src", "")
+                earth_date = photo.get("earth_date", "")
+                rover_name = photo.get("rover", {}).get("name", rover.title())
+                return {
+                    "title": f"{rover_name} Ne Mars Pe Nayi Tasveer Li — Sol {sol}",
+                    "body": f"NASA ka {rover_name} rover ne {earth_date} ko {cam} se Mars ki surface ki nayi photo capture ki. Sol {sol} — ye Mars ka {sol}va din hai mission shuru hone ke baad.",
+                    "image": img,
+                    "source": f"NASA {rover_name}",
+                    "date": earth_date
+                }
+    except Exception as e:
+        print(f"      Mars photos error: {e}")
+    return None
+
+
+def fetch_nasa_asteroids() -> dict | None:
+    """NASA NeoWs — Near Earth Objects / asteroids passing by Earth"""
+    try:
+        today = datetime.now().strftime("%Y-%m-%d")
+        resp = requests.get(
+            "https://api.nasa.gov/neo/rest/v1/feed",
+            params={"start_date": today, "end_date": today,
+                    "api_key": NASA_API_KEY or "DEMO_KEY"},
+            timeout=10
+        )
+        data = resp.json()
+        neos = data.get("near_earth_objects", {}).get(today, [])
+        if not neos:
+            return None
+        # Largest asteroid today
+        neo = max(neos, key=lambda x: x.get("estimated_diameter", {})
+                  .get("kilometers", {}).get("estimated_diameter_max", 0))
+        name = neo.get("name", "Unknown")
+        diam = neo.get("estimated_diameter", {}).get("meters", {})
+        size = f"{diam.get('estimated_diameter_min', 0):.0f}-{diam.get('estimated_diameter_max', 0):.0f}m"
+        hazardous = neo.get("is_potentially_hazardous_asteroid", False)
+        approach = neo.get("close_approach_data", [{}])[0]
+        distance_km = float(approach.get("miss_distance", {}).get("kilometers", 0))
+        velocity = float(approach.get("relative_velocity", {}).get("kilometers_per_hour", 0))
+        hazard_text = "⚠️ Potentially hazardous!" if hazardous else "Safe passage."
+        return {
+            "title": f"Asteroid {name} Aaj Earth Ke Paas Se Guzrega — {size}",
+            "body": f"NASA ne track kiya: Asteroid {name} ({size}) aaj Earth se {distance_km:,.0f} km door se guzrega. Speed: {velocity:,.0f} km/h. {hazard_text}",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PIA17041_modest.jpg/1280px-PIA17041_modest.jpg",
+            "source": "NASA NeoWs",
+            "date": today
+        }
+    except Exception as e:
+        print(f"      Asteroids error: {e}")
+    return None
+
+
+def fetch_nasa_epic() -> dict | None:
+    """NASA EPIC — Earth Polychromatic Imaging Camera (beautiful Earth photos from space)"""
+    try:
+        resp = requests.get(
+            "https://api.nasa.gov/EPIC/api/natural",
+            params={"api_key": NASA_API_KEY or "DEMO_KEY"},
+            timeout=10
+        )
+        images = resp.json()
+        if not images:
+            return None
+        img_data = images[0]
+        img_name = img_data.get("image", "")
+        date_str = img_data.get("date", "")[:10].replace("-", "/")
+        caption  = img_data.get("caption", "NASA EPIC camera se Earth ki photo")
+        img_url  = (f"https://epic.gsfc.nasa.gov/archive/natural/"
+                    f"{date_str}/png/{img_name}.png")
+        return {
+            "title": "NASA EPIC Camera Ne Space Se Earth Ki Tasveer Li",
+            "body": f"{caption}. NASA ka EPIC camera DSCOVR satellite par hai jo Earth se 15 lakh km door L1 orbit mein hai. Ye Earth ki poori disc ki real photo hai.",
+            "image": img_url,
+            "source": "NASA EPIC",
+            "date": img_data.get("date", "")[:10]
+        }
+    except Exception as e:
+        print(f"      NASA EPIC error: {e}")
+    return None
+
+
+def fetch_wikimedia_space_image(keyword: str) -> str | None:
+    """Wikimedia Commons se free high-quality space image"""
+    try:
+        resp = requests.get(
+            "https://commons.wikimedia.org/w/api.php",
+            params={
+                "action": "query", "list": "search", "format": "json",
+                "srsearch": f"{keyword} space high quality",
+                "srnamespace": "6", "srlimit": 5
+            }, timeout=10
+        )
+        results = resp.json().get("query", {}).get("search", [])
+        img_titles = [r["title"] for r in results
+                      if any(r["title"].lower().endswith(e) for e in [".jpg", ".jpeg", ".png"])]
+        if not img_titles:
+            return None
+        info = requests.get(
+            "https://commons.wikimedia.org/w/api.php",
+            params={"action": "query", "titles": img_titles[0],
+                    "prop": "imageinfo", "iiprop": "url", "format": "json"},
+            timeout=10
+        )
+        pages = info.json().get("query", {}).get("pages", {})
+        for page in pages.values():
+            url = page.get("imageinfo", [{}])[0].get("url", "")
+            if url:
+                return url
+    except Exception as e:
+        print(f"      Wikimedia error: {e}")
+    return None
+
+
 # --- History ------------------------------------------------------------------
 def load_posted_history() -> set:
     try:
@@ -350,10 +539,10 @@ def is_duplicate(news_title: str, recent_titles: set) -> bool:
 
 # --- AI Planning --------------------------------------------------------------
 def smart_plan(all_news: list[dict], count: int = CAROUSEL_SLIDES) -> list[dict]:
-    print(f"\n[AI] {len(all_news)} space news analyze kar raha hoon...")
+    print(f"\n[AI] {len(all_news)} space items analyze kar raha hoon...")
     news_list_str = "\n".join([
         f"{i+1}. [{n.get('source','')}] {n.get('title','')[:100]}"
-        for i, n in enumerate(all_news[:10])
+        for i, n in enumerate(all_news[:12])
     ])
     try:
         client = Groq(api_key=GROQ_API_KEY)
@@ -361,20 +550,22 @@ def smart_plan(all_news: list[dict], count: int = CAROUSEL_SLIDES) -> list[dict]
             model="llama-3.3-70b-versatile",
             max_tokens=500,
             messages=[{"role": "user", "content": f"""
-Ye space/astronomy news headlines hain. Importance score do (1-10):
-- 9-10: Major discovery, mission launch, historic event (moon landing type)
-- 7-8: Significant finding, new data, upcoming mission
-- 5-6: Minor update, conference announcement
-- 1-4: Rumor, unverified, stale
+Ye space/astronomy content hai. Visual aur wow-factor score do (1-10):
+- 9-10: Stunning visual (Mars photo, APOD, Earth from space, asteroid close pass)
+- 7-8: Exciting event (rocket launch, ISS update, new discovery)
+- 5-6: Informative but less visual (news article, conference)
+- 1-4: Boring, no visual, unrelated
+
+Priority: NASA APOD > Mars photos > ISS live > Asteroid > EPIC Earth > Launches > Articles
 
 {news_list_str}
 
-TOP {count} choose karo (score 6+). JSON:
+TOP {count} choose karo. JSON:
 {{
   "plan": [
-    {{"index": 0, "importance": 9, "reason": "why"}}
+    {{"index": 0, "wow_score": 9, "reason": "why this is visually stunning"}}
   ],
-  "strategy": "one line strategy"
+  "strategy": "one line content strategy"
 }}"""}],
             response_format={"type": "json_object"}
         )
@@ -385,7 +576,7 @@ TOP {count} choose karo (score 6+). JSON:
             idx = item.get("index", 0)
             if 0 <= idx < len(all_news):
                 news = all_news[idx].copy()
-                news["_importance"] = item.get("importance", 7)
+                news["_wow_score"] = item.get("wow_score", 7)
                 planned.append(news)
         return planned[:count] if planned else all_news[:count]
     except Exception as e:
@@ -399,26 +590,30 @@ def generate_caption(news_item: dict) -> dict:
     client = Groq(api_key=GROQ_API_KEY)
 
     prompt = f"""
-Tu ek Instagram space science page ka content writer hai — channel: {CHANNEL_HANDLE}
+Tu {CHANNEL_HANDLE} ka Instagram content creator hai — ye ek SPACE EXPLORATION channel hai, news channel nahi.
 
-News Title: {news_item.get('title', '')}
-News Body: {news_item.get('body', '')[:500]}
+Content:
+Title: {news_item.get('title', '')}
+Description: {news_item.get('body', '')[:500]}
 Source: {news_item.get('source', '')}
 
-FACT ACCURACY RULE: Sirf wahi facts likho jo upar clearly likhe hain — kuch add mat karo.
+FACT ACCURACY: Sirf provided facts use karo — kuch invent mat karo.
 
-Caption rules:
-- YE EK PHOTO POST HAI — "video", "reel", "clip" mat likho
-- Hinglish mein likho (Hindi + English mix)
-- Space ke baare mein wonder/awe create karo — "Socho zaraa...", "Ye toh kamaal hai!"
-- 6-8 lines, scientific but accessible language
-- End mein thought-provoking question
-- CAPTION MEIN KOI HASHTAG NAHI — sirf "hashtags" field mein
+TONE — SPACE EXPLORER, NOT NEWS REPORTER:
+- "Breaking news" jaisi language BILKUL NAHI
+- Wonder, curiosity, awe feel karwao — jaise koi space explorer baat kar raha ho
+- "Dekho ye Mars ki photo!", "Socho zaraa — ye asteroid Earth ke itna paas se guzra!", "Ye wala moment history mein darj ho gaya!"
+- Readers ko space se CONNECT karwao — unhe feel ho ki ye unki bhi duniya hai
+- Hindi+English mix (Hinglish), young Indian audience ke liye
+- 6-8 lines, educational but exciting — Carl Sagan wali curiosity
+- End mein ek mind-blowing question ya fact
+- YE PHOTO POST HAI — "video/reel/clip" mat likho
+- CAPTION MEIN HASHTAG NAHI — sirf "hashtags" field mein
 
 JSON:
 {{
-  "caption": "caption only, no hashtags",
-  "hashtags": "#Space #ISRO #NASA #Astronomy #SpaceScience #Cosmos #Universe #IndiaInSpace #SpaceExploration #ScienceNews #AstroNews #StarGazing #BlackHole #MarsExploration #SpaceTech (15-20 tags)",
+  "caption": "space explorer style caption, no hashtags",
+  "hashtags": "#Space #ISRO #NASA #Astronomy #SpaceScience #Cosmos #Universe #IndiaInSpace #SpaceExploration #MarsExploration #BlackHole #SpaceTech #ScienceIsAwesome #AtlantisSpace #Stargazing #RocketLaunch #AstroPhotography #SpaceLovers #NASAIndia #FutureOfSpace (20 tags)",
   "image_keyword": "2-3 word English description for image search",
   "emoji_title": "emoji + short title",
   "headline": "5-8 word Hinglish headline — SIRF confirmed facts, spelling 100% correct",
@@ -882,26 +1077,50 @@ def run_agent():
 
     all_news = []
 
-    # Source 1: NASA APOD — stunning daily astronomy photo
+    # Source 1: NASA APOD — stunning daily astronomy photo (highest priority)
     apod = fetch_nasa_apod()
     if apod:
-        all_news.append(apod)
+        all_news.insert(0, apod)
 
-    # Source 2: Spaceflight News API — real-time space news
-    sf_news = fetch_spaceflight_news(max_results=5)
-    all_news.extend(sf_news)
+    # Source 2: Mars Rover latest photos — actual Mars surface
+    mars = fetch_mars_photos()
+    if mars:
+        all_news.append(mars)
 
-    # Source 3: SpaceDevs — upcoming rocket launches
+    # Source 3: NASA EPIC — Earth from space (beautiful full-disc Earth)
+    epic = fetch_nasa_epic()
+    if epic:
+        all_news.append(epic)
+
+    # Source 4: ISS live update — astronauts in space right now
+    iss = fetch_iss_update()
+    if iss:
+        all_news.append(iss)
+
+    # Source 5: Asteroids passing Earth today
+    asteroids = fetch_nasa_asteroids()
+    if asteroids:
+        all_news.append(asteroids)
+
+    # Source 6: SpaceX upcoming launches
+    spacex = fetch_spacex_launches()
+    all_news.extend(spacex)
+
+    # Source 7: SpaceDevs — other agency launches
     launches = fetch_spacedevs_launches()
     all_news.extend(launches)
 
-    # Source 4: NASA EONET — Earth/space weather events
+    # Source 8: Spaceflight News API — space articles with images
+    sf_news = fetch_spaceflight_news(max_results=5)
+    all_news.extend(sf_news)
+
+    # Source 9: NASA EONET — Earth/space weather events
     eonet = fetch_nasa_eonet()
     all_news.extend(eonet)
 
-    # Source 5: DuckDuckGo fallback (ISRO + regional space news)
+    # Source 10: DuckDuckGo fallback (ISRO + regional space news) — last resort
     if len(all_news) < 4:
-        for topic in NEWS_TOPICS[:3]:
+        for topic in SPACE_DISCOVERY_TOPICS[:2]:
             results = fetch_news(topic, max_results=2)
             all_news.extend(results)
 
