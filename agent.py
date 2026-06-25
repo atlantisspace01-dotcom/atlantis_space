@@ -81,11 +81,11 @@ def get_font(size: int):
 
 def image_palette(img: Image.Image):
     sample = img.resize((80, 80), Image.LANCZOS).convert("RGB")
-    pixels = list(sample.getdata())
-    n = len(pixels)
-    avg_r = sum(p[0] for p in pixels) // n
-    avg_g = sum(p[1] for p in pixels) // n
-    avg_b = sum(p[2] for p in pixels) // n
+    raw = sample.tobytes()
+    n = 80 * 80
+    avg_r = sum(raw[0::3]) // n
+    avg_g = sum(raw[1::3]) // n
+    avg_b = sum(raw[2::3]) // n
     h, s, v = colorsys.rgb_to_hsv(avg_r / 255, avg_g / 255, avg_b / 255)
     accent = tuple(int(c * 255) for c in colorsys.hsv_to_rgb(h, min(s + 0.35, 1.0), 0.90))
     bar    = tuple(int(c * 255) for c in colorsys.hsv_to_rgb(h, min(s + 0.2, 0.85), 0.18))
@@ -870,7 +870,7 @@ def save_posted_title(title: str, image_url: str = "") -> None:
         if result.returncode == 0:
             subprocess.run(["git", "pull", "--rebase", "origin", "main"],
                            cwd=repo_dir, capture_output=True)
-            subprocess.run(["git", "push"], cwd=repo_dir)
+            subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=repo_dir)
         print(f"      History saved ({len(titles)} titles, {len(images)} images)")
     except Exception as e:
         print(f"      History save error: {e}")
@@ -1156,11 +1156,11 @@ def add_watermark(image_url: str, title: str = "", source: str = "", summary: st
         # Logo
         if os.path.exists(LOGO_PATH):
             logo = Image.open(LOGO_PATH).convert("RGBA")
-            pixels = list(logo.getdata())
-            logo.putdata([
-                (pr, pg, pb, 0) if pr > 220 and pg > 220 and pb > 220 else (pr, pg, pb, pa)
-                for pr, pg, pb, pa in pixels
-            ])
+            raw = bytearray(logo.tobytes())
+            for i in range(0, len(raw), 4):
+                if raw[i] > 220 and raw[i+1] > 220 and raw[i+2] > 220:
+                    raw[i+3] = 0
+            logo = Image.frombytes('RGBA', logo.size, bytes(raw))
             logo_w = int(1080 * 0.10)
             logo_h = int(logo.height * (logo_w / logo.width))
             logo = logo.resize((logo_w, logo_h), Image.LANCZOS)
@@ -1578,11 +1578,11 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
         if os.path.exists(LOGO_PATH):
             try:
                 logo_img = Image.open(LOGO_PATH).convert("RGBA")
-                px = list(logo_img.getdata())
-                logo_img.putdata([
-                    (r, g, b, 0) if r > 215 and g > 215 and b > 215 else (r, g, b, a)
-                    for r, g, b, a in px
-                ])
+                raw = bytearray(logo_img.tobytes())
+                for i in range(0, len(raw), 4):
+                    if raw[i] > 215 and raw[i+1] > 215 and raw[i+2] > 215:
+                        raw[i+3] = 0
+                logo_img = Image.frombytes('RGBA', logo_img.size, bytes(raw))
                 logo_w = 160                    # big, visible
                 logo_h = int(logo_img.height * (logo_w / logo_img.width))
                 logo_img = logo_img.resize((logo_w, logo_h), Image.LANCZOS)
