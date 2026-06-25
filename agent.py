@@ -653,8 +653,6 @@ def save_posted_title(title: str) -> None:
                       f, ensure_ascii=False, indent=2)
         import subprocess
         repo_dir = os.path.dirname(os.path.abspath(__file__))
-        subprocess.run(["git", "config", "user.email", "bot@atlantisspace.ai"], cwd=repo_dir)
-        subprocess.run(["git", "config", "user.name", "Atlantis Space Bot"], cwd=repo_dir)
         subprocess.run(["git", "add", "posted_history.json"], cwd=repo_dir)
         result = subprocess.run(
             ["git", "commit", "-m", "chore: update space posted history [skip ci]"],

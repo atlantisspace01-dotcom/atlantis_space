@@ -32,6 +32,12 @@ jobs:
       - name: Dependencies install
         run: pip install ddgs groq requests Pillow python-dotenv PyNaCl gtts
 
+      - name: Configure git auth
+        run: |
+          git config --global user.email "bot@atlantisspace.ai"
+          git config --global user.name "Atlantis Space Bot"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
+
       - name: Post space news
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
