@@ -44,7 +44,7 @@ CHANNEL_HANDLE  = "@atlantis_space"
 POST_DELAY      = 45   # seconds between posts in same run
 CAROUSEL_SLIDES = 2    # 2 posts per run × 5 runs = 10 posts/day
 
-LOGO_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "atlantis_space_logo.png")
+LOGO_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "atlantis_space.png")
 HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "posted_history.json")
 
 SPACE_DISCOVERY_TOPICS = [
