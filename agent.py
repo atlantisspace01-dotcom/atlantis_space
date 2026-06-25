@@ -1270,28 +1270,24 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
             print(f"      Crop fail: {crop.stderr[-200:].decode(errors='ignore')}")
             return None
 
-        # Step 2: Pillow overlay PNG — sized for 1080x1920
-        # Layout:
-        #   Logo: LEFT side (lx=30), top of overlay
-        #   Text: starts to RIGHT of logo (PAD_LEFT = logo_w + 20)
-        #   Right margin: 150px (Instagram action buttons safe zone)
-        OVH        = 500
-        LOGO_W_RL  = 80                          # logo width in reel
-        PAD_LEFT   = LOGO_W_RL + 50              # text starts after logo + 50px gap = 130px
-        PAD_RIGHT  = 150                         # right safe zone for Instagram buttons
-        MAX_W      = 1080 - PAD_LEFT - PAD_RIGHT # safe text width = 800px
-        font_head  = get_font(50)
-        font_body  = get_font(32)
-        font_foot  = get_font(26)
+        # Step 2: Full-frame overlay PNG (1080x1920) — logo top + text bar bottom
+        # This gives complete control over positioning
+        FRAME_W  = 1080
+        FRAME_H  = 1920
+        BAR_H    = 460    # bottom text bar height
+        PAD_LEFT = 40
+        PAD_RIGHT= 150    # right margin for Instagram action buttons
+        MAX_W    = FRAME_W - PAD_LEFT - PAD_RIGHT   # 890px safe text width
+        font_head = get_font(52)
+        font_body = get_font(33)
+        font_foot = get_font(27)
 
         def wrap_px(text, font, max_px, draw_obj):
-            """Word-wrap text to fit within max_px width."""
             words = text.split()
             lines, line = [], ""
             for word in words:
                 test = f"{line} {word}".strip()
-                w = draw_obj.textlength(test, font=font)
-                if w > max_px and line:
+                if draw_obj.textlength(test, font=font) > max_px and line:
                     lines.append(line)
                     line = word
                 else:
@@ -1300,58 +1296,59 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
                 lines.append(line)
             return lines
 
-        overlay = Image.new("RGBA", (1080, OVH), (0, 0, 0, 0))
+        overlay = Image.new("RGBA", (FRAME_W, FRAME_H), (0, 0, 0, 0))
         ov_draw = ImageDraw.Draw(overlay)
 
-        # Gradient dark bar (darker at bottom)
-        for i in range(OVH):
-            alpha = int(180 + 60 * (i / OVH))
-            ov_draw.line([(0, i), (1080, i)], fill=(0, 0, 20, alpha))
+        # ── LOGO — top-left, big, prominent ──────────────────────────────
+        if os.path.exists(LOGO_PATH):
+            try:
+                logo_img = Image.open(LOGO_PATH).convert("RGBA")
+                px = list(logo_img.getdata())
+                logo_img.putdata([
+                    (r, g, b, 0) if r > 215 and g > 215 and b > 215 else (r, g, b, a)
+                    for r, g, b, a in px
+                ])
+                logo_w = 160                    # big, visible
+                logo_h = int(logo_img.height * (logo_w / logo_img.width))
+                logo_img = logo_img.resize((logo_w, logo_h), Image.LANCZOS)
+                lx, ly = 40, 60                 # top-left, 40px from left, 60px from top
+                # Semi-transparent pill background
+                pad = 10
+                ov_draw.rounded_rectangle(
+                    [lx - pad, ly - pad, lx + logo_w + pad, ly + logo_h + pad],
+                    radius=12, fill=(0, 0, 0, 160)
+                )
+                overlay.paste(logo_img, (lx, ly), logo_img)
+            except Exception as le:
+                print(f"      Logo error: {le}")
 
-        # Top accent line
-        ov_draw.rectangle([0, 0, 1080, 6], fill=(80, 180, 255, 255))
+        # ── BOTTOM TEXT BAR ───────────────────────────────────────────────
+        bar_y = FRAME_H - BAR_H
+        # Gradient: transparent → dark
+        for i in range(BAR_H):
+            alpha = int(170 * (i / BAR_H) + 60)
+            ov_draw.line([(0, bar_y + i), (FRAME_W, bar_y + i)],
+                         fill=(0, 0, 15, min(alpha, 245)))
+        # Accent line at top of bar
+        ov_draw.rectangle([0, bar_y, FRAME_W, bar_y + 6], fill=(80, 180, 255, 255))
 
-        # Headline — wrapped, max 2 lines
-        y = 20
+        # Headline
+        y = bar_y + 24
         for line in wrap_px(headline, font_head, MAX_W, ov_draw)[:2]:
             ov_draw.text((PAD_LEFT, y), line, font=font_head, fill=(255, 255, 255, 255))
             y += 66
 
-        # Summary — wrapped, max 3 lines
+        # Summary
         y += 10
         for line in wrap_px(summary, font_body, MAX_W, ov_draw)[:3]:
             ov_draw.text((PAD_LEFT, y), line, font=font_body, fill=(200, 225, 255, 240))
             y += 44
 
-        # Footer — channel + date, constrained within safe zone
-        date_str    = datetime.now().strftime("%d %b %Y")
-        footer_text = f"{CHANNEL_HANDLE}  •  {date_str}"
-        ov_draw.text((PAD_LEFT, OVH - 40),
-                     footer_text, font=font_foot, fill=(130, 170, 220, 210))
-
-        # Logo — top-right of overlay bar (avoids Instagram action buttons)
-        if os.path.exists(LOGO_PATH):
-            try:
-                logo = Image.open(LOGO_PATH).convert("RGBA")
-                # Remove white background
-                pixels = list(logo.getdata())
-                logo.putdata([
-                    (r, g, b, 0) if r > 220 and g > 220 and b > 220 else (r, g, b, a)
-                    for r, g, b, a in pixels
-                ])
-                logo_w = LOGO_W_RL
-                logo_h = int(logo.height * (logo_w / logo.width))
-                logo   = logo.resize((logo_w, logo_h), Image.LANCZOS)
-                lx     = 30              # LEFT side, 30px from edge
-                ly     = 20              # aligned with headline top
-                pad    = 6
-                ov_draw.rectangle(
-                    [lx - pad, ly - pad, lx + logo_w + pad, ly + logo_h + pad],
-                    fill=(255, 255, 255, 210)
-                )
-                overlay.paste(logo, (lx, ly), logo)
-            except Exception as le:
-                print(f"      Logo error: {le}")
+        # Footer
+        date_str = datetime.now().strftime("%d %b %Y")
+        ov_draw.text((PAD_LEFT, FRAME_H - 44),
+                     f"{CHANNEL_HANDLE}  •  {date_str}",
+                     font=font_foot, fill=(130, 170, 220, 210))
 
         overlay.save(overlay_png, "PNG")
 
@@ -1370,7 +1367,7 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
                 "ffmpeg", "-y",
                 "-i", base_path, "-i", overlay_png, "-i", audio_path,
                 "-filter_complex",
-                f"[0:v][1:v]overlay=0:H-{OVH}[vout];[2:a]volume=1.5,atrim=0:30[aout]",
+                "[0:v][1:v]overlay=0:0[vout];[2:a]volume=1.5,atrim=0:30[aout]",
                 "-map", "[vout]", "-map", "[aout]",
                 "-c:a", "aac", "-b:a", "128k",
                 "-shortest", *common, out_path
@@ -1379,7 +1376,7 @@ def process_reel(video_path: str, headline: str, summary: str, narration: str = 
             result = subprocess.run([
                 "ffmpeg", "-y",
                 "-i", base_path, "-i", overlay_png,
-                "-filter_complex", f"[0:v][1:v]overlay=0:H-{OVH}[out]",
+                "-filter_complex", "[0:v][1:v]overlay=0:0[out]",
                 "-map", "[out]", *common, out_path
             ], capture_output=True, timeout=180)
 
