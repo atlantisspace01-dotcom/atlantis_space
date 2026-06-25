@@ -57,7 +57,7 @@ YOUTUBE_ONLY          = os.getenv("YOUTUBE_ONLY", "false").lower() == "true"
 # YouTube-only mode overrides
 if YOUTUBE_ONLY:
     HISTORY_FILE    = YT_HISTORY_FILE   # separate duplicate tracking
-    CAROUSEL_SLIDES = 3                 # 3 Shorts/run × 6 runs = 18 Shorts/day
+    CAROUSEL_SLIDES = 1                 # 1 Short/run × 5 runs = 5/day = 8,000 API units (hard limit: 10,000)
 
 SPACE_DISCOVERY_TOPICS = [
     "ISRO India space mission launch 2025",
