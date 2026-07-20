@@ -146,10 +146,10 @@
     "from system to signal at esa’s navigation training course",
     "pipelines to payloads: risk management lessons for the space economy",
     "from hampton to mars: how nasa langley helped land on the red planet",
-    "new nasa earth missions gear up to start science flights"
+    "new nasa earth missions gear up to start science flights",
+    "making progress: relativity’s terran r, rocket lab’s neutron, and pld space’s miura 5"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/06/55352876103-02b858152c-o.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/06/DSC08356-2-scaled.jpg",
     "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg",
@@ -298,7 +298,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/esa_academy_s_navigation_training_course_in_red",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/transporter16.jpeg?fit=1024%2C683&ssl=1",
     "https://www.nasa.gov/wp-content/uploads/2025/07/e1-viking-1-pia00381.jpg",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/LRC-2026-OCIO_P-01034.jpg"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/LRC-2026-OCIO_P-01034.jpg",
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/NSF-2026-07-20-19-45-20-195.jpg"
   ],
-  "updated": "2026-07-20T19:17:37.881649"
+  "updated": "2026-07-20T20:52:26.071616"
 }
