@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: pegasus xl | swift boost mission",
     "millions of stars in cigar galaxy",
     "space shuttle endeavour displayed vertically in new exhibit at california science center",
     "median wildfire, gooding, idaho — nasa eonet 25 jun",
@@ -149,10 +148,10 @@
     "making progress: relativity’s terran r, rocket lab’s neutron, and pld space’s miura 5",
     "why maine’s sandy shorelines turn jagged",
     "uk and florida commit $400,000 to joint space projects",
-    "german component supplier deltavision raises 10.2 million euros"
+    "german component supplier deltavision raises 10.2 million euros",
+    "press event: spacex crew-13 mission overview news conference"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2606/MilkyWaySeoulShingooLee.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/earth_from_space_desert_cropland/27346937-1-eng",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/mtg_captures_earth_at_june_solstice/27341570-1-",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/NSF-2026-07-20-19-45-20-195.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/why-maine's-sandy-shorelines-turn-ja",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/DSC00133.jpg?fit=1024%2C768&ssl=1",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/deltavision.jpeg?fit=1024%2C576&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/deltavision.jpeg?fit=1024%2C576&ssl=1",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20240926072512.jpg"
   ],
-  "updated": "2026-07-21T12:13:49.629451"
+  "updated": "2026-07-21T15:29:58.312525"
 }
