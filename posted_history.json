@@ -1,6 +1,5 @@
 {
   "titles": [
-    "median wildfire, gooding, idaho — nasa eonet 25 jun",
     "milky way urban style",
     "earth from space: desert cropland",
     "week in images: 22-26 june 2026",
@@ -149,10 +148,10 @@
     "german component supplier deltavision raises 10.2 million euros",
     "press event: spacex crew-13 mission overview news conference",
     "press event: spacex crew-13 crew news conference",
-    "poland boosts its contribution to europe’s iris2 constellation to €656m"
+    "poland boosts its contribution to europe’s iris2 constellation to €656m",
+    "us-india satellite delivers data, reveals ‘hummingbird’ in antarctica"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/06/euclid-s-view-of-our-galaxy-s-bulge.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/06/from_lab_to_orbit_turning_space_science_into_re",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_image_20190207032522.jpeg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/deltavision.jpeg?fit=1024%2C576&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20240926072512.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crew-13_crew_in_image_20260721144524.jpg",
-    "https://europeanspaceflight.com/wp-content/uploads/2026/07/Poland-Boosts-Its-Contribution-to-Europes-IRIS2-Constellation"
+    "https://europeanspaceflight.com/wp-content/uploads/2026/07/Poland-Boosts-Its-Contribution-to-Europes-IRIS2-Constellation",
+    "https://www.nasa.gov/wp-content/uploads/2026/07/1-pia26617-nisar-nunatak-main.png"
   ],
-  "updated": "2026-07-21T17:57:41.345669"
+  "updated": "2026-07-21T20:42:32.078422"
 }
