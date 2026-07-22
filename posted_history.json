@@ -1,6 +1,5 @@
 {
   "titles": [
-    "earth from space: desert cropland",
     "week in images: 22-26 june 2026",
     "upcoming launch: electron | ten owl of ten (strix launch 10)",
     "euclid sees heart of milky way",
@@ -149,10 +148,10 @@
     "press event: spacex crew-13 crew news conference",
     "poland boosts its contribution to europe’s iris2 constellation to €656m",
     "us-india satellite delivers data, reveals ‘hummingbird’ in antarctica",
-    "press event: roman telescope pre-launch media briefing"
+    "press event: roman telescope pre-launch media briefing",
+    "relativity space to expand terran r production in florida"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/06/from_lab_to_orbit_turning_space_science_into_re",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_image_20190207032522.jpeg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
     "https://www.nasa.gov/wp-content/uploads/2023/03/bennu-osiris-rex-1041.jpg",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crew-13_crew_in_image_20260721144524.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/07/Poland-Boosts-Its-Contribution-to-Europes-IRIS2-Constellation",
     "https://www.nasa.gov/wp-content/uploads/2026/07/1-pia26617-nisar-nunatak-main.png",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/roman_space_tel_image_20260329083535.webp"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/roman_space_tel_image_20260329083535.webp",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/relativity-longbeach.jpeg?fit=1024%2C684&ssl=1"
   ],
-  "updated": "2026-07-22T10:57:14.775158"
+  "updated": "2026-07-22T12:15:48.477323"
 }
