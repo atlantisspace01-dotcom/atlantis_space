@@ -1,6 +1,5 @@
 {
   "titles": [
-    "next-gen astronaut moon rovers aim for deployment ahead of artemis 4 crew arrival",
     "nasa announces winners for 2026 human lander challenge",
     "rocket lab launches 10th synspective satellite",
     "astronaut spotlight: ravish malhotra — indian space hero",
@@ -149,10 +148,10 @@
     "change of command: iss expedition 74-75 change of command ceremony",
     "crews move artemis iv liquid hydrogen tank",
     "vehicle testing: spacex starship booster b20 testing",
-    "nasa’s maven illuminates new understanding of auroras at mars"
+    "nasa’s maven illuminates new understanding of auroras at mars",
+    "will bruey on rethinking the role of pharmaceuticals in low earth orbit"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astronauts_work_image_20260521065007.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/FOSSA-TEAM.jpg?fit=1024%2C683&ssl=1",
     "https://apod.nasa.gov/apod/image/2606/AR4478_vidal_960.jpg",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/iss_expedition__image_20260723114944.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/maf-20260515-cs4-lh2to451-08orig.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/booster_19_duri_image_20260307203559.jpg",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22076/PIA22076.tif"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22076/PIA22076.tif",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/space-minds-podcast-varda-2000-1500.jpg?fit=1024%2C768&ssl=1"
   ],
-  "updated": "2026-07-23T18:00:31.470913"
+  "updated": "2026-07-23T18:01:42.224759"
 }
