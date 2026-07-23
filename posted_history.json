@@ -1,6 +1,5 @@
 {
   "titles": [
-    "ship 40 completes single-engine static fire; booster 20 and pad 2 see new work",
     "next-gen astronaut moon rovers aim for deployment ahead of artemis 4 crew arrival",
     "nasa announces winners for 2026 human lander challenge",
     "rocket lab launches 10th synspective satellite",
@@ -149,10 +148,10 @@
     "china’s shijian-31 satellite is sweeping geo using a unique orbit",
     "change of command: iss expedition 74-75 change of command ceremony",
     "crews move artemis iv liquid hydrogen tank",
-    "vehicle testing: spacex starship booster b20 testing"
+    "vehicle testing: spacex starship booster b20 testing",
+    "nasa’s maven illuminates new understanding of auroras at mars"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astronauts_work_image_20260521065007.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/FOSSA-TEAM.jpg?fit=1024%2C683&ssl=1",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Shijian31-CZ3B-XSLC-16june2026-CASC.jpg?fit=1024%2C599&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/iss_expedition__image_20260723114944.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/maf-20260515-cs4-lh2to451-08orig.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/booster_19_duri_image_20260307203559.jpg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/booster_19_duri_image_20260307203559.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22076/PIA22076.tif"
   ],
-  "updated": "2026-07-23T16:09:08.729806"
+  "updated": "2026-07-23T18:00:31.470913"
 }
