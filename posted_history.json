@@ -1,6 +1,5 @@
 {
   "titles": [
-    "astronaut spotlight: ravish malhotra — indian space hero",
     "press event: nasa moon base progress teleconference",
     "upcoming launch: south korean add solid-fuel slv | demo flight",
     "spain-backed fund joins fossa’s sovereign satellite communications push",
@@ -149,10 +148,10 @@
     "nasa’s maven illuminates new understanding of auroras at mars",
     "will bruey on rethinking the role of pharmaceuticals in low earth orbit",
     "live coverage: spacex ready for 2nd attempt to launch starship flight 13 following post-abort engine work",
-    "look for nasa+ now streaming on amazon fire tv"
+    "look for nasa+ now streaming on amazon fire tv",
+    "earth from space: agricultural patchwork"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2606/AR4478_vidal_960.jpg",
     "https://www.nasa.gov/wp-content/uploads/2023/03/iss068e027100.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/06/26/png/epic_1b_20260626002713.png",
     "http://spaceflightnow.com/wp-content/uploads/2026/03/20260329_20260313_Starlink_G17_31.jpg",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22076/PIA22076.tif",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/space-minds-podcast-varda-2000-1500.jpg?fit=1024%2C768&ssl=1",
     "http://spaceflightnow.com/wp-content/uploads/2026/07/20260723_starship_ship_40_stack_5.jpeg",
-    "https://www.nasa.gov/wp-content/uploads/2026/07/nasa-image.jpeg"
+    "https://www.nasa.gov/wp-content/uploads/2026/07/nasa-image.jpeg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/earth_from_space_agricultural_patchwork/2738859"
   ],
-  "updated": "2026-07-23T20:22:08.911302"
+  "updated": "2026-07-24T10:37:40.125522"
 }
