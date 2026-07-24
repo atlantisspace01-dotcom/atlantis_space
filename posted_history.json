@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid (2015 vh66) aaj earth ke paas se guzrega — 262-586m",
     "live coverage: spacex to launch 7.5-ton siriusxm satellite as part of constellation refresh",
     "nasa astronaut chris williams preps for spacewalk",
     "m82: galaxy with a supergalactic wind",
@@ -149,10 +148,10 @@
     "astronaut spotlight: ravish malhotra — indian space hero",
     "esa awards ispace €65m contract to build and deliver magpie rover to the moon",
     "wildfire 0579 ten mile, jefferson, oregon — nasa eonet 24 jul",
-    "nasa’s escapade snaps family portrait of earth, moon"
+    "nasa’s escapade snaps family portrait of earth, moon",
+    "critical nasa deep space ground station in spain evacuated due to wildfires"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/Artist_s_view_of_the_Argonaut_lunar_lander-scaled.jpg?fit=102",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/beck-irdmacq.jpeg?fit=1024%2C579&ssl=1",
     "https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2180886117.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/06/lrc-2026-ocio-p-01883-image-1.jpg",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/07/ESA-Awards-ispace-65-Million-Euros-Contract-to-Build-and-Deli",
     "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE%20Photo%20of%20Earth_Moon%201.png"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE%20Photo%20of%20Earth_Moon%201.png",
+    "http://spaceflightnow.com/wp-content/uploads/2026/07/20260724_Madrid_DSN.jpg"
   ],
-  "updated": "2026-07-24T20:49:52.078376"
+  "updated": "2026-07-24T20:51:03.333786"
 }
