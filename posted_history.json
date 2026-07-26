@@ -1,6 +1,5 @@
 {
   "titles": [
-    "beck: iridium acquisition the “logical next step” for rocket lab",
     "in a bold move, rocket lab acquires iridium communications",
     "nasa’s newest wind tunnel builds on legacy of innovation",
     "nasa, sba announce new initiative to scale american space economy",
@@ -149,10 +148,10 @@
     "ula deals with financial challenges caused by vulcan grounding",
     "tranquility and serenity",
     "nasa epic camera ne space se earth ki tasveer li",
-    "simulation tng50: a galaxy cluster forms"
+    "simulation tng50: a galaxy cluster forms",
+    "super heavy-starship rocket chalks up mostly successful test flight"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/newglenn9x4.jpeg?fit=1024%2C646&ssl=1",
     "https://apod.nasa.gov/apod/image/2606/itokawa07_hayabusa_1080.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/01/sentinel-1_radar_vision/13494392-1-eng-GB/Senti",
     "https://www.nasa.gov/wp-content/uploads/2026/06/55357496142-295d2a4b87-o.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/55090240803_a555b0ee7e_k.jpg?fit=1024%2C683&ssl=1",
     "https://apod.nasa.gov/apod/image/2607/TranquilitySerenity2048.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/23/png/epic_1b_20260723000831.png",
-    "https://apod.nasa.gov/apod/image/2607/ClusterFormation_TNG50.mp4"
+    "https://apod.nasa.gov/apod/image/2607/ClusterFormation_TNG50.mp4",
+    "http://spaceflightnow.com/wp-content/uploads/2026/07/20260724_launch1.jpeg"
   ],
-  "updated": "2026-07-26T05:53:57.947194"
+  "updated": "2026-07-26T08:12:20.652496"
 }
