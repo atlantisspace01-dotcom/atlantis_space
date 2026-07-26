@@ -1,6 +1,5 @@
 {
   "titles": [
-    "esa to seek lunar mapping capability for argonaut lander",
     "beck: iridium acquisition the “logical next step” for rocket lab",
     "in a bold move, rocket lab acquires iridium communications",
     "nasa’s newest wind tunnel builds on legacy of innovation",
@@ -149,10 +148,10 @@
     "fires near madrid force evacuation of nasa’s dsn facility",
     "ula deals with financial challenges caused by vulcan grounding",
     "tranquility and serenity",
-    "nasa epic camera ne space se earth ki tasveer li"
+    "nasa epic camera ne space se earth ki tasveer li",
+    "simulation tng50: a galaxy cluster forms"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/asteroid_heading_towards_earth/27354173-2-eng-G",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/newglenn9x4.jpeg?fit=1024%2C646&ssl=1",
     "https://apod.nasa.gov/apod/image/2606/itokawa07_hayabusa_1080.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/01/sentinel-1_radar_vision/13494392-1-eng-GB/Senti",
@@ -301,7 +300,8 @@
     "https://spacepolicyonline.com/wp-content/uploads/2026/07/Madrid-300x60.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/55090240803_a555b0ee7e_k.jpg?fit=1024%2C683&ssl=1",
     "https://apod.nasa.gov/apod/image/2607/TranquilitySerenity2048.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/07/23/png/epic_1b_20260723000831.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/07/23/png/epic_1b_20260723000831.png",
+    "https://apod.nasa.gov/apod/image/2607/ClusterFormation_TNG50.mp4"
   ],
-  "updated": "2026-07-25T20:18:40.560393"
+  "updated": "2026-07-26T05:53:57.947194"
 }
