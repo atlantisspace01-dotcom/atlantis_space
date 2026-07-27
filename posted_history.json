@@ -1,6 +1,5 @@
 {
   "titles": [
-    "apply now to esa's junior professional programme",
     "a most “pleasantly situated” estate",
     "nasa awards more moon base science, previews new opportunities",
     "nasa’s chandra reveals ‘red, white, blue’ universe for us 250th",
@@ -149,10 +148,10 @@
     "meet space startups at esa’s industry space days",
     "amazon files application for direct-to-device satellite constellation",
     "rocket lab to open alaska launch site under $266 million space force deal",
-    "nasa to cover three us spacewalks, host preview news conference"
+    "nasa to cover three us spacewalks, host preview news conference",
+    "nasa’s hubble shows star formation in andromeda galaxy winding down"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
     "https://apod.nasa.gov/apod/image/2607/rho_ophiuchi_1024.png",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/NSF-2026-07-01-14-07-54-745.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/june/https___mars.",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/space_startups_at_esa_s_industry_space_days/273",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/04/Amazon-Leo-D2D-scaled.jpeg?fit=1024%2C576&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Launch-Complex-4-Render-lowres-1-v2.jpg.webp?fit=1024%2C683&s",
-    "https://www.nasa.gov/wp-content/uploads/2026/07/meir.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/07/meir.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/07/STScI-01KXZZ6H029XBJTKYKRPA"
   ],
-  "updated": "2026-07-27T15:40:11.341755"
+  "updated": "2026-07-27T15:41:19.292331"
 }
