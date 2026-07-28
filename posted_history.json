@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: atlas v 551 | amazon leo (la-08)",
     "the cotton candy clouds of rho ophiuchi",
     "blue origin accelerates lc-36 recovery via hybrid plan",
     "curiosity blog, sols 4934-4940: in the land of the polygons",
@@ -149,10 +148,10 @@
     "smoke blankets oregon",
     "upper c-band auction offers another lift for geo industry",
     "vertical liftoff as ariane 6 takes flight for the first time",
-    "barnards loop over twin volcanoes"
+    "barnards loop over twin volcanoes",
+    "germany considers dedicated launch facility for its armed forces"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/07/mmea.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/ciencias-terrestres/2026/Moon_planets_July2026.p",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/don_quijote_cubesat_around_dimorphos_asteroid/2",
     "https://apod.nasa.gov/apod/image/2607/sibling_supernovae.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/SES-Press-Release_SES-Completes-Acquisition-of-Intelsat_image",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/vertical_liftoff_as_ariane_6_takes_flight_for_t",
     "https://apod.nasa.gov/apod/image/2607/LoopVolcanos_Laserna_5815.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/07/25/png/epic_1b_20260725004554.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/07/25/png/epic_1b_20260725004554.png",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/07/Germany-Considers-Dedicated-Launch-Facility-for-its-Armed-For"
   ],
-  "updated": "2026-07-28T11:41:35.599463"
+  "updated": "2026-07-28T15:15:16.180906"
 }
