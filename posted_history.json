@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa awards more moon base science, previews new opportunities",
     "nasa’s chandra reveals ‘red, white, blue’ universe for us 250th",
     "launch preview: swift rescue mission, final atlas satellite launch",
     "celestial event: total solar eclipse in europe",
@@ -149,10 +148,10 @@
     "rocket lab to open alaska launch site under $266 million space force deal",
     "nasa to cover three us spacewalks, host preview news conference",
     "nasa’s hubble shows star formation in andromeda galaxy winding down",
-    "nasa’s swift sees ‘wandering’ mega black hole shredding star"
+    "nasa’s swift sees ‘wandering’ mega black hole shredding star",
+    "smoke blankets oregon"
   ],
   "images": [
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/NSF-2026-07-01-14-07-54-745.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/june/https___mars.",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/07/STScI-01KV8SMVYFK67J7RPRW1HB0S",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/exoplanet_wd_1856_b_artist_s_concept/27358511-2",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Launch-Complex-4-Render-lowres-1-v2.jpg.webp?fit=1024%2C683&s",
     "https://www.nasa.gov/wp-content/uploads/2026/07/meir.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/07/STScI-01KXZZ6H029XBJTKYKRPA",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22355/PIA22355.jpg"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22355/PIA22355.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/smoke-blankets-oregon/oregonfires_am"
   ],
-  "updated": "2026-07-27T17:49:40.594874"
+  "updated": "2026-07-28T05:41:00.492578"
 }
