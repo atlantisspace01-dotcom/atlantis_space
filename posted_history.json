@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s chandra reveals ‘red, white, blue’ universe for us 250th",
     "launch preview: swift rescue mission, final atlas satellite launch",
     "celestial event: total solar eclipse in europe",
     "upcoming launch: atlas v 551 | amazon leo (la-08)",
@@ -149,10 +148,10 @@
     "nasa to cover three us spacewalks, host preview news conference",
     "nasa’s hubble shows star formation in andromeda galaxy winding down",
     "nasa’s swift sees ‘wandering’ mega black hole shredding star",
-    "smoke blankets oregon"
+    "smoke blankets oregon",
+    "upper c-band auction offers another lift for geo industry"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/june/https___mars.",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/07/STScI-01KV8SMVYFK67J7RPRW1HB0S",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/exoplanet_wd_1856_b_artist_s_concept/27358511-2",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/chandra/2026/arms_illus2.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/07/meir.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/07/STScI-01KXZZ6H029XBJTKYKRPA",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22355/PIA22355.jpg",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/smoke-blankets-oregon/oregonfires_am"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/smoke-blankets-oregon/oregonfires_am",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/SES-Press-Release_SES-Completes-Acquisition-of-Intelsat_image"
   ],
-  "updated": "2026-07-28T05:41:00.492578"
+  "updated": "2026-07-28T05:42:10.090713"
 }
