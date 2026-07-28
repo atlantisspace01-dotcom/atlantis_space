@@ -1,6 +1,5 @@
 {
   "titles": [
-    "celestial event: total solar eclipse in europe",
     "upcoming launch: atlas v 551 | amazon leo (la-08)",
     "the cotton candy clouds of rho ophiuchi",
     "blue origin accelerates lc-36 recovery via hybrid plan",
@@ -149,10 +148,10 @@
     "nasa’s swift sees ‘wandering’ mega black hole shredding star",
     "smoke blankets oregon",
     "upper c-band auction offers another lift for geo industry",
-    "vertical liftoff as ariane 6 takes flight for the first time"
+    "vertical liftoff as ariane 6 takes flight for the first time",
+    "barnards loop over twin volcanoes"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/exoplanet_wd_1856_b_artist_s_concept/27358511-2",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/chandra/2026/arms_illus2.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/mmea.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/ciencias-terrestres/2026/Moon_planets_July2026.p",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22355/PIA22355.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/smoke-blankets-oregon/oregonfires_am",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/SES-Press-Release_SES-Completes-Acquisition-of-Intelsat_image",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/vertical_liftoff_as_ariane_6_takes_flight_for_t"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/vertical_liftoff_as_ariane_6_takes_flight_for_t",
+    "https://apod.nasa.gov/apod/image/2607/LoopVolcanos_Laserna_5815.jpg"
   ],
-  "updated": "2026-07-28T08:18:31.817952"
+  "updated": "2026-07-28T11:39:19.217377"
 }
