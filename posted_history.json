@@ -1,6 +1,5 @@
 {
   "titles": [
-    "blue origin accelerates lc-36 recovery via hybrid plan",
     "curiosity blog, sols 4934-4940: in the land of the polygons",
     "nasa’s webb studies how planet survived death of its star",
     "webb studies how a planet survived the death of its star",
@@ -149,10 +148,10 @@
     "vertical liftoff as ariane 6 takes flight for the first time",
     "barnards loop over twin volcanoes",
     "germany considers dedicated launch facility for its armed forces",
-    "how sentinel-1 measured movement of venezuela quakes"
+    "how sentinel-1 measured movement of venezuela quakes",
+    "sizing up the sargassum belt"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/don_quijote_cubesat_around_dimorphos_asteroid/2",
     "https://apod.nasa.gov/apod/image/2607/sibling_supernovae.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_ms_in_orb_image_20240313130407.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/iss074e0779393orig.jpg",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2607/LoopVolcanos_Laserna_5815.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/25/png/epic_1b_20260725004554.png",
     "https://europeanspaceflight.com/wp-content/uploads/2026/07/Germany-Considers-Dedicated-Launch-Facility-for-its-Armed-For",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/ground_displacement_following_venezuela_earthqu"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/ground_displacement_following_venezuela_earthqu",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/sizing-up-the-sargassum-belt/sargass"
   ],
-  "updated": "2026-07-28T17:41:54.461827"
+  "updated": "2026-07-29T05:46:03.715165"
 }
