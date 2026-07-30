@@ -152,7 +152,6 @@
     "red sun through wildfire smoke"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2607/PIA00621.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/DSC_4536-scaled.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/globular-clusters/Hubble_NGC6426_3_Jul",
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/07/LINKGoddard-nasa-sophia-roberts-scaled.png",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/student_team_and_advisors_during_retroreflector",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/pacific_ocean_salinity_june_2026/27397989-1-eng",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/12/electron-f79.jpeg?fit=1024%2C683&ssl=1",
-    "https://apod.nasa.gov/apod/image/2607/red_sun.jpg"
+    "https://apod.nasa.gov/apod/image/2607/red_sun.jpg",
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/07/28/png/epic_1b_20260728003634.png"
   ],
-  "updated": "2026-07-30T17:41:07.734464"
+  "updated": "2026-07-30T17:43:23.160168"
 }
