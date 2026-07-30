@@ -1,6 +1,5 @@
 {
   "titles": [
-    "docking: soyuz ms-29 docking",
     "good morning, earth!",
     "3d-printed metal",
     "nasa’s artemis ii breaks agency streaming record",
@@ -149,10 +148,10 @@
     "contractor to civil servant: nasa welcomes ray williams",
     "nasa’s curiosity views a sand",
     "nasa sets coverage for august northern hemisphere total solar eclipse",
-    "nasa awards 2026 innovative technology concepts"
+    "nasa awards 2026 innovative technology concepts",
+    "proposed rule would exempt commercial launch licensing from environmental regulations"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/artist_s_view_of_space_transportation_s_major_p",
     "https://spacepolicyonline.com/wp-content/uploads/2024/09/Starliner-CFT-landed-Boeing-Sept-7-2024-300x152.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/globular-clusters/Hubble_L95_3F_July4_",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/07/s26-007-ray-williams.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26730/PIA26730.png",
     "https://www.nasa.gov/wp-content/uploads/2026/07/eclipse-coverage-advisory-july-29.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/07/niac.png"
+    "https://www.nasa.gov/wp-content/uploads/2026/07/niac.png",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/starship-flt13-sunset.jpeg?fit=1024%2C576&ssl=1"
   ],
-  "updated": "2026-07-30T05:34:19.306349"
+  "updated": "2026-07-30T05:35:29.811459"
 }
