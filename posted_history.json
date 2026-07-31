@@ -1,6 +1,5 @@
 {
   "titles": [
-    "starship in florida pushing for launch this year",
     "nasa’s hubble spies stellar sparkler for july 4th",
     "need a lift? nasa launches swift rescue mission",
     "saturn's iapetus: painted moon",
@@ -149,10 +148,10 @@
     "rocket report: big deals for us launch firms, rfa one debut is delayed",
     "hydrognss data open for new insights into earth’s water",
     "curiosity blog, sols 4961-4967: approaching a break in the rock record?",
-    "nasa’s roman telescope to carry 1.35 million names to deep space"
+    "nasa’s roman telescope to carry 1.35 million names to deep space",
+    "nasa opens new flight dynamics research facility in virginia"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2607/ZodiMw_Looten_6125.jpg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/07/20260706-3-01.png",
     "https://www.nasa.gov/wp-content/uploads/2026/06/nasa-meatball-11-black-background.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/55374566234-d7c31b6e97-o.jpg",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/07/stoke-zenith.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/surface_water_over_south_america_from_hydrognss",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/july/https___mars.",
-    "https://images-assets.nasa.gov/image/KSC-20260727-PH-JMT01_0001/KSC-20260727-PH-JMT01_0001~large.jpg"
+    "https://images-assets.nasa.gov/image/KSC-20260727-PH-JMT01_0001/KSC-20260727-PH-JMT01_0001~large.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/07/langleyjuly31.jpg"
   ],
-  "updated": "2026-07-31T15:17:00.253133"
+  "updated": "2026-07-31T17:43:53.229621"
 }
