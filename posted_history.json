@@ -1,6 +1,5 @@
 {
   "titles": [
-    "the most spectacular aurora of the εpsilon mission (so far!)",
     "chinese satellite manufacturer hongqing raises $191 million",
     "pathfinder on mars",
     "starship in florida pushing for launch this year",
@@ -149,10 +148,10 @@
     "rules of the road needed for orbital data center constellations",
     "earth from space: new orleans and the mighty mississippi",
     "upcoming launch: falcon 9 block 5 | starlink group 17-52",
-    "rocket report: big deals for us launch firms, rfa one debut is delayed"
+    "rocket report: big deals for us launch firms, rfa one debut is delayed",
+    "hydrognss data open for new insights into earth’s water"
   ],
   "images": [
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/IMG_4761.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/03/png/epic_1b_20260703002712.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/aeolus2.jpeg?fit=1024%2C724&ssl=1",
     "https://apod.nasa.gov/apod/image/2607/ZodiMw_Looten_6125.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/starcloud.jpeg?fit=1024%2C566&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/earth_from_space_new_orleans_and_the_mighty_mis",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/07/stoke-zenith.jpg"
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/07/stoke-zenith.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/surface_water_over_south_america_from_hydrognss"
   ],
-  "updated": "2026-07-31T11:41:55.292520"
+  "updated": "2026-07-31T11:44:42.689605"
 }
