@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: long march 8a | spacesail polar group tbd",
     "artist's view of space transportation's major programmes from 2026 onwards – vertical",
     "atlas v launches more amazon leos with only six starliner flights left on the books",
     "nasa’s hubble captures crimson cloud sparkling with white, blue stars",
@@ -149,10 +148,10 @@
     "smos salinity could offer early indicator of el niño",
     "rocket lab wins another launch contract from japan’s iqps",
     "red sun through wildfire smoke",
-    "destructive fires char western europe"
+    "destructive fires char western europe",
+    "rules of the road needed for orbital data center constellations"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/stars/globular-clusters/Hubble_NGC6426_3_Jul",
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/07/LINKGoddard-nasa-sophia-roberts-scaled.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/02/png/epic_1b_20260702000831.png",
     "https://apod.nasa.gov/apod/image/2607/iapetus4_cassini_4100.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/12/electron-f79.jpeg?fit=1024%2C683&ssl=1",
     "https://apod.nasa.gov/apod/image/2607/red_sun.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/28/png/epic_1b_20260728003634.png",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/destructive-fires-char-western-europ"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/destructive-fires-char-western-europ",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/starcloud.jpeg?fit=1024%2C566&ssl=1"
   ],
-  "updated": "2026-07-31T05:59:42.507617"
+  "updated": "2026-07-31T06:00:52.066096"
 }
