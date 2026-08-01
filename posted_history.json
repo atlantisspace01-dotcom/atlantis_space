@@ -1,6 +1,5 @@
 {
   "titles": [
-    "need a lift? nasa launches swift rescue mission",
     "saturn's iapetus: painted moon",
     "vast’s haven-1 continues to advance through milestones ahead of planned 2027 launch",
     "airbus to build aeolus-2 wind-monitoring satellite",
@@ -149,10 +148,10 @@
     "curiosity blog, sols 4961-4967: approaching a break in the rock record?",
     "nasa’s roman telescope to carry 1.35 million names to deep space",
     "nasa opens new flight dynamics research facility in virginia",
-    "buck moon and belt of venus"
+    "buck moon and belt of venus",
+    "apod: 2026 august 1"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/06/nasa-meatball-11-black-background.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/55374566234-d7c31b6e97-o.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/mk2alpha.jpeg?fit=1024%2C720&ssl=1",
     "https://apod.nasa.gov/apod/image/2607/AraDragons_Prazeres_7200.jpg",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/july/https___mars.",
     "https://images-assets.nasa.gov/image/KSC-20260727-PH-JMT01_0001/KSC-20260727-PH-JMT01_0001~large.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/langleyjuly31.jpg",
-    "https://apod.nasa.gov/apod/image/2608/FullMoon28-7-2026BrankoNadj.jpg"
+    "https://apod.nasa.gov/apod/image/2608/FullMoon28-7-2026BrankoNadj.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/FullMoon28-7-2026BrankoNadj.jpg"
   ],
-  "updated": "2026-08-01T05:49:08.361465"
+  "updated": "2026-08-01T05:50:18.599866"
 }
