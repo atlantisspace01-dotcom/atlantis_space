@@ -1,6 +1,5 @@
 {
   "titles": [
-    "there were not one, but two asteroid encounters this weekend",
     "nasa seeks industry input on second phase of commercial space stations",
     "nasa takes flight for america’s 250th",
     "blue origin continues work on lunar landers during recovery from new glenn explosion",
@@ -149,10 +148,10 @@
     "what’s up: august 2026 skywatching tips from nasa",
     "sending repurposed mars rover to the moon could cost more than $1 billion",
     "china launches secretive tjs-27 pair, orbits next-gen tianlian relay sat",
-    "a fire rainbow over west virginia"
+    "a fire rainbow over west virginia",
+    "u.s. air force expands blue origin rocket cargo contract"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/cottonwood-fire-chars-utah/utcottonw",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/sophie_testing_rope-pulling_workout_in_space/27",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Fi-Ultra-scaled.jpg?fit=1024%2C593&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/12/LMV3-B62.jpg?fit=1024%2C573&ssl=1",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/TJS27A-B_CZ6A_TSLC-30july2026-OS.jpg?fit=1024%2C679&ssl=1",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/30/png/epic_1b_20260730000830.png",
     "https://apod.nasa.gov/apod/image/2608/FireRainbow_Harbig_4000.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/07/31/png/epic_1b_20260731002712.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/07/31/png/epic_1b_20260731002712.png",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/gallery-gallery_ng2-8615.jpg?fit=1024%2C683&ssl=1"
   ],
-  "updated": "2026-08-02T11:06:43.211766"
+  "updated": "2026-08-02T14:27:09.038046"
 }
