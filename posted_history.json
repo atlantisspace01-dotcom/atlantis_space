@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa seeks industry input on second phase of commercial space stations",
     "nasa takes flight for america’s 250th",
     "blue origin continues work on lunar landers during recovery from new glenn explosion",
     "ngc 6188: dragons of ara",
@@ -149,10 +148,10 @@
     "sending repurposed mars rover to the moon could cost more than $1 billion",
     "china launches secretive tjs-27 pair, orbits next-gen tianlian relay sat",
     "a fire rainbow over west virginia",
-    "u.s. air force expands blue origin rocket cargo contract"
+    "u.s. air force expands blue origin rocket cargo contract",
+    "apod: 2026 august 3 – vaporizing meteor photobombs the lacerta nebula"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/sophie_testing_rope-pulling_workout_in_space/27",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Fi-Ultra-scaled.jpg?fit=1024%2C593&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/12/LMV3-B62.jpg?fit=1024%2C573&ssl=1",
     "https://apod.nasa.gov/apod/image/2607/cosmic_bat_1024.jpg",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/30/png/epic_1b_20260730000830.png",
     "https://apod.nasa.gov/apod/image/2608/FireRainbow_Harbig_4000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/31/png/epic_1b_20260731002712.png",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/gallery-gallery_ng2-8615.jpg?fit=1024%2C683&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/gallery-gallery_ng2-8615.jpg?fit=1024%2C683&ssl=1",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/MeteorGecko_Burnett_4944.jpg"
   ],
-  "updated": "2026-08-02T17:07:21.288390"
+  "updated": "2026-08-03T06:13:14.144135"
 }
