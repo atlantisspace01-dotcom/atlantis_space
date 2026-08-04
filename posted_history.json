@@ -1,6 +1,5 @@
 {
   "titles": [
-    "the red glow of the cosmic bat nebula",
     "curiosity sees martian sulfur up close",
     "satellites in tandem reveal 30 years of antarctic ice flow",
     "xona unveils program to verify pulsar-compatible devices",
@@ -149,10 +148,10 @@
     "curious cometary knots in the helix nebula",
     "launch preview: starlink, ast spacemobile, and chinese missions fill launch manifest",
     "esa astronaut completes third test of eurosuit prototype aboard iss",
-    "nasa, spacex studying how to prevent future upper stage lunar collisions"
+    "nasa, spacex studying how to prevent future upper stage lunar collisions",
+    "future of crew dragon weighs on commercial spaceflight industry"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2607/M24.png",
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/09/png/epic_1b_20260709000831.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/DOTS-1.jpg?fit=786%2C576&ssl=1",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/IMG_1145-scaled.jpeg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/ESA-Astronaut-Completes-Third-Test-of-EuroSuit-Prototype-Aboa",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/01/f9-fireflyispace.jpg?fit=1024%2C682&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/01/f9-fireflyispace.jpg?fit=1024%2C682&ssl=1",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/06/ax4crewdragon.jpeg?fit=1024%2C683&ssl=1"
   ],
-  "updated": "2026-08-04T11:45:11.186904"
+  "updated": "2026-08-04T15:19:14.460670"
 }
