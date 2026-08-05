@@ -1,6 +1,5 @@
 {
   "titles": [
-    "waxing gibbous moon",
     "nasa photographer captures images from f-18 over washington",
     "messier 24: sagittarius star cloud",
     "early career faculty (ecf) 2025 awards",
@@ -149,10 +148,10 @@
     "spokes on saturn's b ring",
     "eva: us eva-96",
     "upcoming launch: smart dragon 3 | ose hs-01 & 02",
-    "total solar eclipse: how to watch live from home"
+    "total solar eclipse: how to watch live from home",
+    "advanced mini-laboratories automate space station research"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Asteroid_-_artist_s_impression.jpg?fit=1024%2C576&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/prime_minister_of_poland_donald_tusk_and_esa_di",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2024/07/keystones/STScI-01J1TC4ZFSN",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/space_economy_report/27372726-1-eng-GB/Space_Ec",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/solar_eclipse_artist_impression/27150246-1-eng-"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/solar_eclipse_artist_impression/27150246-1-eng-",
+    "https://www.nasa.gov/wp-content/uploads/2024/08/iss071e486706.jpg"
   ],
-  "updated": "2026-08-05T11:42:45.759932"
+  "updated": "2026-08-05T15:10:40.247744"
 }
