@@ -1,6 +1,5 @@
 {
   "titles": [
-    "xona unveils program to verify pulsar-compatible devices",
     "principal investigator and quality assessment reports evaluate umbra synthetic aperture radar data",
     "western moon, eastern sea",
     "startup testing nuclear battery technology in orbit",
@@ -149,10 +148,10 @@
     "nasa, spacex studying how to prevent future upper stage lunar collisions",
     "future of crew dragon weighs on commercial spaceflight industry",
     "spacex’s new starfall program offers validation and competition for reentry startups",
-    "while spacex recovers ship 40, ship 41 prepares for testing ahead of flight 14"
+    "while spacex recovers ship 40, ship 41 prepares for testing ahead of flight 14",
+    "spokes on saturn's b ring"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/DOTS-1.jpg?fit=786%2C576&ssl=1",
     "https://apod.nasa.gov/apod/image/2607/NGC474_CfhtCoelum_1500.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/10/png/epic_1b_20260710002713.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/wild,-scenic,-and-increasingly-rusty",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/01/f9-fireflyispace.jpg?fit=1024%2C682&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/06/ax4crewdragon.jpeg?fit=1024%2C683&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/varda-w6.jpeg?fit=1024%2C768&ssl=1",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-04-16-40-59-442.jpg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-04-16-40-59-442.jpg",
+    "https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif"
   ],
-  "updated": "2026-08-04T17:53:35.081119"
+  "updated": "2026-08-05T08:22:29.376333"
 }
