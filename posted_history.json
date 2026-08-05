@@ -1,6 +1,5 @@
 {
   "titles": [
-    "startup testing nuclear battery technology in orbit",
     "waxing gibbous moon",
     "nasa photographer captures images from f-18 over washington",
     "messier 24: sagittarius star cloud",
@@ -149,10 +148,10 @@
     "while spacex recovers ship 40, ship 41 prepares for testing ahead of flight 14",
     "spokes on saturn's b ring",
     "eva: us eva-96",
-    "upcoming launch: smart dragon 3 | ose hs-01 & 02"
+    "upcoming launch: smart dragon 3 | ose hs-01 & 02",
+    "total solar eclipse: how to watch live from home"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/wild,-scenic,-and-increasingly-rusty",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Asteroid_-_artist_s_impression.jpg?fit=1024%2C576&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/prime_minister_of_poland_donald_tusk_and_esa_di",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2024/07/keystones/STScI-01J1TC4ZFSN",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-04-16-40-59-442.jpg",
     "https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/solar_eclipse_artist_impression/27150246-1-eng-"
   ],
-  "updated": "2026-08-05T11:40:13.063819"
+  "updated": "2026-08-05T11:42:45.759932"
 }
