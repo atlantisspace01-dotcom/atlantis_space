@@ -1,6 +1,5 @@
 {
   "titles": [
-    "principal investigator and quality assessment reports evaluate umbra synthetic aperture radar data",
     "western moon, eastern sea",
     "startup testing nuclear battery technology in orbit",
     "waxing gibbous moon",
@@ -149,10 +148,10 @@
     "future of crew dragon weighs on commercial spaceflight industry",
     "spacex’s new starfall program offers validation and competition for reentry startups",
     "while spacex recovers ship 40, ship 41 prepares for testing ahead of flight 14",
-    "spokes on saturn's b ring"
+    "spokes on saturn's b ring",
+    "eva: us eva-96"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2607/NGC474_CfhtCoelum_1500.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/10/png/epic_1b_20260710002713.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/wild,-scenic,-and-increasingly-rusty",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Asteroid_-_artist_s_impression.jpg?fit=1024%2C576&ssl=1",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/06/ax4crewdragon.jpeg?fit=1024%2C683&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/varda-w6.jpeg?fit=1024%2C768&ssl=1",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-04-16-40-59-442.jpg",
-    "https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif"
+    "https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg"
   ],
-  "updated": "2026-08-05T08:22:29.376333"
+  "updated": "2026-08-05T08:25:08.957602"
 }
