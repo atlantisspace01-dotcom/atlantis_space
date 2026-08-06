@@ -1,6 +1,5 @@
 {
   "titles": [
-    "galaxy ngc 474: shells and star streams",
     "asteroid (2016 ng15) aaj earth ke paas se guzrega — 200-447m",
     "wild, scenic, and increasingly rusty",
     "getting ready for lunar planetary defense",
@@ -149,10 +148,10 @@
     "your chance to run software in deep space on esa's asteroid mission",
     "nasa’s perseverance rover watches earth vanish behind martian moon",
     "capella, iceye and umbra win nro radar-data contracts",
-    "new sharpest image of the sun uncovers instability"
+    "new sharpest image of the sun uncovers instability",
+    "upcoming launch: electron | the grain goddess provides (iqps launch 7)"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/ESA-Space-Economy-2026-scaled.jpg?fit=1024%2C577&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/antaris-logo.png?fit=1024%2C1024&ssl=1",
     "https://www.nasa.gov/wp-content/uploads/2026/07/tde.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/55393472670-5194b57b7f-k.jpg",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/06/hera_surveying_dimorphos/19433870-2-eng-GB/Hera",
     "https://www.nasa.gov/wp-content/uploads/2026/08/1-pia26758-figure-a-inset-16x9-1.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/rsz_gen4_iceye_us.jpg?fit=879%2C623&ssl=1",
-    "https://apod.nasa.gov/apod/image/2608/SunFlowers_NSO_1901.jpg"
+    "https://apod.nasa.gov/apod/image/2608/SunFlowers_NSO_1901.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg"
   ],
-  "updated": "2026-08-06T05:42:26.128135"
+  "updated": "2026-08-06T05:43:36.831044"
 }
