@@ -1,6 +1,5 @@
 {
   "titles": [
-    "wild, scenic, and increasingly rusty",
     "getting ready for lunar planetary defense",
     "esa and poland to establish a new civil security and resilience centre in warsaw",
     "nasa’s hubble discovers first of star cluster’s missing black holes",
@@ -149,10 +148,10 @@
     "capella, iceye and umbra win nro radar-data contracts",
     "new sharpest image of the sun uncovers instability",
     "upcoming launch: electron | the grain goddess provides (iqps launch 7)",
-    "this atlantic hurricane season is looking like a dud, but there will be a price to pay"
+    "this atlantic hurricane season is looking like a dud, but there will be a price to pay",
+    "exomars stretches out its legs"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/07/tde.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/55393472670-5194b57b7f-k.jpg",
     "https://apod.nasa.gov/apod/image/2607/red_sprite.jpg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/02/space-datacenter-analysis-one.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/rsz_gen4_iceye_us.jpg?fit=879%2C623&ssl=1",
     "https://apod.nasa.gov/apod/image/2608/SunFlowers_NSO_1901.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/08/newplot.png"
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/08/newplot.png",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/exomars_stretches_out_its_legs/27406507-1-eng-G"
   ],
-  "updated": "2026-08-06T08:19:43.048617"
+  "updated": "2026-08-06T11:44:29.592859"
 }
