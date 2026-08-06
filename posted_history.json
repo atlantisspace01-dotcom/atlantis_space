@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s hubble discovers first of star cluster’s missing black holes",
     "esa releases 2026 space economy report",
     "launch preview: soyuz to launch crew to iss, starship to fly another test flight",
     "defense spending lifts europe’s space economy",
@@ -149,10 +148,10 @@
     "this atlantic hurricane season is looking like a dud, but there will be a price to pay",
     "exomars stretches out its legs",
     "chinese launch startup orienspace targets ipo, secures funding for reusable gravity-2 rocket",
-    "lessons for the future of nasa mars exploration from a 1970s mission"
+    "lessons for the future of nasa mars exploration from a 1970s mission",
+    "three companies building the tech to grow crops on the moon"
   ],
   "images": [
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/02/space-datacenter-analysis-one.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/12/moon-to-mars-scaled.png?fit=1024%2C576&ssl=1",
     "https://www.nasa.gov/wp-content/uploads/2026/07/pia26574-selfie.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26728/PIA26728.png",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/08/newplot.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/exomars_stretches_out_its_legs/27406507-1-eng-G",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2024/01/Gravity-1-launch-prep-Defu-15002-11jan2024-orienspace-1.jpg?f",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2020/07/PHOTO-3-VIKING.jpg?fit=1000%2C806&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2020/07/PHOTO-3-VIKING.jpg?fit=1000%2C806&ssl=1",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/QAT-ORION-Plant-Inspection-updated-scaled.png?fit=943%2C1024&"
   ],
-  "updated": "2026-08-06T15:19:22.615907"
+  "updated": "2026-08-06T15:20:33.994363"
 }
