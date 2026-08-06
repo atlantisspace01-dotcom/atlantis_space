@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid (2016 ng15) aaj earth ke paas se guzrega — 200-447m",
     "wild, scenic, and increasingly rusty",
     "getting ready for lunar planetary defense",
     "esa and poland to establish a new civil security and resilience centre in warsaw",
@@ -149,10 +148,10 @@
     "nasa’s perseverance rover watches earth vanish behind martian moon",
     "capella, iceye and umbra win nro radar-data contracts",
     "new sharpest image of the sun uncovers instability",
-    "upcoming launch: electron | the grain goddess provides (iqps launch 7)"
+    "upcoming launch: electron | the grain goddess provides (iqps launch 7)",
+    "this atlantic hurricane season is looking like a dud, but there will be a price to pay"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/antaris-logo.png?fit=1024%2C1024&ssl=1",
     "https://www.nasa.gov/wp-content/uploads/2026/07/tde.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/55393472670-5194b57b7f-k.jpg",
     "https://apod.nasa.gov/apod/image/2607/red_sprite.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/08/1-pia26758-figure-a-inset-16x9-1.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/rsz_gen4_iceye_us.jpg?fit=879%2C623&ssl=1",
     "https://apod.nasa.gov/apod/image/2608/SunFlowers_NSO_1901.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/08/newplot.png"
   ],
-  "updated": "2026-08-06T05:43:36.831044"
+  "updated": "2026-08-06T08:19:43.048617"
 }
