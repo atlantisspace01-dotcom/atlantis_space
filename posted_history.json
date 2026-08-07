@@ -1,6 +1,5 @@
 {
   "titles": [
-    "launch preview: soyuz to launch crew to iss, starship to fly another test flight",
     "defense spending lifts europe’s space economy",
     "antaris™ establishes aeonyx™ to advance all",
     "nasa’s roman telescope will spot distant black holes that shred stars",
@@ -149,10 +148,10 @@
     "chinese launch startup orienspace targets ipo, secures funding for reusable gravity-2 rocket",
     "lessons for the future of nasa mars exploration from a 1970s mission",
     "three companies building the tech to grow crops on the moon",
-    "rubin's cosmos field"
+    "rubin's cosmos field",
+    "how should europe’s militaries respond to space threats"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/07/pia26574-selfie.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26728/PIA26728.png",
     "https://apod.nasa.gov/apod/image/2607/ngc300.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/ontario-wildfire-smoke-drifts-east/o",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2024/01/Gravity-1-launch-prep-Defu-15002-11jan2024-orienspace-1.jpg?f",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2020/07/PHOTO-3-VIKING.jpg?fit=1000%2C806&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/QAT-ORION-Plant-Inspection-updated-scaled.png?fit=943%2C1024&",
-    "https://apod.nasa.gov/apod/image/2608/noirlab2618b.jpg"
+    "https://apod.nasa.gov/apod/image/2608/noirlab2618b.jpg",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/space-minds-podcast-sse-astroscale-2000-1500.jpg?fit=1024%2C7"
   ],
-  "updated": "2026-08-07T04:50:55.506855"
+  "updated": "2026-08-07T04:52:04.709703"
 }
