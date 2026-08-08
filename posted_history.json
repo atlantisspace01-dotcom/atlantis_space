@@ -1,6 +1,5 @@
 {
   "titles": [
-    "how hard is it to build orbital data centers, actually?",
     "laying the groundwork for the first human mission to mars",
     "nasa’s perseverance rover reads record of ancient mars impacts",
     "curiosity finds evidence of an ancient sandstorm",
@@ -149,10 +148,10 @@
     "iris² reinforced and accelerated as implementation advances",
     "bipartisan senate bill would sharpen space force training for conflict with china",
     "week in images: 03-07 august 2026",
-    "join us live and enjoy the total solar eclipse!"
+    "join us live and enjoy the total solar eclipse!",
+    "nasa’s ixpe studies magnetar"
   ],
   "images": [
-    "https://europeanspaceflight.com/wp-content/uploads/2026/07/ESA-Selects-Ariane-6-to-Launch-Deep-Space-CubeSat.webp",
     "https://www.nasa.gov/wp-content/uploads/2026/07/1-pia21259.jpg",
     "https://apod.nasa.gov/apod/image/2607/10P_Tempel2_20260711_DEBartlett2048.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/european_service_module_team_meets_artemis_ii_c",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/iris2/27408197-1-eng-GB/IRIS2_card_full.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Screenshot-2026-08-06-at-4.55.55-PM.png?fit=1024%2C536&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/webb_opens_a_treasure_chest_filled_with_stars/2",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/join_us_live_and_enjoy_the_total_solar_eclipse/"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/join_us_live_and_enjoy_the_total_solar_eclipse/",
+    "https://www.nasa.gov/wp-content/uploads/2026/08/ixpemagnetarartistsconcept-web.png"
   ],
-  "updated": "2026-08-07T16:59:37.739336"
+  "updated": "2026-08-08T04:09:32.324650"
 }
