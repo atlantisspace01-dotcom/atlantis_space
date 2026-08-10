@@ -1,6 +1,5 @@
 {
   "titles": [
-    "rocket report: india's vikram-1 nears debut flight; ast to become rocket company?",
     "nasa’s psyche mission images details of martian surface during flyby",
     "esa’s mars express meets nasa’s psyche",
     "shadow and rainbow",
@@ -149,10 +148,10 @@
     "katalyst space makes progress in restoring control of swift servicing spacecraft",
     "three galaxy pairs",
     "asteroid (2019 ny2) aaj earth ke paas se guzrega — 153-342m",
-    "one of china's workhorse rockets just exploded in flight"
+    "one of china's workhorse rockets just exploded in flight",
+    "launch into a new school year with nasa"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2607/Genesisimpact_nasa_960.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/17/png/epic_1b_20260717002712.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/esa_academy_s_navigation_training_course_in_red",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/transporter16.jpeg?fit=1024%2C683&ssl=1",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/link-solarpanel.jpeg?fit=1024%2C670&ssl=1",
     "https://apod.nasa.gov/apod/image/2608/Three3GalaxyPairs_Sampaio_2784.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/08/png/epic_1b_20260808004554.png",
-    "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1936304422.jpg"
+    "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1936304422.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/08/bts-2026-express-2.jpg"
   ],
-  "updated": "2026-08-10T16:57:49.736862"
+  "updated": "2026-08-10T16:59:01.576213"
 }
