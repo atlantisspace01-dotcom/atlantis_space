@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa terminates draper lunar lander mission",
     "pentagon awards $7.1 million to expand u.s. production of cover glass for satellites",
     "asteroid (2018 cv13) aaj earth ke paas se guzrega — 147-328m",
     "flying saucer crash lands in utah desert",
@@ -149,10 +148,10 @@
     "window for 2026 launch debut of rocket lab’s neutron rocket ‘is narrowing’ as development continues",
     "rocket lab builds deployable infrastructure for electron launches",
     "sophie adenot’s first spacewalk",
-    "starbase production lining up future vehicles"
+    "starbase production lining up future vehicles",
+    "nasa shares station research today supporting moon, mars tomorrow"
   ],
   "images": [
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/NSF-2026-07-20-19-45-20-195.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/why-maine's-sandy-shorelines-turn-ja",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/DSC00133.jpg?fit=1024%2C768&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/deltavision.jpeg?fit=1024%2C576&ssl=1",
@@ -301,7 +300,8 @@
     "http://spaceflightnow.com/wp-content/uploads/2026/05/20260507_Neutron_launch_simulation.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/54452351061_f80cf5db9c_k.jpg?fit=1024%2C768&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/sophie_adenot_s_first_spacewalk/27407635-1-eng-",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-11-01-29-42-063.jpg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-11-01-29-42-063.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/04/iss074e0458251.jpg"
   ],
-  "updated": "2026-08-11T10:29:28.696054"
+  "updated": "2026-08-11T14:15:50.328548"
 }
