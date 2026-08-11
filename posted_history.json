@@ -1,6 +1,5 @@
 {
   "titles": [
-    "skyroot aerospace reaches orbit on first vikram-1 launch",
     "nasa pushes new wing design to find structural limits",
     "nasa terminates draper lunar lander mission",
     "pentagon awards $7.1 million to expand u.s. production of cover glass for satellites",
@@ -149,10 +148,10 @@
     "launch into a new school year with nasa",
     "six moons of saturn",
     "window for 2026 launch debut of rocket lab’s neutron rocket ‘is narrowing’ as development continues",
-    "rocket lab builds deployable infrastructure for electron launches"
+    "rocket lab builds deployable infrastructure for electron launches",
+    "sophie adenot’s first spacewalk"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2025/07/e1-viking-1-pia00381.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/LRC-2026-OCIO_P-01034.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/NSF-2026-07-20-19-45-20-195.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/why-maine's-sandy-shorelines-turn-ja",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/08/bts-2026-express-2.jpg",
     "https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/05/20260507_Neutron_launch_simulation.jpeg",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/54452351061_f80cf5db9c_k.jpg?fit=1024%2C768&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/54452351061_f80cf5db9c_k.jpg?fit=1024%2C768&ssl=1",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/sophie_adenot_s_first_spacewalk/27407635-1-eng-"
   ],
-  "updated": "2026-08-11T06:53:13.963619"
+  "updated": "2026-08-11T10:28:19.261725"
 }
