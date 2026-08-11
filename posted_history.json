@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa pushes new wing design to find structural limits",
     "nasa terminates draper lunar lander mission",
     "pentagon awards $7.1 million to expand u.s. production of cover glass for satellites",
     "asteroid (2018 cv13) aaj earth ke paas se guzrega — 147-328m",
@@ -149,10 +148,10 @@
     "six moons of saturn",
     "window for 2026 launch debut of rocket lab’s neutron rocket ‘is narrowing’ as development continues",
     "rocket lab builds deployable infrastructure for electron launches",
-    "sophie adenot’s first spacewalk"
+    "sophie adenot’s first spacewalk",
+    "starbase production lining up future vehicles"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/LRC-2026-OCIO_P-01034.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/NSF-2026-07-20-19-45-20-195.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/why-maine's-sandy-shorelines-turn-ja",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/DSC00133.jpg?fit=1024%2C768&ssl=1",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/05/20260507_Neutron_launch_simulation.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/54452351061_f80cf5db9c_k.jpg?fit=1024%2C768&ssl=1",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/sophie_adenot_s_first_spacewalk/27407635-1-eng-"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/sophie_adenot_s_first_spacewalk/27407635-1-eng-",
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-11-01-29-42-063.jpg"
   ],
-  "updated": "2026-08-11T10:28:19.261725"
+  "updated": "2026-08-11T10:29:28.696054"
 }
