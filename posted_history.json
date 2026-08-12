@@ -1,6 +1,5 @@
 {
   "titles": [
-    "flying saucer crash lands in utah desert",
     "from system to signal at esa’s navigation training course",
     "pipelines to payloads: risk management lessons for the space economy",
     "from hampton to mars: how nasa langley helped land on the red planet",
@@ -149,10 +148,10 @@
     "starbase production lining up future vehicles",
     "nasa shares station research today supporting moon, mars tomorrow",
     "spacex increasing footprint in missile defense",
-    "technomile’s five-year sustained growth recognized with  place on the 2026 inc. 5000 list"
+    "technomile’s five-year sustained growth recognized with  place on the 2026 inc. 5000 list",
+    "stops along the path of totality"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/deltavision.jpeg?fit=1024%2C576&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20240926072512.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crew-13_crew_in_image_20260721144524.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/07/Poland-Boosts-Its-Contribution-to-Europes-IRIS2-Constellation",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-11-01-29-42-063.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/04/iss074e0458251.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/260716-X-X0813-1001-scaled.jpg?fit=1024%2C683&ssl=1",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/technomile.png?fit=1024%2C1024&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/technomile.png?fit=1024%2C1024&ssl=1",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/ice"
   ],
-  "updated": "2026-08-11T17:02:59.716164"
+  "updated": "2026-08-12T04:43:47.917473"
 }
