@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s juno peers beneath io’s surface",
     "northrop launches evolved satellite servicing spacecraft",
     "a new look – and sound – for messier 94",
     "soyuz ms-29 crew arrives at iss, u.s. eva completes canadarm2 repairs",
@@ -149,10 +148,10 @@
     "pentagon missile buildup changing the factory floor",
     "astranis unveils geostationary surveillance satellite",
     "cruise control: the team guiding hera to its asteroid",
-    "paragon lays off staff after gateway cancellation"
+    "paragon lays off staff after gateway cancellation",
+    "flyby: juice earth flyby"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22076/PIA22076.tif",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/space-minds-podcast-varda-2000-1500.jpg?fit=1024%2C768&ssl=1",
     "http://spaceflightnow.com/wp-content/uploads/2026/07/20260723_starship_ship_40_stack_5.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/nasa-image.jpeg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Machine-Image-2.jpg.jpeg?fit=1024%2C576&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Perceptor.jpg?fit=1024%2C576&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/hera_departing_earth/27414242-2-eng-GB/Hera_dep",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2021/07/halo-northrop.jpg?fit=879%2C495&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2021/07/halo-northrop.jpg?fit=879%2C495&ssl=1",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_20240307192047.jpeg"
   ],
-  "updated": "2026-08-13T14:19:48.276177"
+  "updated": "2026-08-13T17:00:17.768512"
 }
