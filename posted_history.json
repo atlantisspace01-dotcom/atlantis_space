@@ -1,6 +1,5 @@
 {
   "titles": [
-    "press event: roman telescope pre-launch media briefing",
     "relativity space to expand terran r production in florida",
     "mapping io’s hidden heat with nasa’s juno",
     "nasa’s juno peers beneath io’s surface",
@@ -149,10 +148,10 @@
     "space force orders two more impulse space vehicles for maneuvering demonstrations",
     "space command identifies capabilities it needs for the next space war",
     "virgin galactic delays resumption of commercial flights to 2027",
-    "pentagon missile buildup changing the factory floor"
+    "pentagon missile buildup changing the factory floor",
+    "astranis unveils geostationary surveillance satellite"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/iss_expedition__image_20260723114944.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/maf-20260515-cs4-lh2to451-08orig.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/booster_19_duri_image_20260307203559.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia22/pia22076/PIA22076.tif",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Impulse-Mira-Spacecraft-1-scaled.png?fit=1024%2C683&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Screenshot-2026-08-12-at-3.23.57-PM.png?fit=1024%2C500&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/vg-spaceship-aug26.jpeg?fit=1024%2C576&ssl=1",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Machine-Image-2.jpg.jpeg?fit=1024%2C576&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Machine-Image-2.jpg.jpeg?fit=1024%2C576&ssl=1",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Perceptor.jpg?fit=1024%2C576&ssl=1"
   ],
-  "updated": "2026-08-13T07:18:09.312573"
+  "updated": "2026-08-13T10:42:30.596916"
 }
