@@ -1,6 +1,5 @@
 {
   "titles": [
-    "press event: spacex crew-13 crew news conference",
     "poland boosts its contribution to europe’s iris2 constellation to €656m",
     "us-india satellite delivers data, reveals ‘hummingbird’ in antarctica",
     "press event: roman telescope pre-launch media briefing",
@@ -149,10 +148,10 @@
     "china’s ispace raises first batch of series e funding for reusable rocketry",
     "nasa astronaut mike fincke leaves nasa, career includes 4 spaceflights",
     "golden dome creates digital hub to expand commercial participation",
-    "space force orders two more impulse space vehicles for maneuvering demonstrations"
+    "space force orders two more impulse space vehicles for maneuvering demonstrations",
+    "space command identifies capabilities it needs for the next space war"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/07/250th-ngc4736.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/IMG_5280.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Shijian31-CZ3B-XSLC-16june2026-CASC.jpg?fit=1024%2C599&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/iss_expedition__image_20260723114944.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/Interstellar-Return-recovery-drone-feb2026-ispace-rotated.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/08/fincke.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/9819415-scaled.jpg?fit=1024%2C683&ssl=1",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Impulse-Mira-Spacecraft-1-scaled.png?fit=1024%2C683&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Impulse-Mira-Spacecraft-1-scaled.png?fit=1024%2C683&ssl=1",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Screenshot-2026-08-12-at-3.23.57-PM.png?fit=1024%2C500&ssl=1"
   ],
-  "updated": "2026-08-13T04:47:27.145174"
+  "updated": "2026-08-13T04:48:36.676953"
 }
