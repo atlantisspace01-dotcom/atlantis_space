@@ -1,6 +1,5 @@
 {
   "titles": [
-    "press event: spacex crew-13 mission overview news conference",
     "press event: spacex crew-13 crew news conference",
     "poland boosts its contribution to europe’s iris2 constellation to €656m",
     "us-india satellite delivers data, reveals ‘hummingbird’ in antarctica",
@@ -149,10 +148,10 @@
     "one species, one planet: the moon is our ethical dress rehearsal for mars",
     "china’s ispace raises first batch of series e funding for reusable rocketry",
     "nasa astronaut mike fincke leaves nasa, career includes 4 spaceflights",
-    "golden dome creates digital hub to expand commercial participation"
+    "golden dome creates digital hub to expand commercial participation",
+    "space force orders two more impulse space vehicles for maneuvering demonstrations"
   ],
   "images": [
-    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/07/joe-liftoff-scaled.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/250th-ngc4736.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/IMG_5280.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Shijian31-CZ3B-XSLC-16june2026-CASC.jpg?fit=1024%2C599&ssl=1",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/12/moon-to-mars-scaled.png?fit=1024%2C576&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/Interstellar-Return-recovery-drone-feb2026-ispace-rotated.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/08/fincke.jpg",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/9819415-scaled.jpg?fit=1024%2C683&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/9819415-scaled.jpg?fit=1024%2C683&ssl=1",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Impulse-Mira-Spacecraft-1-scaled.png?fit=1024%2C683&ssl=1"
   ],
-  "updated": "2026-08-12T17:03:32.803494"
+  "updated": "2026-08-13T04:47:27.145174"
 }
