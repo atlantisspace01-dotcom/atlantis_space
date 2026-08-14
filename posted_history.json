@@ -1,6 +1,5 @@
 {
   "titles": [
-    "a new look – and sound – for messier 94",
     "soyuz ms-29 crew arrives at iss, u.s. eva completes canadarm2 repairs",
     "china’s shijian-31 satellite is sweeping geo using a unique orbit",
     "change of command: iss expedition 74-75 change of command ceremony",
@@ -149,10 +148,10 @@
     "cruise control: the team guiding hera to its asteroid",
     "paragon lays off staff after gateway cancellation",
     "flyby: juice earth flyby",
-    "cesiumastro buys semiconductor specialist to boost constellation plans"
+    "cesiumastro buys semiconductor specialist to boost constellation plans",
+    "space force awards five companies $60 million for multi-vendor satellite network tests"
   ],
   "images": [
-    "http://spaceflightnow.com/wp-content/uploads/2026/07/20260723_starship_ship_40_stack_5.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/nasa-image.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/earth_from_space_agricultural_patchwork/2738859",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2021/02/galileo_satellite/23144341-1-eng-GB/Galileo_sat",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/hera_departing_earth/27414242-2-eng-GB/Hera_dep",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2021/07/halo-northrop.jpg?fit=879%2C495&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_20240307192047.jpeg",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/rsz_1shey_2026.png?fit=879%2C494&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/rsz_1shey_2026.png?fit=879%2C494&ssl=1",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2024/06/photospace4-1.jpg.webp?fit=878%2C500&ssl=1"
   ],
-  "updated": "2026-08-14T04:45:45.292178"
+  "updated": "2026-08-14T04:46:58.425839"
 }
