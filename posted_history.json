@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s maven illuminates new understanding of auroras at mars",
     "will bruey on rethinking the role of pharmaceuticals in low earth orbit",
     "live coverage: spacex ready for 2nd attempt to launch starship flight 13 following post-abort engine work",
     "look for nasa+ now streaming on amazon fire tv",
@@ -149,10 +148,10 @@
     "in-orbit services market to generate $3 billion in revenue over the next decade",
     "proba-3’s eclipse hours before totality in europe",
     "blue origin outlines plans for second cape canaveral launch pad",
-    "avio filings shed light on fd1 rocket demonstrator test flight"
+    "avio filings shed light on fd1 rocket demonstrator test flight",
+    "policy experts: europe stuck between \"rock and a hard place\" on launch"
   ],
   "images": [
-    "https://europeanspaceflight.com/wp-content/uploads/2026/07/ESA-Awards-ispace-65-Million-Euros-Contract-to-Build-and-Deli",
     "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/escapade/ESCAPADE%20Photo%20of%20Earth_Moon%201.png",
     "http://spaceflightnow.com/wp-content/uploads/2026/07/20260724_Madrid_DSN.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square-1-scaled.png?fit=1024%2C1024&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_s_eclipse_hours_before_totality_in_euro",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/lc36ab.jpeg?fit=1024%2C576&ssl=1",
-    "https://europeanspaceflight.com/wp-content/uploads/2026/08/Avio-Filings-Shed-Light-on-FD1-Rocket-Demonstrator-Test-Fligh"
+    "https://europeanspaceflight.com/wp-content/uploads/2026/08/Avio-Filings-Shed-Light-on-FD1-Rocket-Demonstrator-Test-Fligh",
+    "https://cdn.arstechnica.net/wp-content/uploads/2025/12/23802552292_6407c7a06f_k.jpg"
   ],
-  "updated": "2026-08-14T16:59:47.333652"
+  "updated": "2026-08-14T17:00:59.105943"
 }
