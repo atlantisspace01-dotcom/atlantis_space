@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s escapade snaps family portrait of earth, moon",
     "critical nasa deep space ground station in spain evacuated due to wildfires",
     "fires near madrid force evacuation of nasa’s dsn facility",
     "ula deals with financial challenges caused by vulcan grounding",
@@ -149,10 +148,10 @@
     "live coverage: spacex to launch satellite replenishment mission for globalstar from cape canaveral",
     "milky way over yellowstone",
     "astronaut spotlight: ravish malhotra — indian space hero",
-    "asteroid (2014 ce) aaj earth ke paas se guzrega — 11-25m"
+    "asteroid (2014 ce) aaj earth ke paas se guzrega — 11-25m",
+    "upcoming launch: long march 2c | satellite for earth observation (seo)"
   ],
   "images": [
-    "https://spacepolicyonline.com/wp-content/uploads/2026/07/ms28-landed-300x169.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/24/png/epic_1b_20260724002713.png",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/07/io-juno-oct-2023-e1785107357626.png",
     "https://spacepolicyonline.com/wp-content/uploads/2026/07/ms28-williams-doll-better-300x169.png",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/03/soyuzprogms33-1774582700.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/08/20260815_CC_Globalstar_2_R_1_vertical.jpg",
     "https://apod.nasa.gov/apod/image/2608/mwyellowstone_lane_1800.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg"
   ],
-  "updated": "2026-08-17T06:40:16.165856"
+  "updated": "2026-08-17T10:08:14.339398"
 }
