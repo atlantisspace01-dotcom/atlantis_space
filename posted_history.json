@@ -1,6 +1,5 @@
 {
   "titles": [
-    "sizing up the sargassum belt",
     "boeing still working with nasa to schedule next starliner flight",
     "chinese startup raises funds for space situational awareness constellation, joining commercial ssa rush",
     "asteroid (2018 rl4) aaj earth ke paas se guzrega — 75-168m",
@@ -149,10 +148,10 @@
     "space force funding could be record high, if congress agrees",
     "stoke space conducts second stage fit checks, completes first stage engines ahead of nova debut",
     "the elephant's trunk in cepheus",
-    "orbital insertion: bepicolombo mercury orbit insertion"
+    "orbital insertion: bepicolombo mercury orbit insertion",
+    "rock west composites® is premiering its new stratopultrusion™ product line at the 2026 small satellite conference"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/07/niac.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/starship-flt13-sunset.jpeg?fit=1024%2C576&ssl=1",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/july/red_sun.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_ms_in_orb_image_20240313130407.jpeg",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/AE14D6E5-F897-4488-A5CC-150A3985FC1C.jpeg",
     "https://apod.nasa.gov/apod/image/2608/IMG_5201_sgarbossa.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/17/png/epic_1b_20260817005516.png",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/RWC-square.jpg?fit=1024%2C1024&ssl=1"
   ],
-  "updated": "2026-08-20T13:41:00.125263"
+  "updated": "2026-08-20T13:42:10.753040"
 }
