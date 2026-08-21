@@ -1,6 +1,5 @@
 {
   "titles": [
-    "contractor to civil servant: nasa welcomes ray williams",
     "nasa’s curiosity views a sand",
     "nasa sets coverage for august northern hemisphere total solar eclipse",
     "nasa awards 2026 innovative technology concepts",
@@ -149,10 +148,10 @@
     "artemis mission patches",
     "golden dome chief touts progress as funding questions loom",
     "elve qualifies millimeter-wave amplifiers for spaceflight",
-    "time-lapse of the star s301 orbiting the black hole in the center of the galaxy"
+    "time-lapse of the star s301 orbiting the black hole in the center of the galaxy",
+    "sentinel-1 captures major ice loss from greenland glacier"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/12/electron-f79.jpeg?fit=1024%2C683&ssl=1",
     "https://apod.nasa.gov/apod/image/2607/red_sun.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/28/png/epic_1b_20260728003634.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/destructive-fires-char-western-europ",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Screenshot-2026-08-20-at-4.31.16-PM-scaled.png?fit=1024%2C516",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2024/02/rsz_elve.jpg?fit=879%2C532&ssl=1",
     "https://apod.nasa.gov/apod/image/2608/eso2612b.mp4",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/18/png/epic_1b_20260818003634.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/18/png/epic_1b_20260818003634.png",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/petermann_glacier_calves_huge_iceberg/27425701-"
   ],
-  "updated": "2026-08-21T06:36:11.485421"
+  "updated": "2026-08-21T10:04:01.790049"
 }
