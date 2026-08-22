@@ -152,7 +152,6 @@
     "mostly perseids"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/07/stoke-zenith.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/surface_water_over_south_america_from_hydrognss",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/july/https___mars.",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/19/png/epic_1b_20260819001751.png",
     "https://www.nasa.gov/wp-content/uploads/2023/03/bennu-osiris-rex-1041.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/CNES-Seeks-Partners-to-Mass-Produce-Compact-Optical-Telescope",
-    "https://apod.nasa.gov/apod/image/2608/allsky_CEMeNt_Aug12-13final_pretty_8bit.jpg"
+    "https://apod.nasa.gov/apod/image/2608/allsky_CEMeNt_Aug12-13final_pretty_8bit.jpg",
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/20/png/epic_1b_20260820000830.png"
   ],
-  "updated": "2026-08-22T16:29:44.527608"
+  "updated": "2026-08-22T16:32:07.116417"
 }
