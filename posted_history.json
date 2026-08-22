@@ -1,6 +1,5 @@
 {
   "titles": [
-    "proposed rule would exempt commercial launch licensing from environmental regulations",
     "apod: july 30",
     "soyuz ms-29 ne iss ke saath docking ki!",
     "from drone flight to sounding rocket",
@@ -149,10 +148,10 @@
     "sentinel-1 captures major ice loss from greenland glacier",
     "the cosmosis framework can ensure that washington governs space with its complexity in mind.",
     "asteroid (2005 go59) aaj earth ke paas se guzrega — 201-449m",
-    "cnes seeks partners to mass"
+    "cnes seeks partners to mass",
+    "mostly perseids"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/earth_from_space_new_orleans_and_the_mighty_mis",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/07/stoke-zenith.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/surface_water_over_south_america_from_hydrognss",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/04/artemis2-earth.jpeg?fit=1024%2C683&ssl=1",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/19/png/epic_1b_20260819001751.png",
     "https://www.nasa.gov/wp-content/uploads/2023/03/bennu-osiris-rex-1041.jpg",
-    "https://europeanspaceflight.com/wp-content/uploads/2026/08/CNES-Seeks-Partners-to-Mass-Produce-Compact-Optical-Telescope"
+    "https://europeanspaceflight.com/wp-content/uploads/2026/08/CNES-Seeks-Partners-to-Mass-Produce-Compact-Optical-Telescope",
+    "https://apod.nasa.gov/apod/image/2608/allsky_CEMeNt_Aug12-13final_pretty_8bit.jpg"
   ],
-  "updated": "2026-08-22T09:54:44.907005"
+  "updated": "2026-08-22T13:26:48.437131"
 }
