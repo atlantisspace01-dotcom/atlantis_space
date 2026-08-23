@@ -1,6 +1,5 @@
 {
   "titles": [
-    "smos salinity could offer early indicator of el niño",
     "rocket lab wins another launch contract from japan’s iqps",
     "red sun through wildfire smoke",
     "destructive fires char western europe",
@@ -149,10 +148,10 @@
     "mostly perseids",
     "chinese radio-frequency intelligence startup starrf closes new funding round",
     "cassini approaches saturn",
-    "soyuz ms-29 ne iss ke saath docking ki!"
+    "soyuz ms-29 ne iss ke saath docking ki!",
+    "curiosity blog, sols 4982–4987: back to our regularly scheduled programming"
   ],
   "images": [
-    "https://images-assets.nasa.gov/image/KSC-20260727-PH-JMT01_0001/KSC-20260727-PH-JMT01_0001~large.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/07/langleyjuly31.jpg",
     "https://apod.nasa.gov/apod/image/2608/FullMoon28-7-2026BrankoNadj.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/FullMoon28-7-2026BrankoNadj.jpg",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/20/png/epic_1b_20260820000830.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2023/09/Yaogan39-02-CZ2D-XSLC-17sept2023-ourspace1.jpg?fit=1024%2C681",
     "https://i.vimeocdn.com/video/62374077-15e3fbe97d70f73b4903d5cace93470fe5e57bff5f54b6936b8a9d2b74dcf61f-d_640?region=us",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_ms_in_orb_image_20240313130407.jpeg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_ms_in_orb_image_20240313130407.jpeg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/august/https___mar"
   ],
-  "updated": "2026-08-23T09:55:54.694128"
+  "updated": "2026-08-23T09:57:06.177625"
 }
