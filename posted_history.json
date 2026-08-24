@@ -1,6 +1,5 @@
 {
   "titles": [
-    "rocket lab wins another launch contract from japan’s iqps",
     "red sun through wildfire smoke",
     "destructive fires char western europe",
     "rules of the road needed for orbital data center constellations",
@@ -149,10 +148,10 @@
     "chinese radio-frequency intelligence startup starrf closes new funding round",
     "cassini approaches saturn",
     "soyuz ms-29 ne iss ke saath docking ki!",
-    "curiosity blog, sols 4982–4987: back to our regularly scheduled programming"
+    "curiosity blog, sols 4982–4987: back to our regularly scheduled programming",
+    "comet 220p in outburst"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/FullMoon28-7-2026BrankoNadj.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/skywatching/2026/august/20260717%20Whats%20",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/optimism.jpeg?fit=1024%2C716&ssl=1",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/29/png/epic_1b_20260729001752.png",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_ms_in_orb_image_20240313130407.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/august/https___mar",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/21/png/epic_1b_20260821002713.png",
-    "https://img.youtube.com/vi/UgxWkOXcdZU/0.jpg"
+    "https://img.youtube.com/vi/UgxWkOXcdZU/0.jpg",
+    "https://apod.nasa.gov/apod/image/2608/Comet220P_SA_4104.jpg"
   ],
-  "updated": "2026-08-24T03:48:15.911892"
+  "updated": "2026-08-24T06:40:08.739168"
 }
