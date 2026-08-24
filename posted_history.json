@@ -1,6 +1,5 @@
 {
   "titles": [
-    "earth from space: new orleans and the mighty mississippi",
     "upcoming launch: falcon 9 block 5 | starlink group 17-52",
     "rocket report: big deals for us launch firms, rfa one debut is delayed",
     "hydrognss data open for new insights into earth’s water",
@@ -149,10 +148,10 @@
     "comet 220p in outburst",
     "what lake bonneville left behind",
     "nasa’s roman telescope nears launch, reaches final integration and rehearsal milestones",
-    "watch live: mtg"
+    "watch live: mtg",
+    "esa to adapt ariane 6 for nuclear"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/TJS27A-B_CZ6A_TSLC-30july2026-OS.jpg?fit=1024%2C679&ssl=1",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/30/png/epic_1b_20260730000830.png",
     "https://apod.nasa.gov/apod/image/2608/FireRainbow_Harbig_4000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/31/png/epic_1b_20260731002712.png",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2608/Comet220P_SA_4104.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/what-lake-bonneville-left-behind/cra",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/KSC-20260709-PH-JMT01_0001large.jpg",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/mtg-i2_fairing_jettison/27422286-1-eng-GB/MTG-I"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/mtg-i2_fairing_jettison/27422286-1-eng-GB/MTG-I",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/08/ESA-to-Adapt-Ariane-6-for-Nuclear-Powered-Argonaut-Missions.w"
   ],
-  "updated": "2026-08-24T13:45:14.223801"
+  "updated": "2026-08-24T16:43:04.670435"
 }
