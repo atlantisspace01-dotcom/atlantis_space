@@ -1,6 +1,5 @@
 {
   "titles": [
-    "rocket report: big deals for us launch firms, rfa one debut is delayed",
     "hydrognss data open for new insights into earth’s water",
     "curiosity blog, sols 4961-4967: approaching a break in the rock record?",
     "nasa’s roman telescope to carry 1.35 million names to deep space",
@@ -149,10 +148,10 @@
     "nasa’s roman telescope nears launch, reaches final integration and rehearsal milestones",
     "watch live: mtg",
     "esa to adapt ariane 6 for nuclear",
-    "nasa sets coverage for roman space telescope launch from florida"
+    "nasa sets coverage for roman space telescope launch from florida",
+    "upcoming launch: falcon 9 block 5 | starlink group 10-49"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/FireRainbow_Harbig_4000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/31/png/epic_1b_20260731002712.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/gallery-gallery_ng2-8615.jpg?fit=1024%2C683&ssl=1",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/MeteorGecko_Burnett_4944.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/KSC-20260709-PH-JMT01_0001large.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/mtg-i2_fairing_jettison/27422286-1-eng-GB/MTG-I",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/ESA-to-Adapt-Ariane-6-for-Nuclear-Powered-Argonaut-Missions.w",
-    "https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260821-ph-ser01-0003large.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260821-ph-ser01-0003large.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png"
   ],
-  "updated": "2026-08-25T03:43:29.124380"
+  "updated": "2026-08-25T06:32:55.028025"
 }
