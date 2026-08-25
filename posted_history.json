@@ -1,6 +1,5 @@
 {
   "titles": [
-    "hydrognss data open for new insights into earth’s water",
     "curiosity blog, sols 4961-4967: approaching a break in the rock record?",
     "nasa’s roman telescope to carry 1.35 million names to deep space",
     "nasa opens new flight dynamics research facility in virginia",
@@ -149,7 +148,8 @@
     "watch live: mtg",
     "esa to adapt ariane 6 for nuclear",
     "nasa sets coverage for roman space telescope launch from florida",
-    "upcoming launch: falcon 9 block 5 | starlink group 10-49"
+    "upcoming launch: falcon 9 block 5 | starlink group 10-49",
+    "upcoming launch: falcon 9 block 5 | starlink group 15-22"
   ],
   "images": [
     "https://epic.gsfc.nasa.gov/archive/natural/2026/07/31/png/epic_1b_20260731002712.png",
@@ -303,5 +303,5 @@
     "https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260821-ph-ser01-0003large.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png"
   ],
-  "updated": "2026-08-25T06:32:55.028025"
+  "updated": "2026-08-25T06:34:04.846432"
 }
