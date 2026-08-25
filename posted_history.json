@@ -1,6 +1,5 @@
 {
   "titles": [
-    "curiosity blog, sols 4961-4967: approaching a break in the rock record?",
     "nasa’s roman telescope to carry 1.35 million names to deep space",
     "nasa opens new flight dynamics research facility in virginia",
     "buck moon and belt of venus",
@@ -149,10 +148,10 @@
     "esa to adapt ariane 6 for nuclear",
     "nasa sets coverage for roman space telescope launch from florida",
     "upcoming launch: falcon 9 block 5 | starlink group 10-49",
-    "upcoming launch: falcon 9 block 5 | starlink group 15-22"
+    "upcoming launch: falcon 9 block 5 | starlink group 15-22",
+    "earth's shadow visualized with lunar eclipses"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/07/31/png/epic_1b_20260731002712.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/gallery-gallery_ng2-8615.jpg?fit=1024%2C683&ssl=1",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/MeteorGecko_Burnett_4944.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-01-22-12-28-760.jpg",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/mtg-i2_fairing_jettison/27422286-1-eng-GB/MTG-I",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/ESA-to-Adapt-Ariane-6-for-Nuclear-Powered-Argonaut-Missions.w",
     "https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260821-ph-ser01-0003large.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+    "https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg"
   ],
-  "updated": "2026-08-25T06:34:04.846432"
+  "updated": "2026-08-25T10:04:37.515090"
 }
