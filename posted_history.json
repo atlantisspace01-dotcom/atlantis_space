@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s roman telescope to carry 1.35 million names to deep space",
     "nasa opens new flight dynamics research facility in virginia",
     "buck moon and belt of venus",
     "apod: 2026 august 1",
@@ -149,10 +148,10 @@
     "nasa sets coverage for roman space telescope launch from florida",
     "upcoming launch: falcon 9 block 5 | starlink group 10-49",
     "upcoming launch: falcon 9 block 5 | starlink group 15-22",
-    "earth's shadow visualized with lunar eclipses"
+    "earth's shadow visualized with lunar eclipses",
+    "tendeg launches newten steerable compact antenna at smallsat"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/MeteorGecko_Burnett_4944.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-01-22-12-28-760.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/the_journey_of_sophie_adenot_s_bonus_food/27401",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/spainsat-ng3.jpeg?fit=1024%2C745&ssl=1",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260821-ph-ser01-0003large.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
     "https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/22/png/epic_1b_20260822004555.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/22/png/epic_1b_20260822004555.png",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Tendeg-Logo-Social-Media-200x200-1.png?fit=200%2C200&ssl=1"
   ],
-  "updated": "2026-08-25T10:06:51.854905"
+  "updated": "2026-08-25T13:44:49.162739"
 }
