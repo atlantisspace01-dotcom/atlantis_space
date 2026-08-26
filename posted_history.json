@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa opens new flight dynamics research facility in virginia",
     "buck moon and belt of venus",
     "apod: 2026 august 1",
     "what’s up: august 2026 skywatching tips from nasa",
@@ -149,10 +148,10 @@
     "upcoming launch: falcon 9 block 5 | starlink group 10-49",
     "upcoming launch: falcon 9 block 5 | starlink group 15-22",
     "earth's shadow visualized with lunar eclipses",
-    "tendeg launches newten steerable compact antenna at smallsat"
+    "tendeg launches newten steerable compact antenna at smallsat",
+    "rollout: booster 21 rollout to the launch site"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/the_journey_of_sophie_adenot_s_bonus_food/27401",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/spainsat-ng3.jpeg?fit=1024%2C745&ssl=1",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/MaiaSpace-Losses-Required-ArianeGroup-to-Decide-on-Companys-F",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/05/HI-A7kbXEAEZyU_.jpg",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/22/png/epic_1b_20260822004555.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Tendeg-Logo-Social-Media-200x200-1.png?fit=200%2C200&ssl=1",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/24/png/epic_1b_20260824005516.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/24/png/epic_1b_20260824005516.png",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/booster_19_duri_image_20260307203559.jpg"
   ],
-  "updated": "2026-08-25T16:45:38.354585"
+  "updated": "2026-08-26T03:47:45.656609"
 }
