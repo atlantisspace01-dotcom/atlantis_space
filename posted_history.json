@@ -1,6 +1,5 @@
 {
   "titles": [
-    "u.s. air force expands blue origin rocket cargo contract",
     "apod: 2026 august 3 – vaporizing meteor photobombs the lacerta nebula",
     "boeing’s starliner set for potential 2026 cargo run to iss",
     "the journey of sophie adenot's bonus food",
@@ -149,10 +148,10 @@
     "analysis: narrowing in – artemis iii, hls and nasa’s journey to today",
     "watch live: bepicolombo begins its arrival at mercury",
     "latconnect 60 and phi earth partner to connect space and soil",
-    "nasa astronaut jonny kim departs agency to continue military service"
+    "nasa astronaut jonny kim departs agency to continue military service",
+    "the electronics ‘under the hood’ of space networking"
   ],
   "images": [
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/IMG_1145-scaled.jpeg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/ESA-Astronaut-Completes-Third-Test-of-EuroSuit-Prototype-Aboa",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/01/f9-fireflyispace.jpg?fit=1024%2C682&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/06/ax4crewdragon.jpeg?fit=1024%2C683&ssl=1",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/08/image.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/03/mercury_transfer_module_separation3/17405480-1-",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/latconnect-60-logo-square-scaled.png?fit=1024%2C1024&ssl=1",
-    "https://images-assets.nasa.gov/image/jsc2024e067210_alt/jsc2024e067210_alt~large.jpg"
+    "https://images-assets.nasa.gov/image/jsc2024e067210_alt/jsc2024e067210_alt~large.jpg",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/1500-1000-space-minds-innoflight-smallsat26-scaled.jpg?fit=10"
   ],
-  "updated": "2026-08-27T17:12:25.471930"
+  "updated": "2026-08-27T17:13:37.801516"
 }
