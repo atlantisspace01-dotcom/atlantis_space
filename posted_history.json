@@ -1,6 +1,5 @@
 {
   "titles": [
-    "xona secures spectrum approval for 250-satellite navigation network",
     "curious cometary knots in the helix nebula",
     "launch preview: starlink, ast spacemobile, and chinese missions fill launch manifest",
     "esa astronaut completes third test of eurosuit prototype aboard iss",
@@ -149,10 +148,10 @@
     "orbex’s sutherland spaceport assets sold to scottish development agency",
     "rocket report: europe splashes some cash on launch startups; pallas-1 nears debut",
     "president honors nasa’s artemis ii crew with highest us space award",
-    "president trump signs executive order to create us space academy"
+    "president trump signs executive order to create us space academy",
+    "press event: roman space telescope mission and science briefing"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/solar_eclipse_artist_impression/27150246-1-eng-",
     "https://www.nasa.gov/wp-content/uploads/2024/08/iss071e486706.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/06/hera_surveying_dimorphos/19433870-2-eng-GB/Hera",
@@ -301,7 +300,8 @@
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/Orbexs-Sutherland-Spaceport-Assets-Sold-to-Scottish-Developme",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/08/European_Launcher_Challenge_launch_service_providers_initial_capa",
     "https://www.nasa.gov/wp-content/uploads/2026/08/congressional-space-medal-of-honor-ceremony-1.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/08/eo-1.png"
+    "https://www.nasa.gov/wp-content/uploads/2026/08/eo-1.png",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/roman_space_tel_image_20260329084947.jpg"
   ],
-  "updated": "2026-08-28T17:58:52.294519"
+  "updated": "2026-08-28T21:01:32.716664"
 }
