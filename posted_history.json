@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa, spacex studying how to prevent future upper stage lunar collisions",
     "future of crew dragon weighs on commercial spaceflight industry",
     "spacex’s new starfall program offers validation and competition for reentry startups",
     "while spacex recovers ship 40, ship 41 prepares for testing ahead of flight 14",
@@ -149,10 +148,10 @@
     "press event: roman space telescope mission and science briefing",
     "the sky turns above paranal",
     "eclipse pair",
-    "static fire: spacex starship booster b21 static fire"
+    "static fire: spacex starship booster b21 static fire",
+    "esa awards first european launcher challenge contracts"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/SunFlowers_NSO_1901.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/08/newplot.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/exomars_stretches_out_its_legs/27406507-1-eng-G",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/26/png/epic_1b_20260826001752.png",
     "https://apod.nasa.gov/apod/image/2608/2026-08_12and28-EclipsePair.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/27/png/epic_1b_20260827000830.png",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/supeheavy_boost_image_20260828161901.jpeg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/supeheavy_boost_image_20260828161901.jpeg",
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-29-11-53-55-612.jpg"
   ],
-  "updated": "2026-08-29T14:41:25.107623"
+  "updated": "2026-08-29T16:57:40.801748"
 }
