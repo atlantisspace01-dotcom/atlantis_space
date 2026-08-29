@@ -1,6 +1,5 @@
 {
   "titles": [
-    "launch preview: starlink, ast spacemobile, and chinese missions fill launch manifest",
     "esa astronaut completes third test of eurosuit prototype aboard iss",
     "nasa, spacex studying how to prevent future upper stage lunar collisions",
     "future of crew dragon weighs on commercial spaceflight industry",
@@ -149,10 +148,10 @@
     "president honors nasa’s artemis ii crew with highest us space award",
     "president trump signs executive order to create us space academy",
     "press event: roman space telescope mission and science briefing",
-    "the sky turns above paranal"
+    "the sky turns above paranal",
+    "eclipse pair"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/06/hera_surveying_dimorphos/19433870-2-eng-GB/Hera",
     "https://www.nasa.gov/wp-content/uploads/2026/08/1-pia26758-figure-a-inset-16x9-1.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/rsz_gen4_iceye_us.jpg?fit=879%2C623&ssl=1",
     "https://apod.nasa.gov/apod/image/2608/SunFlowers_NSO_1901.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/08/eo-1.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/roman_space_tel_image_20260329084947.jpg",
     "https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/26/png/epic_1b_20260826001752.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/26/png/epic_1b_20260826001752.png",
+    "https://apod.nasa.gov/apod/image/2608/2026-08_12and28-EclipsePair.jpg"
   ],
-  "updated": "2026-08-29T00:32:40.147532"
+  "updated": "2026-08-29T09:38:39.225588"
 }
