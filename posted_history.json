@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: smart dragon 3 | ose hs-01 & 02",
     "total solar eclipse: how to watch live from home",
     "advanced mini-laboratories automate space station research",
     "your chance to run software in deep space on esa's asteroid mission",
@@ -149,10 +148,10 @@
     "m74: a grand design spiral",
     "ribbon-cutting event for nasa deep space network’s deep space station 23",
     "panorama showcasing the 34-meter antennas of the dsn’s goldstone complex",
-    "what’s happening in space policy august 30-september 5, 2026"
+    "what’s happening in space policy august 30-september 5, 2026",
+    "eva: us eva-99"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/noirlab2618b.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/space-minds-podcast-sse-astroscale-2000-1500.jpg?fit=1024%2C7",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/04/png/epic_1b_20260804003633.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/iris2/27408197-1-eng-GB/IRIS2_card_full.jpg",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/28/png/epic_1b_20260828002713.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26779/PIA26779.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26777/PIA26777.jpg",
-    "https://spacepolicyonline.com/wp-content/uploads/2026/08/Roman-liftoff-Kraus-300x198.jpg"
+    "https://spacepolicyonline.com/wp-content/uploads/2026/08/Roman-liftoff-Kraus-300x198.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg"
   ],
-  "updated": "2026-08-31T09:08:51.529476"
+  "updated": "2026-08-31T12:16:37.429003"
 }
