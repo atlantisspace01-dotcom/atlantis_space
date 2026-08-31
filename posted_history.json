@@ -1,6 +1,5 @@
 {
   "titles": [
-    "advanced mini-laboratories automate space station research",
     "your chance to run software in deep space on esa's asteroid mission",
     "nasa’s perseverance rover watches earth vanish behind martian moon",
     "capella, iceye and umbra win nro radar-data contracts",
@@ -149,10 +148,10 @@
     "panorama showcasing the 34-meter antennas of the dsn’s goldstone complex",
     "what’s happening in space policy august 30-september 5, 2026",
     "eva: us eva-99",
-    "docking: progress ms-35 docking"
+    "docking: progress ms-35 docking",
+    "media briefing: bepicolombo's next milestone towards mercury"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/04/png/epic_1b_20260804003633.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/iris2/27408197-1-eng-GB/IRIS2_card_full.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Screenshot-2026-08-06-at-4.55.55-PM.png?fit=1024%2C536&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/webb_opens_a_treasure_chest_filled_with_stars/2",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26777/PIA26777.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/08/Roman-liftoff-Kraus-300x198.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520ms-112520docking_image_20190318202147.jpe"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520ms-112520docking_image_20190318202147.jpe",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/media_briefing_bepicolombo_s_next_milestone_tow"
   ],
-  "updated": "2026-08-31T17:17:07.750240"
+  "updated": "2026-08-31T17:20:00.395204"
 }
