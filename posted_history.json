@@ -1,6 +1,5 @@
 {
   "titles": [
-    "capella, iceye and umbra win nro radar-data contracts",
     "new sharpest image of the sun uncovers instability",
     "upcoming launch: electron | the grain goddess provides (iqps launch 7)",
     "this atlantic hurricane season is looking like a dud, but there will be a price to pay",
@@ -149,10 +148,10 @@
     "docking: progress ms-35 docking",
     "media briefing: bepicolombo's next milestone towards mercury",
     "launch of the roman space telescope",
-    "a plane lunar eclipse"
+    "a plane lunar eclipse",
+    "private group wants to launch \"cheapest possible\" mission to alpha centauri"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/join_us_live_and_enjoy_the_total_solar_eclipse/",
     "https://www.nasa.gov/wp-content/uploads/2026/08/ixpemagnetarartistsconcept-web.png",
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Screenshot-2026-07-14-at-4.00.08-PM.png?fit=1024%2C582&ssl=1",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/media_briefing_bepicolombo_s_next_milestone_tow",
     "https://apod.nasa.gov/apod/image/2608/RomanLaunch_NASA.mp4",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/29/png/epic_1b_20260829004554.png",
-    "https://apod.nasa.gov/apod/image/2608/PlaneEclipse_Ferreira_1059.jpg"
+    "https://apod.nasa.gov/apod/image/2608/PlaneEclipse_Ferreira_1059.jpg",
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/08/2_FermiExplorer_HeroShot_01.png"
   ],
-  "updated": "2026-09-01T08:12:55.480846"
+  "updated": "2026-09-01T10:52:16.145803"
 }
