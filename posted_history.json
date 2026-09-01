@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s perseverance rover watches earth vanish behind martian moon",
     "capella, iceye and umbra win nro radar-data contracts",
     "new sharpest image of the sun uncovers instability",
     "upcoming launch: electron | the grain goddess provides (iqps launch 7)",
@@ -149,10 +148,10 @@
     "eva: us eva-99",
     "docking: progress ms-35 docking",
     "media briefing: bepicolombo's next milestone towards mercury",
-    "launch of the roman space telescope"
+    "launch of the roman space telescope",
+    "a plane lunar eclipse"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/webb_opens_a_treasure_chest_filled_with_stars/2",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/join_us_live_and_enjoy_the_total_solar_eclipse/",
     "https://www.nasa.gov/wp-content/uploads/2026/08/ixpemagnetarartistsconcept-web.png",
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520ms-112520docking_image_20190318202147.jpe",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/media_briefing_bepicolombo_s_next_milestone_tow",
     "https://apod.nasa.gov/apod/image/2608/RomanLaunch_NASA.mp4",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/29/png/epic_1b_20260829004554.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/29/png/epic_1b_20260829004554.png",
+    "https://apod.nasa.gov/apod/image/2608/PlaneEclipse_Ferreira_1059.jpg"
   ],
-  "updated": "2026-08-31T21:26:40.213261"
+  "updated": "2026-09-01T08:10:41.395894"
 }
