@@ -1,6 +1,5 @@
 {
   "titles": [
-    "this atlantic hurricane season is looking like a dud, but there will be a price to pay",
     "exomars stretches out its legs",
     "chinese launch startup orienspace targets ipo, secures funding for reusable gravity-2 rocket",
     "lessons for the future of nasa mars exploration from a 1970s mission",
@@ -149,10 +148,10 @@
     "a plane lunar eclipse",
     "private group wants to launch \"cheapest possible\" mission to alpha centauri",
     "samba’s fiery farewell recorded",
-    "peatland fires darken skies in indonesia"
+    "peatland fires darken skies in indonesia",
+    "rocket lab’s hungry hippo completes testing"
   ],
   "images": [
-    "https://europeanspaceflight.com/wp-content/uploads/2026/08/IRIS2-Service-Gets-Green-Light-With-More-Money-and-More-Satel",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/08/PIA26379-Sol-1295-Navcam-NLF_1295_0781909732_909RZS_N0603852NCAM0",
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/08/image-1.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/06/png/epic_1b_20260806000830.png",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/08/2_FermiExplorer_HeroShot_01.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/samba_s_reentry_recorded/27443967-1-eng-GB/Samb",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/30/png/epic_1b_20260830010437.png",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/peatland-fires-darken-skies-in-indon"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/peatland-fires-darken-skies-in-indon",
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/16D158EF-E0FF-4622-ABD4-DA387D02F975.jpeg"
   ],
-  "updated": "2026-09-03T10:27:39.074327"
+  "updated": "2026-09-03T10:28:50.822627"
 }
