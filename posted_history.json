@@ -1,6 +1,5 @@
 {
   "titles": [
-    "chinese launch startup orienspace targets ipo, secures funding for reusable gravity-2 rocket",
     "lessons for the future of nasa mars exploration from a 1970s mission",
     "three companies building the tech to grow crops on the moon",
     "rubin's cosmos field",
@@ -149,10 +148,10 @@
     "samba’s fiery farewell recorded",
     "peatland fires darken skies in indonesia",
     "rocket lab’s hungry hippo completes testing",
-    "how sentinel-3 tracks climate change"
+    "how sentinel-3 tracks climate change",
+    "nā ʻuhane māhoe huki pū i ke ola"
   ],
   "images": [
-    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/08/image-1.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/06/png/epic_1b_20260806000830.png",
     "https://apod.nasa.gov/apod/image/2608/sunsilhouettes_gilbert_1024.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/07/png/epic_1b_20260807002712.png",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/30/png/epic_1b_20260830010437.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/peatland-fires-darken-skies-in-indon",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/16D158EF-E0FF-4622-ABD4-DA387D02F975.jpeg",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/smoke_plume_from_greek_wildfires_seen_by_sentin"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/smoke_plume_from_greek_wildfires_seen_by_sentin",
+    "https://apod.nasa.gov/apod/image/2609/noirlab2621a.jpg"
   ],
-  "updated": "2026-09-04T13:44:31.769167"
+  "updated": "2026-09-04T18:43:55.585990"
 }
