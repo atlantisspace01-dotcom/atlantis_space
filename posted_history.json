@@ -152,7 +152,6 @@
     "chasing the moon's shadow"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/Three3GalaxyPairs_Sampaio_2784.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/08/png/epic_1b_20260808004554.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1936304422.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/08/bts-2026-express-2.jpg",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2019/08/GettyImages-1164167940.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/media_briefing_ahead_of_flex_and_sentinel-3c_la",
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
-    "https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg"
+    "https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg",
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/03/png/epic_1b_20260903000831.png"
   ],
-  "updated": "2026-09-05T13:01:23.811219"
+  "updated": "2026-09-05T13:03:44.621719"
 }
