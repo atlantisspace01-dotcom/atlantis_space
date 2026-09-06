@@ -152,7 +152,6 @@
     "pluto in enhanced color"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/05/20260507_Neutron_launch_simulation.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/54452351061_f80cf5db9c_k.jpg?fit=1024%2C768&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/sophie_adenot_s_first_spacewalk/27407635-1-eng-",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/03/png/epic_1b_20260903000831.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/september/2026Eclipse_WB57GoPro_Totality_",
     "https://www.nasa.gov/wp-content/uploads/2026/09/blindlowvision.jpg",
-    "https://apod.nasa.gov/apod/image/2609/PlutoEnhancedHiRes_NewHorizons_5000.jpg"
+    "https://apod.nasa.gov/apod/image/2609/PlutoEnhancedHiRes_NewHorizons_5000.jpg",
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/04/png/epic_1b_20260904002712.png"
   ],
-  "updated": "2026-09-06T13:06:00.667069"
+  "updated": "2026-09-06T13:08:33.762653"
 }
