@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s ixpe studies magnetar",
     "2026 igarss hyperwall schedule",
     "senate installs new chiefs for u.s. military space acquisition, spy satellites",
     "iris2 gets green light with more money and more satellites",
@@ -149,10 +148,10 @@
     "nasa hosts virtual artemis webinar for blind, low",
     "pluto in enhanced color",
     "isar aerospace attempts launch of spectrum rocket after months of delays",
-    "starbase infrastructure advances toward flight 14"
+    "starbase infrastructure advances toward flight 14",
+    "isar aerospace achieves first launch to orbit from continental europe"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/sophie_adenot_s_first_spacewalk/27407635-1-eng-",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-11-01-29-42-063.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/04/iss074e0458251.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/260716-X-X0813-1001-scaled.jpg?fit=1024%2C683&ssl=1",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2609/PlutoEnhancedHiRes_NewHorizons_5000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/04/png/epic_1b_20260904002712.png",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/01/IMG_6221-scaled.jpeg",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Launch-Site-September-3rd-scaled.jpg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Launch-Site-September-3rd-scaled.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/isar_aerospace_achieves_first_launch_to_orbit_f"
   ],
-  "updated": "2026-09-07T07:45:21.144398"
+  "updated": "2026-09-07T11:08:20.867445"
 }
