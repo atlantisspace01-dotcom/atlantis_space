@@ -1,6 +1,5 @@
 {
   "titles": [
-    "join us live and enjoy the total solar eclipse!",
     "nasa’s ixpe studies magnetar",
     "2026 igarss hyperwall schedule",
     "senate installs new chiefs for u.s. military space acquisition, spy satellites",
@@ -149,10 +148,10 @@
     "apod: 2026 september 5 – chasing the moon’s shadow",
     "nasa hosts virtual artemis webinar for blind, low",
     "pluto in enhanced color",
-    "isar aerospace attempts launch of spectrum rocket after months of delays"
+    "isar aerospace attempts launch of spectrum rocket after months of delays",
+    "starbase infrastructure advances toward flight 14"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/54452351061_f80cf5db9c_k.jpg?fit=1024%2C768&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/sophie_adenot_s_first_spacewalk/27407635-1-eng-",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-11-01-29-42-063.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/04/iss074e0458251.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/09/blindlowvision.jpg",
     "https://apod.nasa.gov/apod/image/2609/PlutoEnhancedHiRes_NewHorizons_5000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/04/png/epic_1b_20260904002712.png",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/01/IMG_6221-scaled.jpeg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/01/IMG_6221-scaled.jpeg",
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Launch-Site-September-3rd-scaled.jpg"
   ],
-  "updated": "2026-09-06T18:09:07.863956"
+  "updated": "2026-09-07T07:45:21.144398"
 }
