@@ -1,6 +1,5 @@
 {
   "titles": [
-    "the first self-driving vehicle on mars has proven to be a smashing success",
     "ariane 6 lightweight upper stage, future upgrades cancelled",
     "asteroid 173561 (2000 yv137) aaj earth ke paas se guzrega — 566-1265m",
     "contemplating the sun",
@@ -149,10 +148,10 @@
     "isar aerospace achieves first launch to orbit from continental europe",
     "the pelican nebula in gas, dust, and stars",
     "the otherworldly geology of vasquez rocks",
-    "launch preview: soyuz, cz-8a, and falcon 9 to launch from sites around the world"
+    "launch preview: soyuz, cz-8a, and falcon 9 to launch from sites around the world",
+    "hubble: decagon around saturn's south pole"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/ice",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/55143071969_a1ed891f84_k.jpg?fit=1024%2C683&ssl=1",
     "http://spaceflightnow.com/wp-content/uploads/2026/08/20260811_Firefly_Alpha_update-678x381.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/mfc-thaad-sky-jpg-pc-adaptive-1280-medium-1116x627v1.jpeg?fit",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/05/png/epic_1b_20260905004555.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-otherworldly-geology-of-vasquez-",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2023/04/julia-streak-scaled.jpg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2023/04/julia-streak-scaled.jpg",
+    "https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg"
   ],
-  "updated": "2026-09-08T07:39:24.895875"
+  "updated": "2026-09-08T10:21:15.754764"
 }
