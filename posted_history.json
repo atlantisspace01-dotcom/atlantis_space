@@ -1,6 +1,5 @@
 {
   "titles": [
-    "senate installs new chiefs for u.s. military space acquisition, spy satellites",
     "iris2 gets green light with more money and more satellites",
     "the first self-driving vehicle on mars has proven to be a smashing success",
     "ariane 6 lightweight upper stage, future upgrades cancelled",
@@ -149,10 +148,10 @@
     "isar aerospace attempts launch of spectrum rocket after months of delays",
     "starbase infrastructure advances toward flight 14",
     "isar aerospace achieves first launch to orbit from continental europe",
-    "the pelican nebula in gas, dust, and stars"
+    "the pelican nebula in gas, dust, and stars",
+    "the otherworldly geology of vasquez rocks"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/260716-X-X0813-1001-scaled.jpg?fit=1024%2C683&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/technomile.png?fit=1024%2C1024&ssl=1",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/ice",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/03/55143071969_a1ed891f84_k.jpg?fit=1024%2C683&ssl=1",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Launch-Site-September-3rd-scaled.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/isar_aerospace_achieves_first_launch_to_orbit_f",
     "https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/05/png/epic_1b_20260905004555.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/05/png/epic_1b_20260905004555.png",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-otherworldly-geology-of-vasquez-"
   ],
-  "updated": "2026-09-07T19:45:38.001375"
+  "updated": "2026-09-08T07:38:16.500366"
 }
