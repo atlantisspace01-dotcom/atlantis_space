@@ -1,6 +1,5 @@
 {
   "titles": [
-    "sophie adenot’s first spacewalk",
     "starbase production lining up future vehicles",
     "nasa shares station research today supporting moon, mars tomorrow",
     "spacex increasing footprint in missile defense",
@@ -149,10 +148,10 @@
     "dust storm sweeps over mali",
     "as europe flounders in space, a rising french star may show the way",
     "ldn 1295: the giraffe nebula",
-    "aerospacelab, thales alenia space secure €5.4 billion in iris2 contracts"
+    "aerospacelab, thales alenia space secure €5.4 billion in iris2 contracts",
+    "dust and water in sagittarius a*"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/hera_departing_earth/27414242-2-eng-GB/Hera_dep",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2021/07/halo-northrop.jpg?fit=879%2C495&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_20240307192047.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/rsz_1shey_2026.png?fit=879%2C494&ssl=1",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/dust-storm-sweeps-over-mali/malidust",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2237740895.jpg",
     "https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg",
-    "https://europeanspaceflight.com/wp-content/uploads/2026/09/Aerospacelab-Thales-Alenia-Space-Secure-5.4-Billion-Euros-in-"
+    "https://europeanspaceflight.com/wp-content/uploads/2026/09/Aerospacelab-Thales-Alenia-Space-Secure-5.4-Billion-Euros-in-",
+    "https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png"
   ],
-  "updated": "2026-09-10T13:48:35.610050"
+  "updated": "2026-09-10T16:48:13.492035"
 }
