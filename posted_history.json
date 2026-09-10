@@ -1,6 +1,5 @@
 {
   "titles": [
-    "six moons of saturn",
     "window for 2026 launch debut of rocket lab’s neutron rocket ‘is narrowing’ as development continues",
     "rocket lab builds deployable infrastructure for electron launches",
     "sophie adenot’s first spacewalk",
@@ -149,10 +148,10 @@
     "nasa names two artemis ii astronauts to emeritus program",
     "mtm's selfie footage of bepicolombo's eight-year journey",
     "how 2 us, european satellites are studying hurricanes during el niño",
-    "dust storm sweeps over mali"
+    "dust storm sweeps over mali",
+    "as europe flounders in space, a rising french star may show the way"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/vg-spaceship-aug26.jpeg?fit=1024%2C576&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Machine-Image-2.jpg.jpeg?fit=1024%2C576&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Perceptor.jpg?fit=1024%2C576&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/hera_departing_earth/27414242-2-eng-GB/Hera_dep",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/mtm_s_selfie_footage_of_bepicolombo_s_eight-yea",
     "https://images-assets.nasa.gov/image/iss073e1044319/iss073e1044319~large.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/07/png/epic_1b_20260907005515.png",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/dust-storm-sweeps-over-mali/malidust"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/dust-storm-sweeps-over-mali/malidust",
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2237740895.jpg"
   ],
-  "updated": "2026-09-10T07:42:45.571851"
+  "updated": "2026-09-10T07:43:58.173565"
 }
