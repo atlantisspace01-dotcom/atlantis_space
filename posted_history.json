@@ -1,6 +1,5 @@
 {
   "titles": [
-    "starbase production lining up future vehicles",
     "nasa shares station research today supporting moon, mars tomorrow",
     "spacex increasing footprint in missile defense",
     "technomile’s five-year sustained growth recognized with  place on the 2026 inc. 5000 list",
@@ -149,10 +148,10 @@
     "as europe flounders in space, a rising french star may show the way",
     "ldn 1295: the giraffe nebula",
     "aerospacelab, thales alenia space secure €5.4 billion in iris2 contracts",
-    "dust and water in sagittarius a*"
+    "dust and water in sagittarius a*",
+    "esa awards the exploration company a €760m space station cargo contract"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2021/07/halo-northrop.jpg?fit=879%2C495&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_20240307192047.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/rsz_1shey_2026.png?fit=879%2C494&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2024/06/photospace4-1.jpg.webp?fit=878%2C500&ssl=1",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2237740895.jpg",
     "https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/Aerospacelab-Thales-Alenia-Space-Secure-5.4-Billion-Euros-in-",
-    "https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png"
+    "https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/09/ESA-Awards-The-Exploration-Company-a-760M-Euros-Space-Station"
   ],
-  "updated": "2026-09-10T16:48:13.492035"
+  "updated": "2026-09-10T16:49:24.561008"
 }
