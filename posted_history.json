@@ -1,6 +1,5 @@
 {
   "titles": [
-    "firefly aerospace pushes debut of alpha block 2 rocket to the fourth quarter of 2026",
     "u.s. expands missile production as army seeks more depth in its arsenal",
     "asteroid 1620 geographos (1951 ra) aaj earth ke paas se guzrega — 2347-5249m",
     "one species, one planet: the moon is our ethical dress rehearsal for mars",
@@ -149,10 +148,10 @@
     "roman telescope deploys solar array and communication systems, powers on coronagraph instrument",
     "week in images: 07-11 sep 2026",
     "a team of teams like never before: rehearsing a unique launch at esa mission control",
-    "m83: the southern pinwheel"
+    "m83: the southern pinwheel",
+    "nasa boosts open science, data sharing with artemis accords"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_s_eclipse_hours_before_totality_in_euro",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/lc36ab.jpeg?fit=1024%2C576&ssl=1",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/Avio-Filings-Shed-Light-on-FD1-Rocket-Demonstrator-Test-Fligh",
     "https://cdn.arstechnica.net/wp-content/uploads/2025/12/23802552292_6407c7a06f_k.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/RST_Unloading_Shot_4k_60_ProRes.00493_print.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/flex_and_sentinel-3c_ready_for_launch/27459766-",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/teams_at_esoc_during_esa_s_flex_and_copernicus_",
-    "https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg"
+    "https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/09/art002e012702large.jpg"
   ],
-  "updated": "2026-09-11T13:48:22.517831"
+  "updated": "2026-09-11T16:51:37.974010"
 }
