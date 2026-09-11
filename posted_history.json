@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa shares station research today supporting moon, mars tomorrow",
     "spacex increasing footprint in missile defense",
     "technomile’s five-year sustained growth recognized with  place on the 2026 inc. 5000 list",
     "stops along the path of totality",
@@ -149,10 +148,10 @@
     "ldn 1295: the giraffe nebula",
     "aerospacelab, thales alenia space secure €5.4 billion in iris2 contracts",
     "dust and water in sagittarius a*",
-    "esa awards the exploration company a €760m space station cargo contract"
+    "esa awards the exploration company a €760m space station cargo contract",
+    "upcoming launch: electron | happily ever faster (blacksky gen-3 5)"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/rsz_1shey_2026.png?fit=879%2C494&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2024/06/photospace4-1.jpg.webp?fit=878%2C500&ssl=1",
     "https://apod.nasa.gov/apod/image/2608/TSE2026DR_Madhaven.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/11/png/epic_1b_20260811003634.png",
@@ -301,7 +300,8 @@
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/Aerospacelab-Thales-Alenia-Space-Secure-5.4-Billion-Euros-in-",
     "https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/ESA-Awards-The-Exploration-Company-a-760M-Euros-Space-Station",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/08/png/epic_1b_20260908003634.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/08/png/epic_1b_20260908003634.png",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg"
   ],
-  "updated": "2026-09-10T19:05:36.062610"
+  "updated": "2026-09-11T07:39:43.861198"
 }
