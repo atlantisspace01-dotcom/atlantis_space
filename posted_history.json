@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid 1620 geographos (1951 ra) aaj earth ke paas se guzrega — 2347-5249m",
     "one species, one planet: the moon is our ethical dress rehearsal for mars",
     "china’s ispace raises first batch of series e funding for reusable rocketry",
     "nasa astronaut mike fincke leaves nasa, career includes 4 spaceflights",
@@ -149,10 +148,10 @@
     "a team of teams like never before: rehearsing a unique launch at esa mission control",
     "m83: the southern pinwheel",
     "nasa boosts open science, data sharing with artemis accords",
-    "help refine data from space telescopes with artifact inspector"
+    "help refine data from space telescopes with artifact inspector",
+    "apollo 11: catching some sun"
   ],
   "images": [
-    "https://europeanspaceflight.com/wp-content/uploads/2026/08/Avio-Filings-Shed-Light-on-FD1-Rocket-Demonstrator-Test-Fligh",
     "https://cdn.arstechnica.net/wp-content/uploads/2025/12/23802552292_6407c7a06f_k.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/05/liveenable-im3-sustainabilitylogistics-withastros-1.png",
     "https://spacepolicyonline.com/wp-content/uploads/2026/06/Artemis-3-crew-Robt-Markowitz.webp-300x198.jpg",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/teams_at_esoc_during_esa_s_flex_and_copernicus_",
     "https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/art002e012702large.jpg",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/backgroundimage.001-Aime"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/backgroundimage.001-Aime",
+    "https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg"
   ],
-  "updated": "2026-09-12T07:32:50.239550"
+  "updated": "2026-09-12T09:52:13.587713"
 }
