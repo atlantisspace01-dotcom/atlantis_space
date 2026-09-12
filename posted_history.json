@@ -1,6 +1,5 @@
 {
   "titles": [
-    "one species, one planet: the moon is our ethical dress rehearsal for mars",
     "china’s ispace raises first batch of series e funding for reusable rocketry",
     "nasa astronaut mike fincke leaves nasa, career includes 4 spaceflights",
     "golden dome creates digital hub to expand commercial participation",
@@ -149,10 +148,10 @@
     "m83: the southern pinwheel",
     "nasa boosts open science, data sharing with artemis accords",
     "help refine data from space telescopes with artifact inspector",
-    "apollo 11: catching some sun"
+    "apollo 11: catching some sun",
+    "nasa’s chandra spots galactic gem"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/05/liveenable-im3-sustainabilitylogistics-withastros-1.png",
     "https://spacepolicyonline.com/wp-content/uploads/2026/06/Artemis-3-crew-Robt-Markowitz.webp-300x198.jpg",
     "https://apod.nasa.gov/apod/image/2608/PerseidsAPOD_P-MHeden.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-15-04-32-28-725.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/09/art002e012702large.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/backgroundimage.001-Aime",
     "https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/10/png/epic_1b_20260910000830.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/10/png/epic_1b_20260910000830.png",
+    "https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg"
   ],
-  "updated": "2026-09-12T16:01:09.495605"
+  "updated": "2026-09-12T18:14:50.098868"
 }
