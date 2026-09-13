@@ -1,6 +1,5 @@
 {
   "titles": [
-    "china’s ispace raises first batch of series e funding for reusable rocketry",
     "nasa astronaut mike fincke leaves nasa, career includes 4 spaceflights",
     "golden dome creates digital hub to expand commercial participation",
     "space force orders two more impulse space vehicles for maneuvering demonstrations",
@@ -149,10 +148,10 @@
     "nasa boosts open science, data sharing with artemis accords",
     "help refine data from space telescopes with artifact inspector",
     "apollo 11: catching some sun",
-    "nasa’s chandra spots galactic gem"
+    "nasa’s chandra spots galactic gem",
+    "press event: crew-12 pre-departure on-orbit news conference"
   ],
   "images": [
-    "https://spacepolicyonline.com/wp-content/uploads/2026/06/Artemis-3-crew-Robt-Markowitz.webp-300x198.jpg",
     "https://apod.nasa.gov/apod/image/2608/PerseidsAPOD_P-MHeden.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-15-04-32-28-725.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/wallops-vaspace.jpeg?fit=1024%2C576&ssl=1",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/backgroundimage.001-Aime",
     "https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/10/png/epic_1b_20260910000830.png",
-    "https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crew-12_spacex__image_20260126082450.png"
   ],
-  "updated": "2026-09-12T18:14:50.098868"
+  "updated": "2026-09-13T07:52:15.741400"
 }
