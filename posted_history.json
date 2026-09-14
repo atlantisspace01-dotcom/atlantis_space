@@ -1,6 +1,5 @@
 {
   "titles": [
-    "space force orders two more impulse space vehicles for maneuvering demonstrations",
     "space command identifies capabilities it needs for the next space war",
     "virgin galactic delays resumption of commercial flights to 2027",
     "pentagon missile buildup changing the factory floor",
@@ -149,7 +148,8 @@
     "nasa’s chandra spots galactic gem",
     "press event: crew-12 pre-departure on-orbit news conference",
     "comet neowise rising over the adriatic sea",
-    "where your elements came from"
+    "where your elements came from",
+    "asteroid (2012 ud34) aaj earth ke paas se guzrega — 318-711m"
   ],
   "images": [
     "https://cdn.arstechnica.net/wp-content/uploads/2026/03/soyuzprogms33-1774582700.jpg",
@@ -303,5 +303,5 @@
     "https://apod.nasa.gov/apod/image/2609/ElementOrigins2_svs_6000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/12/png/epic_1b_20260912004554.png"
   ],
-  "updated": "2026-09-14T11:21:09.170929"
+  "updated": "2026-09-14T11:23:29.125836"
 }
