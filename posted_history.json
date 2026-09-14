@@ -1,6 +1,5 @@
 {
   "titles": [
-    "golden dome creates digital hub to expand commercial participation",
     "space force orders two more impulse space vehicles for maneuvering demonstrations",
     "space command identifies capabilities it needs for the next space war",
     "virgin galactic delays resumption of commercial flights to 2027",
@@ -149,10 +148,10 @@
     "apollo 11: catching some sun",
     "nasa’s chandra spots galactic gem",
     "press event: crew-12 pre-departure on-orbit news conference",
-    "comet neowise rising over the adriatic sea"
+    "comet neowise rising over the adriatic sea",
+    "where your elements came from"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/wallops-vaspace.jpeg?fit=1024%2C576&ssl=1",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/13/png/epic_1b_20260813000831.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/03/soyuzprogms33-1774582700.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/08/20260815_CC_Globalstar_2_R_1_vertical.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crew-12_spacex__image_20260126082450.png",
     "https://apod.nasa.gov/apod/image/2609/NoctilucentNeowise_Girotti.mp4",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/11/png/epic_1b_20260911002712.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/11/png/epic_1b_20260911002712.png",
+    "https://apod.nasa.gov/apod/image/2609/ElementOrigins2_svs_6000.jpg"
   ],
-  "updated": "2026-09-13T18:39:04.975575"
+  "updated": "2026-09-14T08:24:03.782179"
 }
