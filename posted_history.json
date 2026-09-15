@@ -1,6 +1,5 @@
 {
   "titles": [
-    "astranis unveils geostationary surveillance satellite",
     "cruise control: the team guiding hera to its asteroid",
     "paragon lays off staff after gateway cancellation",
     "flyby: juice earth flyby",
@@ -149,10 +148,10 @@
     "asteroid (2012 ud34) aaj earth ke paas se guzrega — 318-711m",
     "commercial rockets bring new life to stennis",
     "ship 42 wraps chopsticks tests, flight 14 moves to net sept. 22",
-    "avio launches pair of climate monitoring european spacecraft to study plants, oceans and atmospheric changes"
+    "avio launches pair of climate monitoring european spacecraft to study plants, oceans and atmospheric changes",
+    "a daytime eclipse: moon occults venus"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Guowang-group24-CZ12-HCSLC-16aug2026-CASC.jpg?fit=1024%2C679&",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Screenshot-2026-08-17-at-8.26.02-AM.png?fit=1024%2C765&ssl=1",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/12/png/epic_1b_20260912004554.png",
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/09/b-stand.webp",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-14-17-44-21-003.jpg",
-    "http://spaceflightnow.com/wp-content/uploads/2026/09/20260914_Vega-C_takes_FLEX_and_Sentinel-3C_into_orbit.jpeg"
+    "http://spaceflightnow.com/wp-content/uploads/2026/09/20260914_Vega-C_takes_FLEX_and_Sentinel-3C_into_orbit.jpeg",
+    "https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_1410.jpg"
   ],
-  "updated": "2026-09-15T08:16:21.926864"
+  "updated": "2026-09-15T10:46:47.361167"
 }
