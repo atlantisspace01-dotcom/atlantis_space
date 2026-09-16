@@ -1,6 +1,5 @@
 {
   "titles": [
-    "flyby: juice earth flyby",
     "cesiumastro buys semiconductor specialist to boost constellation plans",
     "space force awards five companies $60 million for multi-vendor satellite network tests",
     "total solar eclipse from greenland",
@@ -149,10 +148,10 @@
     "avio launches pair of climate monitoring european spacecraft to study plants, oceans and atmospheric changes",
     "a daytime eclipse: moon occults venus",
     "webb reveals stunning panorama of star formation",
-    "celebrate international observe the moon night with nasa"
+    "celebrate international observe the moon night with nasa",
+    "webb's view of m64"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/IAC-Stock-Gorsel-Kaleici-1-1-scaled.jpg?fit=1024%2C512&ssl=1",
     "https://www.nasa.gov/wp-content/uploads/2026/08/jsc2026e406637.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/02/moscow.jpg?fit=1024%2C640&ssl=1",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_1410.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/star-forming_region_ic_348_nircam_image/2751518",
     "https://www.nasa.gov/wp-content/uploads/2026/09/55314049769-13385da00b-k.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/13/png/epic_1b_20260913010436.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/13/png/epic_1b_20260913010436.png",
+    "https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg"
   ],
-  "updated": "2026-09-15T19:39:04.759827"
+  "updated": "2026-09-16T08:10:49.546526"
 }
