@@ -1,6 +1,5 @@
 {
   "titles": [
-    "in-orbit services market to generate $3 billion in revenue over the next decade",
     "proba-3’s eclipse hours before totality in europe",
     "blue origin outlines plans for second cape canaveral launch pad",
     "avio filings shed light on fd1 rocket demonstrator test flight",
@@ -149,10 +148,10 @@
     "webb's view of m64",
     "flyby: juice earth flyby",
     "purple swirls on the red planet",
-    "nasa celebrates restoration of guam station damaged by typhoon mawar"
+    "nasa celebrates restoration of guam station damaged by typhoon mawar",
+    "nasa watches earth’s weight, finds center of mass"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/15/png/epic_1b_20260815004555.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/simulation_of_deimos_impact/27417261-2-eng-GB/S",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-18-13-53-12-564.jpg",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_20240307192047.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/raspberry_ripples_near_mars_s_south_pole/275225",
-    "https://www.nasa.gov/wp-content/uploads/2026/09/ribbon-cutting-edited.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/09/ribbon-cutting-edited.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/09/1-earth-illustration-cropped.jpeg"
   ],
-  "updated": "2026-09-16T17:25:01.868558"
+  "updated": "2026-09-16T17:26:10.829539"
 }
