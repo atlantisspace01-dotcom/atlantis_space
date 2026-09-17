@@ -1,6 +1,5 @@
 {
   "titles": [
-    "policy experts: europe stuck between \"rock and a hard place\" on launch",
     "nasa competition invites students to help imagine a future enabled by lunar technologies",
     "isaacman “extremely confident” artemis iii will launch in 2027",
     "bright perseids from sweden",
@@ -149,10 +148,10 @@
     "nasa watches earth’s weight, finds center of mass",
     "indonesia’s anak krakatau",
     "summer goes out with a heat dome",
-    "passion meets precision at nasa’s flight research lab"
+    "passion meets precision at nasa’s flight research lab",
+    "galileo's first civil authenticated position fix in spoofing conditions"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Eoptic_Blue_Square.png?fit=582%2C582&ssl=1",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/04/shadowcam_shackleton_crater_mosaic_072823-1776290971.jpg",
     "https://apod.nasa.gov/apod/image/2608/perseids_eclipse_mystery.mp4",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/16/png/epic_1b_20260816010437.png",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/09/1-earth-illustration-cropped.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/krakatau-oli-20260905-lrg.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/summer-goes-out-with-a-heat-dome/hea",
-    "https://images-assets.nasa.gov/image/AFRC2026-0179-08/AFRC2026-0179-08~large.jpg"
+    "https://images-assets.nasa.gov/image/AFRC2026-0179-08/AFRC2026-0179-08~large.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/galileo_signal_authentication_service_test_in_n"
   ],
-  "updated": "2026-09-17T08:16:34.945228"
+  "updated": "2026-09-17T10:43:31.555842"
 }
