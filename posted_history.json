@@ -1,6 +1,5 @@
 {
   "titles": [
-    "astronaut spotlight: ravish malhotra — indian space hero",
     "asteroid (2014 ce) aaj earth ke paas se guzrega — 11-25m",
     "upcoming launch: long march 2c | satellite for earth observation (seo)",
     "long march 12 launches despite recent 7a failure, long march 2c launches satellite for uae",
@@ -149,10 +148,10 @@
     "messier 33: the triangulum galaxy",
     "esa awards €20m in contracts to study future iris2 services",
     "upcoming launch: soyuz 2.1b/fregat | glonass-k1 no. 20 (?)",
-    "docking: spacex crew-13 crew dragon docking"
+    "docking: spacex crew-13 crew dragon docking",
+    "paris, france"
   ],
   "images": [
-    "https://spacepolicyonline.com/wp-content/uploads/2026/08/sam-wilson-1-300x220.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/AE14D6E5-F897-4488-A5CC-150A3985FC1C.jpeg",
     "https://apod.nasa.gov/apod/image/2608/IMG_5201_sgarbossa.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/17/png/epic_1b_20260817005516.png",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2609/m33m14_rasa3NM.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/ESA-Awards-20M-Euros-in-Contracts-to-Study-Future-IRIS2-Servi",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_dm-2_cre_image_20200504065311.jpeg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_dm-2_cre_image_20200504065311.jpeg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/paris_france/27531655-1-eng-GB/Paris_France_car"
   ],
-  "updated": "2026-09-18T16:51:32.003305"
+  "updated": "2026-09-18T16:54:23.622927"
 }
