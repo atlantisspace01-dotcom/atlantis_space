@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: long march 2c | satellite for earth observation (seo)",
     "long march 12 launches despite recent 7a failure, long march 2c launches satellite for uae",
     "l3harris names space sector leader sam mehta ceo after kubasik steps down",
     "the 77th international astronautical congress (iac 2026) is the one space event you cannot miss",
@@ -149,10 +148,10 @@
     "upcoming launch: soyuz 2.1b/fregat | glonass-k1 no. 20 (?)",
     "docking: spacex crew-13 crew dragon docking",
     "paris, france",
-    "astronaut spotlight: ravish malhotra — indian space hero"
+    "astronaut spotlight: ravish malhotra — indian space hero",
+    "cosi telescope comes together"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/IMG_5201_sgarbossa.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/17/png/epic_1b_20260817005516.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/RWC-square.jpg?fit=1024%2C1024&ssl=1",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_dm-2_cre_image_20200504065311.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/paris_france/27531655-1-eng-GB/Paris_France_car",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/09/cosi-2026july-01.jpg"
   ],
-  "updated": "2026-09-18T18:58:06.093838"
+  "updated": "2026-09-18T18:59:14.801459"
 }
