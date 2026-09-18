@@ -1,6 +1,5 @@
 {
   "titles": [
-    "wallops gears up for an increase in launches",
     "ukraine strikes major russian rocket factory with cruise missiles",
     "live coverage: spacex to launch satellite replenishment mission for globalstar from cape canaveral",
     "milky way over yellowstone",
@@ -149,10 +148,10 @@
     "catalyst campus for technology and innovation, in partnership with the bmc3i tap lab, selects focus area cohort teams fo",
     "satrec initiative to build 10-centimeter-class optical satellites for hanwha constellation",
     "simera sense and idom partner to develop and produce xscape350 optical system as demand for high-resolution eo imagery s",
-    "a treasure chest in the carina nebula"
+    "a treasure chest in the carina nebula",
+    "messier 33: the triangulum galaxy"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/rsz_1worldview_3d_rapid_dalian_china_before__after.png?fit=87",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/fireflyzeno.jpeg?fit=1024%2C576&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2024/12/Moog_logo_maroon.png?fit=1024%2C1024&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/replay_mtg-i2_pre-launch_media_briefing/2742352",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/09/SI-Dubai.jpg?fit=1024%2C576&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/09/Orange-square1-scaled.png?fit=1024%2C1024&ssl=1",
     "https://apod.nasa.gov/apod/image/2609/JWST_Treasure_Chest.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/15/png/epic_1b_20260915003633.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/15/png/epic_1b_20260915003633.png",
+    "https://apod.nasa.gov/apod/image/2609/m33m14_rasa3NM.jpg"
   ],
-  "updated": "2026-09-17T19:43:48.232395"
+  "updated": "2026-09-18T07:49:34.793440"
 }
