@@ -1,6 +1,5 @@
 {
   "titles": [
-    "hubble solves merger mystery from milky way’s early years",
     "new eu sanctions target leaders of russia’s space industry",
     "wildfire picture rock, lake, oregon — nasa eonet 18 aug",
     "nasa epic camera ne space se earth ki tasveer li",
@@ -149,10 +148,10 @@
     "dlr’s suborbital mapheus-17 mission to launch as early as 1 october",
     "esa and the pokémon company international reveal europe-wide exhibition and astronaut pikachu experience",
     "a zodiacal night",
-    "live coverage: spacex to launch 27 starlink v2 mini satellites on falcon 9 rocket from vandenberg"
+    "live coverage: spacex to launch 27 starlink v2 mini satellites on falcon 9 rocket from vandenberg",
+    "analemma over the callanish stones"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/eso2612b.mp4",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/18/png/epic_1b_20260818003634.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/petermann_glacier_calves_huge_iceberg/27425701-",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/04/artemis2-earth.jpeg?fit=1024%2C683&ssl=1",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/16/png/epic_1b_20260916001751.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/17/png/epic_1b_20260917000831.png",
-    "http://spaceflightnow.com/wp-content/uploads/2026/03/20260329_20260313_Starlink_G17_31.jpg"
+    "http://spaceflightnow.com/wp-content/uploads/2026/03/20260329_20260313_Starlink_G17_31.jpg",
+    "https://apod.nasa.gov/apod/image/2609/CallanishAnalemma_Petricca_1280.jpg"
   ],
-  "updated": "2026-09-20T08:09:12.319473"
+  "updated": "2026-09-20T10:22:10.347409"
 }
