@@ -1,6 +1,5 @@
 {
   "titles": [
-    "the united states is about to wake up to the threat from china's space program",
     "the case of the mysterious maybe meteor",
     "12 astronauts space mein hain — iss update 19 aug 2026",
     "behind the lens: meet nasa johnson’s photographers",
@@ -149,10 +148,10 @@
     "johnson space center sparks curiosity at houston’s 33rd annual japan festival",
     "commercial space federation (csf) welcomes two new members",
     "spacex’s super heavy booster arrives at pad ahead of first orbital starship launch",
-    "nasa discovery reveals complex water systems on early mars"
+    "nasa discovery reveals complex water systems on early mars",
+    "wildfire breezy, starr, texas — nasa eonet 21 sep"
   ],
   "images": [
-    "https://europeanspaceflight.com/wp-content/uploads/2026/08/CNES-Seeks-Partners-to-Mass-Produce-Compact-Optical-Telescope",
     "https://apod.nasa.gov/apod/image/2608/allsky_CEMeNt_Aug12-13final_pretty_8bit.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/20/png/epic_1b_20260820000830.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2023/09/Yaogan39-02-CZ2D-XSLC-17sept2023-ourspace1.jpg?fit=1024%2C681",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/09/vol-better.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/Anniversary-Logo.jpg?fit=1024%2C883&ssl=1",
     "http://spaceflightnow.com/wp-content/uploads/2026/09/20260921_B21_rollout-1.jpeg",
-    "https://www.nasa.gov/wp-content/uploads/2026/09/1-pia26815-mastcam-z-360-turquoise-bay-sols933-944-l0-natural-copy.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/09/1-pia26815-mastcam-z-360-turquoise-bay-sols933-944-l0-natural-copy.jpg",
+    "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg"
   ],
-  "updated": "2026-09-21T18:26:42.577492"
+  "updated": "2026-09-21T20:21:33.732312"
 }
