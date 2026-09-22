@@ -1,6 +1,5 @@
 {
   "titles": [
-    "replay: mtg-i2 pre-launch media briefing",
     "space force funding could be record high, if congress agrees",
     "stoke space conducts second stage fit checks, completes first stage engines ahead of nova debut",
     "the elephant's trunk in cepheus",
@@ -149,10 +148,10 @@
     "12 astronauts space mein hain — iss update 22 sep 2026",
     "nasa astronaut to answer questions from new hampshire students",
     "an epic view of the seasons",
-    "nasa’s chandra finds unusual objects in pinwheel galaxy"
+    "nasa’s chandra finds unusual objects in pinwheel galaxy",
+    "risks of decompression sickness and venous thromboembolism during spaceflight and patent foramen ovale implications"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/21/png/epic_1b_20260821002713.png",
     "https://img.youtube.com/vi/UgxWkOXcdZU/0.jpg",
     "https://apod.nasa.gov/apod/image/2608/Comet220P_SA_4104.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/what-lake-bonneville-left-behind/cra",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2023/03/iss068e027100.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/anil-menon-downlink-sept-22.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/an-epic-view-of-the-seasons/equinox_",
-    "https://www.nasa.gov/wp-content/uploads/2026/09/m101-lg.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/09/m101-lg.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/09/pfo-dcs-vte-working-group-photo.jpg"
   ],
-  "updated": "2026-09-22T17:29:08.231505"
+  "updated": "2026-09-22T19:39:25.476527"
 }
