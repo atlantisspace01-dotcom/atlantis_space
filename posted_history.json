@@ -1,6 +1,5 @@
 {
   "titles": [
-    "the elephant's trunk in cepheus",
     "orbital insertion: bepicolombo mercury orbit insertion",
     "rock west composites® is premiering its new stratopultrusion™ product line at the 2026 small satellite conference",
     "artemis mission patches",
@@ -149,10 +148,10 @@
     "nasa’s chandra finds unusual objects in pinwheel galaxy",
     "risks of decompression sickness and venous thromboembolism during spaceflight and patent foramen ovale implications",
     "boom year for desert blooms",
-    "ship 41 rolls to pad 2 carrying two flown tiles from ship 40"
+    "ship 41 rolls to pad 2 carrying two flown tiles from ship 40",
+    "a new lunar crater: mcgetchin"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/what-lake-bonneville-left-behind/cra",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/KSC-20260709-PH-JMT01_0001large.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/mtg-i2_fairing_jettison/27422286-1-eng-GB/MTG-I",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/ESA-to-Adapt-Ariane-6-for-Nuclear-Powered-Argonaut-Missions.w",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/09/m101-lg.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/pfo-dcs-vte-working-group-photo.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/boom-year-for-desert-blooms/australi",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-23-03-24-32-721-wmarked.jpg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-23-03-24-32-721-wmarked.jpg",
+    "https://apod.nasa.gov/apod/image/2609/mcgetchin_after.jpg"
   ],
-  "updated": "2026-09-23T08:11:15.862756"
+  "updated": "2026-09-23T10:32:40.873678"
 }
