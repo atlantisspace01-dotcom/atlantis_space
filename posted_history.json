@@ -1,6 +1,5 @@
 {
   "titles": [
-    "artemis mission patches",
     "golden dome chief touts progress as funding questions loom",
     "elve qualifies millimeter-wave amplifiers for spaceflight",
     "time-lapse of the star s301 orbiting the black hole in the center of the galaxy",
@@ -149,10 +148,10 @@
     "ship 41 rolls to pad 2 carrying two flown tiles from ship 40",
     "a new lunar crater: mcgetchin",
     "former nasa chief sounds alarm on china's lunar \"exploration\" plans",
-    "shannon lucid’s record"
+    "shannon lucid’s record",
+    "orbital insertion: bepicolombo mercury orbit insertion"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
     "https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/22/png/epic_1b_20260822004555.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Tendeg-Logo-Social-Media-200x200-1.png?fit=200%2C200&ssl=1",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/20/png/epic_1b_20260920010437.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/21/png/epic_1b_20260921005515.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2022/03/BillNelsonHappy-CROPPED.jpeg",
-    "https://images-assets.nasa.gov/image/s79e5277/s79e5277~large.jpg"
+    "https://images-assets.nasa.gov/image/s79e5277/s79e5277~large.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg"
   ],
-  "updated": "2026-09-23T17:40:11.161128"
+  "updated": "2026-09-23T19:35:30.993633"
 }
