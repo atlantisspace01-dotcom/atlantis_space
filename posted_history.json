@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid (2005 go59) aaj earth ke paas se guzrega — 201-449m",
     "cnes seeks partners to mass",
     "mostly perseids",
     "chinese radio-frequency intelligence startup starrf closes new funding round",
@@ -149,10 +148,10 @@
     "swift rescue mission may not have succeeded, but no regrets",
     "the ghosts of five supernovas",
     "nasa to study human health, performance during crew-13 mission",
-    "nasa’s machines for mars make beer bubbly"
+    "nasa’s machines for mars make beer bubbly",
+    "us-india satellite captures time-lapse video of volcanic eruption"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/lions_head_nebula.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/08/s26-010-jeret-howard.jpg",
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/08/image.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/03/mercury_transfer_module_separation3/17405480-1-",
@@ -301,7 +300,8 @@
     "https://spacepolicyonline.com/wp-content/uploads/2026/07/Katalyst-LINK-Pegasus-300x203.jpg",
     "https://apod.nasa.gov/apod/image/2609/5SNR_Auriga_2000.jpg",
     "https://images-assets.nasa.gov/image/jsc2026e040446/jsc2026e040446~large.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/09/earthly-labs-3.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/09/earthly-labs-3.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/cloudy-cloak-over-the-northwest/west"
   ],
-  "updated": "2026-09-24T17:40:50.228769"
+  "updated": "2026-09-24T19:57:04.686082"
 }
