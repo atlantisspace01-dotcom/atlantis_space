@@ -1,6 +1,5 @@
 {
   "titles": [
-    "mostly perseids",
     "chinese radio-frequency intelligence startup starrf closes new funding round",
     "cassini approaches saturn",
     "soyuz ms-29 ne iss ke saath docking ki!",
@@ -149,10 +148,10 @@
     "nasa to study human health, performance during crew-13 mission",
     "nasa’s machines for mars make beer bubbly",
     "us-india satellite captures time-lapse video of volcanic eruption",
-    "earth from space: venetian lagoon"
+    "earth from space: venetian lagoon",
+    "callisto reusable rocket demonstrator takes shape ahead of 2027 hop test"
   ],
   "images": [
-    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/08/image.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/03/mercury_transfer_module_separation3/17405480-1-",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/latconnect-60-logo-square-scaled.png?fit=1024%2C1024&ssl=1",
     "https://images-assets.nasa.gov/image/jsc2024e067210_alt/jsc2024e067210_alt~large.jpg",
@@ -301,7 +300,8 @@
     "https://images-assets.nasa.gov/image/jsc2026e040446/jsc2026e040446~large.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/earthly-labs-3.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/cloudy-cloak-over-the-northwest/west",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/earth_from_space_venetian_lagoon/27535878-1-eng"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/earth_from_space_venetian_lagoon/27535878-1-eng",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/09/Callisto-Reusable-Rocket-Demonstrator-Takes-Shape-Ahead-of-20"
   ],
-  "updated": "2026-09-25T08:24:43.208930"
+  "updated": "2026-09-25T08:25:51.695850"
 }
