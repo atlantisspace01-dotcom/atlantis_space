@@ -1,6 +1,5 @@
 {
   "titles": [
-    "curiosity blog, sols 4982–4987: back to our regularly scheduled programming",
     "comet 220p in outburst",
     "what lake bonneville left behind",
     "nasa’s roman telescope nears launch, reaches final integration and rehearsal milestones",
@@ -149,10 +148,10 @@
     "callisto reusable rocket demonstrator takes shape ahead of 2027 hop test",
     "globular cluster omega centauri",
     "2026-2027 dwu: middle school design challenge",
-    "hubble spots chaotic secret in galaxy"
+    "hubble spots chaotic secret in galaxy",
+    "mirrored meteor and milky way"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/mtg-i2_begins_its_journey/27430195-5-eng-GB/MTG",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/25/png/epic_1b_20260825003634.png",
     "https://europeanspaceflight.com/wp-content/uploads/2026/08/Orbexs-Sutherland-Spaceport-Assets-Sold-to-Scottish-Developme",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/08/European_Launcher_Challenge_launch_service_providers_initial_capa",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/22/png/epic_1b_20260922003633.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/23/png/epic_1b_20260923001751.png",
     "https://www.nasa.gov/wp-content/uploads/2026/09/dwu-x-plane-design2-16x9-ms-web.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/09/55534741297-34e5a9d414-o.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/09/55534741297-34e5a9d414-o.jpg",
+    "https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai.jpg"
   ],
-  "updated": "2026-09-25T19:56:28.118940"
+  "updated": "2026-09-26T08:11:39.494483"
 }
