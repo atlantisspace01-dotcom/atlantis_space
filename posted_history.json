@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s roman telescope nears launch, reaches final integration and rehearsal milestones",
     "watch live: mtg",
     "esa to adapt ariane 6 for nuclear",
     "nasa sets coverage for roman space telescope launch from florida",
@@ -149,10 +148,10 @@
     "hubble spots chaotic secret in galaxy",
     "mirrored meteor and milky way",
     "press event: international space station operations update media teleconference",
-    "flight 14 waits on approval as a near-term manifest sketches starship’s next steps"
+    "flight 14 waits on approval as a near-term manifest sketches starship’s next steps",
+    "nasa, boeing to provide update on starliner development"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/08/congressional-space-medal-of-honor-ceremony-1.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/08/eo-1.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/roman_space_tel_image_20260329084947.jpg",
     "https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_starline_image_20240723193124.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/24/png/epic_1b_20260924000830.png",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-26-04-55-29-205.jpg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-26-04-55-29-205.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/09/starliner.jpg"
   ],
-  "updated": "2026-09-27T08:47:39.015449"
+  "updated": "2026-09-27T08:48:48.515218"
 }
