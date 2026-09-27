@@ -1,6 +1,5 @@
 {
   "titles": [
-    "esa to adapt ariane 6 for nuclear",
     "nasa sets coverage for roman space telescope launch from florida",
     "upcoming launch: falcon 9 block 5 | starlink group 10-49",
     "upcoming launch: falcon 9 block 5 | starlink group 15-22",
@@ -149,10 +148,10 @@
     "press event: international space station operations update media teleconference",
     "flight 14 waits on approval as a near-term manifest sketches starship’s next steps",
     "nasa, boeing to provide update on starliner development",
-    "andromeda before photoshop"
+    "andromeda before photoshop",
+    "starship flight 14: spacex attempts orbit"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/26/png/epic_1b_20260826001752.png",
     "https://apod.nasa.gov/apod/image/2608/2026-08_12and28-EclipsePair.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/27/png/epic_1b_20260827000830.png",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-26-04-55-29-205.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/starliner.jpg",
     "https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_4298.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/25/png/epic_1b_20260925002712.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/25/png/epic_1b_20260925002712.png",
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Ship-41-and-Booster-21-During-their-WDR-scaled.jpg"
   ],
-  "updated": "2026-09-27T14:54:16.270370"
+  "updated": "2026-09-27T17:25:23.092272"
 }
