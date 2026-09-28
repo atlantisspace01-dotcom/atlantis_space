@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: falcon 9 block 5 | starlink group 10-49",
     "upcoming launch: falcon 9 block 5 | starlink group 15-22",
     "earth's shadow visualized with lunar eclipses",
     "tendeg launches newten steerable compact antenna at smallsat",
@@ -149,10 +148,10 @@
     "nasa, boeing to provide update on starliner development",
     "andromeda before photoshop",
     "starship flight 14: spacex attempts orbit",
-    "cosmic latte: the average color of the universe"
+    "cosmic latte: the average color of the universe",
+    "agile space industries expands leadership structure to support next phase of growth"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2608/2026-08_12and28-EclipsePair.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/27/png/epic_1b_20260827000830.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/supeheavy_boost_image_20260828161901.jpeg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/08/NSF-2026-08-29-11-53-55-612.jpg",
@@ -301,7 +300,8 @@
     "https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_4298.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/25/png/epic_1b_20260925002712.png",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Ship-41-and-Booster-21-During-their-WDR-scaled.jpg",
-    "https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960.jpg"
+    "https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960.jpg",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/agile-space-industries-square-logo-scaled.png?fit=1024%2C1024"
   ],
-  "updated": "2026-09-28T09:15:32.999772"
+  "updated": "2026-09-28T12:27:35.262155"
 }
