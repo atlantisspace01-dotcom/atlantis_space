@@ -1,6 +1,5 @@
 {
   "titles": [
-    "rollout: booster 21 rollout to the launch site",
     "jwst images the lion's head nebula",
     "contractor to civil servant: nasa welcomes jeret howard",
     "analysis: narrowing in – artemis iii, hls and nasa’s journey to today",
@@ -149,10 +148,10 @@
     "agile space industries expands leadership structure to support next phase of growth",
     "what you need to know about nasa’s spacex crew-13 mission",
     "the large robotic arm on the international space station has stopped working",
-    "upcoming launch: starship | starlink group 31-1 (starship flight 14)"
+    "upcoming launch: starship | starlink group 31-1 (starship flight 14)",
+    "upcoming launch: falcon 9 block 5 | transporter 18 (dedicated sso rideshare)"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/08/cerberuz-lunarecycle-winners.jpg",
     "https://apod.nasa.gov/apod/image/2608/m74_hst_1280.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/28/png/epic_1b_20260828002713.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26779/PIA26779.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/agile-space-industries-square-logo-scaled.png?fit=1024%2C1024",
     "https://images-assets.nasa.gov/image/jsc2026e040445/jsc2026e040445~large.jpg",
     "https://cdn.arstechnica.net/wp-content/uploads/2016/06/26523207085_7558984d60_k.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg"
   ],
-  "updated": "2026-09-28T19:57:23.214723"
+  "updated": "2026-09-28T21:42:30.688550"
 }
