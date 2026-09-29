@@ -1,6 +1,5 @@
 {
   "titles": [
-    "watch live: bepicolombo begins its arrival at mercury",
     "latconnect 60 and phi earth partner to connect space and soil",
     "nasa astronaut jonny kim departs agency to continue military service",
     "the electronics ‘under the hood’ of space networking",
@@ -149,10 +148,10 @@
     "upcoming launch: falcon 9 block 5 | transporter 18 (dedicated sso rideshare)",
     "fire cloud with a pileus on top",
     "next crewed boeing starliner flight not until 2028",
-    "sh2-188: the shrimp nebula"
+    "sh2-188: the shrimp nebula",
+    "cnes publishes call for new rocket launch tracking turrets for french guiana"
   ],
   "images": [
-    "https://spacepolicyonline.com/wp-content/uploads/2026/08/Roman-liftoff-Kraus-300x198.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520ms-112520docking_image_20190318202147.jpe",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/08/media_briefing_bepicolombo_s_next_milestone_tow",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fire-cloud-with-a-pileus-on-top/mont",
     "https://spacepolicyonline.com/wp-content/uploads/2026/09/Starliner-presser-Sep-28-26-300x134.jpg",
     "https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/26/png/epic_1b_20260926004554.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/26/png/epic_1b_20260926004554.png",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/09/CNES-Publishes-Call-for-New-Launch-Tracking-Turrets-for-Frenc"
   ],
-  "updated": "2026-09-29T11:55:14.754934"
+  "updated": "2026-09-29T16:08:01.238392"
 }
