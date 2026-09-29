@@ -152,7 +152,6 @@
     "sh2-188: the shrimp nebula"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26777/PIA26777.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/08/Roman-liftoff-Kraus-300x198.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520ms-112520docking_image_20190318202147.jpe",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fire-cloud-with-a-pileus-on-top/mont",
     "https://spacepolicyonline.com/wp-content/uploads/2026/09/Starliner-presser-Sep-28-26-300x134.jpg",
-    "https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg"
+    "https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg",
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/26/png/epic_1b_20260926004554.png"
   ],
-  "updated": "2026-09-29T11:53:03.779174"
+  "updated": "2026-09-29T11:55:14.754934"
 }
