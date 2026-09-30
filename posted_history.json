@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid 221455 (2006 bc10) aaj earth ke paas se guzrega — 332-741m",
     "orbex’s sutherland spaceport assets sold to scottish development agency",
     "rocket report: europe splashes some cash on launch startups; pallas-1 nears debut",
     "president honors nasa’s artemis ii crew with highest us space award",
@@ -149,10 +148,10 @@
     "nasa adds blue origin new glenn 9×4 to launch services contract",
     "nasa has a dragon dilemma, and there appear to be no good answers",
     "powerful storms continue to prowl the pacific",
-    "nasa opens 2027 human lander challenge for lunar communications"
+    "nasa opens 2027 human lander challenge for lunar communications",
+    "asteroid (2002 pn6) aaj earth ke paas se guzrega — 176-393m"
   ],
   "images": [
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/08/2_FermiExplorer_HeroShot_01.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/samba_s_reentry_recorded/27443967-1-eng-GB/Samb",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/08/30/png/epic_1b_20260830010437.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/peatland-fires-darken-skies-in-indon",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/02/KSC-20211027-PH-SPX02_0003orig.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/powerful-storms-continue-to-prowl-th",
     "https://www.nasa.gov/wp-content/uploads/2026/09/2027-hulc-graphic-header-conceptual-lunar-communications-and-navigation-",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/27/png/epic_1b_20260927010436.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/27/png/epic_1b_20260927010436.png",
+    "https://www.nasa.gov/wp-content/uploads/2023/03/bennu-osiris-rex-1041.jpg"
   ],
-  "updated": "2026-09-30T11:39:46.959771"
+  "updated": "2026-09-30T11:42:19.090401"
 }
