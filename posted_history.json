@@ -1,6 +1,5 @@
 {
   "titles": [
-    "rocket report: europe splashes some cash on launch startups; pallas-1 nears debut",
     "president honors nasa’s artemis ii crew with highest us space award",
     "president trump signs executive order to create us space academy",
     "press event: roman space telescope mission and science briefing",
@@ -149,10 +148,10 @@
     "powerful storms continue to prowl the pacific",
     "nasa opens 2027 human lander challenge for lunar communications",
     "asteroid (2002 pn6) aaj earth ke paas se guzrega — 176-393m",
-    "starship makes orbit, flight 15 preps in full swing"
+    "starship makes orbit, flight 15 preps in full swing",
+    "navigate successfully demonstrates onboard precise orbit determination aboard d-orbit’s ion satellite carrier"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/08/30/png/epic_1b_20260830010437.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/peatland-fires-darken-skies-in-indon",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/16D158EF-E0FF-4622-ABD4-DA387D02F975.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/smoke_plume_from_greek_wildfires_seen_by_sentin",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/09/2027-hulc-graphic-header-conceptual-lunar-communications-and-navigation-",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/27/png/epic_1b_20260927010436.png",
     "https://www.nasa.gov/wp-content/uploads/2023/03/bennu-osiris-rex-1041.jpg",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Ship-41-and-Booster-21-Liftoff-for-Flight-14-scaled.jpg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Ship-41-and-Booster-21-Liftoff-for-Flight-14-scaled.jpg",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/09/navigate_logo_notext-scaled.png?fit=1024%2C1024&ssl=1"
   ],
-  "updated": "2026-09-30T16:09:57.540397"
+  "updated": "2026-09-30T16:11:03.531612"
 }
