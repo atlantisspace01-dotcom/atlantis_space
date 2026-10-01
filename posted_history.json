@@ -1,6 +1,5 @@
 {
   "titles": [
-    "static fire: spacex starship booster b21 static fire",
     "esa awards first european launcher challenge contracts",
     "nasa awards first prize in phase 2 of agency’s lunarecycle challenge",
     "m74: a grand design spiral",
@@ -149,10 +148,10 @@
     "ltg david miller nominated as next leader of u.s. space command",
     "nasa science",
     "as us relations fray, canada gets serious about its own launch industry",
-    "crew-13 spreads its wings"
+    "crew-13 spreads its wings",
+    "live coverage: ai datacenter prototypes, energy redirection demonstrators and more launching on spacex’s transporter-18"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/media_briefing_ahead_of_flex_and_sentinel-3c_la",
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
     "https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/03/png/epic_1b_20260903000831.png",
@@ -301,7 +300,8 @@
     "https://spacepolicyonline.com/wp-content/uploads/2026/09/LTG-David-Miller-Sept-2026-240x300.avif",
     "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket.jpg",
-    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/Crew-13_Launch_Logo.jpg"
+    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/Crew-13_Launch_Logo.jpg",
+    "http://spaceflightnow.com/wp-content/uploads/2026/10/20261001-Vandenberg-File-Feature-Image.jpg"
   ],
-  "updated": "2026-10-01T18:43:51.381131"
+  "updated": "2026-10-01T18:45:03.717165"
 }
