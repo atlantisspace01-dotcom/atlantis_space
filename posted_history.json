@@ -1,6 +1,5 @@
 {
   "titles": [
-    "eclipse pair",
     "static fire: spacex starship booster b21 static fire",
     "esa awards first european launcher challenge contracts",
     "nasa awards first prize in phase 2 of agency’s lunarecycle challenge",
@@ -149,10 +148,10 @@
     "earthcare’s view of volcanic plume boosts air safety",
     "ltg david miller nominated as next leader of u.s. space command",
     "nasa science",
-    "as us relations fray, canada gets serious about its own launch industry"
+    "as us relations fray, canada gets serious about its own launch industry",
+    "crew-13 spreads its wings"
   ],
   "images": [
-    "https://cdn.arstechnica.net/wp-content/uploads/2019/08/GettyImages-1164167940.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/media_briefing_ahead_of_flex_and_sentinel-3c_la",
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
     "https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/anak_krakatau_eruption_by_sentinel-3/27456765-1",
     "https://spacepolicyonline.com/wp-content/uploads/2026/09/LTG-David-Miller-Sept-2026-240x300.avif",
     "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket.jpg"
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket.jpg",
+    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/Crew-13_Launch_Logo.jpg"
   ],
-  "updated": "2026-10-01T16:47:04.148725"
+  "updated": "2026-10-01T18:43:51.381131"
 }
