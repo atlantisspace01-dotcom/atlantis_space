@@ -1,6 +1,5 @@
 {
   "titles": [
-    "the sky turns above paranal",
     "eclipse pair",
     "static fire: spacex starship booster b21 static fire",
     "esa awards first european launcher challenge contracts",
@@ -149,10 +148,10 @@
     "navigate successfully demonstrates onboard precise orbit determination aboard d-orbit’s ion satellite carrier",
     "earthcare’s view of volcanic plume boosts air safety",
     "ltg david miller nominated as next leader of u.s. space command",
-    "nasa science"
+    "nasa science",
+    "as us relations fray, canada gets serious about its own launch industry"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/02/png/epic_1b_20260902001751.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2019/08/GettyImages-1164167940.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/media_briefing_ahead_of_flex_and_sentinel-3c_la",
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/28/png/epic_1b_20260928005515.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/anak_krakatau_eruption_by_sentinel-3/27456765-1",
     "https://spacepolicyonline.com/wp-content/uploads/2026/09/LTG-David-Miller-Sept-2026-240x300.avif",
-    "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png"
+    "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket.jpg"
   ],
-  "updated": "2026-10-01T12:12:19.613885"
+  "updated": "2026-10-01T16:47:04.148725"
 }
