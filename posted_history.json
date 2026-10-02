@@ -1,6 +1,5 @@
 {
   "titles": [
-    "docking: progress ms-35 docking",
     "media briefing: bepicolombo's next milestone towards mercury",
     "launch of the roman space telescope",
     "a plane lunar eclipse",
@@ -149,10 +148,10 @@
     "a guide to blood draws in orbit",
     "nasa opens applications for next class of flight directors",
     "portugal’s omnidea acquires orbex assets, plans primeneo rocket",
-    "spacecraft release: ng-24 cygnus release"
+    "spacecraft release: ng-24 cygnus release",
+    "us military ends long-running program to spot nuclear missile launches"
   ],
   "images": [
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/01/IMG_6221-scaled.jpeg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Launch-Site-September-3rd-scaled.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/isar_aerospace_achieves_first_launch_to_orbit_f",
     "https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/a_guide_to_blood_draws_in_orbit/27551016-1-eng-",
     "https://www.nasa.gov/wp-content/uploads/2026/10/flight-directors.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/10/Portugals-Omnidea-Acquires-Orbex-Assets-Plans-PrimeNEO-Rocket",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ng-112520cygnus2520release2520and2520reentry_image_20"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ng-112520cygnus2520release2520and2520reentry_image_20",
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/10/071110-D-1584B-011.jpeg"
   ],
-  "updated": "2026-10-02T18:09:33.950118"
+  "updated": "2026-10-02T18:10:46.447769"
 }
