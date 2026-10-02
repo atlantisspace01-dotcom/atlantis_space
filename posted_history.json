@@ -1,6 +1,5 @@
 {
   "titles": [
-    "ribbon-cutting event for nasa deep space network’s deep space station 23",
     "panorama showcasing the 34-meter antennas of the dsn’s goldstone complex",
     "what’s happening in space policy august 30-september 5, 2026",
     "eva: us eva-99",
@@ -149,10 +148,10 @@
     "live coverage: ai datacenter prototypes, energy redirection demonstrators and more launching on spacex’s transporter-18",
     "nasa awards enterprise logistics support services agreements",
     "crew-13 arrives at iss as crew-12 prepares to depart",
-    "10 things: movie night"
+    "10 things: movie night",
+    "a guide to blood draws in orbit"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/september/2026Eclipse_WB57GoPro_Totality_",
     "https://www.nasa.gov/wp-content/uploads/2026/09/blindlowvision.jpg",
     "https://apod.nasa.gov/apod/image/2609/PlutoEnhancedHiRes_NewHorizons_5000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/04/png/epic_1b_20260904002712.png",
@@ -301,7 +300,8 @@
     "http://spaceflightnow.com/wp-content/uploads/2026/10/20261001-Vandenberg-File-Feature-Image.jpg",
     "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg",
     "https://s.w.org/images/core/emoji/16.0.1/72x72/1f680.png",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/skywatching/2025/august/Night%20scene_credi"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/skywatching/2025/august/Night%20scene_credi",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/a_guide_to_blood_draws_in_orbit/27551016-1-eng-"
   ],
-  "updated": "2026-10-02T09:15:06.049494"
+  "updated": "2026-10-02T11:39:41.596950"
 }
