@@ -1,6 +1,5 @@
 {
   "titles": [
-    "launch of the roman space telescope",
     "a plane lunar eclipse",
     "private group wants to launch \"cheapest possible\" mission to alpha centauri",
     "samba’s fiery farewell recorded",
@@ -149,10 +148,10 @@
     "portugal’s omnidea acquires orbex assets, plans primeneo rocket",
     "spacecraft release: ng-24 cygnus release",
     "us military ends long-running program to spot nuclear missile launches",
-    "heading home: nasa’s spacex crew-12 concludes station science mission"
+    "heading home: nasa’s spacex crew-12 concludes station science mission",
+    "nasa’s davinci probe can stand the heat"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/isar_aerospace_achieves_first_launch_to_orbit_f",
     "https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/05/png/epic_1b_20260905004555.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-otherworldly-geology-of-vasquez-",
@@ -301,7 +300,8 @@
     "https://europeanspaceflight.com/wp-content/uploads/2026/10/Portugals-Omnidea-Acquires-Orbex-Assets-Plans-PrimeNEO-Rocket",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ng-112520cygnus2520release2520and2520reentry_image_20",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/071110-D-1584B-011.jpeg",
-    "https://www.nasa.gov/wp-content/uploads/2026/09/crew-12-advisory-spet-11.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/09/crew-12-advisory-spet-11.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/davinci-heat-test-1.jpg"
   ],
-  "updated": "2026-10-02T20:37:14.310206"
+  "updated": "2026-10-02T20:38:23.921870"
 }
