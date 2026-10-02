@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa awards first prize in phase 2 of agency’s lunarecycle challenge",
     "m74: a grand design spiral",
     "ribbon-cutting event for nasa deep space network’s deep space station 23",
     "panorama showcasing the 34-meter antennas of the dsn’s goldstone complex",
@@ -149,10 +148,10 @@
     "as us relations fray, canada gets serious about its own launch industry",
     "crew-13 spreads its wings",
     "live coverage: ai datacenter prototypes, energy redirection demonstrators and more launching on spacex’s transporter-18",
-    "nasa awards enterprise logistics support services agreements"
+    "nasa awards enterprise logistics support services agreements",
+    "crew-13 arrives at iss as crew-12 prepares to depart"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/03/png/epic_1b_20260903000831.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/september/2026Eclipse_WB57GoPro_Totality_",
     "https://www.nasa.gov/wp-content/uploads/2026/09/blindlowvision.jpg",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket.jpg",
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/Crew-13_Launch_Logo.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/10/20261001-Vandenberg-File-Feature-Image.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg",
+    "https://s.w.org/images/core/emoji/16.0.1/72x72/1f680.png"
   ],
-  "updated": "2026-10-01T20:55:26.074074"
+  "updated": "2026-10-02T09:13:59.912387"
 }
