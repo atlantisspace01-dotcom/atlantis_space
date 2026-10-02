@@ -1,6 +1,5 @@
 {
   "titles": [
-    "what’s happening in space policy august 30-september 5, 2026",
     "eva: us eva-99",
     "docking: progress ms-35 docking",
     "media briefing: bepicolombo's next milestone towards mercury",
@@ -149,10 +148,10 @@
     "crew-13 arrives at iss as crew-12 prepares to depart",
     "10 things: movie night",
     "a guide to blood draws in orbit",
-    "nasa opens applications for next class of flight directors"
+    "nasa opens applications for next class of flight directors",
+    "portugal’s omnidea acquires orbex assets, plans primeneo rocket"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/PlutoEnhancedHiRes_NewHorizons_5000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/04/png/epic_1b_20260904002712.png",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/01/IMG_6221-scaled.jpeg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Launch-Site-September-3rd-scaled.jpg",
@@ -301,7 +300,8 @@
     "https://s.w.org/images/core/emoji/16.0.1/72x72/1f680.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/skywatching/2025/august/Night%20scene_credi",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/a_guide_to_blood_draws_in_orbit/27551016-1-eng-",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/flight-directors.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/flight-directors.jpg",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/10/Portugals-Omnidea-Acquires-Orbex-Assets-Plans-PrimeNEO-Rocket"
   ],
-  "updated": "2026-10-02T15:59:44.567683"
+  "updated": "2026-10-02T16:00:57.098525"
 }
