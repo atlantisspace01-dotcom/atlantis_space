@@ -1,6 +1,5 @@
 {
   "titles": [
-    "private group wants to launch \"cheapest possible\" mission to alpha centauri",
     "samba’s fiery farewell recorded",
     "peatland fires darken skies in indonesia",
     "rocket lab’s hungry hippo completes testing",
@@ -149,10 +148,10 @@
     "us military ends long-running program to spot nuclear missile launches",
     "heading home: nasa’s spacex crew-12 concludes station science mission",
     "nasa’s davinci probe can stand the heat",
-    "asteroid (2006 hz5) aaj earth ke paas se guzrega — 33-75m"
+    "asteroid (2006 hz5) aaj earth ke paas se guzrega — 33-75m",
+    "nasa astronaut christina koch to join nfl fans in philadelphia"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/05/png/epic_1b_20260905004555.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-otherworldly-geology-of-vasquez-",
     "https://www.nasaspaceflight.com/wp-content/uploads/2023/04/julia-streak-scaled.jpg",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ng-112520cygnus2520release2520and2520reentry_image_20",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/071110-D-1584B-011.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/crew-12-advisory-spet-11.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/davinci-heat-test-1.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/davinci-heat-test-1.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/nhq20260828-admin-0031large.jpg"
   ],
-  "updated": "2026-10-03T16:57:33.920670"
+  "updated": "2026-10-03T19:08:52.498048"
 }
