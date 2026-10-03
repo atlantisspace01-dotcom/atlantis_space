@@ -1,6 +1,5 @@
 {
   "titles": [
-    "a plane lunar eclipse",
     "private group wants to launch \"cheapest possible\" mission to alpha centauri",
     "samba’s fiery farewell recorded",
     "peatland fires darken skies in indonesia",
@@ -149,7 +148,8 @@
     "spacecraft release: ng-24 cygnus release",
     "us military ends long-running program to spot nuclear missile launches",
     "heading home: nasa’s spacex crew-12 concludes station science mission",
-    "nasa’s davinci probe can stand the heat"
+    "nasa’s davinci probe can stand the heat",
+    "asteroid (2006 hz5) aaj earth ke paas se guzrega — 33-75m"
   ],
   "images": [
     "https://apod.nasa.gov/apod/image/2609/Pelican_Killion_4800.jpg",
@@ -303,5 +303,5 @@
     "https://www.nasa.gov/wp-content/uploads/2026/09/crew-12-advisory-spet-11.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/davinci-heat-test-1.jpg"
   ],
-  "updated": "2026-10-03T08:46:35.716523"
+  "updated": "2026-10-03T08:48:46.198565"
 }
