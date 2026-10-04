@@ -1,6 +1,5 @@
 {
   "titles": [
-    "samba’s fiery farewell recorded",
     "peatland fires darken skies in indonesia",
     "rocket lab’s hungry hippo completes testing",
     "how sentinel-3 tracks climate change",
@@ -149,7 +148,8 @@
     "heading home: nasa’s spacex crew-12 concludes station science mission",
     "nasa’s davinci probe can stand the heat",
     "asteroid (2006 hz5) aaj earth ke paas se guzrega — 33-75m",
-    "nasa astronaut christina koch to join nfl fans in philadelphia"
+    "nasa astronaut christina koch to join nfl fans in philadelphia",
+    "asteroid (2017 wk15) aaj earth ke paas se guzrega — 12-27m"
   ],
   "images": [
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/05/png/epic_1b_20260905004555.png",
@@ -303,5 +303,5 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/davinci-heat-test-1.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/nhq20260828-admin-0031large.jpg"
   ],
-  "updated": "2026-10-04T11:34:54.377781"
+  "updated": "2026-10-04T11:37:01.066976"
 }
