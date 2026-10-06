@@ -1,6 +1,5 @@
 {
   "titles": [
-    "media briefing ahead of flex and sentinel-3c launch",
     "nasa ames fire department aircraft firefighting training",
     "chasing the moon's shadow",
     "apod: 2026 september 5 – chasing the moon’s shadow",
@@ -149,10 +148,10 @@
     "suspected second-generation planet solves nasa hubble cold case",
     "resource competition intensifies with surge in megaconstellations",
     "asteroid (2017 ej3) aaj earth ke paas se guzrega — 60-134m",
-    "a journey to the depths of ancient mars?"
+    "a journey to the depths of ancient mars?",
+    "why is nasa bringing 7,500 contractors back to work as civil servants?"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/HyImpulse-Could-Attempt-Second-SR75-Flight-as-Early-as-5-Octo",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/The-Exploration-Company-Raises-450-Million-in-Series-C-Fundin",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/learn/2026/AR_sandbox.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/nhq20260828-admin-0031large.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/10/STScI-01M3CBK3T6SRKP4Q7WV9C",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perse"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perse",
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/10/NASA-AMes.jpeg"
   ],
-  "updated": "2026-10-06T12:30:46.148785"
+  "updated": "2026-10-06T16:13:31.899610"
 }
