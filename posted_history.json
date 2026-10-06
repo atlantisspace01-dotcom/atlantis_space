@@ -1,6 +1,5 @@
 {
   "titles": [
-    "apod: 2026 september 5 – chasing the moon’s shadow",
     "nasa hosts virtual artemis webinar for blind, low",
     "pluto in enhanced color",
     "isar aerospace attempts launch of spectrum rocket after months of delays",
@@ -149,10 +148,10 @@
     "a journey to the depths of ancient mars?",
     "why is nasa bringing 7,500 contractors back to work as civil servants?",
     "nasa’s curiosity rover catches stunning martian dawn",
-    "nasa to cover northrop grumman crs-24 spacecraft departure"
+    "nasa to cover northrop grumman crs-24 spacecraft departure",
+    "october 2026 satellite puzzler"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/learn/2026/AR_sandbox.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/06/png/epic_1b_20260906010436.png",
     "https://apod.nasa.gov/apod/image/2609/xz_and.mp4",
     "https://www.nasa.gov/wp-content/uploads/2026/09/glover-and-wiseman-announcement-sept-9.jpg",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perse",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/NASA-AMes.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.",
-    "https://images-assets.nasa.gov/image/iss074e0458241/iss074e0458241~large.jpg"
+    "https://images-assets.nasa.gov/image/iss074e0458241/iss074e0458241~large.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/satellite-puzzler/2026_octoberpuzzler.jpg"
   ],
-  "updated": "2026-10-06T18:44:47.984452"
+  "updated": "2026-10-06T18:45:57.829745"
 }
