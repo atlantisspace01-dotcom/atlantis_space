@@ -1,6 +1,5 @@
 {
   "titles": [
-    "why did us space companies pull out of a french space meeting? it’s complicated.",
     "media briefing ahead of flex and sentinel-3c launch",
     "nasa ames fire department aircraft firefighting training",
     "chasing the moon's shadow",
@@ -149,10 +148,10 @@
     "asteroid (2001 sh276) aaj earth ke paas se guzrega — 307-686m",
     "suspected second-generation planet solves nasa hubble cold case",
     "resource competition intensifies with surge in megaconstellations",
-    "asteroid (2017 ej3) aaj earth ke paas se guzrega — 60-134m"
+    "asteroid (2017 ej3) aaj earth ke paas se guzrega — 60-134m",
+    "a journey to the depths of ancient mars?"
   ],
   "images": [
-    "https://www.nasaspaceflight.com/wp-content/uploads/2023/04/julia-streak-scaled.jpg",
     "https://apod.nasa.gov/apod/image/2609/SaturnDecagon_Hubble_960.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/HyImpulse-Could-Attempt-Second-SR75-Flight-as-Early-as-5-Octo",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/The-Exploration-Company-Raises-450-Million-in-Series-C-Fundin",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/davinci-heat-test-1.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/nhq20260828-admin-0031large.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/10/STScI-01M3CBK3T6SRKP4Q7WV9C",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perse"
   ],
-  "updated": "2026-10-06T09:43:41.425702"
+  "updated": "2026-10-06T12:30:46.148785"
 }
