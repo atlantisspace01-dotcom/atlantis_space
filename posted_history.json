@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nā ʻuhane māhoe huki pū i ke ola",
     "why did us space companies pull out of a french space meeting? it’s complicated.",
     "media briefing ahead of flex and sentinel-3c launch",
     "nasa ames fire department aircraft firefighting training",
@@ -149,7 +148,8 @@
     "asteroid (2017 wk15) aaj earth ke paas se guzrega — 12-27m",
     "asteroid (2001 sh276) aaj earth ke paas se guzrega — 307-686m",
     "suspected second-generation planet solves nasa hubble cold case",
-    "resource competition intensifies with surge in megaconstellations"
+    "resource competition intensifies with surge in megaconstellations",
+    "asteroid (2017 ej3) aaj earth ke paas se guzrega — 60-134m"
   ],
   "images": [
     "https://www.nasaspaceflight.com/wp-content/uploads/2023/04/julia-streak-scaled.jpg",
@@ -303,5 +303,5 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/10/STScI-01M3CBK3T6SRKP4Q7WV9C",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/spacex-odc.jpeg?fit=1024%2C623&ssl=1"
   ],
-  "updated": "2026-10-06T09:41:22.430200"
+  "updated": "2026-10-06T09:43:41.425702"
 }
