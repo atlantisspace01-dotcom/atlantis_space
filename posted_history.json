@@ -1,6 +1,5 @@
 {
   "titles": [
-    "isar aerospace achieves first launch to orbit from continental europe",
     "the pelican nebula in gas, dust, and stars",
     "the otherworldly geology of vasquez rocks",
     "launch preview: soyuz, cz-8a, and falcon 9 to launch from sites around the world",
@@ -149,10 +148,10 @@
     "deposition sciences, inc. expands sunshade® tape offering with new 12″ × 30″ format",
     "when the sun turns black",
     "arctic sea ice shrinks to its 2026 minimum",
-    "the incredible adventures of the hera mission"
+    "the incredible adventures of the hera mission",
+    "artemis ii crew moon photo annotations"
   ],
   "images": [
-    "https://images-assets.nasa.gov/image/iss073e1044319/iss073e1044319~large.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/07/png/epic_1b_20260907005515.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/dust-storm-sweeps-over-mali/malidust",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2237740895.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/DSI_short-Logo_OUTLINE-scaled.png?fit=1024%2C791&ssl=1",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/when_the_sun_turns_black/27556841-1-eng-GB/When",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/arctic-sea-ice-shrinks-to-its-2026-m",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/the_incredible_adventures_of_the_hera_mission_t"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/the_incredible_adventures_of_the_hera_mission_t",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg"
   ],
-  "updated": "2026-10-07T12:23:36.046751"
+  "updated": "2026-10-07T16:52:18.876034"
 }
