@@ -152,7 +152,6 @@
     "artemis ii crew moon photo annotations"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/07/png/epic_1b_20260907005515.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/dust-storm-sweeps-over-mali/malidust",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2237740895.jpg",
     "https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/when_the_sun_turns_black/27556841-1-eng-GB/When",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/arctic-sea-ice-shrinks-to-its-2026-m",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/the_incredible_adventures_of_the_hera_mission_t",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg",
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/05/png/epic_1b_20261005005516.png"
   ],
-  "updated": "2026-10-07T19:11:47.465422"
+  "updated": "2026-10-07T19:14:00.364982"
 }
