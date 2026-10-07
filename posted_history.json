@@ -1,6 +1,5 @@
 {
   "titles": [
-    "isar aerospace attempts launch of spectrum rocket after months of delays",
     "starbase infrastructure advances toward flight 14",
     "isar aerospace achieves first launch to orbit from continental europe",
     "the pelican nebula in gas, dust, and stars",
@@ -149,10 +148,10 @@
     "nasa to cover northrop grumman crs-24 spacecraft departure",
     "october 2026 satellite puzzler",
     "deposition sciences, inc. expands sunshade® tape offering with new 12″ × 30″ format",
-    "when the sun turns black"
+    "when the sun turns black",
+    "arctic sea ice shrinks to its 2026 minimum"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/09/glover-and-wiseman-announcement-sept-9.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/mtm_s_selfie_footage_of_bepicolombo_s_eight-yea",
     "https://images-assets.nasa.gov/image/iss073e1044319/iss073e1044319~large.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/07/png/epic_1b_20260907005515.png",
@@ -301,7 +300,8 @@
     "https://images-assets.nasa.gov/image/iss074e0458241/iss074e0458241~large.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/satellite-puzzler/2026_octoberpuzzler.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/DSI_short-Logo_OUTLINE-scaled.png?fit=1024%2C791&ssl=1",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/when_the_sun_turns_black/27556841-1-eng-GB/When"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/when_the_sun_turns_black/27556841-1-eng-GB/When",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/arctic-sea-ice-shrinks-to-its-2026-m"
   ],
-  "updated": "2026-10-07T09:36:37.281495"
+  "updated": "2026-10-07T09:37:46.337562"
 }
