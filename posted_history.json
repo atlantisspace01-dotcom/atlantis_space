@@ -1,6 +1,5 @@
 {
   "titles": [
-    "launch preview: soyuz, cz-8a, and falcon 9 to launch from sites around the world",
     "hubble: decagon around saturn's south pole",
     "hyimpulse could attempt second sr75 flight as early as 5 october",
     "the exploration company raises $450 million in series c funding",
@@ -149,10 +148,10 @@
     "the incredible adventures of the hera mission",
     "artemis ii crew moon photo annotations",
     "nasa’s prima spacecraft (artist’s concept)",
-    "keeping the sky dark and quiet"
+    "keeping the sky dark and quiet",
+    "fighting drought in texas cotton country"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/Aerospacelab-Thales-Alenia-Space-Secure-5.4-Billion-Euros-in-",
     "https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/ESA-Awards-The-Exploration-Company-a-760M-Euros-Space-Station",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/05/png/epic_1b_20261005005516.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26355/PIA26355.jpg",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/one_hour_of_satellites_over_the_northern_atacam"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/one_hour_of_satellites_over_the_northern_atacam",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fighting-drought-in-texas-cotton-cou"
   ],
-  "updated": "2026-10-08T09:47:53.039323"
+  "updated": "2026-10-08T09:49:12.123966"
 }
