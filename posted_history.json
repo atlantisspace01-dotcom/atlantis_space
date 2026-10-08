@@ -1,6 +1,5 @@
 {
   "titles": [
-    "hubble: decagon around saturn's south pole",
     "hyimpulse could attempt second sr75 flight as early as 5 october",
     "the exploration company raises $450 million in series c funding",
     "1,000 museum visitors dive into nasa sea level science on world ocean day",
@@ -149,10 +148,10 @@
     "artemis ii crew moon photo annotations",
     "nasa’s prima spacecraft (artist’s concept)",
     "keeping the sky dark and quiet",
-    "fighting drought in texas cotton country"
+    "fighting drought in texas cotton country",
+    "press event: iss crew-12 return & spacex crs-35 briefing"
   ],
   "images": [
-    "https://europeanspaceflight.com/wp-content/uploads/2026/09/Aerospacelab-Thales-Alenia-Space-Secure-5.4-Billion-Euros-in-",
     "https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/ESA-Awards-The-Exploration-Company-a-760M-Euros-Space-Station",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/08/png/epic_1b_20260908003634.png",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/05/png/epic_1b_20261005005516.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26355/PIA26355.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/one_hour_of_satellites_over_the_northern_atacam",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fighting-drought-in-texas-cotton-cou"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fighting-drought-in-texas-cotton-cou",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg"
   ],
-  "updated": "2026-10-08T09:49:12.123966"
+  "updated": "2026-10-08T14:20:15.274781"
 }
