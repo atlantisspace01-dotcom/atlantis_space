@@ -1,6 +1,5 @@
 {
   "titles": [
-    "witness xz andromedae wink",
     "asteroid (2015 bw510) aaj earth ke paas se guzrega — 180-402m",
     "nasa names two artemis ii astronauts to emeritus program",
     "mtm's selfie footage of bepicolombo's eight-year journey",
@@ -149,10 +148,10 @@
     "press event: iss crew-12 return & spacex crs-35 briefing",
     "nasa, energy department advance new era of nuclear",
     "nasa advances lisa mission contributions with new test telescope",
-    "nasa’s spherex telescope sees menagerie of brown dwarfs"
+    "nasa’s spherex telescope sees menagerie of brown dwarfs",
+    "webb measures distance to farthest fast radio burst, suggesting origin"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/RST_Unloading_Shot_4k_60_ProRes.00493_print.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/flex_and_sentinel-3c_ready_for_launch/27459766-",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/teams_at_esoc_during_esa_s_flex_and_copernicus_",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/nasa-doe-mou-release-smaller-image-oct-8.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/lisa/news/2026/l3harris-award-for-test-telescope/LI",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/1-brown-dwarf-grid-16x9-1.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/1-brown-dwarf-grid-16x9-1.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/10/STScI-01KKCJGBWX6TE4ABRTFWE9B8"
   ],
-  "updated": "2026-10-08T19:06:55.653675"
+  "updated": "2026-10-08T19:08:03.822995"
 }
