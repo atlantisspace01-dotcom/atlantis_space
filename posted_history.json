@@ -1,6 +1,5 @@
 {
   "titles": [
-    "the otherworldly geology of vasquez rocks",
     "launch preview: soyuz, cz-8a, and falcon 9 to launch from sites around the world",
     "hubble: decagon around saturn's south pole",
     "hyimpulse could attempt second sr75 flight as early as 5 october",
@@ -149,10 +148,10 @@
     "arctic sea ice shrinks to its 2026 minimum",
     "the incredible adventures of the hera mission",
     "artemis ii crew moon photo annotations",
-    "nasa’s prima spacecraft (artist’s concept)"
+    "nasa’s prima spacecraft (artist’s concept)",
+    "keeping the sky dark and quiet"
   ],
   "images": [
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2237740895.jpg",
     "https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/Aerospacelab-Thales-Alenia-Space-Secure-5.4-Billion-Euros-in-",
     "https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/the_incredible_adventures_of_the_hera_mission_t",
     "https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/05/png/epic_1b_20261005005516.png",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26355/PIA26355.jpg"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26355/PIA26355.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/one_hour_of_satellites_over_the_northern_atacam"
   ],
-  "updated": "2026-10-07T21:08:17.905431"
+  "updated": "2026-10-08T09:47:53.039323"
 }
