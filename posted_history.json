@@ -1,6 +1,5 @@
 {
   "titles": [
-    "dust and water in sagittarius a*",
     "esa awards the exploration company a €760m space station cargo contract",
     "upcoming launch: electron | happily ever faster (blacksky gen-3 5)",
     "roman telescope deploys solar array and communication systems, powers on coronagraph instrument",
@@ -149,7 +148,8 @@
     "esa astronaut sophie adenot returns from her first mission to the international space station",
     "rolling onto mars - testing a rover’s lander",
     "preparing for a first drive on mars",
-    "novamoon mission patch"
+    "novamoon mission patch",
+    "asteroid 164207 cardea (2004 gu9) aaj earth ke paas se guzrega — 154-344m"
   ],
   "images": [
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crew-12_spacex__image_20260126082450.png",
@@ -303,5 +303,5 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/novamoon_mission_patch/27569359-1-eng-GB/NovaMo",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/10/png/epic_1b_20261010004554.png"
   ],
-  "updated": "2026-10-12T19:17:58.906562"
+  "updated": "2026-10-12T19:20:23.011946"
 }
