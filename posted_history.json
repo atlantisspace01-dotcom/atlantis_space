@@ -1,6 +1,5 @@
 {
   "titles": [
-    "ldn 1295: the giraffe nebula",
     "aerospacelab, thales alenia space secure €5.4 billion in iris2 contracts",
     "dust and water in sagittarius a*",
     "esa awards the exploration company a €760m space station cargo contract",
@@ -149,10 +148,10 @@
     "spacex to make another attempt to launch 21 data satellites for space development agency",
     "asteroid (2021 je4) aaj earth ke paas se guzrega — 237-530m",
     "esa astronaut sophie adenot returns from her first mission to the international space station",
-    "rolling onto mars - testing a rover’s lander"
+    "rolling onto mars - testing a rover’s lander",
+    "preparing for a first drive on mars"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/10/png/epic_1b_20260910000830.png",
     "https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crew-12_spacex__image_20260126082450.png",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/08/png/epic_1b_20261008000831.png",
     "http://spaceflightnow.com/wp-content/uploads/2026/10/20261009-SDA-Fairing.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/sophie_is_back_in_europe2/27568712-2-eng-GB/Sop",
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/rolling_onto_mars_-_testing_a_rover_s_lander/27"
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/rolling_onto_mars_-_testing_a_rover_s_lander/27",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/preparing_for_a_first_drive_on_mars/27569566-1-"
   ],
-  "updated": "2026-10-12T10:03:06.665991"
+  "updated": "2026-10-12T13:59:53.430286"
 }
