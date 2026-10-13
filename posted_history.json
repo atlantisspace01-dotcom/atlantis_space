@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: electron | happily ever faster (blacksky gen-3 5)",
     "roman telescope deploys solar array and communication systems, powers on coronagraph instrument",
     "week in images: 07-11 sep 2026",
     "a team of teams like never before: rehearsing a unique launch at esa mission control",
@@ -149,10 +148,10 @@
     "preparing for a first drive on mars",
     "novamoon mission patch",
     "asteroid 164207 cardea (2004 gu9) aaj earth ke paas se guzrega — 154-344m",
-    "crs-35 set to launch to iss with final irosa arrays, experiments, and other items"
+    "crs-35 set to launch to iss with final irosa arrays, experiments, and other items",
+    "live coverage: nasa, spacex to launch new solar arrays, 6,300 pounds of cargo to the space station"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/NoctilucentNeowise_Girotti.mp4",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/11/png/epic_1b_20260911002712.png",
     "https://apod.nasa.gov/apod/image/2609/ElementOrigins2_svs_6000.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/12/png/epic_1b_20260912004554.png",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/preparing_for_a_first_drive_on_mars/27569566-1-",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/novamoon_mission_patch/27569359-1-eng-GB/NovaMo",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/10/png/epic_1b_20261010004554.png",
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/10/HUc3hl1WYAERB6z-scaled.jpeg"
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/10/HUc3hl1WYAERB6z-scaled.jpeg",
+    "http://spaceflightnow.com/wp-content/uploads/2026/10/20261012-F9-CRS-Sunset.jpg"
   ],
-  "updated": "2026-10-12T22:52:55.273290"
+  "updated": "2026-10-13T09:56:44.519455"
 }
