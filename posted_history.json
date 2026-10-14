@@ -1,6 +1,5 @@
 {
   "titles": [
-    "m83: the southern pinwheel",
     "nasa boosts open science, data sharing with artemis accords",
     "help refine data from space telescopes with artifact inspector",
     "apollo 11: catching some sun",
@@ -149,10 +148,10 @@
     "live coverage: nasa, spacex to launch new solar arrays, 6,300 pounds of cargo to the space station",
     "nasa jpl testing readies voyager technologies lander for moon mission",
     "asteroid 339714 (2005 st1) aaj earth ke paas se guzrega — 226-506m",
-    "asteroid (2019 sb1) aaj earth ke paas se guzrega — 271-605m"
+    "asteroid (2019 sb1) aaj earth ke paas se guzrega — 271-605m",
+    "static fire: rs-25 engine test"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/12/png/epic_1b_20260912004554.png",
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/09/b-stand.webp",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-14-17-44-21-003.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/09/20260914_Vega-C_takes_FLEX_and_Sentinel-3C_into_orbit.jpeg",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/10/HUc3hl1WYAERB6z-scaled.jpeg",
     "http://spaceflightnow.com/wp-content/uploads/2026/10/20261012-F9-CRS-Sunset.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26708-grifffin-tvac-wings.jpeg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/11/png/epic_1b_20261011010436.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/11/png/epic_1b_20261011010436.png",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rs-25_engine_te_image_20240111163044.jpeg"
   ],
-  "updated": "2026-10-14T10:58:18.891633"
+  "updated": "2026-10-14T14:39:48.257029"
 }
