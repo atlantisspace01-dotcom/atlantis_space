@@ -1,6 +1,5 @@
 {
   "titles": [
-    "a team of teams like never before: rehearsing a unique launch at esa mission control",
     "m83: the southern pinwheel",
     "nasa boosts open science, data sharing with artemis accords",
     "help refine data from space telescopes with artifact inspector",
@@ -149,7 +148,8 @@
     "crs-35 set to launch to iss with final irosa arrays, experiments, and other items",
     "live coverage: nasa, spacex to launch new solar arrays, 6,300 pounds of cargo to the space station",
     "nasa jpl testing readies voyager technologies lander for moon mission",
-    "asteroid 339714 (2005 st1) aaj earth ke paas se guzrega — 226-506m"
+    "asteroid 339714 (2005 st1) aaj earth ke paas se guzrega — 226-506m",
+    "asteroid (2019 sb1) aaj earth ke paas se guzrega — 271-605m"
   ],
   "images": [
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/12/png/epic_1b_20260912004554.png",
@@ -303,5 +303,5 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26708-grifffin-tvac-wings.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/11/png/epic_1b_20261011010436.png"
   ],
-  "updated": "2026-10-14T08:17:11.667711"
+  "updated": "2026-10-14T08:19:24.018382"
 }
