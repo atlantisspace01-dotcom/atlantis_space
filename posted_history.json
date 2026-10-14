@@ -1,6 +1,5 @@
 {
   "titles": [
-    "help refine data from space telescopes with artifact inspector",
     "apollo 11: catching some sun",
     "nasa’s chandra spots galactic gem",
     "press event: crew-12 pre-departure on-orbit news conference",
@@ -149,10 +148,10 @@
     "asteroid 339714 (2005 st1) aaj earth ke paas se guzrega — 226-506m",
     "asteroid (2019 sb1) aaj earth ke paas se guzrega — 271-605m",
     "static fire: rs-25 engine test",
-    "how mini-constellations could more quickly bring new tech to europe, and to orbit"
+    "how mini-constellations could more quickly bring new tech to europe, and to orbit",
+    "nasa develops batteries to power humanity’s return to moon"
   ],
   "images": [
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-14-17-44-21-003.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/09/20260914_Vega-C_takes_FLEX_and_Sentinel-3C_into_orbit.jpeg",
     "https://apod.nasa.gov/apod/image/2609/MoonVenus_Mariat_1410.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/star-forming_region_ic_348_nircam_image/2751518",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26708-grifffin-tvac-wings.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/11/png/epic_1b_20261011010436.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rs-25_engine_te_image_20240111163044.jpeg",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/lrc-2026-ocio-p-03142.jpg"
   ],
-  "updated": "2026-10-14T14:41:05.265523"
+  "updated": "2026-10-14T17:43:52.047835"
 }
