@@ -1,6 +1,5 @@
 {
   "titles": [
-    "commercial rockets bring new life to stennis",
     "ship 42 wraps chopsticks tests, flight 14 moves to net sept. 22",
     "avio launches pair of climate monitoring european spacecraft to study plants, oceans and atmospheric changes",
     "a daytime eclipse: moon occults venus",
@@ -149,10 +148,10 @@
     "trace gas orbiter — facts and figures",
     "asteroid (2009 tk8) aaj earth ke paas se guzrega — 246-550m",
     "nasa welcomes all ages, experience levels for space apps challenge",
-    "nasa awards enable research, technology to build future workforce"
+    "nasa awards enable research, technology to build future workforce",
+    "power up: roll out solar arrays boost space station power supply"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/raspberry_ripples_near_mars_s_south_pole/275225",
     "https://www.nasa.gov/wp-content/uploads/2026/09/ribbon-cutting-edited.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/1-earth-illustration-cropped.jpeg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/krakatau-oli-20260905-lrg.jpg",
@@ -301,7 +300,8 @@
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/trace_gas_orbiter_facts_and_figures/27578650-1-",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/13/png/epic_1b_20261013003633.png",
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
-    "https://www.nasa.gov/wp-content/uploads/2024/01/taking-in-the-view-surface-from-hls.webp"
+    "https://www.nasa.gov/wp-content/uploads/2024/01/taking-in-the-view-surface-from-hls.webp",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/iss065e116476-fe448b.jpg"
   ],
-  "updated": "2026-10-15T17:33:46.700234"
+  "updated": "2026-10-15T19:47:40.719461"
 }
