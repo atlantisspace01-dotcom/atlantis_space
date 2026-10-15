@@ -1,6 +1,5 @@
 {
   "titles": [
-    "press event: crew-12 pre-departure on-orbit news conference",
     "comet neowise rising over the adriatic sea",
     "where your elements came from",
     "asteroid (2012 ud34) aaj earth ke paas se guzrega — 318-711m",
@@ -149,10 +148,10 @@
     "how mini-constellations could more quickly bring new tech to europe, and to orbit",
     "nasa develops batteries to power humanity’s return to moon",
     "nasa to discuss artemis acceleration, status of upcoming moon missions",
-    "nasa to host news conference previewing us spacewalks 100, 101"
+    "nasa to host news conference previewing us spacewalks 100, 101",
+    "trace gas orbiter — facts and figures"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/09/55314049769-13385da00b-k.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/13/png/epic_1b_20260913010436.png",
     "https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_20240307192047.jpeg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/lrc-2026-ocio-p-03142.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/artemis-announcement-advisory-oct-13.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/12/png/epic_1b_20261012005515.png",
-    "https://images-assets.nasa.gov/image/iss075e0011109/iss075e0011109~large.jpg"
+    "https://images-assets.nasa.gov/image/iss075e0011109/iss075e0011109~large.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/trace_gas_orbiter_facts_and_figures/27578650-1-"
   ],
-  "updated": "2026-10-15T07:54:34.856154"
+  "updated": "2026-10-15T10:38:34.580881"
 }
