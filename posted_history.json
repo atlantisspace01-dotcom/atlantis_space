@@ -1,6 +1,5 @@
 {
   "titles": [
-    "where your elements came from",
     "asteroid (2012 ud34) aaj earth ke paas se guzrega — 318-711m",
     "commercial rockets bring new life to stennis",
     "ship 42 wraps chopsticks tests, flight 14 moves to net sept. 22",
@@ -149,10 +148,10 @@
     "nasa to discuss artemis acceleration, status of upcoming moon missions",
     "nasa to host news conference previewing us spacewalks 100, 101",
     "trace gas orbiter — facts and figures",
-    "asteroid (2009 tk8) aaj earth ke paas se guzrega — 246-550m"
+    "asteroid (2009 tk8) aaj earth ke paas se guzrega — 246-550m",
+    "nasa welcomes all ages, experience levels for space apps challenge"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/M64_Webb.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_20240307192047.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/raspberry_ripples_near_mars_s_south_pole/275225",
     "https://www.nasa.gov/wp-content/uploads/2026/09/ribbon-cutting-edited.jpg",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/12/png/epic_1b_20261012005515.png",
     "https://images-assets.nasa.gov/image/iss075e0011109/iss075e0011109~large.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/trace_gas_orbiter_facts_and_figures/27578650-1-",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/13/png/epic_1b_20261013003633.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/13/png/epic_1b_20261013003633.png",
+    "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png"
   ],
-  "updated": "2026-10-15T14:25:35.631715"
+  "updated": "2026-10-15T17:32:35.476060"
 }
