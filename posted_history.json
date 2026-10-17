@@ -1,6 +1,5 @@
 {
   "titles": [
-    "flyby: juice earth flyby",
     "purple swirls on the red planet",
     "nasa celebrates restoration of guam station damaged by typhoon mawar",
     "nasa watches earth’s weight, finds center of mass",
@@ -149,7 +148,8 @@
     "nasa’s hubble spies spiral’s edge",
     "artemis ii heat shield after splashdown",
     "eva: us eva-100",
-    "apod: 2026 october 17 – 3d 67p"
+    "apod: 2026 october 17 – 3d 67p",
+    "asteroid 144900 (2004 vg64) aaj earth ke paas se guzrega — 590-1318m"
   ],
   "images": [
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/09/bmc3i-tap-lab-square.png?fit=1024%2C1024&ssl=1",
@@ -303,5 +303,5 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/anaglyph-NAC_2015-07-25T06.28.48."
   ],
-  "updated": "2026-10-17T09:57:15.692620"
+  "updated": "2026-10-17T09:59:41.558748"
 }
