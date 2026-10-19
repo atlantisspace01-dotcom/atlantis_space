@@ -1,6 +1,5 @@
 {
   "titles": [
-    "galileo's first civil authenticated position fix in spoofing conditions",
     "catalyst campus for technology and innovation, in partnership with the bmc3i tap lab, selects focus area cohort teams fo",
     "satrec initiative to build 10-centimeter-class optical satellites for hanwha constellation",
     "simera sense and idom partner to develop and produce xscape350 optical system as demand for high-resolution eo imagery s",
@@ -149,10 +148,10 @@
     "asteroid 509505 (2007 vl8) aaj earth ke paas se guzrega — 150-336m",
     "what’s happening in space policy october 18-24, 2026",
     "asteroid (2009 uy17) aaj earth ke paas se guzrega — 174-389m",
-    "software"
+    "software",
+    "experimental facilities"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_dm-2_cre_image_20200504065311.jpeg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/paris_france/27531655-1-eng-GB/Paris_France_car",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/16/png/epic_1b_20261016002713.png",
     "https://spacepolicyonline.com/wp-content/uploads/2026/10/MMX-JAXA-on-NASA-300x237.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/17/png/epic_1b_20261017004554.png",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/new-dual-stream-nozzle-chevron-hot-exhaust-jet-jet-noise-prediction-code"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/new-dual-stream-nozzle-chevron-hot-exhaust-jet-jet-noise-prediction-code",
+    "https://www.nasa.gov/wp-content/uploads/2025/01/grc-2022-c-04045.jpg"
   ],
-  "updated": "2026-10-19T18:57:15.252449"
+  "updated": "2026-10-19T18:58:28.416518"
 }
