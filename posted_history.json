@@ -1,6 +1,5 @@
 {
   "titles": [
-    "a treasure chest in the carina nebula",
     "messier 33: the triangulum galaxy",
     "esa awards €20m in contracts to study future iris2 services",
     "upcoming launch: soyuz 2.1b/fregat | glonass-k1 no. 20 (?)",
@@ -149,10 +148,10 @@
     "experimental facilities",
     "instrumentation",
     "curiosity blog, sols 5036-5042: watching the clouds go by",
-    "jaxa’s mmx enroute to mars to return samples of phobos"
+    "jaxa’s mmx enroute to mars to return samples of phobos",
+    "french mps propose symbolic €1 budget line for vortex spaceplane"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/09/cosi-2026july-01.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/DLRs-Suborbital-MAPHEUS-17-Mission-to-Launch-as-Early-as-1-Oc",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/esa_x_tpci_-_pikachu_in_the_cupola/27530034-1-e",
     "https://apod.nasa.gov/apod/image/2609/2026-09-09ZodiacalLightHSP.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2025/01/grc-2022-c-04045.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/rotatingmicrophonerake.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___ma",
-    "https://spacepolicyonline.com/wp-content/uploads/2026/10/MMX-liftoff-300x169.jpg"
+    "https://spacepolicyonline.com/wp-content/uploads/2026/10/MMX-liftoff-300x169.jpg",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/10/French-MPs-propose-symbolic-E1-budget-line-for-VORTEX-spacepl"
   ],
-  "updated": "2026-10-20T08:06:09.246939"
+  "updated": "2026-10-20T10:44:11.384082"
 }
