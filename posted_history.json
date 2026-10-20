@@ -1,6 +1,5 @@
 {
   "titles": [
-    "satrec initiative to build 10-centimeter-class optical satellites for hanwha constellation",
     "simera sense and idom partner to develop and produce xscape350 optical system as demand for high-resolution eo imagery s",
     "a treasure chest in the carina nebula",
     "messier 33: the triangulum galaxy",
@@ -149,10 +148,10 @@
     "asteroid (2009 uy17) aaj earth ke paas se guzrega — 174-389m",
     "software",
     "experimental facilities",
-    "instrumentation"
+    "instrumentation",
+    "curiosity blog, sols 5036-5042: watching the clouds go by"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/paris_france/27531655-1-eng-GB/Paris_France_car",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/cosi-2026july-01.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/DLRs-Suborbital-MAPHEUS-17-Mission-to-Launch-as-Early-as-1-Oc",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/17/png/epic_1b_20261017004554.png",
     "https://www.nasa.gov/wp-content/uploads/2026/10/new-dual-stream-nozzle-chevron-hot-exhaust-jet-jet-noise-prediction-code",
     "https://www.nasa.gov/wp-content/uploads/2025/01/grc-2022-c-04045.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/rotatingmicrophonerake.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/rotatingmicrophonerake.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___ma"
   ],
-  "updated": "2026-10-19T20:58:53.012184"
+  "updated": "2026-10-20T08:05:00.600952"
 }
