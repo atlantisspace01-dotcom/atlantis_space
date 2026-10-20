@@ -1,6 +1,5 @@
 {
   "titles": [
-    "messier 33: the triangulum galaxy",
     "esa awards €20m in contracts to study future iris2 services",
     "upcoming launch: soyuz 2.1b/fregat | glonass-k1 no. 20 (?)",
     "docking: spacex crew-13 crew dragon docking",
@@ -149,7 +148,8 @@
     "instrumentation",
     "curiosity blog, sols 5036-5042: watching the clouds go by",
     "jaxa’s mmx enroute to mars to return samples of phobos",
-    "french mps propose symbolic €1 budget line for vortex spaceplane"
+    "french mps propose symbolic €1 budget line for vortex spaceplane",
+    "asteroid 423100 (2004 bx1) aaj earth ke paas se guzrega — 543-1214m"
   ],
   "images": [
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/esa_x_tpci_-_pikachu_in_the_cupola/27530034-1-e",
@@ -303,5 +303,5 @@
     "https://europeanspaceflight.com/wp-content/uploads/2026/10/French-MPs-propose-symbolic-E1-budget-line-for-VORTEX-spacepl",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/18/png/epic_1b_20261018010436.png"
   ],
-  "updated": "2026-10-20T14:29:19.096103"
+  "updated": "2026-10-20T14:31:41.971867"
 }
