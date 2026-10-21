@@ -1,6 +1,5 @@
 {
   "titles": [
-    "dlr’s suborbital mapheus-17 mission to launch as early as 1 october",
     "esa and the pokémon company international reveal europe-wide exhibition and astronaut pikachu experience",
     "a zodiacal night",
     "live coverage: spacex to launch 27 starlink v2 mini satellites on falcon 9 rocket from vandenberg",
@@ -149,10 +148,10 @@
     "does anyone actually want to win the medium-lift race in the united states?",
     "nasa’s sr-1 freedom advances with progress on nuclear power module",
     "asteroid (2016 ln1) aaj earth ke paas se guzrega — 281-628m",
-    "astronaut spotlight: ravish malhotra — indian space hero"
+    "astronaut spotlight: ravish malhotra — indian space hero",
+    "finding our way: inside the galileo project: 2"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/CallanishAnalemma_Petricca_1280.jpg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/ESA-Acknowledges-Ariane-6-Delays-Following-Reports-of-Turbopu",
     "https://www.nasa.gov/wp-content/uploads/2026/09/vol-better.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/Anniversary-Logo.jpg?fit=1024%2C883&ssl=1",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/ingenuity-airfoil-clf5605.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/428da033c0ad14482819d3e20c503b86ad29b17f-9504x6336-1.avif",
     "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
+    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/finding_our_way_inside_the_galileo_project_2_-_"
   ],
-  "updated": "2026-10-21T10:54:55.164713"
+  "updated": "2026-10-21T10:57:37.965446"
 }
