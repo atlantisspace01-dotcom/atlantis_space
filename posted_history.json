@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid (2012 rl15) aaj earth ke paas se guzrega — 37-82m",
     "esa acknowledges ariane 6 delays following reports of turbopump issue",
     "johnson space center sparks curiosity at houston’s 33rd annual japan festival",
     "commercial space federation (csf) welcomes two new members",
@@ -149,10 +148,10 @@
     "space nuclear power corporation awarded darpa agreement for ground test of autonomous nuclear reactor controller",
     "summer of quantum: building momentum for space-based qkd",
     "upcoming launch: electron | we're not hawking around (3x hawkeye 360)",
-    "spacex will attempt to reach weekly starship launches by early 2027"
+    "spacex will attempt to reach weekly starship launches by early 2027",
+    "nasa to conduct ncaa flyover, engage fans at university of alabama"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/09/1-pia26815-mastcam-z-360-turquoise-bay-sols933-944-l0-natural-copy.jpg",
     "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg",
     "https://apod.nasa.gov/apod/image/2609/PlaneIssSpots_Horalek_1500.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/19/png/epic_1b_20260919004554.png",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Space_Nukes_Logo.jpg?fit=703%2C368&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ.jpg"
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg"
   ],
-  "updated": "2026-10-21T17:51:04.997866"
+  "updated": "2026-10-21T20:00:39.810042"
 }
