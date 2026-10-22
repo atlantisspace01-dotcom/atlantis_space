@@ -1,6 +1,5 @@
 {
   "titles": [
-    "esa acknowledges ariane 6 delays following reports of turbopump issue",
     "johnson space center sparks curiosity at houston’s 33rd annual japan festival",
     "commercial space federation (csf) welcomes two new members",
     "spacex’s super heavy booster arrives at pad ahead of first orbital starship launch",
@@ -149,10 +148,10 @@
     "summer of quantum: building momentum for space-based qkd",
     "upcoming launch: electron | we're not hawking around (3x hawkeye 360)",
     "spacex will attempt to reach weekly starship launches by early 2027",
-    "nasa to conduct ncaa flyover, engage fans at university of alabama"
+    "nasa to conduct ncaa flyover, engage fans at university of alabama",
+    "china readies first commercial resupply craft, first booster reflight, and next landing attempt"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/epic-galleries/2022/high_cadence/thumbs/epic_1b_20220613185138.jpg",
     "https://apod.nasa.gov/apod/image/2609/PlaneIssSpots_Horalek_1500.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/19/png/epic_1b_20260919004554.png",
     "https://www.nasa.gov/wp-content/uploads/2023/03/iss068e027100.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg",
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/10/The-Long-March-10B-Y1-vehicle-lifting-off-from-the-Wenchang-C"
   ],
-  "updated": "2026-10-21T20:00:39.810042"
+  "updated": "2026-10-22T08:11:07.727273"
 }
