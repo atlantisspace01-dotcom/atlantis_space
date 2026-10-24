@@ -1,6 +1,5 @@
 {
   "titles": [
-    "ship 41 rolls to pad 2 carrying two flown tiles from ship 40",
     "a new lunar crater: mcgetchin",
     "former nasa chief sounds alarm on china's lunar \"exploration\" plans",
     "shannon lucid’s record",
@@ -149,10 +148,10 @@
     "rocket report: spacex says no thanks to military launches; spanish rocket nearly ready",
     "asteroid (2007 us12) aaj earth ke paas se guzrega — 100-223m",
     "nasa is full steam ahead on artemis iii, iv and v",
-    "nasa, partners accelerate lander development for 2028 moon missions"
+    "nasa, partners accelerate lander development for 2028 moon missions",
+    "upcoming launch: long march 4b | yaogan 53-07 to 09/56-19 to 21"
   ],
   "images": [
-    "https://images-assets.nasa.gov/image/s79e5277/s79e5277~large.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/ESA-Awards-RFA-2.7-Million-Euros-in-New-Funding-for-SaxaVord-",
     "https://spacepolicyonline.com/wp-content/uploads/2026/07/Katalyst-LINK-Pegasus-300x203.jpg",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/reaction-dynamics.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/21/png/epic_1b_20261021001751.png",
     "https://spacepolicyonline.com/wp-content/uploads/2026/10/group-300x167.jpg",
-    "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg"
+    "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_20251209044050.jpeg"
   ],
-  "updated": "2026-10-24T10:06:05.062818"
+  "updated": "2026-10-24T13:34:39.707725"
 }
