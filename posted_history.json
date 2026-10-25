@@ -1,6 +1,5 @@
 {
   "titles": [
-    "orbital insertion: bepicolombo mercury orbit insertion",
     "esa awards rfa €2.7 million in new funding for saxavord operations",
     "swift rescue mission may not have succeeded, but no regrets",
     "the ghosts of five supernovas",
@@ -149,7 +148,8 @@
     "upcoming launch: long march 4b | yaogan 53-07 to 09/56-19 to 21",
     "asteroid 529819 (2010 pm58) aaj earth ke paas se guzrega — 179-400m",
     "nasa artemis update: sls stacking, sortie suit, dual 2028 paths",
-    "nasa updates lander plans for moon landings, finally solves long-festering orion issue"
+    "nasa updates lander plans for moon landings, finally solves long-festering orion issue",
+    "asteroid (1998 wl4) aaj earth ke paas se guzrega — 336-752m"
   ],
   "images": [
     "https://images-assets.nasa.gov/image/jsc2026e040446/jsc2026e040446~large.jpg",
@@ -303,5 +303,5 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/23/png/epic_1b_20261023002712.png"
   ],
-  "updated": "2026-10-25T13:54:34.046398"
+  "updated": "2026-10-25T13:57:19.196042"
 }
