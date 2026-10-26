@@ -1,6 +1,5 @@
 {
   "titles": [
-    "esa awards rfa €2.7 million in new funding for saxavord operations",
     "swift rescue mission may not have succeeded, but no regrets",
     "the ghosts of five supernovas",
     "nasa to study human health, performance during crew-13 mission",
@@ -149,10 +148,10 @@
     "asteroid 529819 (2010 pm58) aaj earth ke paas se guzrega — 179-400m",
     "nasa artemis update: sls stacking, sortie suit, dual 2028 paths",
     "nasa updates lander plans for moon landings, finally solves long-festering orion issue",
-    "asteroid (1998 wl4) aaj earth ke paas se guzrega — 336-752m"
+    "asteroid (1998 wl4) aaj earth ke paas se guzrega — 336-752m",
+    "orbital insertion: bepicolombo mercury orbit insertion"
   ],
   "images": [
-    "https://images-assets.nasa.gov/image/jsc2026e040446/jsc2026e040446~large.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/earthly-labs-3.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/cloudy-cloak-over-the-northwest/west",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/earth_from_space_venetian_lagoon/27535878-1-eng",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/22/png/epic_1b_20261022000830.png",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/10/NSF-2026-10-24-03-48-44-239.jpg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/23/png/epic_1b_20261023002712.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/23/png/epic_1b_20261023002712.png",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg"
   ],
-  "updated": "2026-10-25T18:52:45.326796"
+  "updated": "2026-10-26T08:21:06.138013"
 }
