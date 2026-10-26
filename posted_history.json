@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s machines for mars make beer bubbly",
     "us-india satellite captures time-lapse video of volcanic eruption",
     "earth from space: venetian lagoon",
     "callisto reusable rocket demonstrator takes shape ahead of 2027 hop test",
@@ -149,10 +148,10 @@
     "orbital insertion: bepicolombo mercury orbit insertion",
     "hunting red leaves with satellites",
     "astranis upgrades falcon 9 launch contract to dedicated mission for entire block 4 production run of satellites",
-    "a new era for space launch? the coming falcon 9 retirement"
+    "a new era for space launch? the coming falcon 9 retirement",
+    "nasa’s x-59 aircraft and test pilot"
   ],
   "images": [
-    "https://europeanspaceflight.com/wp-content/uploads/2026/09/Callisto-Reusable-Rocket-Demonstrator-Takes-Shape-Ahead-of-20",
     "https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/22/png/epic_1b_20260922003633.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/23/png/epic_1b_20260923001751.png",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenolo",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/astranis-square.png?fit=1024%2C1014&ssl=1",
-    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/image-8.png"
+    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/image-8.png",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/afrc2026-0227-51.jpg"
   ],
-  "updated": "2026-10-26T13:34:48.679005"
+  "updated": "2026-10-26T16:19:22.783369"
 }
