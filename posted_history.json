@@ -1,6 +1,5 @@
 {
   "titles": [
-    "the ghosts of five supernovas",
     "nasa to study human health, performance during crew-13 mission",
     "nasa’s machines for mars make beer bubbly",
     "us-india satellite captures time-lapse video of volcanic eruption",
@@ -149,10 +148,10 @@
     "nasa updates lander plans for moon landings, finally solves long-festering orion issue",
     "asteroid (1998 wl4) aaj earth ke paas se guzrega — 336-752m",
     "orbital insertion: bepicolombo mercury orbit insertion",
-    "hunting red leaves with satellites"
+    "hunting red leaves with satellites",
+    "astranis upgrades falcon 9 launch contract to dedicated mission for entire block 4 production run of satellites"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/cloudy-cloak-over-the-northwest/west",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/earth_from_space_venetian_lagoon/27535878-1-eng",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/Callisto-Reusable-Rocket-Demonstrator-Takes-Shape-Ahead-of-20",
     "https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra.jpg",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/23/png/epic_1b_20261023002712.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenolo"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenolo",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/astranis-square.png?fit=1024%2C1014&ssl=1"
   ],
-  "updated": "2026-10-26T08:22:14.619204"
+  "updated": "2026-10-26T13:33:32.606369"
 }
