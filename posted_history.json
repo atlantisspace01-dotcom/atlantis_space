@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa to study human health, performance during crew-13 mission",
     "nasa’s machines for mars make beer bubbly",
     "us-india satellite captures time-lapse video of volcanic eruption",
     "earth from space: venetian lagoon",
@@ -149,10 +148,10 @@
     "asteroid (1998 wl4) aaj earth ke paas se guzrega — 336-752m",
     "orbital insertion: bepicolombo mercury orbit insertion",
     "hunting red leaves with satellites",
-    "astranis upgrades falcon 9 launch contract to dedicated mission for entire block 4 production run of satellites"
+    "astranis upgrades falcon 9 launch contract to dedicated mission for entire block 4 production run of satellites",
+    "a new era for space launch? the coming falcon 9 retirement"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/earth_from_space_venetian_lagoon/27535878-1-eng",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/Callisto-Reusable-Rocket-Demonstrator-Takes-Shape-Ahead-of-20",
     "https://apod.nasa.gov/apod/image/2609/NGC5139CadenasParra.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/22/png/epic_1b_20260922003633.png",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/23/png/epic_1b_20261023002712.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bepicolombo_at__image_20240306080108.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/red-leaf-hunting-/fallfoliagephenolo",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/astranis-square.png?fit=1024%2C1014&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/astranis-square.png?fit=1024%2C1014&ssl=1",
+    "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/image-8.png"
   ],
-  "updated": "2026-10-26T13:33:32.606369"
+  "updated": "2026-10-26T13:34:48.679005"
 }
