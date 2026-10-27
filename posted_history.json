@@ -1,6 +1,5 @@
 {
   "titles": [
-    "press event: international space station operations update media teleconference",
     "flight 14 waits on approval as a near-term manifest sketches starship’s next steps",
     "nasa, boeing to provide update on starliner development",
     "andromeda before photoshop",
@@ -149,10 +148,10 @@
     "russian military satellite flies within kilometer of american satellite supporting ukrainian military",
     "starliner to return to flight by january, fly crew in 2028",
     "esa’s invictus hypersonic programme clears first major review",
-    "nasa’s neo surveyor sunshade"
+    "nasa’s neo surveyor sunshade",
+    "ukrainian startup, gomspace test satellite for future communications network"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_starline_image_20240723193124.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/24/png/epic_1b_20260924000830.png",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/NSF-2026-09-26-04-55-29-205.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/09/starliner.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/image-18.png",
     "https://i0.wp.com/www.spacescout.info/wp-content/uploads/2026/10/image-14.png",
     "https://europeanspaceflight.com/wp-content/uploads/2026/10/ESAs-INVICTUS-Hypersonic-Programme-Clears-First-Design-Review",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-3.41.11-PM.png?fit=1024%2C588&ssl=1"
   ],
-  "updated": "2026-10-27T18:30:38.903564"
+  "updated": "2026-10-27T20:38:30.074473"
 }
