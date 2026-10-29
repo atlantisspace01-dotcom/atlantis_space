@@ -1,6 +1,5 @@
 {
   "titles": [
-    "cosmic latte: the average color of the universe",
     "agile space industries expands leadership structure to support next phase of growth",
     "what you need to know about nasa’s spacex crew-13 mission",
     "the large robotic arm on the international space station has stopped working",
@@ -149,10 +148,10 @@
     "asteroid (2003 rl10) aaj earth ke paas se guzrega — 323-721m",
     "webb sees turbulent star nursery",
     "flexell space and satoro agree to collaborate on in-orbit demonstration of next",
-    "the last, best hope for space tourism just rolled onto a runway in arizona"
+    "the last, best hope for space tourism just rolled onto a runway in arizona",
+    "caltech names artemis ii commander reid wiseman as nasa jpl deputy"
   ],
   "images": [
-    "https://www.nasaspaceflight.com/wp-content/uploads/2026/09/Ship-41-and-Booster-21-During-their-WDR-scaled.jpg",
     "https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/agile-space-industries-square-logo-scaled.png?fit=1024%2C1024",
     "https://images-assets.nasa.gov/image/jsc2026e040445/jsc2026e040445~large.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/55604475252-31d25bf2e0-o.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/LOGO_FLEXELLBlack.png?fit=1024%2C1024&ssl=1",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/26/png/epic_1b_20261026005516.png",
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653.jpg"
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/wiseman-portrait-crop-for-portal.jpg"
   ],
-  "updated": "2026-10-28T20:53:57.520250"
+  "updated": "2026-10-29T09:11:51.403971"
 }
