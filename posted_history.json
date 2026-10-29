@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: starship | starlink group 31-1 (starship flight 14)",
     "upcoming launch: falcon 9 block 5 | transporter 18 (dedicated sso rideshare)",
     "fire cloud with a pileus on top",
     "next crewed boeing starliner flight not until 2028",
@@ -149,10 +148,10 @@
     "caltech names artemis ii commander reid wiseman as nasa jpl deputy",
     "untied launch alliance announces mid-november return to flight for vulcan rocket",
     "asteroid (2016 xb2) aaj earth ke paas se guzrega — 131-292m",
-    "envía tu nombre a titán a bordo de la misión dragonfly de la nasa"
+    "envía tu nombre a titán a bordo de la misión dragonfly de la nasa",
+    "nasa-funded study details one of oldest mars meteorites ever found"
   ],
   "images": [
-    "https://images-assets.nasa.gov/image/jsc2026e040445/jsc2026e040445~large.jpg",
     "https://cdn.arstechnica.net/wp-content/uploads/2016/06/26523207085_7558984d60_k.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
@@ -301,7 +300,8 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/wiseman-portrait-crop-for-portal.jpg",
     "http://spaceflightnow.com/wp-content/uploads/2026/10/20261028-Vulcan-Leo-1-Fairing.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01j-hero-image-16-9-spanish-v01.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01j-hero-image-16-9-spanish-v01.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg"
   ],
-  "updated": "2026-10-29T16:24:53.228318"
+  "updated": "2026-10-29T18:46:12.891859"
 }
