@@ -1,6 +1,5 @@
 {
   "titles": [
-    "agile space industries expands leadership structure to support next phase of growth",
     "what you need to know about nasa’s spacex crew-13 mission",
     "the large robotic arm on the international space station has stopped working",
     "upcoming launch: starship | starlink group 31-1 (starship flight 14)",
@@ -149,10 +148,10 @@
     "webb sees turbulent star nursery",
     "flexell space and satoro agree to collaborate on in-orbit demonstration of next",
     "the last, best hope for space tourism just rolled onto a runway in arizona",
-    "caltech names artemis ii commander reid wiseman as nasa jpl deputy"
+    "caltech names artemis ii commander reid wiseman as nasa jpl deputy",
+    "untied launch alliance announces mid-november return to flight for vulcan rocket"
   ],
   "images": [
-    "https://apod.nasa.gov/apod/image/2609/CosmicLatte_jhu_960.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/agile-space-industries-square-logo-scaled.png?fit=1024%2C1024",
     "https://images-assets.nasa.gov/image/jsc2026e040445/jsc2026e040445~large.jpg",
     "https://cdn.arstechnica.net/wp-content/uploads/2016/06/26523207085_7558984d60_k.jpg",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/LOGO_FLEXELLBlack.png?fit=1024%2C1024&ssl=1",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/26/png/epic_1b_20261026005516.png",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/10/wiseman-portrait-crop-for-portal.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/10/wiseman-portrait-crop-for-portal.jpg",
+    "http://spaceflightnow.com/wp-content/uploads/2026/10/20261028-Vulcan-Leo-1-Fairing.jpg"
   ],
-  "updated": "2026-10-29T09:11:51.403971"
+  "updated": "2026-10-29T09:13:01.440280"
 }
