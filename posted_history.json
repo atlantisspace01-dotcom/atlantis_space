@@ -1,6 +1,5 @@
 {
   "titles": [
-    "cnes publishes call for new rocket launch tracking turrets for french guiana",
     "terran orbital names jamin brown chief operating officer",
     "nasa adds blue origin new glenn 9×4 to launch services contract",
     "nasa has a dragon dilemma, and there appear to be no good answers",
@@ -149,10 +148,10 @@
     "as it happened: spacewalkers install new solar array",
     "upcoming launch: falcon 9 block 5 | starlink group 15-18",
     "november’s night sky notes: light",
-    "flyby: solar orbiter venus flyby"
+    "flyby: solar orbiter venus flyby",
+    "turkey aims for first moon-orbiting mission in 2027"
   ],
   "images": [
-    "https://spacepolicyonline.com/wp-content/uploads/2026/09/Starliner-presser-Sep-28-26-300x134.jpg",
     "https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/26/png/epic_1b_20260926004554.png",
     "https://europeanspaceflight.com/wp-content/uploads/2026/09/CNES-Publishes-Call-for-New-Launch-Tracking-Turrets-for-Frenc",
@@ -301,7 +300,8 @@
     "https://spaceflightnow.com/wp-content/uploads/2026/10/20261029_US_EVA_100-2.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
     "https://science.nasa.gov/wp-content/uploads/2024/04/grand-tour.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/solar_orbiter_v_image_20210930071353.png"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/solar_orbiter_v_image_20210930071353.png",
+    "https://spaceflightnow.com/wp-content/uploads/2026/10/20261007_TLM-1_1-1.jpeg"
   ],
-  "updated": "2026-10-30T16:12:50.193011"
+  "updated": "2026-10-30T18:28:02.746440"
 }
