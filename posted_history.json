@@ -1,6 +1,5 @@
 {
   "titles": [
-    "sh2-188: the shrimp nebula",
     "cnes publishes call for new rocket launch tracking turrets for french guiana",
     "terran orbital names jamin brown chief operating officer",
     "nasa adds blue origin new glenn 9×4 to launch services contract",
@@ -149,10 +148,10 @@
     "nasa-funded study details one of oldest mars meteorites ever found",
     "as it happened: spacewalkers install new solar array",
     "upcoming launch: falcon 9 block 5 | starlink group 15-18",
-    "november’s night sky notes: light"
+    "november’s night sky notes: light",
+    "flyby: solar orbiter venus flyby"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fire-cloud-with-a-pileus-on-top/mont",
     "https://spacepolicyonline.com/wp-content/uploads/2026/09/Starliner-presser-Sep-28-26-300x134.jpg",
     "https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/26/png/epic_1b_20260926004554.png",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg",
     "https://spaceflightnow.com/wp-content/uploads/2026/10/20261029_US_EVA_100-2.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-    "https://science.nasa.gov/wp-content/uploads/2024/04/grand-tour.jpg"
+    "https://science.nasa.gov/wp-content/uploads/2024/04/grand-tour.jpg",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/solar_orbiter_v_image_20210930071353.png"
   ],
-  "updated": "2026-10-30T11:56:59.068189"
+  "updated": "2026-10-30T16:12:50.193011"
 }
