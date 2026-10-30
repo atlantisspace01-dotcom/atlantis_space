@@ -1,6 +1,5 @@
 {
   "titles": [
-    "next crewed boeing starliner flight not until 2028",
     "sh2-188: the shrimp nebula",
     "cnes publishes call for new rocket launch tracking turrets for french guiana",
     "terran orbital names jamin brown chief operating officer",
@@ -149,10 +148,10 @@
     "envía tu nombre a titán a bordo de la misión dragonfly de la nasa",
     "nasa-funded study details one of oldest mars meteorites ever found",
     "as it happened: spacewalkers install new solar array",
-    "upcoming launch: falcon 9 block 5 | starlink group 15-18"
+    "upcoming launch: falcon 9 block 5 | starlink group 15-18",
+    "november’s night sky notes: light"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fire-cloud-with-a-pileus-on-top/mont",
     "https://spacepolicyonline.com/wp-content/uploads/2026/09/Starliner-presser-Sep-28-26-300x134.jpg",
     "https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01j-hero-image-16-9-spanish-v01.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg",
     "https://spaceflightnow.com/wp-content/uploads/2026/10/20261029_US_EVA_100-2.jpg",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+    "https://science.nasa.gov/wp-content/uploads/2024/04/grand-tour.jpg"
   ],
-  "updated": "2026-10-30T11:55:47.656750"
+  "updated": "2026-10-30T11:56:59.068189"
 }
