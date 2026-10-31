@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa adds blue origin new glenn 9×4 to launch services contract",
     "nasa has a dragon dilemma, and there appear to be no good answers",
     "powerful storms continue to prowl the pacific",
     "nasa opens 2027 human lander challenge for lunar communications",
@@ -149,7 +148,8 @@
     "november’s night sky notes: light",
     "flyby: solar orbiter venus flyby",
     "turkey aims for first moon-orbiting mission in 2027",
-    "asteroid (2018 bb5) aaj earth ke paas se guzrega — 35-78m"
+    "asteroid (2018 bb5) aaj earth ke paas se guzrega — 35-78m",
+    "asteroid (2007 rv9) aaj earth ke paas se guzrega — 227-508m"
   ],
   "images": [
     "https://epic.gsfc.nasa.gov/archive/natural/2026/09/26/png/epic_1b_20260926004554.png",
@@ -303,5 +303,5 @@
     "https://spaceflightnow.com/wp-content/uploads/2026/10/20261007_TLM-1_1-1.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/28/png/epic_1b_20261028001752.png"
   ],
-  "updated": "2026-10-31T09:09:38.752354"
+  "updated": "2026-10-31T09:12:23.109368"
 }
