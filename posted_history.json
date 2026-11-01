@@ -1,6 +1,5 @@
 {
   "titles": [
-    "powerful storms continue to prowl the pacific",
     "nasa opens 2027 human lander challenge for lunar communications",
     "asteroid (2002 pn6) aaj earth ke paas se guzrega — 176-393m",
     "starship makes orbit, flight 15 preps in full swing",
@@ -149,7 +148,8 @@
     "turkey aims for first moon-orbiting mission in 2027",
     "asteroid (2018 bb5) aaj earth ke paas se guzrega — 35-78m",
     "asteroid (2007 rv9) aaj earth ke paas se guzrega — 227-508m",
-    "esi supplying solar array components to missile defense programs"
+    "esi supplying solar array components to missile defense programs",
+    "asteroid 307493 (2002 xp90) aaj earth ke paas se guzrega — 514-1148m"
   ],
   "images": [
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/09/TOLM-Logo-Vertical_Color-square1.png?fit=1024%2C1024&ssl=1",
@@ -303,5 +303,5 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/29/png/epic_1b_20261029000830.png",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/ESI-Motion-Square-Logo-Blue-PNG.png?fit=969%2C1024&ssl=1"
   ],
-  "updated": "2026-11-01T09:57:51.429064"
+  "updated": "2026-11-01T09:59:50.456288"
 }
