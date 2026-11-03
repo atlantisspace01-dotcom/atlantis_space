@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa awards enterprise logistics support services agreements",
     "crew-13 arrives at iss as crew-12 prepares to depart",
     "10 things: movie night",
     "a guide to blood draws in orbit",
@@ -149,10 +148,10 @@
     "china plans “two launches, lunar orbit rendezvous” to land taikonauts on moon",
     "avoiding an uncontrolled reentry; boost hubble and keep the science",
     "this space company is betting its future on a propellant available everywhere",
-    "astronaut and earth"
+    "astronaut and earth",
+    "swiss startup plans lunar lander powered by rotating detonation engine"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/09/28/png/epic_1b_20260928005515.png",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/anak_krakatau_eruption_by_sentinel-3/27456765-1",
     "https://spacepolicyonline.com/wp-content/uploads/2026/09/LTG-David-Miller-Sept-2026-240x300.avif",
     "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
@@ -301,7 +300,8 @@
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/Mengzhou-launch-abort-test-wikimedia-300x168.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/11/NSF-2026-11-03-03-55-27-762.jpg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Argonaut-Transit-to-Moon-16x9-1.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/11/Swiss-Startup-Plans-Lunar-Lander-Powered-by-Rotating-Detonati"
   ],
-  "updated": "2026-11-03T17:20:13.727150"
+  "updated": "2026-11-03T19:56:04.000813"
 }
