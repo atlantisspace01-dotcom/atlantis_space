@@ -1,6 +1,5 @@
 {
   "titles": [
-    "us military ends long-running program to spot nuclear missile launches",
     "heading home: nasa’s spacex crew-12 concludes station science mission",
     "nasa’s davinci probe can stand the heat",
     "asteroid (2006 hz5) aaj earth ke paas se guzrega — 33-75m",
@@ -149,10 +148,10 @@
     "press event: nasa moon base: november 2026 update (nov. 7, 2026)",
     "nasa navigation experiment shows promise for planetary landings",
     "nasa space grant students fuel agency’s inspiration tour",
-    "nasa’s neil gehrels swift observatory reenters over western indonesia"
+    "nasa’s neil gehrels swift observatory reenters over western indonesia",
+    "elon musk moved spacex to red texas. now it's blue. what happens next?"
   ],
   "images": [
-    "https://s.w.org/images/core/emoji/16.0.1/72x72/1f680.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/skywatching/2025/august/Night%20scene_credi",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/a_guide_to_blood_draws_in_orbit/27551016-1-eng-",
     "https://www.nasa.gov/wp-content/uploads/2026/10/flight-directors.jpg",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/artemis_moon_mi_image_20240106103748.png",
     "https://images-assets.nasa.gov/image/AFRC2026-0152-30/AFRC2026-0152-30~large.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/11/2097409090238472611.png",
-    "https://spaceflightnow.com/wp-content/uploads/2026/11/trajectory-swift@2x-300x220.jpg"
+    "https://spaceflightnow.com/wp-content/uploads/2026/11/trajectory-swift@2x-300x220.jpg",
+    "https://cdn.arstechnica.net/wp-content/uploads/2026/11/elon-how-do-you-do-fellow-democrats.jpg"
   ],
-  "updated": "2026-11-04T20:38:54.529099"
+  "updated": "2026-11-04T21:47:29.258628"
 }
