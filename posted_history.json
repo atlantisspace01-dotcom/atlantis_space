@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa to cover northrop grumman crs-24 spacecraft departure",
     "october 2026 satellite puzzler",
     "deposition sciences, inc. expands sunshade® tape offering with new 12″ × 30″ format",
     "when the sun turns black",
@@ -149,7 +148,8 @@
     "asteroid (2001 kf54) aaj earth ke paas se guzrega — 290-649m",
     "m30’s sparkling stars",
     "stoke space evaluating expansion of cape site for second nova pad",
-    "asteroid (2012 pp28) aaj earth ke paas se guzrega — 372-832m"
+    "asteroid (2012 pp28) aaj earth ke paas se guzrega — 372-832m",
+    "asteroid (2016 lc11) aaj earth ke paas se guzrega — 330-738m"
   ],
   "images": [
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perse",
@@ -303,5 +303,5 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/11/NSF-2026-11-06-20-58-09-237.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/05/png/epic_1b_20261105000830.png"
   ],
-  "updated": "2026-11-08T12:32:07.207911"
+  "updated": "2026-11-08T12:34:41.127758"
 }
