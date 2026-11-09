@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa’s prima spacecraft (artist’s concept)",
     "keeping the sky dark and quiet",
     "fighting drought in texas cotton country",
     "press event: iss crew-12 return & spacex crs-35 briefing",
@@ -149,7 +148,8 @@
     "uk government investment secures more than 25% stake in saxavord",
     "nasa’s chandra finds source of star’s mysterious outbursts",
     "la nasa destina un millón de dólares al reto estudiantil base lunar",
-    "rubies on mars?"
+    "rubies on mars?",
+    "newest sample, oldest rock?"
   ],
   "images": [
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/when_the_sun_turns_black/27556841-1-eng-GB/When",
@@ -303,5 +303,5 @@
     "https://www.nasa.gov/wp-content/uploads/2026/11/cpc-logistics-actionshot-1.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perse"
   ],
-  "updated": "2026-11-09T22:49:47.549553"
+  "updated": "2026-11-09T22:50:55.568912"
 }
