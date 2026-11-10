@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa, energy department advance new era of nuclear",
     "nasa advances lisa mission contributions with new test telescope",
     "nasa’s spherex telescope sees menagerie of brown dwarfs",
     "webb measures distance to farthest fast radio burst, suggesting origin",
@@ -149,10 +148,10 @@
     "newest sample, oldest rock?",
     "asteroid (2000 ah205) aaj earth ke paas se guzrega — 80-179m",
     "autumn mornings bring valley fog",
-    "kratos and seagate space partner to advance mobile offshore launch capabilities for national security missions"
+    "kratos and seagate space partner to advance mobile offshore launch capabilities for national security missions",
+    "nasa scientists show how gravitational waves can reveal new worlds"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/05/png/epic_1b_20261005005516.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26355/PIA26355.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/one_hour_of_satellites_over_the_northern_atacam",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perse",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/07/png/epic_1b_20261107004554.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/autumn-mornings-bring-valley-fog/usv",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/seagate-space-kratos-logo-square.png?fit=976%2C978&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/seagate-space-kratos-logo-square.png?fit=976%2C978&ssl=1",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/2023/06/s/stsci-j-p2223a_0.jpeg"
   ],
-  "updated": "2026-11-10T14:22:49.954327"
+  "updated": "2026-11-10T17:18:34.333489"
 }
