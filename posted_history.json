@@ -1,6 +1,5 @@
 {
   "titles": [
-    "fighting drought in texas cotton country",
     "press event: iss crew-12 return & spacex crs-35 briefing",
     "nasa, energy department advance new era of nuclear",
     "nasa advances lisa mission contributions with new test telescope",
@@ -149,10 +148,10 @@
     "la nasa destina un millón de dólares al reto estudiantil base lunar",
     "rubies on mars?",
     "newest sample, oldest rock?",
-    "asteroid (2000 ah205) aaj earth ke paas se guzrega — 80-179m"
+    "asteroid (2000 ah205) aaj earth ke paas se guzrega — 80-179m",
+    "autumn mornings bring valley fog"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/arctic-sea-ice-shrinks-to-its-2026-m",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/the_incredible_adventures_of_the_hera_mission_t",
     "https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/05/png/epic_1b_20261005005516.png",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/chandra/2026/at2016blu.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/11/cpc-logistics-actionshot-1.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perse",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/07/png/epic_1b_20261107004554.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/07/png/epic_1b_20261107004554.png",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/autumn-mornings-bring-valley-fog/usv"
   ],
-  "updated": "2026-11-10T00:05:42.746996"
+  "updated": "2026-11-10T10:41:00.583409"
 }
