@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa advances lisa mission contributions with new test telescope",
     "nasa’s spherex telescope sees menagerie of brown dwarfs",
     "webb measures distance to farthest fast radio burst, suggesting origin",
     "asteroid (2003 qf70) aaj earth ke paas se guzrega — 262-586m",
@@ -149,10 +148,10 @@
     "asteroid (2000 ah205) aaj earth ke paas se guzrega — 80-179m",
     "autumn mornings bring valley fog",
     "kratos and seagate space partner to advance mobile offshore launch capabilities for national security missions",
-    "nasa scientists show how gravitational waves can reveal new worlds"
+    "nasa scientists show how gravitational waves can reveal new worlds",
+    "dlr to purchase 80 red kite sounding rocket motors"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/05/png/epic_1b_20261005005516.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26355/PIA26355.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/one_hour_of_satellites_over_the_northern_atacam",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fighting-drought-in-texas-cotton-cou",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/07/png/epic_1b_20261107004554.png",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/autumn-mornings-bring-valley-fog/usv",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/seagate-space-kratos-logo-square.png?fit=976%2C978&ssl=1",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/2023/06/s/stsci-j-p2223a_0.jpeg"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/2023/06/s/stsci-j-p2223a_0.jpeg",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/11/DLR-to-Purchase-80-Red-Kite-Sounding-Rocket-Motors.webp"
   ],
-  "updated": "2026-11-10T17:18:34.333489"
+  "updated": "2026-11-10T17:19:45.742358"
 }
