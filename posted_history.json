@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid (2021 je4) aaj earth ke paas se guzrega — 237-530m",
     "esa astronaut sophie adenot returns from her first mission to the international space station",
     "rolling onto mars - testing a rover’s lander",
     "preparing for a first drive on mars",
@@ -149,10 +148,10 @@
     "water surges into navajo reservoir",
     "isaacman lays out sls path to the 2030s",
     "horizon microtechnologies targets constellation-scale production as esa phi-lab selection strengthens industrialisation ",
-    "cargo dragon c211 ne iss ke saath docking ki!"
+    "cargo dragon c211 ne iss ke saath docking ki!",
+    "nasa science"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/lisa/news/2026/l3harris-award-for-test-telescope/LI",
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-brown-dwarf-grid-16x9-1.jpg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/10/STScI-01KKCJGBWX6TE4ABRTFWE9B8",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/06/png/epic_1b_20261006003633.png",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/n",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/11/NSF-2026-11-11-03-33-24-435.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/horizon-microtechnologies.png?fit=1021%2C1024&ssl=1",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg",
+    "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png"
   ],
-  "updated": "2026-11-11T17:24:49.102288"
+  "updated": "2026-11-11T19:58:35.702612"
 }
