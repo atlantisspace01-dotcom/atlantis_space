@@ -1,6 +1,5 @@
 {
   "titles": [
-    "esa astronaut sophie adenot returns from her first mission to the international space station",
     "rolling onto mars - testing a rover’s lander",
     "preparing for a first drive on mars",
     "novamoon mission patch",
@@ -149,7 +148,8 @@
     "isaacman lays out sls path to the 2030s",
     "horizon microtechnologies targets constellation-scale production as esa phi-lab selection strengthens industrialisation ",
     "cargo dragon c211 ne iss ke saath docking ki!",
-    "nasa science"
+    "nasa science",
+    "asteroid 138852 (2000 wn10) aaj earth ke paas se guzrega — 233-520m"
   ],
   "images": [
     "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/10/STScI-01KKCJGBWX6TE4ABRTFWE9B8",
@@ -303,5 +303,5 @@
     "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/09/png/epic_1b_20261109005515.png"
   ],
-  "updated": "2026-11-11T22:34:16.473533"
+  "updated": "2026-11-11T22:36:34.681506"
 }
