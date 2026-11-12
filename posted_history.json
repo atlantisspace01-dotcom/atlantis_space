@@ -1,6 +1,5 @@
 {
   "titles": [
-    "rolling onto mars - testing a rover’s lander",
     "preparing for a first drive on mars",
     "novamoon mission patch",
     "asteroid 164207 cardea (2004 gu9) aaj earth ke paas se guzrega — 154-344m",
@@ -149,10 +148,10 @@
     "horizon microtechnologies targets constellation-scale production as esa phi-lab selection strengthens industrialisation ",
     "cargo dragon c211 ne iss ke saath docking ki!",
     "nasa science",
-    "asteroid 138852 (2000 wn10) aaj earth ke paas se guzrega — 233-520m"
+    "asteroid 138852 (2000 wn10) aaj earth ke paas se guzrega — 233-520m",
+    "senate committee takes up nominees for nasa chief financial officer and inspector general"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/10/STScI-01KKCJGBWX6TE4ABRTFWE9B8",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/06/png/epic_1b_20261006003633.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/07/png/epic_1b_20261007001752.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/08/png/epic_1b_20261008000831.png",
@@ -301,7 +300,8 @@
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/horizon-microtechnologies.png?fit=1021%2C1024&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg",
     "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/09/png/epic_1b_20261109005515.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/09/png/epic_1b_20261109005515.png",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/steinau.jpeg?fit=1024%2C576&ssl=1"
   ],
-  "updated": "2026-11-11T22:36:34.681506"
+  "updated": "2026-11-12T10:31:43.660398"
 }
