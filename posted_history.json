@@ -1,6 +1,5 @@
 {
   "titles": [
-    "preparing for a first drive on mars",
     "novamoon mission patch",
     "asteroid 164207 cardea (2004 gu9) aaj earth ke paas se guzrega — 154-344m",
     "crs-35 set to launch to iss with final irosa arrays, experiments, and other items",
@@ -149,10 +148,10 @@
     "cargo dragon c211 ne iss ke saath docking ki!",
     "nasa science",
     "asteroid 138852 (2000 wn10) aaj earth ke paas se guzrega — 233-520m",
-    "senate committee takes up nominees for nasa chief financial officer and inspector general"
+    "senate committee takes up nominees for nasa chief financial officer and inspector general",
+    "how esa astronauts return from space"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/06/png/epic_1b_20261006003633.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/07/png/epic_1b_20261007001752.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/08/png/epic_1b_20261008000831.png",
     "http://spaceflightnow.com/wp-content/uploads/2026/10/20261009-SDA-Fairing.jpg",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/crs-28_dragon_d_image_20230530191602.jpeg",
     "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/09/png/epic_1b_20261109005515.png",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/steinau.jpeg?fit=1024%2C576&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/steinau.jpeg?fit=1024%2C576&ssl=1",
+    "https://esamultimedia.esa.int/docs/corporate/ESA_logo_2020_Deep.png"
   ],
-  "updated": "2026-11-12T10:31:43.660398"
+  "updated": "2026-11-12T14:21:02.519074"
 }
