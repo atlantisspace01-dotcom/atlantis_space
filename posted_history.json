@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa jpl testing readies voyager technologies lander for moon mission",
     "asteroid 339714 (2005 st1) aaj earth ke paas se guzrega — 226-506m",
     "asteroid (2019 sb1) aaj earth ke paas se guzrega — 271-605m",
     "static fire: rs-25 engine test",
@@ -149,10 +148,10 @@
     "esa astronaut reserve celebrates completion of training",
     "through nasa’s lens: capturing space shuttle endeavour’s move to la",
     "uarx space marks a milestone for spain’s space industry with the maiden flight of ossie-d, featuring a complete power su",
-    "what role does industry play in europe’s space sovereignty push?"
+    "what role does industry play in europe’s space sovereignty push?",
+    "upcoming launch: soyuz 2.1b/fregat-m | mka kinosputnik, koen and others"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/rolling_onto_mars_-_testing_a_rover_s_lander/27",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/preparing_for_a_first_drive_on_mars/27569566-1-",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/novamoon_mission_patch/27569359-1-eng-GB/NovaMo",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/10/png/epic_1b_20261010004554.png",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2023/03/690852main_ED12-0317-012_full.jpg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/Logos.png?fit=1024%2C1024&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/space-minds-podcast-KNA-2000-1500.jpg?fit=1024%2C768&ssl=1",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/10/png/epic_1b_20261110003633.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/10/png/epic_1b_20261110003633.png",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg"
   ],
-  "updated": "2026-11-12T22:12:58.647867"
+  "updated": "2026-11-13T10:25:38.072362"
 }
