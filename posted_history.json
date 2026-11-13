@@ -1,6 +1,5 @@
 {
   "titles": [
-    "static fire: rs-25 engine test",
     "how mini-constellations could more quickly bring new tech to europe, and to orbit",
     "nasa develops batteries to power humanity’s return to moon",
     "nasa to discuss artemis acceleration, status of upcoming moon missions",
@@ -149,10 +148,10 @@
     "what role does industry play in europe’s space sovereignty push?",
     "upcoming launch: soyuz 2.1b/fregat-m | mka kinosputnik, koen and others",
     "senate appropriations cjs subcommittee proposes $24.9 billion for nasa in fy2027",
-    "asteroid 363790 (2005 je46) aaj earth ke paas se guzrega — 715-1600m"
+    "asteroid 363790 (2005 je46) aaj earth ke paas se guzrega — 715-1600m",
+    "outbursts from a massive star"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/10/png/epic_1b_20261010004554.png",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/10/HUc3hl1WYAERB6z-scaled.jpeg",
     "http://spaceflightnow.com/wp-content/uploads/2026/10/20261012-F9-CRS-Sunset.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26708-grifffin-tvac-wings.jpeg",
@@ -301,7 +300,8 @@
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/10/png/epic_1b_20261110003633.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/Senate-CJS-table-230x300.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/11/png/epic_1b_20261111001752.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/11/png/epic_1b_20261111001752.png",
+    "https://www.nasa.gov/wp-content/uploads/2026/11/at2016blu.jpg"
   ],
-  "updated": "2026-11-13T13:46:14.340960"
+  "updated": "2026-11-13T17:22:00.083428"
 }
