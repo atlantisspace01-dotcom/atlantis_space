@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa develops batteries to power humanity’s return to moon",
     "nasa to discuss artemis acceleration, status of upcoming moon missions",
     "nasa to host news conference previewing us spacewalks 100, 101",
     "trace gas orbiter — facts and figures",
@@ -149,10 +148,10 @@
     "senate appropriations cjs subcommittee proposes $24.9 billion for nasa in fy2027",
     "asteroid 363790 (2005 je46) aaj earth ke paas se guzrega — 715-1600m",
     "outbursts from a massive star",
-    "live coverage: starship flight 15 attempts to recover full vehicle in double launch pad catch"
+    "live coverage: starship flight 15 attempts to recover full vehicle in double launch pad catch",
+    "starship ift-15 is in orbit — will it be “caught” when it returns to earth?"
   ],
   "images": [
-    "http://spaceflightnow.com/wp-content/uploads/2026/10/20261012-F9-CRS-Sunset.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26708-grifffin-tvac-wings.jpeg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/11/png/epic_1b_20261011010436.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rs-25_engine_te_image_20240111163044.jpeg",
@@ -301,7 +300,8 @@
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/Senate-CJS-table-230x300.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/11/png/epic_1b_20261111001752.png",
     "https://www.nasa.gov/wp-content/uploads/2026/11/at2016blu.jpg",
-    "https://spaceflightnow.com/wp-content/uploads/2026/11/20261113-Starship-wide.jpg"
+    "https://spaceflightnow.com/wp-content/uploads/2026/11/20261113-Starship-wide.jpg",
+    "https://spacepolicyonline.com/wp-content/uploads/2026/11/IFT-15-before-launch-3-278x300.jpg"
   ],
-  "updated": "2026-11-13T21:54:28.586709"
+  "updated": "2026-11-14T09:41:49.154619"
 }
