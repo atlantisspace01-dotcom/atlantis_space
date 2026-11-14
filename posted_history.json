@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa to discuss artemis acceleration, status of upcoming moon missions",
     "nasa to host news conference previewing us spacewalks 100, 101",
     "trace gas orbiter — facts and figures",
     "asteroid (2009 tk8) aaj earth ke paas se guzrega — 246-550m",
@@ -149,7 +148,8 @@
     "asteroid 363790 (2005 je46) aaj earth ke paas se guzrega — 715-1600m",
     "outbursts from a massive star",
     "live coverage: starship flight 15 attempts to recover full vehicle in double launch pad catch",
-    "starship ift-15 is in orbit — will it be “caught” when it returns to earth?"
+    "starship ift-15 is in orbit — will it be “caught” when it returns to earth?",
+    "asteroid 274138 (2008 fu6) aaj earth ke paas se guzrega — 742-1660m"
   ],
   "images": [
     "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26708-grifffin-tvac-wings.jpeg",
@@ -303,5 +303,5 @@
     "https://spaceflightnow.com/wp-content/uploads/2026/11/20261113-Starship-wide.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/IFT-15-before-launch-3-278x300.jpg"
   ],
-  "updated": "2026-11-14T12:47:23.561641"
+  "updated": "2026-11-14T12:49:41.088471"
 }
