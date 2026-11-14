@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa to host news conference previewing us spacewalks 100, 101",
     "trace gas orbiter — facts and figures",
     "asteroid (2009 tk8) aaj earth ke paas se guzrega — 246-550m",
     "nasa welcomes all ages, experience levels for space apps challenge",
@@ -149,10 +148,10 @@
     "outbursts from a massive star",
     "live coverage: starship flight 15 attempts to recover full vehicle in double launch pad catch",
     "starship ift-15 is in orbit — will it be “caught” when it returns to earth?",
-    "asteroid 274138 (2008 fu6) aaj earth ke paas se guzrega — 742-1660m"
+    "asteroid 274138 (2008 fu6) aaj earth ke paas se guzrega — 742-1660m",
+    "commercial space federation welcomes cesiumastro as a new associate member"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/11/png/epic_1b_20261011010436.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rs-25_engine_te_image_20240111163044.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1",
     "https://www.nasa.gov/wp-content/uploads/2026/10/lrc-2026-ocio-p-03142.jpg",
@@ -301,7 +300,8 @@
     "https://www.nasa.gov/wp-content/uploads/2026/11/at2016blu.jpg",
     "https://spaceflightnow.com/wp-content/uploads/2026/11/20261113-Starship-wide.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/IFT-15-before-launch-3-278x300.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/12/png/epic_1b_20261112000830.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/12/png/epic_1b_20261112000830.png",
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/Anniversary-Logo.jpg?fit=1024%2C883&ssl=1"
   ],
-  "updated": "2026-11-14T18:41:28.639316"
+  "updated": "2026-11-14T20:32:46.022340"
 }
