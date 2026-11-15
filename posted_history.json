@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid (2009 tk8) aaj earth ke paas se guzrega — 246-550m",
     "nasa welcomes all ages, experience levels for space apps challenge",
     "nasa awards enable research, technology to build future workforce",
     "power up: roll out solar arrays boost space station power supply",
@@ -149,10 +148,10 @@
     "starship ift-15 is in orbit — will it be “caught” when it returns to earth?",
     "asteroid 274138 (2008 fu6) aaj earth ke paas se guzrega — 742-1660m",
     "commercial space federation welcomes cesiumastro as a new associate member",
-    "asteroid (2019 hw3) aaj earth ke paas se guzrega — 27-59m"
+    "asteroid (2019 hw3) aaj earth ke paas se guzrega — 27-59m",
+    "next vega c launch edges closer to christmas day as satellites arrive late"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rs-25_engine_te_image_20240111163044.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/1200x930-Space-Inventor-1.png?fit=1024%2C794&ssl=1",
     "https://www.nasa.gov/wp-content/uploads/2026/10/lrc-2026-ocio-p-03142.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/artemis-announcement-advisory-oct-13.jpg",
@@ -301,7 +300,8 @@
     "https://spaceflightnow.com/wp-content/uploads/2026/11/20261113-Starship-wide.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/IFT-15-before-launch-3-278x300.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/12/png/epic_1b_20261112000830.png",
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/Anniversary-Logo.jpg?fit=1024%2C883&ssl=1"
+    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/Anniversary-Logo.jpg?fit=1024%2C883&ssl=1",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/11/Next-Vega-C-Launch-Edges-Closer-to-Christmas-Day-as-Satellite"
   ],
-  "updated": "2026-11-15T10:17:02.993815"
+  "updated": "2026-11-15T13:15:04.769673"
 }
