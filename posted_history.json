@@ -1,6 +1,5 @@
 {
   "titles": [
-    "power up: roll out solar arrays boost space station power supply",
     "asteroid (2015 hh10) aaj earth ke paas se guzrega — 617-1381m",
     "uk to award £25m space surveillance radar contract in july 2027",
     "nasa’s hubble spies spiral’s edge",
@@ -149,10 +148,10 @@
     "asteroid (2019 hw3) aaj earth ke paas se guzrega — 27-59m",
     "next vega c launch edges closer to christmas day as satellites arrive late",
     "vulcan’s return-to",
-    "asteroid (2019 hk4) aaj earth ke paas se guzrega — 146-327m"
+    "asteroid (2019 hk4) aaj earth ke paas se guzrega — 146-327m",
+    "uk mod defends satcom resilience amid spacex starshield concerns"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/12/png/epic_1b_20261012005515.png",
     "https://images-assets.nasa.gov/image/iss075e0011109/iss075e0011109~large.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/trace_gas_orbiter_facts_and_figures/27578650-1-",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/13/png/epic_1b_20261013003633.png",
@@ -301,7 +300,8 @@
     "https://europeanspaceflight.com/wp-content/uploads/2026/11/Next-Vega-C-Launch-Edges-Closer-to-Christmas-Day-as-Satellite",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/13/png/epic_1b_20261113002712.png",
     "https://pbs.twimg.com/profile_images/548027983/Website_logo_400x400.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/14/png/epic_1b_20261114004554.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/14/png/epic_1b_20261114004554.png",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/11/UK-MOD-Defends-Satcom-Resilience-Amid-SpaceX-Starshield-Conce"
   ],
-  "updated": "2026-11-16T14:25:43.091941"
+  "updated": "2026-11-16T19:49:23.516738"
 }
