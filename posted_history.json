@@ -1,6 +1,5 @@
 {
   "titles": [
-    "artemis ii heat shield after splashdown",
     "eva: us eva-100",
     "apod: 2026 october 17 – 3d 67p",
     "asteroid 144900 (2004 vg64) aaj earth ke paas se guzrega — 590-1318m",
@@ -149,7 +148,8 @@
     "uk mod defends satcom resilience amid spacex starshield concerns",
     "analysis: vulcan failure reflects an industry in disarray",
     "when will humans actually fly on starship?",
-    "the data is very preliminary, but vulcan failure may not be due to be-4 engines"
+    "the data is very preliminary, but vulcan failure may not be due to be-4 engines",
+    "sources: vulcan launch anomaly investigation is complex"
   ],
   "images": [
     "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2023/01/nasa-logo-web-rgb.png",
@@ -303,5 +303,5 @@
     "https://cdn.arstechnica.net/wp-content/uploads/2026/11/spaceX.jpeg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790493.jpg"
   ],
-  "updated": "2026-11-17T18:44:48.983842"
+  "updated": "2026-11-17T18:45:58.813118"
 }
