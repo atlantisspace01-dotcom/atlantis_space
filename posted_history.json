@@ -1,6 +1,5 @@
 {
   "titles": [
-    "asteroid (2009 uy17) aaj earth ke paas se guzrega — 174-389m",
     "software",
     "experimental facilities",
     "instrumentation",
@@ -149,10 +148,10 @@
     "nasa launches nuclear power systems student contest",
     "apod: 2026 november 18 – an m-class solar flare",
     "ula investigating low booster performance in vulcan launch failure",
-    "empire state building goes gold for voyager"
+    "empire state building goes gold for voyager",
+    "thank you for doing nasa science!"
   ],
   "images": [
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/anaglyph-NAC_2015-07-25T06.28.48.",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/15/png/epic_1b_20261015000830.png",
     "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0029.jpg",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/radioisotope-power-systems/po",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/solar_M_flare.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/Vulcan-liftoff-300x292.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2026/11/55658604092-c6f0765cc5-o.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2026/11/55658604092-c6f0765cc5-o.jpg",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/QuestScienceCenter_OWWL_"
   ],
-  "updated": "2026-11-18T18:21:33.693086"
+  "updated": "2026-11-18T18:22:43.644392"
 }
