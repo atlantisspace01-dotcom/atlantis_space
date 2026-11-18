@@ -1,6 +1,5 @@
 {
   "titles": [
-    "what’s happening in space policy october 18-24, 2026",
     "asteroid (2009 uy17) aaj earth ke paas se guzrega — 174-389m",
     "software",
     "experimental facilities",
@@ -149,10 +148,10 @@
     "rocket lab’s electron completes 100th mission, neutron progresses toward debut mission",
     "nasa launches nuclear power systems student contest",
     "apod: 2026 november 18 – an m-class solar flare",
-    "ula investigating low booster performance in vulcan launch failure"
+    "ula investigating low booster performance in vulcan launch failure",
+    "empire state building goes gold for voyager"
   ],
   "images": [
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/10/14/png/epic_1b_20261014001752.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/anaglyph-NAC_2015-07-25T06.28.48.",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/15/png/epic_1b_20261015000830.png",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/11/04020AD5-BE6D-4D2C-A1B6-15A4C73131D8-1.jpeg",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/radioisotope-power-systems/po",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/solar_M_flare.jpg",
-    "https://spacepolicyonline.com/wp-content/uploads/2026/11/Vulcan-liftoff-300x292.jpg"
+    "https://spacepolicyonline.com/wp-content/uploads/2026/11/Vulcan-liftoff-300x292.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/11/55658604092-c6f0765cc5-o.jpg"
   ],
-  "updated": "2026-11-18T14:52:31.977135"
+  "updated": "2026-11-18T18:21:33.693086"
 }
