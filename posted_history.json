@@ -1,6 +1,5 @@
 {
   "titles": [
-    "software",
     "experimental facilities",
     "instrumentation",
     "curiosity blog, sols 5036-5042: watching the clouds go by",
@@ -149,10 +148,10 @@
     "apod: 2026 november 18 – an m-class solar flare",
     "ula investigating low booster performance in vulcan launch failure",
     "empire state building goes gold for voyager",
-    "thank you for doing nasa science!"
+    "thank you for doing nasa science!",
+    "static fire: rs-25 engine test"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/anaglyph-NAC_2015-07-25T06.28.48.",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/15/png/epic_1b_20261015000830.png",
     "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0029.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/steve-cash-photo.jpg",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/solar_M_flare.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/Vulcan-liftoff-300x292.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/11/55658604092-c6f0765cc5-o.jpg",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/QuestScienceCenter_OWWL_"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/QuestScienceCenter_OWWL_",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rs-25_engine_te_image_20240111163044.jpeg"
   ],
-  "updated": "2026-11-18T18:22:43.644392"
+  "updated": "2026-11-18T21:02:19.029165"
 }
