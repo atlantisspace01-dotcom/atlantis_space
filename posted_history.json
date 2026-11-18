@@ -1,6 +1,5 @@
 {
   "titles": [
-    "nasa names stephen cash marshall space flight center director",
     "asteroid 509505 (2007 vl8) aaj earth ke paas se guzrega — 150-336m",
     "what’s happening in space policy october 18-24, 2026",
     "asteroid (2009 uy17) aaj earth ke paas se guzrega — 174-389m",
@@ -149,10 +148,10 @@
     "bps digital avatar challenge",
     "senate appropriators release $1.072 trillion defense bill",
     "rocket lab’s electron completes 100th mission, neutron progresses toward debut mission",
-    "nasa launches nuclear power systems student contest"
+    "nasa launches nuclear power systems student contest",
+    "apod: 2026 november 18 – an m-class solar flare"
   ],
   "images": [
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1827_1_flat_FINAL.",
     "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/14/png/epic_1b_20261014001752.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/us2520eva-52_image_20190318200748.jpeg",
@@ -301,7 +300,8 @@
     "https://images-assets.nasa.gov/image/EMU_CHIP_GLOVE_DYE_L2/EMU_CHIP_GLOVE_DYE_L2~large.jpg",
     "https://spacepolicyonline.com/wp-content/uploads/2026/11/H-and-S-USSF-table-300x96.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/11/04020AD5-BE6D-4D2C-A1B6-15A4C73131D8-1.jpeg",
-    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/radioisotope-power-systems/po"
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/radioisotope-power-systems/po",
+    "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/solar_M_flare.jpg"
   ],
-  "updated": "2026-11-17T23:28:13.137770"
+  "updated": "2026-11-18T10:56:37.137854"
 }
