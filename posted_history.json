@@ -1,6 +1,5 @@
 {
   "titles": [
-    "curiosity blog, sols 5036-5042: watching the clouds go by",
     "jaxa’s mmx enroute to mars to return samples of phobos",
     "french mps propose symbolic €1 budget line for vortex spaceplane",
     "asteroid 423100 (2004 bx1) aaj earth ke paas se guzrega — 543-1214m",
@@ -149,10 +148,10 @@
     "thank you for doing nasa science!",
     "static fire: rs-25 engine test",
     "all points logistics announces partnership with expeditors for space prep logistics center at kennedy space center",
-    "nasa and fcc nominations advance out of committee despite democratic boycott"
+    "nasa and fcc nominations advance out of committee despite democratic boycott",
+    "nasa conducts latest rs-25 engine test in support of future artemis missions"
   ],
   "images": [
-    "https://www.nasa.gov/wp-content/uploads/2026/10/steve-cash-photo.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/16/png/epic_1b_20261016002713.png",
     "https://spacepolicyonline.com/wp-content/uploads/2026/10/MMX-JAXA-on-NASA-300x237.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/10/17/png/epic_1b_20261017004554.png",
@@ -301,7 +300,8 @@
     "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/QuestScienceCenter_OWWL_",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rs-25_engine_te_image_20240111163044.jpeg",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/all-points-logistics.png?fit=300%2C300&ssl=1",
-    "https://spacepolicyonline.com/wp-content/uploads/2026/11/thumann-300x163.jpg"
+    "https://spacepolicyonline.com/wp-content/uploads/2026/11/thumann-300x163.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/11/ssc-20261118-s01364.jpg"
   ],
-  "updated": "2026-11-19T10:59:06.726619"
+  "updated": "2026-11-19T14:58:58.039114"
 }
