@@ -1,6 +1,5 @@
 {
   "titles": [
-    "summer of quantum: building momentum for space-based qkd",
     "upcoming launch: electron | we're not hawking around (3x hawkeye 360)",
     "spacex will attempt to reach weekly starship launches by early 2027",
     "nasa to conduct ncaa flyover, engage fans at university of alabama",
@@ -149,10 +148,10 @@
     "incoming house chair threatens spacex funding over ukraine controversy",
     "spacecraft capture: ng-25 cygnus capture",
     "denmark’s gomspace secures €8m contract for blue origin moon mission",
-    "curiosity spots drifting twilight clouds"
+    "curiosity spots drifting twilight clouds",
+    "astronaut spotlight: ravish malhotra — indian space hero"
   ],
   "images": [
-    "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/finding_our_way_inside_the_galileo_project_2_-_",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Space_Nukes_Logo.jpg?fit=703%2C368&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ng-112520cygnus2520release2520and2520reentry_image_20",
     "https://europeanspaceflight.com/wp-content/uploads/2026/11/Denmarks-GomSpace-Secures-8-Million-Euro-Contract-for-Blue-Or",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg",
-    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/20/png/epic_1b_20261120002712.png"
+    "https://epic.gsfc.nasa.gov/archive/natural/2026/11/20/png/epic_1b_20261120002712.png",
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg"
   ],
-  "updated": "2026-11-22T20:05:06.733564"
+  "updated": "2026-11-22T21:38:40.159105"
 }
