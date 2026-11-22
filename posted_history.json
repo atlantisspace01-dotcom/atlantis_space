@@ -1,6 +1,5 @@
 {
   "titles": [
-    "finding our way: inside the galileo project: 2",
     "space nuclear power corporation awarded darpa agreement for ground test of autonomous nuclear reactor controller",
     "summer of quantum: building momentum for space-based qkd",
     "upcoming launch: electron | we're not hawking around (3x hawkeye 360)",
@@ -149,10 +148,10 @@
     "live coverage: spacex to launch classified payload for the u.s. space force",
     "following ship 42’s catch, spacex looks to the future",
     "incoming house chair threatens spacex funding over ukraine controversy",
-    "spacecraft capture: ng-25 cygnus capture"
+    "spacecraft capture: ng-25 cygnus capture",
+    "denmark’s gomspace secures €8m contract for blue origin moon mission"
   ],
   "images": [
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/10/428da033c0ad14482819d3e20c503b86ad29b17f-9504x6336-1.avif",
     "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/finding_our_way_inside_the_galileo_project_2_-_",
@@ -301,7 +300,8 @@
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/11/NSF-2026-11-20-19-36-16-464.jpg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2292512757.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/19/png/epic_1b_20261119000831.png",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ng-112520cygnus2520release2520and2520reentry_image_20"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ng-112520cygnus2520release2520and2520reentry_image_20",
+    "https://europeanspaceflight.com/wp-content/uploads/2026/11/Denmarks-GomSpace-Secures-8-Million-Euro-Contract-for-Blue-Or"
   ],
-  "updated": "2026-11-22T10:37:04.300016"
+  "updated": "2026-11-22T13:50:22.272348"
 }
