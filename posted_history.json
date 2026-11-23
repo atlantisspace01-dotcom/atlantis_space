@@ -1,6 +1,5 @@
 {
   "titles": [
-    "china readies first commercial resupply craft, first booster reflight, and next landing attempt",
     "esa open days 2026",
     "esa council approves appointment of two new directors",
     "rethinking networks in space with aalyria’s brian barritt",
@@ -149,10 +148,10 @@
     "astronaut spotlight: ravish malhotra — indian space hero",
     "china details its path to a crewed moon landing before 2030",
     "press event: esa hera first images reveal of dimorphos",
-    "nasa awards contract for noaa’s near earth orbit network program"
+    "nasa awards contract for noaa’s near earth orbit network program",
+    "studying cancer cells in microgravity"
   ],
   "images": [
-    "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ.jpg",
     "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/10/The-Long-March-10B-Y1-vehicle-lifting-off-from-the-Wenchang-C",
     "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/10/esa_open_days_2026/27587076-1-eng-GB/ESA_Open_D",
@@ -301,7 +300,8 @@
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
     "https://www.nasaspaceflight.com/wp-content/uploads/2026/11/Mengzhou-and-Lanyue-docking-in-orbit-render-3-Hero-CCTV.png",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hera_being_encl_image_20241025183407.jpg",
-    "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg"
+    "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg",
+    "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e426880orig.jpg"
   ],
-  "updated": "2026-11-23T21:39:38.434048"
+  "updated": "2026-11-23T21:40:49.960166"
 }
