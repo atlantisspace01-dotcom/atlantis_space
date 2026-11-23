@@ -1,6 +1,5 @@
 {
   "titles": [
-    "upcoming launch: electron | we're not hawking around (3x hawkeye 360)",
     "spacex will attempt to reach weekly starship launches by early 2027",
     "nasa to conduct ncaa flyover, engage fans at university of alabama",
     "china readies first commercial resupply craft, first booster reflight, and next landing attempt",
@@ -149,10 +148,10 @@
     "spacecraft capture: ng-25 cygnus capture",
     "denmark’s gomspace secures €8m contract for blue origin moon mission",
     "curiosity spots drifting twilight clouds",
-    "astronaut spotlight: ravish malhotra — indian space hero"
+    "astronaut spotlight: ravish malhotra — indian space hero",
+    "china details its path to a crewed moon landing before 2030"
   ],
   "images": [
-    "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/Space_Nukes_Logo.jpg?fit=703%2C368&ssl=1",
     "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/10/White-CPL-Logo11.png?fit=1024%2C1024&ssl=1",
     "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
     "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HTU8ja-XgAE6GwQ.jpg",
@@ -301,7 +300,8 @@
     "https://europeanspaceflight.com/wp-content/uploads/2026/11/Denmarks-GomSpace-Secures-8-Million-Euro-Contract-for-Blue-Or",
     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg",
     "https://epic.gsfc.nasa.gov/archive/natural/2026/11/20/png/epic_1b_20261120002712.png",
-    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg"
+    "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ravish2520malhotra_image_20181201174749.jpg",
+    "https://www.nasaspaceflight.com/wp-content/uploads/2026/11/Mengzhou-and-Lanyue-docking-in-orbit-render-3-Hero-CCTV.png"
   ],
-  "updated": "2026-11-22T21:38:40.159105"
+  "updated": "2026-11-23T11:34:52.354187"
 }
